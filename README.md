@@ -10,7 +10,7 @@ npm install linkedin-private-api
 ```
 
 ## Example usage
-See a list of examples here [here](TBD).
+See a list of examples here [here](https://github.com/eilonmore/linkedin-private-api/tree/master/examples).
 ```typescript
 import { Client } from 'linkedin-private-api';
 
@@ -58,40 +58,40 @@ Each repository describes a LinkedIn entity that we can operate on it. Example: 
 
 The methods are divided into 3 types:  
 * Single entity getters - example: ``conversation.getConversation({ conversationId: CONVERSATION_ID })`` 
-Single entity getters return a [LinkedIn Entity](TBD).  
+Single entity getters return a [LinkedIn Entity](#entities).  
 
 * Multiple entities getters - for example ``invitation.getSentInvitations({ skip: 10, limit: 5 })``  
-Multiple entities getters return a [Scroller](TBD).  
+Multiple entities getters return a [Scroller](#scrollers).  
 
 * Mutations - for example ``invitation.sendInvitation({ ... })``  
-Mutatios return a [Response entity](TBD)
+Mutations return a [Response entity](#entities)
 
 |Name|Example Usage|Docs Reference|
 |-|-|-|
-|`login`|`client.login.userPass(...)`|[Login Docs](TBD)|
-|`search`|`client.search.searchPeople()`|[Search Docs](TBD)|
-|`profile`|`client.profile.getOwnProfile()`|[Profile Docs](TBD)|
-|`invitation`|`client.invitation.getReceivedInvitations()`|[Invitation Docs](TBD)|
-|`conversation`|`client.conversation.getConversation(...)`|[Conversation Docs](TBD)|
-|`message`|`client.message.getMessages(...)`|[Conversation Docs](TBD)|
+|`login`|`client.login.userPass(...)`|[Login Docs](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/classes/_src_core_login_.login.md)|
+|`search`|`client.search.searchPeople()`|[Search Docs](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/classes/_src_repositories_search_repository_.searchrepository.md)|
+|`profile`|`client.profile.getOwnProfile()`|[Profile Docs](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/classes/_src_repositories_profile_repository_.profilerepository.md)|
+|`invitation`|`client.invitation.getReceivedInvitations()`|[Invitation Docs](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/classes/_src_repositories_invitation_repository_.invitationrepository.md)|
+|`conversation`|`client.conversation.getConversation(...)`|[Conversation Docs](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/classes/_src_repositories_conversation_repository_.conversationrepository.md)|
+|`message`|`client.message.getMessages(...)`|[Message Docs](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/classes/_src_repositories_message_repository_.messagerepository.md)|
 
 
 ### Entities 
 Interfaces that describe LinkedIn objects. For example - ``Conversation`` object.  
 Most of those entities contain the properties returned from the LinkedIn response and in addition to these properties, the API adds some extra properties to make the usage a bit easier.
 
-The full list of entities can be found [here](TBD), this is the list of the most important ones:
+The full list of entities can be found [here](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/modules/_src_entities_index_.md#attributetext), this is the list of the most important ones:
 
 |Entities|
 |-|
-|[Profile](TBD)|
-|[MiniProfile](TBD)|
-|[Invitation](TBD)|
-|[Conversation](TBD)|
-|[Message](TBD)|
-|[CompanySearchHit](TBD)|
-|[PeopleSearchHit](TBD)|
-|[MessageCreateResponse](TBD)|
+|[Profile](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_profile_entity_.profile.md)|
+|[MiniProfile](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_mini_profile_entity_.miniprofile.md)|
+|[Invitation](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_invitation_entity_.invitation.md)|
+|[Conversation](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_conversation_entity_.conversation.md)|
+|[Message](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_message_event_entity_.messageevent.md)|
+|[CompanySearchHit](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_company_search_hit_entity_.companysearchhit.md)|
+|[PeopleSearchHit](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_people_search_hit_entity_.peoplesearchhit.md)|
+|[MessageCreateResponse](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_message_create_response_entity_.messageeventcreateresponse.md)|
 
 
 ### Scrollers
