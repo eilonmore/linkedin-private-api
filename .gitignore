@@ -1,0 +1,6 @@
+node_modules
+dist
+yarn-error.log
+sessions.json
+.vscode/
+.DS_Store

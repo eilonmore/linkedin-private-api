@@ -1,0 +1,8 @@
+{
+  "exclude": ["src/!(entities|core|repositories|scrollers)/*.ts"],
+  "excludeExternals": true,
+  "excludeNotExported": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "theme": "markdown"
+}
