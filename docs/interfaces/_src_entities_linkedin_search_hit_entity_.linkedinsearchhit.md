@@ -8,9 +8,9 @@
 
 * **LinkedInSearchHit**
 
-  ↳ [PeopleSearchHit](_src_entities_people_search_hit_entity_.peoplesearchhit.md)
-
   ↳ [CompanySearchHit](_src_entities_company_search_hit_entity_.companysearchhit.md)
+
+  ↳ [PeopleSearchHit](_src_entities_people_search_hit_entity_.peoplesearchhit.md)
 
 ## Index
 
@@ -40,7 +40,7 @@
 
 •  **$type**: \"com.linkedin.voyager.search.SearchHitV2\"
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:5*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L5)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  ***badges**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:6*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L6)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **headless**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:7*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L7)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **headline**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:8*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L8)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **image**: [LinkedInImageViewModel](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md)
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:9*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L9)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **memberDistance**: { $type: \"com.linkedin.voyager.common.MemberDistance\" ; value: string  }
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:10*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L10)*
 
 #### Type declaration:
 
@@ -95,7 +95,7 @@ ___
 
 •  **nameMatch**: boolean
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:14*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L14)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 •  **navigationUrl**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:15*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L15)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 •  **publicIdentifier**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:16*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L16)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 •  **secondaryTitle**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:17*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L17)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 •  **socialProofText**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:18*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L18)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 •  **subline**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:19*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L19)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 •  **targetUrn**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:20*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L20)*
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 •  **title**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:21*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:21](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L21)*
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 •  **trackingId**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:22*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L22)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 •  **trackingUrn**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:23*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:23](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L23)*
 
 ___
 
@@ -175,4 +175,4 @@ ___
 
 •  **type**: string
 
-*Defined in src/entities/linkedin-search-hit.entity.ts:24*
+*Defined in [src/entities/linkedin-search-hit.entity.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-search-hit.entity.ts#L24)*

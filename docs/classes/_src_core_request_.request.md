@@ -32,7 +32,7 @@
 
 \+ **new Request**(): [Request](_src_core_request_.request.md)
 
-*Defined in src/core/request.ts:13*
+*Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L13)*
 
 **Returns:** [Request](_src_core_request_.request.md)
 
@@ -42,7 +42,7 @@
 
 •  **request**: AxiosInstance
 
-*Defined in src/core/request.ts:13*
+*Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L13)*
 
 ## Methods
 
@@ -50,7 +50,7 @@
 
 ▸ **get**\<T>(`url`: string, `reqConfig?`: ConfigNonFullResponse): Promise\<T>
 
-*Defined in src/core/request.ts:26*
+*Defined in [src/core/request.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L26)*
 
 #### Type parameters:
 
@@ -69,7 +69,7 @@ Name | Type |
 
 ▸ **get**\<T>(`url`: string, `reqConfig?`: ConfigFullResponse): Promise\<AxiosResponse\<T>>
 
-*Defined in src/core/request.ts:27*
+*Defined in [src/core/request.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L27)*
 
 #### Type parameters:
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **post**\<T>(`url`: string, `data`: string \| Record\<string, unknown>, `reqConfig?`: ConfigNonFullResponse): Promise\<T>
 
-*Defined in src/core/request.ts:34*
+*Defined in [src/core/request.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L34)*
 
 #### Type parameters:
 
@@ -112,7 +112,7 @@ Name | Type |
 
 ▸ **post**\<T>(`url`: string, `data`: string \| Record\<string, unknown>, `reqConfig?`: ConfigFullResponse): Promise\<AxiosResponse\<T>>
 
-*Defined in src/core/request.ts:35*
+*Defined in [src/core/request.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L35)*
 
 #### Type parameters:
 
@@ -136,7 +136,7 @@ ___
 
 ▸ **setHeaders**(`headers`: Record\<string, string>): void
 
-*Defined in src/core/request.ts:22*
+*Defined in [src/core/request.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L22)*
 
 #### Parameters:
 

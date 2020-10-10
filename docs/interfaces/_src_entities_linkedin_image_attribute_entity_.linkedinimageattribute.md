@@ -22,7 +22,7 @@
 
 •  **$type**: \"com.linkedin.voyager.common.ImageAttribute\"
 
-*Defined in src/entities/linkedin-image-attribute.entity.ts:2*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-image-attribute.entity.ts#L2)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  ***miniProfile**: string
 
-*Defined in src/entities/linkedin-image-attribute.entity.ts:3*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-image-attribute.entity.ts#L3)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **sourceType**: string
 
-*Defined in src/entities/linkedin-image-attribute.entity.ts:4*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-image-attribute.entity.ts#L4)*

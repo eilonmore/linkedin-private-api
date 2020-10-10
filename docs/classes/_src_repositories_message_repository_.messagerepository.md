@@ -25,7 +25,7 @@
 
 \+ **new MessageRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [MessageRepository](_src_repositories_message_repository_.messagerepository.md)
 
-*Defined in src/repositories/message.repository.ts:17*
+*Defined in [src/repositories/message.repository.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/message.repository.ts#L18)*
 
 #### Parameters:
 
@@ -41,7 +41,7 @@ Name | Type |
 
 ▸ **getMessages**(`__namedParameters`: { conversationId: string ; createdBefore: undefined \| Date  }): [MessageScroller](_src_scrollers_message_scroller_.messagescroller.md)
 
-*Defined in src/repositories/message.repository.ts:23*
+*Defined in [src/repositories/message.repository.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/message.repository.ts#L24)*
 
 #### Parameters:
 
@@ -55,14 +55,14 @@ ___
 
 ### sendMessage
 
-▸ **sendMessage**(`__namedParameters`: { conversationId: string ; text: string  }): Promise\<[MessageEventCreateResponse](../interfaces/_src_entities_message_create_response_entity_.messageeventcreateresponse.md)>
+▸ **sendMessage**(`__namedParameters`: { profileId: string ; text: string  }): Promise\<[MessageEventCreateResponse](../interfaces/_src_entities_message_create_response_entity_.messageeventcreateresponse.md)>
 
-*Defined in src/repositories/message.repository.ts:27*
+*Defined in [src/repositories/message.repository.ts:28](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/message.repository.ts#L28)*
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`__namedParameters` | { conversationId: string ; text: string  } |
+`__namedParameters` | { profileId: string ; text: string  } |
 
 **Returns:** Promise\<[MessageEventCreateResponse](../interfaces/_src_entities_message_create_response_entity_.messageeventcreateresponse.md)>

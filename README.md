@@ -138,10 +138,10 @@ messages = await companiesScroller.scrollNext();
 This is a new project, and as such, there's a lot that need to be done.  
 Some new features that I expect to develop soon:
 * Media support - fetch, like, comment and create a new post.
-* Messaging improvements - be able to send messages directly to a profile and start a new conversation.
 * Invitation improvements - be able to do some more actions like "remove connection".
 * Search improvements - support jobs searching.
 * Improve login API
+* Add services so automate common workflows
 
 Want a specific feature? Please open a feature request :)   
 Also, i'll be more than happy to welcome new contributors to this project.

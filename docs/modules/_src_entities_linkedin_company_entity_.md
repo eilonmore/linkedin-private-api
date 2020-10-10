@@ -20,4 +20,4 @@
 
 • `Const` **COMPANY\_TYPE**: \"com.linkedin.voyager.dash.organization.Company\" = "com.linkedin.voyager.dash.organization.Company"
 
-*Defined in src/entities/linkedin-company.entity.ts:3*
+*Defined in [src/entities/linkedin-company.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-company.entity.ts#L3)*
