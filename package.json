@@ -4,6 +4,11 @@
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eilonmore/linkedin-private-api.git"
+  },
+  "homepage": "https://github.com/eilonmore/linkedin-private-api",
   "files": [
     "dist"
   ],
