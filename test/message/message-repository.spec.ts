@@ -236,60 +236,55 @@ describe('getMessages', () => {
 });
 
 describe('sendMessage', () => {
-  it('should send message to the correct conversationId', async () => {
-    const text = faker.lorem.sentence();
-    const { response, resultCreationEvent } = createSendMessageResponse();
-    const reqParams = {
-      action: 'create',
-    };
-    const payload = {
+  const sendMessageRequestUrl = new URL('messaging/conversations', linkedinApiUrl).toString();
+  const profileId = faker.random.uuid();
+  const text = faker.lorem.sentence();
+  const queryParams = {
+    action: 'create',
+  };
+  const payload = {
+    keyVersion: 'LEGACY_INBOX',
+    conversationCreate: {
       eventCreate: {
-        originToken: '54b3a724-59c5-4cf2-adbd-660483010a87',
         value: {
           'com.linkedin.voyager.messaging.create.MessageCreate': {
-            attributedBody: { text, attributes: [] },
+            attributedBody: {
+              text,
+              attributes: [],
+            },
             attachments: [],
           },
         },
       },
-      dedupeByClientGeneratedToken: false,
-    };
+      subtype: 'MEMBER_TO_MEMBER',
+      recipients: [profileId],
+    },
+  };
 
-    when(axios.post(requestUrl, payload, { params: reqParams })).thenResolve({
+  beforeEach(() => {});
+
+  it('should send message to the correct profileId', async () => {
+    const { response, resultCreationEvent } = createSendMessageResponse();
+
+    when(axios.post(sendMessageRequestUrl, payload, { params: queryParams })).thenResolve({
       data: response,
     });
 
     const client = await new Client().login.userPass({ username, password });
-    const createdMessage = await client.message.sendMessage({ conversationId, text });
+    const createdMessage = await client.message.sendMessage({ profileId, text });
 
     expect(omit(createdMessage, 'text')).toEqual(resultCreationEvent);
   });
 
   it('should add text to the send message response', async () => {
-    const text = faker.lorem.sentence();
     const { response } = createSendMessageResponse();
-    const reqParams = {
-      action: 'create',
-    };
-    const payload = {
-      eventCreate: {
-        originToken: '54b3a724-59c5-4cf2-adbd-660483010a87',
-        value: {
-          'com.linkedin.voyager.messaging.create.MessageCreate': {
-            attributedBody: { text, attributes: [] },
-            attachments: [],
-          },
-        },
-      },
-      dedupeByClientGeneratedToken: false,
-    };
 
-    when(axios.post(requestUrl, payload, { params: reqParams })).thenResolve({
+    when(axios.post(sendMessageRequestUrl, payload, { params: queryParams })).thenResolve({
       data: response,
     });
 
     const client = await new Client().login.userPass({ username, password });
-    const createdMessage = await client.message.sendMessage({ conversationId, text });
+    const createdMessage = await client.message.sendMessage({ profileId, text });
 
     expect(createdMessage.text).toEqual(text);
   });

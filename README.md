@@ -22,7 +22,7 @@ const password = process.env.PASSWORD as string;
   const client = new Client();
   await client.login.userPass({ username, password });
 	
-  // Search for profiles and send invitation
+  // Search for profiles and send an invitation
   const peopleScroller = await client.search.searchPeople({ keywords: 'Bill Gates' });
   const [billGates] = await peopleScroller.scrollNext();
   
@@ -35,17 +35,19 @@ const password = process.env.PASSWORD as string;
   const ownConnectionsScroller = await client.search.searchOwnConnections({ keywords: 'Bill Gates', limit: 1 });
   const connections = await ownConnectionsScroller.scrollNext();
 
-  // Get conversations and send message
-  const conversationScroller = await client.conversation.getConversations();
-  const conversations = await conversationScroller.scrollNext();
-  
-  const billGatesConversation = conversations.find(
-  	conversation => conversation.participants.find(participant => participant.profileId === billGates.profileId)
-  )
-  
+  // Get conversation
+  const [billConversation] = await client.conversation.getConversations({
+    recipients: billGates.profileId
+  }).scrollNext();
+ 
+  const conversationMessages = await client.message.getMessages({
+    conversationId: billConversation.conversationId
+  }).scrollNext()
+ 
+  // Send a message
   const sentMessage = await client.message.sendMessage({
-    conversationId: billGatesConversation.conversationId,
-    text: 'Hey!',
+    profileId: billGates.profileId,
+    text: 'Hey Bill!',
   });
 })();
 ```
@@ -110,20 +112,20 @@ There are two types of scrollers:
 Example:
 ```typescript
 // index scroller
-let companiesScroller = await client.search.searchCompanies(); 
+let companiesScroller = client.search.searchCompanies(); 
 let companies = await companiesScroller.scrollNext(); // returns first page with 10 results
 companies = await companiesScroller.scrollNext(); // next page
 companies = await companiesScroller.scrollBack(); // previous page
 
 // overriding skip and limit
-companiesScroller = await client.search.searchCompanies({ skip: 100, limit: 1 }); 
+companiesScroller = client.search.searchCompanies({ skip: 100, limit: 1 }); 
 companies = await companiesScroller.scrollNext(); // returns first page with 1 results
 companies = await companiesScroller.scrollNext(); // next page
 companies = await companiesScroller.scrollBack(); // previous page
 
 // overriding createdBefore for time scroller
 const twoDaysAgo = moment().subtract(2, 'days').toDate();
-let messagesScroller = await client.message.getMessages({
+let messagesScroller = client.message.getMessages({
   conversationId: CONVERSATION_ID,
   createdBefore: twoDaysAgo
 });
