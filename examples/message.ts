@@ -13,8 +13,11 @@ const password = process.env.PASSWORD as string;
   const messagesScroller = client.message.getMessages({ conversationId: conversations[0].conversationId });
   const messages = await messagesScroller.scrollNext();
 
+  const myConnectionsScroller = client.search.searchOwnConnections();
+  const myConnections = await myConnectionsScroller.scrollNext();
+
   const sentMessage = await client.message.sendMessage({
-    conversationId: conversations[0].conversationId,
+    profileId: myConnections[1].profile.profileId,
     text: 'Hey!',
   });
 
