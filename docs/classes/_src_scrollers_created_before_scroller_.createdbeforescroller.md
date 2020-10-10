@@ -42,7 +42,7 @@ Name |
 
 \+ **new CreatedBeforeScroller**(`__namedParameters`: { createdBefore: undefined \| Date  }): [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md)
 
-*Defined in src/scrollers/created-before-scroller.ts:10*
+*Defined in [src/scrollers/created-before-scroller.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/scrollers/created-before-scroller.ts#L10)*
 
 #### Parameters:
 
@@ -58,7 +58,7 @@ Name | Type |
 
 • `Optional` **createdBefore**: undefined \| number
 
-*Defined in src/scrollers/created-before-scroller.ts:4*
+*Defined in [src/scrollers/created-before-scroller.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/scrollers/created-before-scroller.ts#L4)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • `Abstract` **fieldName**: keyof T
 
-*Defined in src/scrollers/created-before-scroller.ts:10*
+*Defined in [src/scrollers/created-before-scroller.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/scrollers/created-before-scroller.ts#L10)*
 
 ## Methods
 
@@ -74,7 +74,7 @@ ___
 
 ▸ `Abstract`**fetch**(): Promise\<T[]>
 
-*Defined in src/scrollers/created-before-scroller.ts:16*
+*Defined in [src/scrollers/created-before-scroller.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/scrollers/created-before-scroller.ts#L16)*
 
 **Returns:** Promise\<T[]>
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **restart**(): void
 
-*Defined in src/scrollers/created-before-scroller.ts:43*
+*Defined in [src/scrollers/created-before-scroller.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/scrollers/created-before-scroller.ts#L43)*
 
 **Returns:** void
 
@@ -94,7 +94,7 @@ ___
 
 ▸ **scrollBack**(): Promise\<T[]>
 
-*Defined in src/scrollers/created-before-scroller.ts:33*
+*Defined in [src/scrollers/created-before-scroller.ts:33](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/scrollers/created-before-scroller.ts#L33)*
 
 **Returns:** Promise\<T[]>
 
@@ -104,6 +104,6 @@ ___
 
 ▸ **scrollNext**(): Promise\<T[]>
 
-*Defined in src/scrollers/created-before-scroller.ts:18*
+*Defined in [src/scrollers/created-before-scroller.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/scrollers/created-before-scroller.ts#L18)*
 
 **Returns:** Promise\<T[]>

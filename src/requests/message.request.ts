@@ -1,3 +1,5 @@
+import { ProfileId } from 'src/entities';
+
 import { LinkedInRequest } from '../core/linkedin-request';
 import { ConversationId } from '../entities/conversation.entity';
 import { SendMessageResponse } from '../responses/message.response.post';
@@ -10,24 +12,30 @@ export class MessageRequest {
     this.request = request;
   }
 
-  sendMessage({ conversationId, text }: { conversationId: ConversationId; text: string }): Promise<SendMessageResponse> {
+  sendMessage({ profileId, text }: { profileId: ProfileId; text: string }): Promise<SendMessageResponse> {
     const queryParams = {
       action: 'create',
     };
     const payload = {
-      eventCreate: {
-        originToken: '54b3a724-59c5-4cf2-adbd-660483010a87',
-        value: {
-          'com.linkedin.voyager.messaging.create.MessageCreate': {
-            attributedBody: { text, attributes: [] },
-            attachments: [],
+      keyVersion: 'LEGACY_INBOX',
+      conversationCreate: {
+        eventCreate: {
+          value: {
+            'com.linkedin.voyager.messaging.create.MessageCreate': {
+              attributedBody: {
+                text,
+                attributes: [],
+              },
+              attachments: [],
+            },
           },
         },
+        subtype: 'MEMBER_TO_MEMBER',
+        recipients: [profileId],
       },
-      dedupeByClientGeneratedToken: false,
     };
 
-    return this.request.post<SendMessageResponse>(`messaging/conversations/${conversationId}/events`, payload, {
+    return this.request.post<SendMessageResponse>('messaging/conversations', payload, {
       params: queryParams,
     });
   }

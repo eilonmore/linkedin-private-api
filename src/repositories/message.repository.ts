@@ -1,3 +1,4 @@
+import { ProfileId } from './../entities/mini-profile.entity';
 import { orderBy } from 'lodash';
 
 import { Client } from '../core/client';
@@ -24,14 +25,8 @@ export class MessageRepository {
     return new MessageScroller({ conversationId, createdBefore, fetchMessages: this.fetchMessages.bind(this) });
   }
 
-  async sendMessage({
-    conversationId,
-    text,
-  }: {
-    conversationId: ConversationId;
-    text: string;
-  }): Promise<MessageEventCreateResponse> {
-    const response = await this.client.request.message.sendMessage({ conversationId, text });
+  async sendMessage({ profileId, text }: { profileId: ProfileId; text: string }): Promise<MessageEventCreateResponse> {
+    const response = await this.client.request.message.sendMessage({ profileId, text });
 
     return { ...response?.data?.value, text };
   }

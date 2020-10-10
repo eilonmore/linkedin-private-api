@@ -7,13 +7,13 @@ const password = process.env.PASSWORD as string;
   const client = new Client();
   await client.login.userPass({ username, password });
 
-  const receivedScroller = await client.invitation.getReceivedInvitations();
+  const receivedScroller = client.invitation.getReceivedInvitations();
   const receivedInvitations = await receivedScroller.scrollNext();
 
-  const sentScroller = await client.invitation.getSentInvitations();
+  const sentScroller = client.invitation.getSentInvitations();
   const sentInvitations = await sentScroller.scrollNext();
 
-  const peopleScroller = await client.search.searchPeople({ keywords: 'Bill Gates' });
+  const peopleScroller = client.search.searchPeople({ keywords: 'Bill Gates' });
   const people = await peopleScroller.scrollNext();
   const billGates = people[0].profile;
   const sentInvitation = await client.invitation.sendInvitation({

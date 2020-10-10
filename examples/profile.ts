@@ -7,7 +7,7 @@ const password = process.env.PASSWORD as string;
   const client = new Client();
   await client.login.userPass({ username, password });
 
-  const peopleScroller = await client.search.searchPeople({ keywords: 'Bill Gates' });
+  const peopleScroller = client.search.searchPeople({ keywords: 'Bill Gates' });
   const billGates = (await peopleScroller.scrollNext())[0];
   const fullProfile = await client.profile.getProfile({ publicIdentifier: billGates.profile.publicIdentifier });
 

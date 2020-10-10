@@ -25,7 +25,7 @@
 
 \+ **new ConversationRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [ConversationRepository](_src_repositories_conversation_repository_.conversationrepository.md)
 
-*Defined in src/repositories/conversation.repository.ts:35*
+*Defined in [src/repositories/conversation.repository.ts:36](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/conversation.repository.ts#L36)*
 
 #### Parameters:
 
@@ -41,7 +41,7 @@ Name | Type |
 
 ▸ **getConversation**(`__namedParameters`: { conversationId: string  }): Promise\<[Conversation](../interfaces/_src_entities_conversation_entity_.conversation.md)>
 
-*Defined in src/repositories/conversation.repository.ts:41*
+*Defined in [src/repositories/conversation.repository.ts:42](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/conversation.repository.ts#L42)*
 
 #### Parameters:
 
@@ -55,14 +55,14 @@ ___
 
 ### getConversations
 
-▸ **getConversations**(`__namedParameters`: { createdBefore: undefined \| Date  }): [ConversationScroller](_src_scrollers_conversation_scroller_.conversationscroller.md)
+▸ **getConversations**(`__namedParameters`: { createdBefore: undefined \| Date ; recipients: undefined \| string \| string[]  }): [ConversationScroller](_src_scrollers_conversation_scroller_.conversationscroller.md)
 
-*Defined in src/repositories/conversation.repository.ts:52*
+*Defined in [src/repositories/conversation.repository.ts:53](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/conversation.repository.ts#L53)*
 
 #### Parameters:
 
 Name | Type | Default value |
 ------ | ------ | ------ |
-`__namedParameters` | { createdBefore: undefined \| Date  } | {} |
+`__namedParameters` | { createdBefore: undefined \| Date ; recipients: undefined \| string \| string[]  } | {} |
 
 **Returns:** [ConversationScroller](_src_scrollers_conversation_scroller_.conversationscroller.md)

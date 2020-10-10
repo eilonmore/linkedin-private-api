@@ -24,7 +24,7 @@
 
 \+ **new Login**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [Login](_src_core_login_.login.md)
 
-*Defined in src/core/login.ts:22*
+*Defined in [src/core/login.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/login.ts#L22)*
 
 #### Parameters:
 
@@ -40,7 +40,7 @@ Name | Type |
 
 ▸ **userPass**(`__namedParameters`: { password: undefined \| string ; useCache: boolean = true; username: string  }): Promise\<[Client](_src_core_client_.client.md)>
 
-*Defined in src/core/login.ts:38*
+*Defined in [src/core/login.ts:38](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/login.ts#L38)*
 
 #### Parameters:
 

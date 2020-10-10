@@ -71,6 +71,40 @@ describe('getConversations', () => {
     });
   });
 
+  it('should fetch conversations by single profileId', async () => {
+    const profileId = faker.random.uuid();
+    const { response, resultConversations } = createGetConversationsResponse(1);
+    const keyedConversations = keyBy(resultConversations, 'entityUrn');
+
+    when(axios.get(requestUrl, { params: { ...reqParams, recipients: [profileId], q: 'participants' } })).thenResolve({
+      data: response,
+    });
+
+    const client = await new Client().login.userPass({ username, password });
+    const converationsScroller = client.conversation.getConversations({ recipients: profileId });
+    const conversations = await converationsScroller.scrollNext();
+
+    expect(conversations.length).toEqual(1);
+    expect(omit(conversations[0], ['conversationId', 'participants'])).toEqual(keyedConversations[conversations[0].entityUrn]);
+  });
+
+  it('should fetch conversations by multiple profileId', async () => {
+    const profileIds = [faker.random.uuid(), faker.random.uuid()];
+    const { response, resultConversations } = createGetConversationsResponse(1);
+    const keyedConversations = keyBy(resultConversations, 'entityUrn');
+
+    when(axios.get(requestUrl, { params: { ...reqParams, recipients: profileIds, q: 'participants' } })).thenResolve({
+      data: response,
+    });
+
+    const client = await new Client().login.userPass({ username, password });
+    const converationsScroller = client.conversation.getConversations({ recipients: profileIds });
+    const conversations = await converationsScroller.scrollNext();
+
+    expect(conversations.length).toEqual(1);
+    expect(omit(conversations[0], ['conversationId', 'participants'])).toEqual(keyedConversations[conversations[0].entityUrn]);
+  });
+
   it('should add conversationId on the result conversations', async () => {
     const conversationId = faker.random.uuid();
     const { response, resultConversations } = createGetConversationsResponse(1);

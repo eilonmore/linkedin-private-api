@@ -22,7 +22,7 @@
 
 •  **$type**: \"com.linkedin.common.VectorImage\"
 
-*Defined in src/entities/linkedin-vector-image.entity.ts:4*
+*Defined in [src/entities/linkedin-vector-image.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-vector-image.entity.ts#L4)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **artifacts**: [LinkedInVectorArtifact](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md)[]
 
-*Defined in src/entities/linkedin-vector-image.entity.ts:5*
+*Defined in [src/entities/linkedin-vector-image.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-vector-image.entity.ts#L5)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **rootUrl**: string
 
-*Defined in src/entities/linkedin-vector-image.entity.ts:6*
+*Defined in [src/entities/linkedin-vector-image.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/entities/linkedin-vector-image.entity.ts#L6)*

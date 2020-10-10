@@ -40,7 +40,7 @@
 
 *Inherited from [Request](_src_core_request_.request.md).[constructor](_src_core_request_.request.md#constructor)*
 
-*Defined in src/core/request.ts:13*
+*Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L13)*
 
 **Returns:** [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md)
 
@@ -50,7 +50,7 @@
 
 •  **auth**: AuthRequest = new AuthRequest({ request: this })
 
-*Defined in src/core/linkedin-request.ts:20*
+*Defined in [src/core/linkedin-request.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/linkedin-request.ts#L20)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 •  **conversation**: ConversationRequest = new ConversationRequest({ request: this })
 
-*Defined in src/core/linkedin-request.ts:10*
+*Defined in [src/core/linkedin-request.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/linkedin-request.ts#L10)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 •  **invitation**: InvitationRequest = new InvitationRequest({ request: this })
 
-*Defined in src/core/linkedin-request.ts:12*
+*Defined in [src/core/linkedin-request.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/linkedin-request.ts#L12)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 •  **message**: MessageRequest = new MessageRequest({ request: this })
 
-*Defined in src/core/linkedin-request.ts:14*
+*Defined in [src/core/linkedin-request.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/linkedin-request.ts#L14)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 •  **profile**: ProfileRequest = new ProfileRequest({ request: this })
 
-*Defined in src/core/linkedin-request.ts:16*
+*Defined in [src/core/linkedin-request.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/linkedin-request.ts#L16)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[request](_src_core_request_.request.md#request)*
 
-*Defined in src/core/request.ts:13*
+*Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L13)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 •  **search**: SearchRequest = new SearchRequest({ request: this })
 
-*Defined in src/core/linkedin-request.ts:18*
+*Defined in [src/core/linkedin-request.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/linkedin-request.ts#L18)*
 
 ## Methods
 
@@ -110,7 +110,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in src/core/request.ts:26*
+*Defined in [src/core/request.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L26)*
 
 #### Type parameters:
 
@@ -131,7 +131,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in src/core/request.ts:27*
+*Defined in [src/core/request.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L27)*
 
 #### Type parameters:
 
@@ -156,7 +156,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in src/core/request.ts:34*
+*Defined in [src/core/request.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L34)*
 
 #### Type parameters:
 
@@ -178,7 +178,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in src/core/request.ts:35*
+*Defined in [src/core/request.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L35)*
 
 #### Type parameters:
 
@@ -204,7 +204,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[setHeaders](_src_core_request_.request.md#setheaders)*
 
-*Defined in src/core/request.ts:22*
+*Defined in [src/core/request.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/core/request.ts#L22)*
 
 #### Parameters:
 
