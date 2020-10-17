@@ -1,4 +1,3 @@
-import { ProfileId } from './../entities/mini-profile.entity';
 import { orderBy } from 'lodash';
 
 import { Client } from '../core/client';
@@ -7,6 +6,7 @@ import { EVENT_TYPE } from '../entities/linkedin-event.entity';
 import { LinkedInMessageEvent } from '../entities/linkedin-message-event.entity';
 import { MessageEventCreateResponse } from '../entities/message-create-response.entity';
 import { MessageEvent } from '../entities/message-event.entity';
+import { ProfileId } from '../entities/mini-profile.entity';
 import { GetMessagesResponse } from '../responses/messages.response.get';
 import { MessageScroller } from '../scrollers';
 import { getProfilesFromResponse } from './profile.repository';

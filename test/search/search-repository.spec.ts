@@ -411,7 +411,8 @@ describe('searchCompanies', () => {
     const companies = await companiesScroller.scrollNext();
 
     expect(companies.length).toEqual(1);
-    expect(companies[0].company).toEqual(searchResults.included[0]);
+    expect(omit(companies[0].company, 'companyId')).toEqual(searchResults.included[0]);
+    expect(companies[0].company.companyId).toEqual(searchResults.included[0].entityUrn.replace('urn:li:fs_miniCompany:', ''));
   });
 
   it('should be able to scroll companies using the scroller', async () => {

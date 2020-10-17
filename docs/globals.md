@@ -39,6 +39,7 @@
 * ["src/entities/linkedin-vector-image.entity"](modules/_src_entities_linkedin_vector_image_entity_.md)
 * ["src/entities/message-create-response.entity"](modules/_src_entities_message_create_response_entity_.md)
 * ["src/entities/message-event.entity"](modules/_src_entities_message_event_entity_.md)
+* ["src/entities/mini-company.entity"](modules/_src_entities_mini_company_entity_.md)
 * ["src/entities/mini-profile.entity"](modules/_src_entities_mini_profile_entity_.md)
 * ["src/entities/people-search-hit.entity"](modules/_src_entities_people_search_hit_entity_.md)
 * ["src/entities/profile.entity"](modules/_src_entities_profile_entity_.md)

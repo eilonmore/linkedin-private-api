@@ -5,7 +5,7 @@
 # NodeJS LinkedIn Private API
 
 Wrapper API for LinkedIn unofficial API, written in TypeScript.  
-No tokens are needed for using this API, only a working LinkedIn account
+No tokens are needed for using this API, only a working LinkedIn account.
 
 ## Installation
 
@@ -25,10 +25,19 @@ const password = process.env.PASSWORD as string;
   // Login
   const client = new Client();
   await client.login.userPass({ username, password });
-	
+  
+  // search for companies
+  const companiesScroller = await client.search.searchCompanies({ keywords: 'Microsoft' });
+  const [{ company: microsoft }] = await companiesScroller.scrollNext();
+
   // Search for profiles and send an invitation
-  const peopleScroller = await client.search.searchPeople({ keywords: 'Bill Gates' });
-  const [billGates] = await peopleScroller.scrollNext();
+  const peopleScroller = await client.search.searchPeople({
+    keywords: 'Bill Gates',
+    filters: {
+      pastCompany: microsoft.companyId
+    }
+  });
+  const [{ profile: billGates }] = await peopleScroller.scrollNext();
   
   await client.invitation.sendInvitation({
     profileId: billGates.profileId,

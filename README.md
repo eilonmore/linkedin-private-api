@@ -1,7 +1,7 @@
 # NodeJS LinkedIn Private API
 
 Wrapper API for LinkedIn unofficial API, written in TypeScript.  
-No tokens are needed for using this API, only a working LinkedIn account
+No tokens are needed for using this API, only a working LinkedIn account.
 
 ## Installation
 
@@ -21,10 +21,19 @@ const password = process.env.PASSWORD as string;
   // Login
   const client = new Client();
   await client.login.userPass({ username, password });
-	
+  
+  // search for companies
+  const companiesScroller = await client.search.searchCompanies({ keywords: 'Microsoft' });
+  const [{ company: microsoft }] = await companiesScroller.scrollNext();
+
   // Search for profiles and send an invitation
-  const peopleScroller = await client.search.searchPeople({ keywords: 'Bill Gates' });
-  const [billGates] = await peopleScroller.scrollNext();
+  const peopleScroller = await client.search.searchPeople({
+    keywords: 'Bill Gates',
+    filters: {
+      pastCompany: microsoft.companyId
+    }
+  });
+  const [{ profile: billGates }] = await peopleScroller.scrollNext();
   
   await client.invitation.sendInvitation({
     profileId: billGates.profileId,
@@ -88,6 +97,7 @@ The full list of entities can be found [here](https://github.com/eilonmore/linke
 |-|
 |[Profile](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_profile_entity_.profile.md)|
 |[MiniProfile](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_mini_profile_entity_.miniprofile.md)|
+|[MiniCompany](https://github.com/eilonmore/linkedin-private-api/blob/conversation-id/docs/interfaces/_src_entities_mini_company_entity_.minicompany.md)|
 |[Invitation](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_invitation_entity_.invitation.md)|
 |[Conversation](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_conversation_entity_.conversation.md)|
 |[Message](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_message_event_entity_.messageevent.md)|
