@@ -97,6 +97,7 @@ The full list of entities can be found [here](https://github.com/eilonmore/linke
 |-|
 |[Profile](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_profile_entity_.profile.md)|
 |[MiniProfile](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_mini_profile_entity_.miniprofile.md)|
+|[MiniCompany](https://github.com/eilonmore/linkedin-private-api/blob/conversation-id/docs/interfaces/_src_entities_mini_company_entity_.minicompany.md)|
 |[Invitation](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_invitation_entity_.invitation.md)|
 |[Conversation](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_conversation_entity_.conversation.md)|
 |[Message](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_message_event_entity_.messageevent.md)|
