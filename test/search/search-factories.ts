@@ -23,7 +23,7 @@ const createMiniCompany = (count: number) =>
   times(count, () => ({
     $type: 'com.linkedin.voyager.entities.shared.MiniCompany',
     active: faker.random.boolean(),
-    entityUrn: faker.random.uuid(),
+    entityUrn: `urn:li:fs_miniCompany:${faker.random.uuid()}`,
     name: faker.random.uuid(),
     objectUrn: faker.random.uuid(),
     showcase: faker.random.boolean(),

@@ -2,7 +2,8 @@ import { flatten, keyBy } from 'lodash';
 
 import { Client } from '../core/client';
 import { CompanySearchHit } from '../entities/company-search-hit.entity';
-import { LinkedInMiniCompany, MINI_COMPANY_TYPE } from '../entities/linkedin-mini-company.entity';
+import { MINI_COMPANY_TYPE } from '../entities/linkedin-mini-company.entity';
+import { MiniCompany } from '../entities/mini-company.entity';
 import { ProfileId } from '../entities/mini-profile.entity';
 import { PeopleSearchHit } from '../entities/people-search-hit.entity';
 import { GetBlendedSearchResponse } from '../responses/blended-search.reponse.get';
@@ -145,7 +146,13 @@ export class SearchRepository {
       filters: { resultType: LinkedInSearchType.COMPANIES },
     });
 
-    const companies = response.included.filter(entity => entity.$type === MINI_COMPANY_TYPE) as LinkedInMiniCompany[];
+    const companies = response.included
+      .filter(entity => entity.$type === MINI_COMPANY_TYPE)
+      .map(company => ({
+        ...company,
+        companyId: company.entityUrn.replace('urn:li:fs_miniCompany:', ''),
+      })) as MiniCompany[];
+
     const companiesByUrn = keyBy(companies, 'entityUrn');
     const searchHits = flatten(
       response.data.elements.filter(e => e.type === SearchResultType.SEARCH_HITS && e.elements).map(e => e.elements!),
