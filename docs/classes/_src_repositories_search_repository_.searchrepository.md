@@ -31,7 +31,7 @@
 
 \+ **new SearchRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [SearchRepository](_src_repositories_search_repository_.searchrepository.md)
 
-*Defined in [src/repositories/search.repository.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/search.repository.ts#L18)*
+*Defined in [src/repositories/search.repository.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L19)*
 
 #### Parameters:
 
@@ -47,7 +47,7 @@ Name | Type |
 
 •  **client**: [Client](_src_core_client_.client.md)
 
-*Defined in [src/repositories/search.repository.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/search.repository.ts#L18)*
+*Defined in [src/repositories/search.repository.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L19)*
 
 ## Methods
 
@@ -55,7 +55,7 @@ Name | Type |
 
 ▸ **searchCompanies**(`__namedParameters`: { keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [CompanySearchScroller](_src_scrollers_company_search_scroller_.companysearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:44](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/search.repository.ts#L44)*
+*Defined in [src/repositories/search.repository.ts:45](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L45)*
 
 #### Parameters:
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **searchConnectionsOf**(`__namedParameters`: { filters: Pick\<PeopleSearchFilters, \"currentCompany\" \| \"pastCompany\" \| \"company\" \| \"geoUrn\" \| \"industry\" \| \"profileLanguage\" \| \"school\" \| \"contactInterest\" \| \"serviceCategory\" \| \"firstName\" \| \"lastName\" \| \"title\"> ; keywords: undefined \| string ; limit: number = 10; profileId: string ; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:81](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/search.repository.ts#L81)*
+*Defined in [src/repositories/search.repository.ts:82](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L82)*
 
 #### Parameters:
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **searchOwnConnections**(`__namedParameters`: { filters: Pick\<PeopleSearchFilters, \"currentCompany\" \| \"pastCompany\" \| \"company\" \| \"geoUrn\" \| \"industry\" \| \"profileLanguage\" \| \"school\" \| \"connectionOf\" \| \"contactInterest\" \| \"serviceCategory\" \| \"firstName\" \| \"lastName\" \| \"title\"> ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:61](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/search.repository.ts#L61)*
+*Defined in [src/repositories/search.repository.ts:62](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L62)*
 
 #### Parameters:
 
@@ -103,7 +103,7 @@ ___
 
 ▸ **searchPeople**(`__namedParameters`: { filters: PeopleSearchFilters ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/614bdb1/src/repositories/search.repository.ts#L24)*
+*Defined in [src/repositories/search.repository.ts:25](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L25)*
 
 #### Parameters:
 
