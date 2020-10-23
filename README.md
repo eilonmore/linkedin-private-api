@@ -160,4 +160,5 @@ Also, i'll be more than happy to welcome new contributors to this project.
 ## Legal
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Linkedin or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
 
-Note that using this API might cause your account being banned. Please note that we are not responsible for any accounts being banned.
+Note that using this API might cause your account being banned.  
+Always take care; we cannot be held for any account being banned.
