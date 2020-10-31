@@ -2226,8 +2226,8 @@ inherits@2, inherits@^2.0.1, inherits@~2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
 
 intermock@^0.2.2:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/intermock/-/intermock-0.2.4.tgz#b27cf5ccaf2a7588d7ef0285956c76a2b439baf6"
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/intermock/-/intermock-0.2.5.tgz#9fbd2003d30f061e28f917fecf5e6fb21f539aae"
   dependencies:
     command-line-args "5.0.2"
     command-line-usage "5.0.5"
