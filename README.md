@@ -11,7 +11,8 @@ npm install linkedin-private-api
 ```
 
 ## Example usage
-See a list of examples here [here](https://github.com/eilonmore/linkedin-private-api/tree/master/examples).
+Checkout [the post](https://codeburst.io/how-i-nailed-a-job-with-this-nodejs-linkedin-bot-6fcada2afbe1) I've written that describes a great example of how to use this library.  
+Also, see a list of examples [here](https://github.com/eilonmore/linkedin-private-api/tree/master/examples).
 ```typescript
 import { Client } from 'linkedin-private-api';
 
