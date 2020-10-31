@@ -4,6 +4,11 @@
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "Eilon Mor",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/eilonmore/linkedin-private-api.git"
@@ -22,8 +27,6 @@
     "prepublish": "yarn docs && yarn build",
     "docs": "rimraf docs && typedoc --plugin typedoc-plugin-markdown --out docs src"
   },
-  "author": "Eilon Mor",
-  "license": "MIT",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
