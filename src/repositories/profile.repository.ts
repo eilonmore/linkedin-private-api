@@ -1,4 +1,4 @@
-import { get, keyBy, map } from 'lodash';
+import { filter, get, keyBy, map } from 'lodash';
 
 import { Client } from '../core/client';
 import { COMPANY_TYPE, LinkedInCompany } from '../entities/linkedin-company.entity';
@@ -23,7 +23,7 @@ const transformMiniProfile = (miniProfile: LinkedInMiniProfile): MiniProfile => 
 export const getProfilesFromResponse = <T extends { included: (LinkedInMiniProfile | { $type: string })[] }>(
   response: T,
 ): Record<ProfileId, MiniProfile> => {
-  const miniProfiles = response.included.filter(p => p.$type === MINI_PROFILE_TYPE) as LinkedInMiniProfile[];
+  const miniProfiles = filter(response.included, p => p.$type === MINI_PROFILE_TYPE) as LinkedInMiniProfile[];
 
   const transformedMiniProfiles = miniProfiles.map((miniProfile: LinkedInMiniProfile) => transformMiniProfile(miniProfile));
 
@@ -56,7 +56,7 @@ export class ProfileRepository {
   async getOwnProfile(): Promise<Profile | null> {
     const response = await this.client.request.profile.getOwnProfile();
 
-    const miniProfile = response.included.find(r => r.$type === MINI_PROFILE_TYPE);
+    const miniProfile = response?.included?.find(r => r.$type === MINI_PROFILE_TYPE);
 
     if (!miniProfile) {
       return null;

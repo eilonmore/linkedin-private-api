@@ -1,6 +1,6 @@
 import faker from 'faker';
 import { keyBy, omit, orderBy } from 'lodash';
-import { reset, when } from 'testdouble';
+import { reset, verify, when } from 'testdouble';
 import { URL } from 'url';
 
 import { linkedinApiUrl } from '../../config';
@@ -134,6 +134,30 @@ describe('getMessages', () => {
     expect(secondPageMessages).not.toEqual(thirdPageMessages);
 
     [...firstPageMessages, ...firstPageMessages, ...thirdPageMessages].forEach((p: any) => {
+      expect(p.$type).toEqual('com.linkedin.voyager.messaging.Event');
+    });
+  });
+
+  it('should be able to restart scroller position', async () => {
+    const { response: firstPageResponse } = createGetMessagesResponse(10);
+
+    when(axios.get(requestUrl, { params: reqParams })).thenResolve({
+      data: firstPageResponse,
+    });
+
+    const client = await new Client().login.userPass({ username, password });
+    const messagesScroller = client.message.getMessages({ conversationId });
+
+    const firstPageMessages = await messagesScroller.scrollNext();
+
+    messagesScroller.restart();
+
+    const secondPageMessages = await messagesScroller.scrollNext();
+
+    expect(firstPageMessages.length).toEqual(10);
+    expect(firstPageMessages).toEqual(secondPageMessages);
+
+    firstPageMessages.forEach((p: any) => {
       expect(p.$type).toEqual('com.linkedin.voyager.messaging.Event');
     });
   });

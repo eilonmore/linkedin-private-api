@@ -1,5 +1,5 @@
 import { difference } from 'lodash';
-import { reset, when } from 'testdouble';
+import { reset, verify, when } from 'testdouble';
 import { URL } from 'url';
 
 import { linkedinApiUrl } from '../../config';
@@ -142,5 +142,16 @@ describe('getOwnProfile', () => {
 
     expect(profile.pictureUrls).toHaveLength(4);
     profile.pictureUrls.forEach((url: string) => expect(typeof url).toEqual('string'));
+  });
+
+  it('should return null and not request full profile if undefined response was returned', async () => {
+    when(axios.get(requestUrl, undefined)).thenResolve({ data: undefined });
+
+    const client = new Client();
+    await client.login.userPass({ username, password });
+    const profile = await client.profile.getOwnProfile();
+
+    expect(profile).toBe(null);
+    verify(axios.get(getProfileRequestUrl), { ignoreExtraArgs: true, times: 0 });
   });
 });

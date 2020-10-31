@@ -12,8 +12,8 @@ const participantToProfileId = (participant: string) => participant.replace(/urn
 const transformConversationId = (conversationUrn: string) => conversationUrn.replace('urn:li:fs_conversation:', '');
 
 const transformConversations = ({
-  conversations = [],
-  profiles = {},
+  conversations,
+  profiles,
 }: {
   conversations: LinkedinConversation[];
   profiles: Record<ProfileId, MiniProfile>;
