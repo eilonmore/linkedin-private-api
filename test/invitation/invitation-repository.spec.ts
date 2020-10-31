@@ -45,6 +45,20 @@ describe('getSentInvitations', () => {
     );
   });
 
+  it('should return empty array if undefined data was returned', async () => {
+    const { response } = createGetInvitationsResponse(10);
+
+    const mutatedResponse = omit(response, ['included']);
+
+    when(axios.get(requestUrl, { params: reqParams })).thenResolve({ data: mutatedResponse });
+
+    const client = await new Client().login.userPass({ username, password });
+    const invitationScroller = client.invitation.getSentInvitations();
+    const invitations = await invitationScroller.scrollNext();
+
+    expect(invitations.length).toEqual(0);
+  });
+
   it('should sort invitations by sentTime descending', async () => {
     const { response } = createGetInvitationsResponse(10);
 

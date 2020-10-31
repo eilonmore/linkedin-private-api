@@ -17,7 +17,8 @@
     "lint": "eslint -p tsconfig.json -c tslint.json",
     "typecheck": "eslint --ext .ts --ext .js src",
     "build": "rimraf dist && tsc -p tsconfig.build.json",
-    "test": "NODE_ENV=development jest",
+    "test": "NODE_ENV=test jest",
+    "test:coverage": "yarn test -- --coverage",
     "prepublish": "yarn docs && yarn build",
     "docs": "rimraf docs && typedoc --plugin typedoc-plugin-markdown --out docs src"
   },
