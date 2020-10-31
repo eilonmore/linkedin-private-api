@@ -35,6 +35,11 @@ export class Login {
     });
   }
 
+  async userCookie(JSESSIONID: string, li_at: string): Promise<Client> {
+    this.setRequestHeaders({ cookies: { JSESSIONID, li_at } });
+    return this.client;
+  }
+
   async userPass({
     username,
     password,
