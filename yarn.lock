@@ -612,12 +612,12 @@
     debug "^4.1.1"
 
 "@typescript-eslint/parser@^4.2.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.11.0.tgz#1dd3d7e42708c10ce9f3aa64c63c0ab99868b4e2"
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.12.0.tgz#e1cf30436e4f916c31fcc962158917bd9e9d460a"
   dependencies:
-    "@typescript-eslint/scope-manager" "4.11.0"
-    "@typescript-eslint/types" "4.11.0"
-    "@typescript-eslint/typescript-estree" "4.11.0"
+    "@typescript-eslint/scope-manager" "4.12.0"
+    "@typescript-eslint/types" "4.12.0"
+    "@typescript-eslint/typescript-estree" "4.12.0"
     debug "^4.1.1"
 
 "@typescript-eslint/scope-manager@4.11.0":
@@ -627,6 +627,13 @@
     "@typescript-eslint/types" "4.11.0"
     "@typescript-eslint/visitor-keys" "4.11.0"
 
+"@typescript-eslint/scope-manager@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.12.0.tgz#beeb8beca895a07b10c593185a5612f1085ef279"
+  dependencies:
+    "@typescript-eslint/types" "4.12.0"
+    "@typescript-eslint/visitor-keys" "4.12.0"
+
 "@typescript-eslint/scope-manager@4.4.1":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.4.1.tgz#d19447e60db2ce9c425898d62fa03b2cce8ea3f9"
@@ -634,24 +641,17 @@
     "@typescript-eslint/types" "4.4.1"
     "@typescript-eslint/visitor-keys" "4.4.1"
 
-"@typescript-eslint/scope-manager@4.8.2":
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.8.2.tgz#a18388c63ae9c17adde519384f539392f2c4f0d9"
-  dependencies:
-    "@typescript-eslint/types" "4.8.2"
-    "@typescript-eslint/visitor-keys" "4.8.2"
-
 "@typescript-eslint/types@4.11.0":
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.11.0.tgz#86cf95e7eac4ccfd183f9fcf1480cece7caf4ca4"
 
+"@typescript-eslint/types@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.12.0.tgz#fb891fe7ccc9ea8b2bbd2780e36da45d0dc055e5"
+
 "@typescript-eslint/types@4.4.1":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.4.1.tgz#c507b35cf523bc7ba00aae5f75ee9b810cdabbc1"
-
-"@typescript-eslint/types@4.8.2":
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.8.2.tgz#c862dd0e569d9478eb82d6aee662ea53f5661a36"
 
 "@typescript-eslint/typescript-estree@4.11.0":
   version "4.11.0"
@@ -659,6 +659,19 @@
   dependencies:
     "@typescript-eslint/types" "4.11.0"
     "@typescript-eslint/visitor-keys" "4.11.0"
+    debug "^4.1.1"
+    globby "^11.0.1"
+    is-glob "^4.0.1"
+    lodash "^4.17.15"
+    semver "^7.3.2"
+    tsutils "^3.17.1"
+
+"@typescript-eslint/typescript-estree@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.12.0.tgz#3963418c850f564bdab3882ae23795d115d6d32e"
+  dependencies:
+    "@typescript-eslint/types" "4.12.0"
+    "@typescript-eslint/visitor-keys" "4.12.0"
     debug "^4.1.1"
     globby "^11.0.1"
     is-glob "^4.0.1"
@@ -679,19 +692,6 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/typescript-estree@4.8.2":
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.8.2.tgz#eeec34707d8577600fb21661b5287226cc8b3bed"
-  dependencies:
-    "@typescript-eslint/types" "4.8.2"
-    "@typescript-eslint/visitor-keys" "4.8.2"
-    debug "^4.1.1"
-    globby "^11.0.1"
-    is-glob "^4.0.1"
-    lodash "^4.17.15"
-    semver "^7.3.2"
-    tsutils "^3.17.1"
-
 "@typescript-eslint/visitor-keys@4.11.0":
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.11.0.tgz#906669a50f06aa744378bb84c7d5c4fdbc5b7d51"
@@ -699,18 +699,18 @@
     "@typescript-eslint/types" "4.11.0"
     eslint-visitor-keys "^2.0.0"
 
+"@typescript-eslint/visitor-keys@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.12.0.tgz#a470a79be6958075fa91c725371a83baf428a67a"
+  dependencies:
+    "@typescript-eslint/types" "4.12.0"
+    eslint-visitor-keys "^2.0.0"
+
 "@typescript-eslint/visitor-keys@4.4.1":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.4.1.tgz#1769dc7a9e2d7d2cfd3318b77ed8249187aed5c3"
   dependencies:
     "@typescript-eslint/types" "4.4.1"
-    eslint-visitor-keys "^2.0.0"
-
-"@typescript-eslint/visitor-keys@4.8.2":
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.8.2.tgz#62cd3fbbbf65f8eccfbe6f159eb1b84a243a3f77"
-  dependencies:
-    "@typescript-eslint/types" "4.8.2"
     eslint-visitor-keys "^2.0.0"
 
 abab@^2.0.3:
