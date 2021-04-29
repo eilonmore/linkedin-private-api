@@ -1,0 +1,72 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.14.0
+    - 4.14.1
+    - 4.14.2
+    - 4.15.0
+    - 4.15.1
+    - 4.15.2
+    - 4.16.1
+    - 4.17.0
+    - 4.18.0
+    - 4.20.0
+    - 4.21.0
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.14.0
+    - 4.14.1
+    - 4.14.2
+    - 4.15.0
+    - 4.15.1
+    - 4.15.2
+    - 4.16.1
+    - 4.17.0
+    - 4.18.0
+    - 4.20.0
+    - 4.21.0
+  - dependency-name: faker
+    versions:
+    - 5.5.2
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.1.0
+  - dependency-name: typedoc
+    versions:
+    - 0.20.10
+    - 0.20.18
+    - 0.20.20
+    - 0.20.23
+    - 0.20.25
+    - 0.20.27
+    - 0.20.28
+    - 0.20.30
+    - 0.20.32
+    - 0.20.33
+    - 0.20.34
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.22
+    - 14.14.25
+    - 14.14.28
+    - 14.14.31
+    - 14.14.32
+    - 14.14.34
+    - 14.14.35
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+  - dependency-name: typescript
+    versions:
+    - 4.1.3
