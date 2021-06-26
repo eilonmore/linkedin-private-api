@@ -75,7 +75,7 @@ describe('searchPeople', () => {
   });
 
   it('should populate user profile on the response', async () => {
-    const profileId = faker.random.uuid();
+    const profileId = faker.datatype.uuid();
     const profileUrn = `urn:li:fs_miniProfile:${profileId}`;
 
     const reqParams = {
@@ -236,7 +236,7 @@ describe('searchOwnConnections', () => {
   });
 
   it('should populate user profile on the response', async () => {
-    const profileId = faker.random.uuid();
+    const profileId = faker.datatype.uuid();
     const profileUrn = `urn:li:fs_miniProfile:${profileId}`;
     const reqParams = {
       start: 0,
@@ -261,7 +261,7 @@ describe('searchOwnConnections', () => {
 
 describe('searchConnectionsOf', () => {
   it('should fetch connections by profileId', async () => {
-    const profileId = faker.random.uuid();
+    const profileId = faker.datatype.uuid();
     const filters = {
       currentCompany: 'some company',
       network: 'S',
@@ -290,7 +290,7 @@ describe('searchConnectionsOf', () => {
   });
 
   it('should populate user profile on the response', async () => {
-    const profileId = faker.random.uuid();
+    const profileId = faker.datatype.uuid();
     const profileUrn = `urn:li:fs_miniProfile:${profileId}`;
     const reqParams = {
       start: 0,
@@ -390,7 +390,7 @@ describe('searchCompanies', () => {
   });
 
   it('should populate company on the response', async () => {
-    const companyId = faker.random.uuid();
+    const companyId = faker.datatype.uuid();
     const companyUrn = `urn:li:fs_miniCompany:${companyId}`;
     const reqParams = {
       start: 0,

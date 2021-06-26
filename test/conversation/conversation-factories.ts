@@ -8,36 +8,36 @@ import { createMiniProfile } from '../profile/profile-factories';
 const createReceipt = (count: number): LinkedInParticipantReceipts[] =>
   times(count, () => ({
     $type: 'com.linkedin.voyager.messaging.ParticipantReceipts',
-    fromEntity: faker.random.uuid(),
-    fromParticipant: faker.random.uuid(),
+    fromEntity: faker.datatype.uuid(),
+    fromParticipant: faker.datatype.uuid(),
     seenReceipt: {
       $type: 'com.linkedin.voyager.messaging.SeenReceipt',
-      eventUrn: faker.random.uuid(),
-      seenAt: faker.random.number(),
+      eventUrn: faker.datatype.uuid(),
+      seenAt: faker.datatype.number(),
     },
   }));
 
 const createConversation = (count: number): Partial<LinkedinConversation>[] =>
   times(count, () => ({
     $type: 'com.linkedin.voyager.messaging.Conversation',
-    '*events': [faker.random.uuid()],
-    '*participants': [faker.random.uuid(), faker.random.uuid()],
-    '*type': [faker.random.uuid()],
-    archived: faker.random.boolean(),
-    backendUrn: faker.random.uuid(),
-    blocked: faker.random.boolean(),
-    entityUrn: `urn:li:fs_conversation:${faker.random.uuid()}`,
+    '*events': [faker.datatype.uuid()],
+    '*participants': [faker.datatype.uuid(), faker.datatype.uuid()],
+    '*type': [faker.datatype.uuid()],
+    archived: faker.datatype.boolean(),
+    backendUrn: faker.datatype.uuid(),
+    blocked: faker.datatype.boolean(),
+    entityUrn: `urn:li:fs_conversation:${faker.datatype.uuid()}`,
     featureTypes: Object.values(FeaturedType.CREATE_NEW_GROUP_CHAT),
-    firstMessageUrn: faker.random.uuid(),
-    lastActivityAt: faker.random.number(),
-    muted: faker.random.boolean(),
+    firstMessageUrn: faker.datatype.uuid(),
+    lastActivityAt: faker.datatype.number(),
+    muted: faker.datatype.boolean(),
     notificationStatus: faker.random.word(),
-    read: faker.random.boolean(),
+    read: faker.datatype.boolean(),
     receipts: createReceipt(2),
-    totalEventCount: faker.random.number(),
-    unreadCount: faker.random.number(),
-    viewerCurrentParticipant: faker.random.boolean(),
-    withNonConnection: faker.random.boolean(),
+    totalEventCount: faker.datatype.number(),
+    unreadCount: faker.datatype.number(),
+    viewerCurrentParticipant: faker.datatype.boolean(),
+    withNonConnection: faker.datatype.boolean(),
   }));
 
 export const createGetConversationsResponse = (count: number) => {

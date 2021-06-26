@@ -20,25 +20,25 @@ const createMessage = (count: number): LinkedInMessage[] =>
 const createMessageEvent = (count: number): Partial<LinkedInMessageEvent>[] =>
   times(count, () => ({
     $type: 'com.linkedin.voyager.messaging.Event',
-    '*from': faker.random.uuid(),
-    backendUrn: faker.random.uuid(),
-    createdAt: faker.random.number(),
-    dashEntityUrn: faker.random.uuid(),
-    entityUrn: faker.random.uuid(),
-    originToken: faker.random.uuid(),
-    subtype: faker.random.uuid(),
-    previousEventInConversation: faker.random.uuid(),
+    '*from': faker.datatype.uuid(),
+    backendUrn: faker.datatype.uuid(),
+    createdAt: faker.datatype.number(),
+    dashEntityUrn: faker.datatype.uuid(),
+    entityUrn: faker.datatype.uuid(),
+    originToken: faker.datatype.uuid(),
+    subtype: faker.datatype.uuid(),
+    previousEventInConversation: faker.datatype.uuid(),
     eventContent: createMessage(1)[0],
   }));
 
 const createEventCreate = (count: number): LinkedEventCreateResponse[] =>
   times(count, () => ({
     $type: 'com.linkedin.voyager.messaging.create.EventCreateResponse',
-    backendConversationUrn: faker.random.uuid(),
-    backendEventUrn: faker.random.uuid(),
-    conversationUrn: faker.random.uuid(),
-    createdAt: faker.random.number(),
-    eventUrn: faker.random.uuid(),
+    backendConversationUrn: faker.datatype.uuid(),
+    backendEventUrn: faker.datatype.uuid(),
+    conversationUrn: faker.datatype.uuid(),
+    createdAt: faker.datatype.number(),
+    eventUrn: faker.datatype.uuid(),
   }));
 
 export const createSendMessageResponse = () => {

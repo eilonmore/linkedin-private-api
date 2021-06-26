@@ -6,10 +6,10 @@ import { createMiniProfile } from '../profile/profile-factories';
 const createSearchHit = (count: number) =>
   times(count, () => ({
     $type: 'com.linkedin.voyager.search.SearchHitV2',
-    publicIdentifier: faker.random.uuid(),
-    targetUrn: faker.random.uuid(),
-    trackingId: faker.random.uuid(),
-    trackingUrn: faker.random.uuid(),
+    publicIdentifier: faker.datatype.uuid(),
+    targetUrn: faker.datatype.uuid(),
+    trackingId: faker.datatype.uuid(),
+    trackingUrn: faker.datatype.uuid(),
   }));
 
 const createSearchCluster = (count: number, searchHitCount: number) =>
@@ -22,12 +22,12 @@ const createSearchCluster = (count: number, searchHitCount: number) =>
 const createMiniCompany = (count: number) =>
   times(count, () => ({
     $type: 'com.linkedin.voyager.entities.shared.MiniCompany',
-    active: faker.random.boolean(),
-    entityUrn: `urn:li:fs_miniCompany:${faker.random.uuid()}`,
-    name: faker.random.uuid(),
-    objectUrn: faker.random.uuid(),
-    showcase: faker.random.boolean(),
-    trackingId: faker.random.uuid(),
+    active: faker.datatype.boolean(),
+    entityUrn: `urn:li:fs_miniCompany:${faker.datatype.uuid()}`,
+    name: faker.datatype.uuid(),
+    objectUrn: faker.datatype.uuid(),
+    showcase: faker.datatype.boolean(),
+    trackingId: faker.datatype.uuid(),
     universalName: faker.random.word(),
   }));
 

@@ -578,8 +578,8 @@ describe('getReceivedInvitations', () => {
 });
 
 describe('sendInvitation', () => {
-  const profileId = faker.random.uuid();
-  const trackingId = faker.random.uuid();
+  const profileId = faker.datatype.uuid();
+  const trackingId = faker.datatype.uuid();
   const sentInvitationRequestUrl = new URL('relationships/sentInvitationViewsV2', linkedinApiUrl).toString();
   const requestUrl = new URL('growth/normInvitations', linkedinApiUrl).toString();
   const requestPayload = {
