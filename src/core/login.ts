@@ -35,15 +35,7 @@ export class Login {
     });
   }
 
-  async userPass({
-    username,
-    password,
-    useCache = true,
-  }: {
-    username: string;
-    password?: string;
-    useCache?: boolean;
-  }): Promise<Client> {
+  private async readCacheFile(): Promise<Record<string, AuthCookies>> {
     let cachedSessions: Record<string, AuthCookies>;
 
     try {
@@ -53,14 +45,50 @@ export class Login {
       cachedSessions = {};
     }
 
-    if (useCache) {
-      const cookies = cachedSessions[username];
+    return cachedSessions;
+  }
 
-      if (cookies) {
-        this.setRequestHeaders({ cookies });
+  private tryCacheLogin({
+    useCache = true,
+    cachedSessions,
+    username,
+  }: {
+    useCache: boolean;
+    cachedSessions: Record<string, AuthCookies>;
+    username?: string;
+  }) {
+    if (!useCache) {
+      return false;
+    }
 
-        return this.client;
-      }
+    if (!username) {
+      throw new TypeError('Must provide username when useCache option is true');
+    }
+
+    const cookies = cachedSessions[username];
+
+    if (cookies) {
+      this.setRequestHeaders({ cookies });
+
+      return true;
+    }
+
+    return false;
+  }
+
+  async userPass({
+    username,
+    password,
+    useCache = true,
+  }: {
+    username: string;
+    password?: string;
+    useCache?: boolean;
+  }): Promise<Client> {
+    const cachedSessions = await this.readCacheFile();
+
+    if (this.tryCacheLogin({ useCache, cachedSessions, username })) {
+      return this.client;
     }
 
     if (!password) {
@@ -77,6 +105,30 @@ export class Login {
     fs.writeFile(SESSIONS_PATH, JSON.stringify({ ...cachedSessions, [username]: parsedCookies }));
 
     this.setRequestHeaders({ cookies: parsedCookies });
+
+    return this.client;
+  }
+
+  async userCookie({
+    username,
+    cookies,
+    useCache = true,
+  }: {
+    username?: string;
+    cookies: { JSESSIONID: string; li_at?: string };
+    useCache?: boolean;
+  }): Promise<Client> {
+    const cachedSessions = await this.readCacheFile();
+
+    if (this.tryCacheLogin({ useCache, cachedSessions, username })) {
+      return this.client;
+    }
+
+    this.setRequestHeaders({ cookies });
+
+    if (username) {
+      fs.writeFile(SESSIONS_PATH, JSON.stringify({ ...cachedSessions, [username]: cookies }));
+    }
 
     return this.client;
   }
