@@ -2,17 +2,17 @@
 
 > [Globals](../globals.md) / ["src/scrollers/skip-limit-scroller"](../modules/_src_scrollers_skip_limit_scroller_.md) / SkipLimitScroller
 
-# Class: SkipLimitScroller\<**T**>
+# Class: SkipLimitScroller<T\>
 
 ## Type parameters
 
-Name |
------- |
-`T` |
+| Name |
+| ---- |
+| `T`  |
 
 ## Hierarchy
 
-* **SkipLimitScroller**
+- **SkipLimitScroller**
 
   ↳ [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
@@ -24,35 +24,35 @@ Name |
 
 ### Constructors
 
-* [constructor](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#constructor)
+- [constructor](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#constructor)
 
 ### Properties
 
-* [hitEndOfResults](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#hitendofresults)
-* [limit](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#limit)
-* [scrollNextCounter](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#scrollnextcounter)
-* [skip](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#skip)
+- [hitEndOfResults](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#hitendofresults)
+- [limit](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#limit)
+- [scrollNextCounter](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#scrollnextcounter)
+- [skip](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#skip)
 
 ### Methods
 
-* [fetch](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#fetch)
-* [restart](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#restart)
-* [scrollBack](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#scrollback)
-* [scrollNext](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#scrollnext)
+- [fetch](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#fetch)
+- [restart](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#restart)
+- [scrollBack](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#scrollback)
+- [scrollNext](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md#scrollnext)
 
 ## Constructors
 
 ### constructor
 
-\+ **new SkipLimitScroller**(`__namedParameters`: { limit: number ; skip: number  }): [SkipLimitScroller](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md)
+\+ **new SkipLimitScroller**(`__namedParameters`: { limit: number ; skip: number }): [SkipLimitScroller](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md)
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L10)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L10)_
 
 #### Parameters:
 
-Name | Type |
------- | ------ |
-`__namedParameters` | { limit: number ; skip: number  } |
+| Name                | Type                             |
+| ------------------- | -------------------------------- |
+| `__namedParameters` | { limit: number ; skip: number } |
 
 **Returns:** [SkipLimitScroller](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md)
 
@@ -60,70 +60,70 @@ Name | Type |
 
 ### hitEndOfResults
 
-•  **hitEndOfResults**: boolean = false
+• **hitEndOfResults**: boolean = false
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L10)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L10)_
 
-___
+---
 
 ### limit
 
-•  **limit**: number
+• **limit**: number
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L4)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L4)_
 
-___
+---
 
 ### scrollNextCounter
 
-•  **scrollNextCounter**: number = 0
+• **scrollNextCounter**: number = 0
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L8)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L8)_
 
-___
+---
 
 ### skip
 
-•  **skip**: number
+• **skip**: number
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L6)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L6)_
 
 ## Methods
 
 ### fetch
 
-▸ `Abstract`**fetch**(): Promise\<T[]>
+▸ `Abstract`**fetch**(): Promise<T[]\>
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L17)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L17)_
 
-**Returns:** Promise\<T[]>
+**Returns:** Promise<T[]\>
 
-___
+---
 
 ### restart
 
 ▸ **restart**(): void
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:55](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L55)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:55](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L55)_
 
 **Returns:** void
 
-___
+---
 
 ### scrollBack
 
-▸ **scrollBack**(): Promise\<T[]>
+▸ **scrollBack**(): Promise<T[]\>
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:36](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L36)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:36](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L36)_
 
-**Returns:** Promise\<T[]>
+**Returns:** Promise<T[]\>
 
-___
+---
 
 ### scrollNext
 
-▸ **scrollNext**(): Promise\<T[]>
+▸ **scrollNext**(): Promise<T[]\>
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/skip-limit-scroller.ts#L19)*
+_Defined in [src/scrollers/skip-limit-scroller.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/skip-limit-scroller.ts#L19)_
 
-**Returns:** Promise\<T[]>
+**Returns:** Promise<T[]\>
