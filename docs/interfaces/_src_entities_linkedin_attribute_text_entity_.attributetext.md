@@ -6,27 +6,27 @@
 
 ## Hierarchy
 
-* **AttributeText**
+- **AttributeText**
 
 ## Index
 
 ### Properties
 
-* [$type](_src_entities_linkedin_attribute_text_entity_.attributetext.md#$type)
-* [text](_src_entities_linkedin_attribute_text_entity_.attributetext.md#text)
+- [$type](_src_entities_linkedin_attribute_text_entity_.attributetext.md#$type)
+- [text](_src_entities_linkedin_attribute_text_entity_.attributetext.md#text)
 
 ## Properties
 
 ### $type
 
-•  **$type**: \"com.linkedin.pemberly.text.AttributedText\"
+• **$type**: \"com.linkedin.pemberly.text.AttributedText\"
 
-*Defined in [src/entities/linkedin-attribute-text.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-attribute-text.entity.ts#L2)*
+_Defined in [src/entities/linkedin-attribute-text.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-attribute-text.entity.ts#L2)_
 
-___
+---
 
 ### text
 
-•  **text**: string
+• **text**: string
 
-*Defined in [src/entities/linkedin-attribute-text.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-attribute-text.entity.ts#L3)*
+_Defined in [src/entities/linkedin-attribute-text.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-attribute-text.entity.ts#L3)_

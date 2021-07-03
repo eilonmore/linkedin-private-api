@@ -5,3 +5,4 @@ sessions.json
 .vscode/
 .DS_Store
 coverage
+.idea/

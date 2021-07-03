@@ -6,36 +6,36 @@
 
 ## Hierarchy
 
-* **LinkedInImageAttribute**
+- **LinkedInImageAttribute**
 
 ## Index
 
 ### Properties
 
-* [$type](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md#$type)
-* [*miniProfile](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md#*miniprofile)
-* [sourceType](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md#sourcetype)
+- [$type](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md#$type)
+- [\*miniProfile](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md#*miniprofile)
+- [sourceType](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md#sourcetype)
 
 ## Properties
 
 ### $type
 
-•  **$type**: \"com.linkedin.voyager.common.ImageAttribute\"
+• **$type**: \"com.linkedin.voyager.common.ImageAttribute\"
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-image-attribute.entity.ts#L2)*
+_Defined in [src/entities/linkedin-image-attribute.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-image-attribute.entity.ts#L2)_
 
-___
+---
 
-### *miniProfile
+### \*miniProfile
 
-•  ***miniProfile**: string
+• **\*miniProfile**: string
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-image-attribute.entity.ts#L3)*
+_Defined in [src/entities/linkedin-image-attribute.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-image-attribute.entity.ts#L3)_
 
-___
+---
 
 ### sourceType
 
-•  **sourceType**: string
+• **sourceType**: string
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-image-attribute.entity.ts#L4)*
+_Defined in [src/entities/linkedin-image-attribute.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-image-attribute.entity.ts#L4)_

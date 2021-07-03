@@ -6,54 +6,54 @@
 
 ## Hierarchy
 
-* **LinkedInVectorArtifact**
+- **LinkedInVectorArtifact**
 
 ## Index
 
 ### Properties
 
-* [$type](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#$type)
-* [expiresAt](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#expiresat)
-* [fileIdentifyingUrlPathSegment](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#fileidentifyingurlpathsegment)
-* [height](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#height)
-* [with](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#with)
+- [$type](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#$type)
+- [expiresAt](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#expiresat)
+- [fileIdentifyingUrlPathSegment](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#fileidentifyingurlpathsegment)
+- [height](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#height)
+- [with](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#with)
 
 ## Properties
 
 ### $type
 
-•  **$type**: \"com.linkedin.common.VectorArtifact\"
+• **$type**: \"com.linkedin.common.VectorArtifact\"
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-vector-artifact.entity.ts#L2)*
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L2)_
 
-___
+---
 
 ### expiresAt
 
-•  **expiresAt**: number
+• **expiresAt**: number
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-vector-artifact.entity.ts#L3)*
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L3)_
 
-___
+---
 
 ### fileIdentifyingUrlPathSegment
 
-•  **fileIdentifyingUrlPathSegment**: string
+• **fileIdentifyingUrlPathSegment**: string
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-vector-artifact.entity.ts#L4)*
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L4)_
 
-___
+---
 
 ### height
 
-•  **height**: number
+• **height**: number
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-vector-artifact.entity.ts#L5)*
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L5)_
 
-___
+---
 
 ### with
 
-•  **with**: number
+• **with**: number
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-vector-artifact.entity.ts#L6)*
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L6)_

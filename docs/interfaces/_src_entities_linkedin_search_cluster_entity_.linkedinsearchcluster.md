@@ -6,36 +6,36 @@
 
 ## Hierarchy
 
-* **LinkedInSearchCluster**
+- **LinkedInSearchCluster**
 
 ## Index
 
 ### Properties
 
-* [$type](_src_entities_linkedin_search_cluster_entity_.linkedinsearchcluster.md#$type)
-* [elements](_src_entities_linkedin_search_cluster_entity_.linkedinsearchcluster.md#elements)
-* [type](_src_entities_linkedin_search_cluster_entity_.linkedinsearchcluster.md#type)
+- [$type](_src_entities_linkedin_search_cluster_entity_.linkedinsearchcluster.md#$type)
+- [elements](_src_entities_linkedin_search_cluster_entity_.linkedinsearchcluster.md#elements)
+- [type](_src_entities_linkedin_search_cluster_entity_.linkedinsearchcluster.md#type)
 
 ## Properties
 
 ### $type
 
-•  **$type**: \"com.linkedin.voyager.search.BlendedSearchCluster\"
+• **$type**: \"com.linkedin.voyager.search.BlendedSearchCluster\"
 
-*Defined in [src/entities/linkedin-search-cluster.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-search-cluster.entity.ts#L5)*
+_Defined in [src/entities/linkedin-search-cluster.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-search-cluster.entity.ts#L5)_
 
-___
+---
 
 ### elements
 
-•  **elements**: [LinkedInSearchHit](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md)[]
+• **elements**: [LinkedInSearchHit](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md)[]
 
-*Defined in [src/entities/linkedin-search-cluster.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-search-cluster.entity.ts#L6)*
+_Defined in [src/entities/linkedin-search-cluster.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-search-cluster.entity.ts#L6)_
 
-___
+---
 
 ### type
 
-•  **type**: SearchResultType
+• **type**: SearchResultType
 
-*Defined in [src/entities/linkedin-search-cluster.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-search-cluster.entity.ts#L7)*
+_Defined in [src/entities/linkedin-search-cluster.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-search-cluster.entity.ts#L7)_

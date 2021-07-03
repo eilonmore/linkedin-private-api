@@ -2,49 +2,49 @@
 
 > [Globals](../globals.md) / ["src/entities/linkedin-collection-response.entity"](../modules/_src_entities_linkedin_collection_response_entity_.md) / LinkedInCollectionResponse
 
-# Interface: LinkedInCollectionResponse\<**T, I, M**>
+# Interface: LinkedInCollectionResponse<T, I, M\>
 
 ## Type parameters
 
-Name | Default |
------- | ------ |
-`T` | - |
-`I` | - |
-`M` | undefined |
+| Name | Default   |
+| ---- | --------- |
+| `T`  | -         |
+| `I`  | -         |
+| `M`  | undefined |
 
 ## Hierarchy
 
-* **LinkedInCollectionResponse**
+- **LinkedInCollectionResponse**
 
 ## Index
 
 ### Properties
 
-* [data](_src_entities_linkedin_collection_response_entity_.linkedincollectionresponse.md#data)
-* [included](_src_entities_linkedin_collection_response_entity_.linkedincollectionresponse.md#included)
+- [data](_src_entities_linkedin_collection_response_entity_.linkedincollectionresponse.md#data)
+- [included](_src_entities_linkedin_collection_response_entity_.linkedincollectionresponse.md#included)
 
 ## Properties
 
 ### data
 
-•  **data**: { $type: \"com.linkedin.restli.common.CollectionResponse\" ; elements: T[] ; entityUrn: string ; metadata?: M ; paging: Paging  }
+• **data**: { $type: \"com.linkedin.restli.common.CollectionResponse\" ; elements: T[] ; entityUrn: string ; metadata?: M ; paging: Paging }
 
-*Defined in [src/entities/linkedin-collection-response.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-collection-response.entity.ts#L8)*
+_Defined in [src/entities/linkedin-collection-response.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-collection-response.entity.ts#L8)_
 
 #### Type declaration:
 
-Name | Type |
------- | ------ |
-`$type` | \"com.linkedin.restli.common.CollectionResponse\" |
-`elements` | T[] |
-`entityUrn` | string |
-`metadata?` | M |
-`paging` | Paging |
+| Name        | Type                                              |
+| ----------- | ------------------------------------------------- |
+| `$type`     | \"com.linkedin.restli.common.CollectionResponse\" |
+| `elements`  | T[]                                               |
+| `entityUrn` | string                                            |
+| `metadata?` | M                                                 |
+| `paging`    | Paging                                            |
 
-___
+---
 
 ### included
 
-•  **included**: I[]
+• **included**: I[]
 
-*Defined in [src/entities/linkedin-collection-response.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-collection-response.entity.ts#L15)*
+_Defined in [src/entities/linkedin-collection-response.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-collection-response.entity.ts#L15)_

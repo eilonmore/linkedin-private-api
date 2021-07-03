@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-* **LinkedInProfile**
+- **LinkedInProfile**
 
   ↳ [Profile](_src_entities_profile_entity_.profile.md)
 
@@ -14,345 +14,345 @@
 
 ### Properties
 
-* [$recipeTypes](_src_entities_linkedin_profile_entity_.linkedinprofile.md#$recipetypes)
-* [$type](_src_entities_linkedin_profile_entity_.linkedinprofile.md#$type)
-* [*industry](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*industry)
-* [*profileCertifications](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilecertifications)
-* [*profileCourses](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilecourses)
-* [*profileEducations](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profileeducations)
-* [*profileHonors](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilehonors)
-* [*profileLanguages](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilelanguages)
-* [*profileOrganizations](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profileorganizations)
-* [*profilePatents](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilepatents)
-* [*profilePositionGroups](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilepositiongroups)
-* [*profileProjects](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profileprojects)
-* [*profilePublications](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilepublications)
-* [*profileSkills](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profileskills)
-* [*profileTestScores](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profiletestscores)
-* [*profileTreasuryMediaProfile](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profiletreasurymediaprofile)
-* [*profileVolunteerExperiences](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilevolunteerexperiences)
-* [defaultToActivityTab](_src_entities_linkedin_profile_entity_.linkedinprofile.md#defaulttoactivitytab)
-* [educationOnProfileTopCardShown](_src_entities_linkedin_profile_entity_.linkedinprofile.md#educationonprofiletopcardshown)
-* [entityUrn](_src_entities_linkedin_profile_entity_.linkedinprofile.md#entityurn)
-* [firstName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#firstname)
-* [geoLocation](_src_entities_linkedin_profile_entity_.linkedinprofile.md#geolocation)
-* [geoLocationBackfilled](_src_entities_linkedin_profile_entity_.linkedinprofile.md#geolocationbackfilled)
-* [headline](_src_entities_linkedin_profile_entity_.linkedinprofile.md#headline)
-* [industryUrn](_src_entities_linkedin_profile_entity_.linkedinprofile.md#industryurn)
-* [lastName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#lastname)
-* [location](_src_entities_linkedin_profile_entity_.linkedinprofile.md#location)
-* [locationName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#locationname)
-* [multiLocaleFirstName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#multilocalefirstname)
-* [multiLocaleHeadline](_src_entities_linkedin_profile_entity_.linkedinprofile.md#multilocaleheadline)
-* [multiLocaleLastName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#multilocalelastname)
-* [objectUrn](_src_entities_linkedin_profile_entity_.linkedinprofile.md#objecturn)
-* [primaryLocale](_src_entities_linkedin_profile_entity_.linkedinprofile.md#primarylocale)
-* [profilePicture](_src_entities_linkedin_profile_entity_.linkedinprofile.md#profilepicture)
-* [publicIdentifier](_src_entities_linkedin_profile_entity_.linkedinprofile.md#publicidentifier)
-* [supportedLocales](_src_entities_linkedin_profile_entity_.linkedinprofile.md#supportedlocales)
-* [trackingId](_src_entities_linkedin_profile_entity_.linkedinprofile.md#trackingid)
-* [versionTag](_src_entities_linkedin_profile_entity_.linkedinprofile.md#versiontag)
+- [$recipeTypes](_src_entities_linkedin_profile_entity_.linkedinprofile.md#$recipetypes)
+- [$type](_src_entities_linkedin_profile_entity_.linkedinprofile.md#$type)
+- [\*industry](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*industry)
+- [\*profileCertifications](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilecertifications)
+- [\*profileCourses](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilecourses)
+- [\*profileEducations](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profileeducations)
+- [\*profileHonors](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilehonors)
+- [\*profileLanguages](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilelanguages)
+- [\*profileOrganizations](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profileorganizations)
+- [\*profilePatents](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilepatents)
+- [\*profilePositionGroups](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilepositiongroups)
+- [\*profileProjects](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profileprojects)
+- [\*profilePublications](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilepublications)
+- [\*profileSkills](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profileskills)
+- [\*profileTestScores](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profiletestscores)
+- [\*profileTreasuryMediaProfile](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profiletreasurymediaprofile)
+- [\*profileVolunteerExperiences](_src_entities_linkedin_profile_entity_.linkedinprofile.md#*profilevolunteerexperiences)
+- [defaultToActivityTab](_src_entities_linkedin_profile_entity_.linkedinprofile.md#defaulttoactivitytab)
+- [educationOnProfileTopCardShown](_src_entities_linkedin_profile_entity_.linkedinprofile.md#educationonprofiletopcardshown)
+- [entityUrn](_src_entities_linkedin_profile_entity_.linkedinprofile.md#entityurn)
+- [firstName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#firstname)
+- [geoLocation](_src_entities_linkedin_profile_entity_.linkedinprofile.md#geolocation)
+- [geoLocationBackfilled](_src_entities_linkedin_profile_entity_.linkedinprofile.md#geolocationbackfilled)
+- [headline](_src_entities_linkedin_profile_entity_.linkedinprofile.md#headline)
+- [industryUrn](_src_entities_linkedin_profile_entity_.linkedinprofile.md#industryurn)
+- [lastName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#lastname)
+- [location](_src_entities_linkedin_profile_entity_.linkedinprofile.md#location)
+- [locationName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#locationname)
+- [multiLocaleFirstName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#multilocalefirstname)
+- [multiLocaleHeadline](_src_entities_linkedin_profile_entity_.linkedinprofile.md#multilocaleheadline)
+- [multiLocaleLastName](_src_entities_linkedin_profile_entity_.linkedinprofile.md#multilocalelastname)
+- [objectUrn](_src_entities_linkedin_profile_entity_.linkedinprofile.md#objecturn)
+- [primaryLocale](_src_entities_linkedin_profile_entity_.linkedinprofile.md#primarylocale)
+- [profilePicture](_src_entities_linkedin_profile_entity_.linkedinprofile.md#profilepicture)
+- [publicIdentifier](_src_entities_linkedin_profile_entity_.linkedinprofile.md#publicidentifier)
+- [supportedLocales](_src_entities_linkedin_profile_entity_.linkedinprofile.md#supportedlocales)
+- [trackingId](_src_entities_linkedin_profile_entity_.linkedinprofile.md#trackingid)
+- [versionTag](_src_entities_linkedin_profile_entity_.linkedinprofile.md#versiontag)
 
 ## Properties
 
 ### $recipeTypes
 
-•  **$recipeTypes**: string[]
+• **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-profile.entity.ts:57](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L57)*
+_Defined in [src/entities/linkedin-profile.entity.ts:57](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L57)_
 
-___
+---
 
 ### $type
 
-•  **$type**: *typeof* [PROFILE_TYPE](../modules/_src_entities_linkedin_profile_entity_.md#profile_type)
+• **$type**: _typeof_ [PROFILE_TYPE](../modules/_src_entities_linkedin_profile_entity_.md#profile_type)
 
-*Defined in [src/entities/linkedin-profile.entity.ts:41](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L41)*
+_Defined in [src/entities/linkedin-profile.entity.ts:41](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L41)_
 
-___
+---
 
-### *industry
+### \*industry
 
-•  ***industry**: string
+• **\*industry**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:42](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L42)*
+_Defined in [src/entities/linkedin-profile.entity.ts:42](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L42)_
 
-___
+---
 
-### *profileCertifications
+### \*profileCertifications
 
-•  ***profileCertifications**: string
+• **\*profileCertifications**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L43)*
+_Defined in [src/entities/linkedin-profile.entity.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L43)_
 
-___
+---
 
-### *profileCourses
+### \*profileCourses
 
-•  ***profileCourses**: string
+• **\*profileCourses**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:44](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L44)*
+_Defined in [src/entities/linkedin-profile.entity.ts:44](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L44)_
 
-___
+---
 
-### *profileEducations
+### \*profileEducations
 
-•  ***profileEducations**: string
+• **\*profileEducations**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:45](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L45)*
+_Defined in [src/entities/linkedin-profile.entity.ts:45](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L45)_
 
-___
+---
 
-### *profileHonors
+### \*profileHonors
 
-•  ***profileHonors**: string
+• **\*profileHonors**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:46](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L46)*
+_Defined in [src/entities/linkedin-profile.entity.ts:46](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L46)_
 
-___
+---
 
-### *profileLanguages
+### \*profileLanguages
 
-•  ***profileLanguages**: string
+• **\*profileLanguages**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:47](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L47)*
+_Defined in [src/entities/linkedin-profile.entity.ts:47](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L47)_
 
-___
+---
 
-### *profileOrganizations
+### \*profileOrganizations
 
-•  ***profileOrganizations**: string
+• **\*profileOrganizations**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:48](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L48)*
+_Defined in [src/entities/linkedin-profile.entity.ts:48](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L48)_
 
-___
+---
 
-### *profilePatents
+### \*profilePatents
 
-•  ***profilePatents**: string
+• **\*profilePatents**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:49](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L49)*
+_Defined in [src/entities/linkedin-profile.entity.ts:49](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L49)_
 
-___
+---
 
-### *profilePositionGroups
+### \*profilePositionGroups
 
-•  ***profilePositionGroups**: string
+• **\*profilePositionGroups**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:50](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L50)*
+_Defined in [src/entities/linkedin-profile.entity.ts:50](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L50)_
 
-___
+---
 
-### *profileProjects
+### \*profileProjects
 
-•  ***profileProjects**: string
+• **\*profileProjects**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:51](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L51)*
+_Defined in [src/entities/linkedin-profile.entity.ts:51](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L51)_
 
-___
+---
 
-### *profilePublications
+### \*profilePublications
 
-•  ***profilePublications**: string
+• **\*profilePublications**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:52](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L52)*
+_Defined in [src/entities/linkedin-profile.entity.ts:52](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L52)_
 
-___
+---
 
-### *profileSkills
+### \*profileSkills
 
-•  ***profileSkills**: string
+• **\*profileSkills**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:53](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L53)*
+_Defined in [src/entities/linkedin-profile.entity.ts:53](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L53)_
 
-___
+---
 
-### *profileTestScores
+### \*profileTestScores
 
-•  ***profileTestScores**: string
+• **\*profileTestScores**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:54](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L54)*
+_Defined in [src/entities/linkedin-profile.entity.ts:54](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L54)_
 
-___
+---
 
-### *profileTreasuryMediaProfile
+### \*profileTreasuryMediaProfile
 
-•  ***profileTreasuryMediaProfile**: string
+• **\*profileTreasuryMediaProfile**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:55](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L55)*
+_Defined in [src/entities/linkedin-profile.entity.ts:55](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L55)_
 
-___
+---
 
-### *profileVolunteerExperiences
+### \*profileVolunteerExperiences
 
-•  ***profileVolunteerExperiences**: string
+• **\*profileVolunteerExperiences**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:56](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L56)*
+_Defined in [src/entities/linkedin-profile.entity.ts:56](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L56)_
 
-___
+---
 
 ### defaultToActivityTab
 
-•  **defaultToActivityTab**: boolean
+• **defaultToActivityTab**: boolean
 
-*Defined in [src/entities/linkedin-profile.entity.ts:58](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L58)*
+_Defined in [src/entities/linkedin-profile.entity.ts:58](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L58)_
 
-___
+---
 
 ### educationOnProfileTopCardShown
 
-•  **educationOnProfileTopCardShown**: boolean
+• **educationOnProfileTopCardShown**: boolean
 
-*Defined in [src/entities/linkedin-profile.entity.ts:59](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L59)*
+_Defined in [src/entities/linkedin-profile.entity.ts:59](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L59)_
 
-___
+---
 
 ### entityUrn
 
-•  **entityUrn**: [ProfileUrn](../modules/_src_entities_linkedin_profile_entity_.md#profileurn)
+• **entityUrn**: [ProfileUrn](../modules/_src_entities_linkedin_profile_entity_.md#profileurn)
 
-*Defined in [src/entities/linkedin-profile.entity.ts:60](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L60)*
+_Defined in [src/entities/linkedin-profile.entity.ts:60](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L60)_
 
-___
+---
 
 ### firstName
 
-•  **firstName**: string
+• **firstName**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:61](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L61)*
+_Defined in [src/entities/linkedin-profile.entity.ts:61](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L61)_
 
-___
+---
 
 ### geoLocation
 
-•  **geoLocation**: LinkedInProfileGeoLocation
+• **geoLocation**: LinkedInProfileGeoLocation
 
-*Defined in [src/entities/linkedin-profile.entity.ts:63](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L63)*
+_Defined in [src/entities/linkedin-profile.entity.ts:63](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L63)_
 
-___
+---
 
 ### geoLocationBackfilled
 
-•  **geoLocationBackfilled**: boolean
+• **geoLocationBackfilled**: boolean
 
-*Defined in [src/entities/linkedin-profile.entity.ts:64](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L64)*
+_Defined in [src/entities/linkedin-profile.entity.ts:64](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L64)_
 
-___
+---
 
 ### headline
 
-•  **headline**: string
+• **headline**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:65](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L65)*
+_Defined in [src/entities/linkedin-profile.entity.ts:65](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L65)_
 
-___
+---
 
 ### industryUrn
 
-•  **industryUrn**: string
+• **industryUrn**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:66](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L66)*
+_Defined in [src/entities/linkedin-profile.entity.ts:66](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L66)_
 
-___
+---
 
 ### lastName
 
-•  **lastName**: string
+• **lastName**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:62](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L62)*
+_Defined in [src/entities/linkedin-profile.entity.ts:62](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L62)_
 
-___
+---
 
 ### location
 
-•  **location**: LinkedInProfileLocation
+• **location**: LinkedInProfileLocation
 
-*Defined in [src/entities/linkedin-profile.entity.ts:67](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L67)*
+_Defined in [src/entities/linkedin-profile.entity.ts:67](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L67)_
 
-___
+---
 
 ### locationName
 
-•  **locationName**: string
+• **locationName**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:68](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L68)*
+_Defined in [src/entities/linkedin-profile.entity.ts:68](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L68)_
 
-___
+---
 
 ### multiLocaleFirstName
 
-•  **multiLocaleFirstName**: Record\<string, string>
+• **multiLocaleFirstName**: Record<string, string\>
 
-*Defined in [src/entities/linkedin-profile.entity.ts:69](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L69)*
+_Defined in [src/entities/linkedin-profile.entity.ts:69](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L69)_
 
-___
+---
 
 ### multiLocaleHeadline
 
-•  **multiLocaleHeadline**: Record\<string, string>
+• **multiLocaleHeadline**: Record<string, string\>
 
-*Defined in [src/entities/linkedin-profile.entity.ts:70](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L70)*
+_Defined in [src/entities/linkedin-profile.entity.ts:70](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L70)_
 
-___
+---
 
 ### multiLocaleLastName
 
-•  **multiLocaleLastName**: Record\<string, string>
+• **multiLocaleLastName**: Record<string, string\>
 
-*Defined in [src/entities/linkedin-profile.entity.ts:71](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L71)*
+_Defined in [src/entities/linkedin-profile.entity.ts:71](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L71)_
 
-___
+---
 
 ### objectUrn
 
-•  **objectUrn**: string
+• **objectUrn**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:72](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L72)*
+_Defined in [src/entities/linkedin-profile.entity.ts:72](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L72)_
 
-___
+---
 
 ### primaryLocale
 
-•  **primaryLocale**: LinkedInPrimaryLocale
+• **primaryLocale**: LinkedInPrimaryLocale
 
-*Defined in [src/entities/linkedin-profile.entity.ts:73](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L73)*
+_Defined in [src/entities/linkedin-profile.entity.ts:73](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L73)_
 
-___
+---
 
 ### profilePicture
 
-•  **profilePicture**: [LinkedInPhotoFilterPicture](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md)
+• **profilePicture**: [LinkedInPhotoFilterPicture](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md)
 
-*Defined in [src/entities/linkedin-profile.entity.ts:74](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L74)*
+_Defined in [src/entities/linkedin-profile.entity.ts:74](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L74)_
 
-___
+---
 
 ### publicIdentifier
 
-•  **publicIdentifier**: string
+• **publicIdentifier**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:75](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L75)*
+_Defined in [src/entities/linkedin-profile.entity.ts:75](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L75)_
 
-___
+---
 
 ### supportedLocales
 
-•  **supportedLocales**: LinkedInPrimaryLocale[]
+• **supportedLocales**: LinkedInPrimaryLocale[]
 
-*Defined in [src/entities/linkedin-profile.entity.ts:76](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L76)*
+_Defined in [src/entities/linkedin-profile.entity.ts:76](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L76)_
 
-___
+---
 
 ### trackingId
 
-•  **trackingId**: string
+• **trackingId**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:77](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L77)*
+_Defined in [src/entities/linkedin-profile.entity.ts:77](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L77)_
 
-___
+---
 
 ### versionTag
 
-•  **versionTag**: string
+• **versionTag**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:78](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-profile.entity.ts#L78)*
+_Defined in [src/entities/linkedin-profile.entity.ts:78](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L78)_

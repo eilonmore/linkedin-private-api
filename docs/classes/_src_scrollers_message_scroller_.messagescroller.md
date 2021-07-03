@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-* [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md)\<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)>
+- [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md)<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)\>
 
   ↳ **MessageScroller**
 
@@ -14,35 +14,35 @@
 
 ### Constructors
 
-* [constructor](_src_scrollers_message_scroller_.messagescroller.md#constructor)
+- [constructor](_src_scrollers_message_scroller_.messagescroller.md#constructor)
 
 ### Properties
 
-* [createdBefore](_src_scrollers_message_scroller_.messagescroller.md#createdbefore)
-* [fieldName](_src_scrollers_message_scroller_.messagescroller.md#fieldname)
+- [createdBefore](_src_scrollers_message_scroller_.messagescroller.md#createdbefore)
+- [fieldName](_src_scrollers_message_scroller_.messagescroller.md#fieldname)
 
 ### Methods
 
-* [fetch](_src_scrollers_message_scroller_.messagescroller.md#fetch)
-* [restart](_src_scrollers_message_scroller_.messagescroller.md#restart)
-* [scrollBack](_src_scrollers_message_scroller_.messagescroller.md#scrollback)
-* [scrollNext](_src_scrollers_message_scroller_.messagescroller.md#scrollnext)
+- [fetch](_src_scrollers_message_scroller_.messagescroller.md#fetch)
+- [restart](_src_scrollers_message_scroller_.messagescroller.md#restart)
+- [scrollBack](_src_scrollers_message_scroller_.messagescroller.md#scrollback)
+- [scrollNext](_src_scrollers_message_scroller_.messagescroller.md#scrollnext)
 
 ## Constructors
 
 ### constructor
 
-\+ **new MessageScroller**(`__namedParameters`: { conversationId: string ; createdBefore: undefined \| Date ; fetchMessages: FetchMessages  }): [MessageScroller](_src_scrollers_message_scroller_.messagescroller.md)
+\+ **new MessageScroller**(`__namedParameters`: { conversationId: string ; createdBefore: undefined \| Date ; fetchMessages: FetchMessages }): [MessageScroller](_src_scrollers_message_scroller_.messagescroller.md)
 
-*Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[constructor](_src_scrollers_created_before_scroller_.createdbeforescroller.md#constructor)*
+_Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[constructor](_src_scrollers_created_before_scroller_.createdbeforescroller.md#constructor)_
 
-*Defined in [src/scrollers/message.scroller.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/message.scroller.ts#L20)*
+_Defined in [src/scrollers/message.scroller.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/message.scroller.ts#L20)_
 
 #### Parameters:
 
-Name | Type |
------- | ------ |
-`__namedParameters` | { conversationId: string ; createdBefore: undefined \| Date ; fetchMessages: FetchMessages  } |
+| Name                | Type                                                                                         |
+| ------------------- | -------------------------------------------------------------------------------------------- |
+| `__namedParameters` | { conversationId: string ; createdBefore: undefined \| Date ; fetchMessages: FetchMessages } |
 
 **Returns:** [MessageScroller](_src_scrollers_message_scroller_.messagescroller.md)
 
@@ -52,64 +52,64 @@ Name | Type |
 
 • `Optional` **createdBefore**: undefined \| number
 
-*Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[createdBefore](_src_scrollers_created_before_scroller_.createdbeforescroller.md#createdbefore)*
+_Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[createdBefore](_src_scrollers_created_before_scroller_.createdbeforescroller.md#createdbefore)_
 
-*Defined in [src/scrollers/created-before-scroller.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/created-before-scroller.ts#L4)*
+_Defined in [src/scrollers/created-before-scroller.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/created-before-scroller.ts#L4)_
 
-___
+---
 
 ### fieldName
 
-•  **fieldName**: \"createdAt\" = "createdAt"
+• **fieldName**: \"createdAt\" = "createdAt"
 
-*Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[fieldName](_src_scrollers_created_before_scroller_.createdbeforescroller.md#fieldname)*
+_Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[fieldName](_src_scrollers_created_before_scroller_.createdbeforescroller.md#fieldname)_
 
-*Defined in [src/scrollers/message.scroller.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/message.scroller.ts#L20)*
+_Defined in [src/scrollers/message.scroller.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/message.scroller.ts#L20)_
 
 ## Methods
 
 ### fetch
 
-▸ **fetch**(): Promise\<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]>
+▸ **fetch**(): Promise<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]\>
 
-*Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[fetch](_src_scrollers_created_before_scroller_.createdbeforescroller.md#fetch)*
+_Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[fetch](_src_scrollers_created_before_scroller_.createdbeforescroller.md#fetch)_
 
-*Defined in [src/scrollers/message.scroller.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/message.scroller.ts#L37)*
+_Defined in [src/scrollers/message.scroller.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/message.scroller.ts#L37)_
 
-**Returns:** Promise\<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]>
+**Returns:** Promise<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]\>
 
-___
+---
 
 ### restart
 
 ▸ **restart**(): void
 
-*Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[restart](_src_scrollers_created_before_scroller_.createdbeforescroller.md#restart)*
+_Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[restart](_src_scrollers_created_before_scroller_.createdbeforescroller.md#restart)_
 
-*Defined in [src/scrollers/created-before-scroller.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/created-before-scroller.ts#L43)*
+_Defined in [src/scrollers/created-before-scroller.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/created-before-scroller.ts#L43)_
 
 **Returns:** void
 
-___
+---
 
 ### scrollBack
 
-▸ **scrollBack**(): Promise\<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]>
+▸ **scrollBack**(): Promise<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]\>
 
-*Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[scrollBack](_src_scrollers_created_before_scroller_.createdbeforescroller.md#scrollback)*
+_Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[scrollBack](_src_scrollers_created_before_scroller_.createdbeforescroller.md#scrollback)_
 
-*Defined in [src/scrollers/created-before-scroller.ts:33](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/created-before-scroller.ts#L33)*
+_Defined in [src/scrollers/created-before-scroller.ts:33](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/created-before-scroller.ts#L33)_
 
-**Returns:** Promise\<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]>
+**Returns:** Promise<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]\>
 
-___
+---
 
 ### scrollNext
 
-▸ **scrollNext**(): Promise\<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]>
+▸ **scrollNext**(): Promise<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]\>
 
-*Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[scrollNext](_src_scrollers_created_before_scroller_.createdbeforescroller.md#scrollnext)*
+_Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[scrollNext](_src_scrollers_created_before_scroller_.createdbeforescroller.md#scrollnext)_
 
-*Defined in [src/scrollers/created-before-scroller.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/scrollers/created-before-scroller.ts#L18)*
+_Defined in [src/scrollers/created-before-scroller.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/scrollers/created-before-scroller.ts#L18)_
 
-**Returns:** Promise\<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]>
+**Returns:** Promise<[MessageEvent](../interfaces/_src_entities_message_event_entity_.messageevent.md)[]\>

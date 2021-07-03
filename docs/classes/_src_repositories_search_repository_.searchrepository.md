@@ -6,38 +6,38 @@
 
 ## Hierarchy
 
-* **SearchRepository**
+- **SearchRepository**
 
 ## Index
 
 ### Constructors
 
-* [constructor](_src_repositories_search_repository_.searchrepository.md#constructor)
+- [constructor](_src_repositories_search_repository_.searchrepository.md#constructor)
 
 ### Properties
 
-* [client](_src_repositories_search_repository_.searchrepository.md#client)
+- [client](_src_repositories_search_repository_.searchrepository.md#client)
 
 ### Methods
 
-* [searchCompanies](_src_repositories_search_repository_.searchrepository.md#searchcompanies)
-* [searchConnectionsOf](_src_repositories_search_repository_.searchrepository.md#searchconnectionsof)
-* [searchOwnConnections](_src_repositories_search_repository_.searchrepository.md#searchownconnections)
-* [searchPeople](_src_repositories_search_repository_.searchrepository.md#searchpeople)
+- [searchCompanies](_src_repositories_search_repository_.searchrepository.md#searchcompanies)
+- [searchConnectionsOf](_src_repositories_search_repository_.searchrepository.md#searchconnectionsof)
+- [searchOwnConnections](_src_repositories_search_repository_.searchrepository.md#searchownconnections)
+- [searchPeople](_src_repositories_search_repository_.searchrepository.md#searchpeople)
 
 ## Constructors
 
 ### constructor
 
-\+ **new SearchRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [SearchRepository](_src_repositories_search_repository_.searchrepository.md)
+\+ **new SearchRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md) }): [SearchRepository](_src_repositories_search_repository_.searchrepository.md)
 
-*Defined in [src/repositories/search.repository.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L19)*
+_Defined in [src/repositories/search.repository.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/search.repository.ts#L19)_
 
 #### Parameters:
 
-Name | Type |
------- | ------ |
-`__namedParameters` | { client: [Client](_src_core_client_.client.md)  } |
+| Name                | Type                                              |
+| ------------------- | ------------------------------------------------- |
+| `__namedParameters` | { client: [Client](_src_core_client_.client.md) } |
 
 **Returns:** [SearchRepository](_src_repositories_search_repository_.searchrepository.md)
 
@@ -45,70 +45,70 @@ Name | Type |
 
 ### client
 
-•  **client**: [Client](_src_core_client_.client.md)
+• **client**: [Client](_src_core_client_.client.md)
 
-*Defined in [src/repositories/search.repository.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L19)*
+_Defined in [src/repositories/search.repository.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/search.repository.ts#L19)_
 
 ## Methods
 
 ### searchCompanies
 
-▸ **searchCompanies**(`__namedParameters`: { keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [CompanySearchScroller](_src_scrollers_company_search_scroller_.companysearchscroller.md)
+▸ **searchCompanies**(`__namedParameters?`: { keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [CompanySearchScroller](_src_scrollers_company_search_scroller_.companysearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:45](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L45)*
+_Defined in [src/repositories/search.repository.ts:45](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/search.repository.ts#L45)_
 
 #### Parameters:
 
-Name | Type | Default value |
------- | ------ | ------ |
-`__namedParameters` | { keywords: undefined \| string ; limit: number = 10; skip: number = 0 } | {} |
+| Name                | Type                                                                     | Default value |
+| ------------------- | ------------------------------------------------------------------------ | ------------- |
+| `__namedParameters` | { keywords: undefined \| string ; limit: number = 10; skip: number = 0 } | {}            |
 
 **Returns:** [CompanySearchScroller](_src_scrollers_company_search_scroller_.companysearchscroller.md)
 
-___
+---
 
 ### searchConnectionsOf
 
-▸ **searchConnectionsOf**(`__namedParameters`: { filters: Pick\<PeopleSearchFilters, \"currentCompany\" \| \"pastCompany\" \| \"company\" \| \"geoUrn\" \| \"industry\" \| \"profileLanguage\" \| \"school\" \| \"contactInterest\" \| \"serviceCategory\" \| \"firstName\" \| \"lastName\" \| \"title\"> ; keywords: undefined \| string ; limit: number = 10; profileId: string ; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
+▸ **searchConnectionsOf**(`__namedParameters`: { filters: Omit<PeopleSearchFilters, \"network\" \| \"connectionOf\"\> ; keywords: undefined \| string ; limit: number = 10; profileId: string ; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:82](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L82)*
+_Defined in [src/repositories/search.repository.ts:82](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/search.repository.ts#L82)_
 
 #### Parameters:
 
-Name | Type |
------- | ------ |
-`__namedParameters` | { filters: Pick\<PeopleSearchFilters, \"currentCompany\" \| \"pastCompany\" \| \"company\" \| \"geoUrn\" \| \"industry\" \| \"profileLanguage\" \| \"school\" \| \"contactInterest\" \| \"serviceCategory\" \| \"firstName\" \| \"lastName\" \| \"title\"> ; keywords: undefined \| string ; limit: number = 10; profileId: string ; skip: number = 0 } |
+| Name                | Type                                                                                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `__namedParameters` | { filters: Omit<PeopleSearchFilters, \"network\" \| \"connectionOf\"\> ; keywords: undefined \| string ; limit: number = 10; profileId: string ; skip: number = 0 } |
 
 **Returns:** [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-___
+---
 
 ### searchOwnConnections
 
-▸ **searchOwnConnections**(`__namedParameters`: { filters: Pick\<PeopleSearchFilters, \"currentCompany\" \| \"pastCompany\" \| \"company\" \| \"geoUrn\" \| \"industry\" \| \"profileLanguage\" \| \"school\" \| \"connectionOf\" \| \"contactInterest\" \| \"serviceCategory\" \| \"firstName\" \| \"lastName\" \| \"title\"> ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
+▸ **searchOwnConnections**(`__namedParameters?`: { filters: Omit<PeopleSearchFilters, \"network\"\> ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:62](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L62)*
+_Defined in [src/repositories/search.repository.ts:62](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/search.repository.ts#L62)_
 
 #### Parameters:
 
-Name | Type | Default value |
------- | ------ | ------ |
-`__namedParameters` | { filters: Pick\<PeopleSearchFilters, \"currentCompany\" \| \"pastCompany\" \| \"company\" \| \"geoUrn\" \| \"industry\" \| \"profileLanguage\" \| \"school\" \| \"connectionOf\" \| \"contactInterest\" \| \"serviceCategory\" \| \"firstName\" \| \"lastName\" \| \"title\"> ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 } | {} |
+| Name                | Type                                                                                                                        | Default value |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| `__namedParameters` | { filters: Omit<PeopleSearchFilters, \"network\"\> ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 } | {}            |
 
 **Returns:** [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-___
+---
 
 ### searchPeople
 
-▸ **searchPeople**(`__namedParameters`: { filters: PeopleSearchFilters ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
+▸ **searchPeople**(`__namedParameters?`: { filters: PeopleSearchFilters ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:25](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/repositories/search.repository.ts#L25)*
+_Defined in [src/repositories/search.repository.ts:25](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/search.repository.ts#L25)_
 
 #### Parameters:
 
-Name | Type | Default value |
------- | ------ | ------ |
-`__namedParameters` | { filters: PeopleSearchFilters ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 } | {} |
+| Name                | Type                                                                                                    | Default value |
+| ------------------- | ------------------------------------------------------------------------------------------------------- | ------------- |
+| `__namedParameters` | { filters: PeopleSearchFilters ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 } | {}            |
 
 **Returns:** [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)

@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-* **LinkedInMiniCompany**
+- **LinkedInMiniCompany**
 
   ↳ [MiniCompany](_src_entities_mini_company_entity_.minicompany.md)
 
@@ -14,84 +14,84 @@
 
 ### Properties
 
-* [$type](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#$type)
-* [active](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#active)
-* [entityUrn](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#entityurn)
-* [logo](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#logo)
-* [name](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#name)
-* [objectUrn](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#objecturn)
-* [showcase](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#showcase)
-* [trackingId](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#trackingid)
-* [universalName](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#universalname)
+- [$type](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#$type)
+- [active](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#active)
+- [entityUrn](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#entityurn)
+- [logo](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#logo)
+- [name](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#name)
+- [objectUrn](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#objecturn)
+- [showcase](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#showcase)
+- [trackingId](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#trackingid)
+- [universalName](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#universalname)
 
 ## Properties
 
 ### $type
 
-•  **$type**: *typeof* [MINI_COMPANY_TYPE](../modules/_src_entities_linkedin_mini_company_entity_.md#mini_company_type)
+• **$type**: _typeof_ [MINI_COMPANY_TYPE](../modules/_src_entities_linkedin_mini_company_entity_.md#mini_company_type)
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L6)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L6)_
 
-___
+---
 
 ### active
 
-•  **active**: boolean
+• **active**: boolean
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L7)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L7)_
 
-___
+---
 
 ### entityUrn
 
-•  **entityUrn**: string
+• **entityUrn**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L8)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L8)_
 
-___
+---
 
 ### logo
 
-•  **logo**: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)
+• **logo**: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L9)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L9)_
 
-___
+---
 
 ### name
 
-•  **name**: string
+• **name**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L10)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L10)_
 
-___
+---
 
 ### objectUrn
 
-•  **objectUrn**: string
+• **objectUrn**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L11)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L11)_
 
-___
+---
 
 ### showcase
 
-•  **showcase**: boolean
+• **showcase**: boolean
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L12)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L12)_
 
-___
+---
 
 ### trackingId
 
-•  **trackingId**: string
+• **trackingId**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L13)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L13)_
 
-___
+---
 
 ### universalName
 
-•  **universalName**: string
+• **universalName**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/a50722e/src/entities/linkedin-mini-company.entity.ts#L14)*
+_Defined in [src/entities/linkedin-mini-company.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L14)_
