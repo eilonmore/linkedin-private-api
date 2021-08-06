@@ -1,7 +1,7 @@
 # NodeJS LinkedIn Private API
 ![Build](https://github.com/eilonmore/linkedin-private-api/workflows/Build/badge.svg?branch=master)
 
-Wrapper API for LinkedIn unofficial API, written in TypeScript.  
+NodeJS Wrapper API for LinkedIn unofficial API, written in TypeScript.  
 No tokens are needed for using this API, only a working LinkedIn account.
 
 ## Installation
