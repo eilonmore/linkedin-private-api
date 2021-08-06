@@ -8,17 +8,14 @@ import { LinkedInVectorImage } from '../entities/linkedin-vector-image.entity';
 import { MiniProfile, ProfileId } from '../entities/mini-profile.entity';
 import { Profile } from '../entities/profile.entity';
 
-const getProfilePictureUrls = (picture?: LinkedInVectorImage): string[] => {
-  return map(picture?.artifacts, artifact => `${picture?.rootUrl}${artifact.fileIdentifyingUrlPathSegment}`);
-};
+const getProfilePictureUrls = (picture?: LinkedInVectorImage): string[] =>
+  map(picture?.artifacts, artifact => `${picture?.rootUrl}${artifact.fileIdentifyingUrlPathSegment}`);
 
-const transformMiniProfile = (miniProfile: LinkedInMiniProfile): MiniProfile => {
-  return {
-    ...miniProfile,
-    pictureUrls: getProfilePictureUrls(miniProfile.picture),
-    profileId: (miniProfile.entityUrn || '').replace('urn:li:fs_miniProfile:', ''),
-  };
-};
+const transformMiniProfile = (miniProfile: LinkedInMiniProfile): MiniProfile => ({
+  ...miniProfile,
+  pictureUrls: getProfilePictureUrls(miniProfile.picture),
+  profileId: (miniProfile.entityUrn || '').replace('urn:li:fs_miniProfile:', ''),
+});
 
 export const getProfilesFromResponse = <T extends { included: (LinkedInMiniProfile | { $type: string })[] }>(
   response: T,
