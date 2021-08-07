@@ -1,8 +1,8 @@
 import { SearchResultType } from '../types/search-result-type.enum';
-import { LinkedInSearchHit } from './linkedin-search-hit.entity';
+import { LinkedInSearchHitV2 } from './linkedin-search-hit-v2.entity';
 
 export interface LinkedInSearchCluster {
   $type: 'com.linkedin.voyager.search.BlendedSearchCluster';
-  elements: LinkedInSearchHit[];
+  elements: LinkedInSearchHitV2[];
   type: SearchResultType;
 }
