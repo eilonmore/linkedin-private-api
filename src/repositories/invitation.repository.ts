@@ -11,22 +11,24 @@ import { getProfilesFromResponse } from './profile.repository';
 const TO_MEMBER_FIELD = '*toMember';
 const FROM_MEMBER_FIELD = '*fromMember';
 
-const parseInvitationResponse = <T extends GetSentInvitationResponse | GetReceivedInvitationResponse>(
-  idField: typeof TO_MEMBER_FIELD | typeof FROM_MEMBER_FIELD,
-) => (response: T): Invitation[] => {
-  const results = response.included || [];
-  const profiles = keyBy(getProfilesFromResponse<T>(response), 'entityUrn');
-  const invitations = results.filter(r => r.$type === INVITATION_TYPE && !!r[idField]) as LinkedInInvitation[];
+const parseInvitationResponse =
+  <T extends GetSentInvitationResponse | GetReceivedInvitationResponse>(
+    idField: typeof TO_MEMBER_FIELD | typeof FROM_MEMBER_FIELD,
+  ) =>
+  (response: T): Invitation[] => {
+    const results = response.included || [];
+    const profiles = keyBy(getProfilesFromResponse<T>(response), 'entityUrn');
+    const invitations = results.filter(r => r.$type === INVITATION_TYPE && !!r[idField]) as LinkedInInvitation[];
 
-  return orderBy(
-    invitations.map(invitation => ({
-      ...invitation,
-      profile: profiles[invitation[idField]],
-    })),
-    'sentTime',
-    'desc',
-  );
-};
+    return orderBy(
+      invitations.map(invitation => ({
+        ...invitation,
+        profile: profiles[invitation[idField]],
+      })),
+      'sentTime',
+      'desc',
+    );
+  };
 
 const parseSentInvitations = parseInvitationResponse<GetSentInvitationResponse>(TO_MEMBER_FIELD);
 const parseReceivedInvitations = parseInvitationResponse<GetReceivedInvitationResponse>(FROM_MEMBER_FIELD);
@@ -54,8 +56,16 @@ export class InvitationRepository {
     });
   }
 
-  async sendInvitation({ profileId, trackingId }: { profileId: string; trackingId: string }): Promise<Invitation> {
-    await this.client.request.invitation.sendInvitation({ profileId, trackingId });
+  async sendInvitation({
+    profileId,
+    trackingId,
+    message,
+  }: {
+    profileId: string;
+    trackingId: string;
+    message?: string;
+  }): Promise<Invitation> {
+    await this.client.request.invitation.sendInvitation({ profileId, trackingId, message });
 
     const lastInvitation = (await this.fetchSent({ skip: 0, limit: 1 }))[0];
 

@@ -593,16 +593,17 @@ describe('sendInvitation', () => {
   };
 
   it('should send invitation with the correct parameters', async () => {
+    const message = 'Hey there!';
     const client = await new Client().login.userPass({ username, password });
 
     when(axios.get(), { ignoreExtraArgs: true }).thenResolve({
       data: { included: [] },
     });
-    when(axios.post(requestUrl, requestPayload), { ignoreExtraArgs: true, times: 1 }).thenResolve({
+    when(axios.post(requestUrl, { ...requestPayload, message }), { ignoreExtraArgs: true, times: 1 }).thenResolve({
       data: { included: [] },
     });
 
-    await client.invitation.sendInvitation({ profileId, trackingId });
+    await client.invitation.sendInvitation({ profileId, trackingId, message });
 
     // would have thrown if haven't hit the stub
   });
