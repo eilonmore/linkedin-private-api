@@ -29,7 +29,7 @@
 
 • **$anti_abuse_annotations**: { attributeId: number ; entityId: number }[]
 
-_Defined in [src/entities/linkedin-company.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L7)_
+_Defined in [src/entities/linkedin-company.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L7)_
 
 ---
 
@@ -37,7 +37,7 @@ _Defined in [src/entities/linkedin-company.entity.ts:7](https://github.com/eilon
 
 • **$recipeTypes**: string[]
 
-_Defined in [src/entities/linkedin-company.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L11)_
+_Defined in [src/entities/linkedin-company.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L11)_
 
 ---
 
@@ -45,7 +45,7 @@ _Defined in [src/entities/linkedin-company.entity.ts:11](https://github.com/eilo
 
 • **$type**: _typeof_ [COMPANY_TYPE](../modules/_src_entities_linkedin_company_entity_.md#company_type)
 
-_Defined in [src/entities/linkedin-company.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L6)_
+_Defined in [src/entities/linkedin-company.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L6)_
 
 ---
 
@@ -53,7 +53,7 @@ _Defined in [src/entities/linkedin-company.entity.ts:6](https://github.com/eilon
 
 • **entityUrn**: string
 
-_Defined in [src/entities/linkedin-company.entity.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L12)_
+_Defined in [src/entities/linkedin-company.entity.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L12)_
 
 ---
 
@@ -61,7 +61,7 @@ _Defined in [src/entities/linkedin-company.entity.ts:12](https://github.com/eilo
 
 • **industry**: Record<string, string\>
 
-_Defined in [src/entities/linkedin-company.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L13)_
+_Defined in [src/entities/linkedin-company.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L13)_
 
 ---
 
@@ -69,7 +69,7 @@ _Defined in [src/entities/linkedin-company.entity.ts:13](https://github.com/eilo
 
 • **industryUrns**: string[]
 
-_Defined in [src/entities/linkedin-company.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L14)_
+_Defined in [src/entities/linkedin-company.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L14)_
 
 ---
 
@@ -77,7 +77,7 @@ _Defined in [src/entities/linkedin-company.entity.ts:14](https://github.com/eilo
 
 • **logo**: { vetorImage: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) }
 
-_Defined in [src/entities/linkedin-company.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L15)_
+_Defined in [src/entities/linkedin-company.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L15)_
 
 #### Type declaration:
 
@@ -91,7 +91,7 @@ _Defined in [src/entities/linkedin-company.entity.ts:15](https://github.com/eilo
 
 • **name**: string
 
-_Defined in [src/entities/linkedin-company.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L18)_
+_Defined in [src/entities/linkedin-company.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L18)_
 
 ---
 
@@ -99,7 +99,7 @@ _Defined in [src/entities/linkedin-company.entity.ts:18](https://github.com/eilo
 
 • **universalName**: string
 
-_Defined in [src/entities/linkedin-company.entity.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L19)_
+_Defined in [src/entities/linkedin-company.entity.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L19)_
 
 ---
 
@@ -107,4 +107,4 @@ _Defined in [src/entities/linkedin-company.entity.ts:19](https://github.com/eilo
 
 • **url**: string
 
-_Defined in [src/entities/linkedin-company.entity.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-company.entity.ts#L20)_
+_Defined in [src/entities/linkedin-company.entity.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-company.entity.ts#L20)_

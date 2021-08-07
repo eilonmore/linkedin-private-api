@@ -33,7 +33,7 @@
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[$type](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#$type)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L6)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L6)_
 
 ---
 
@@ -43,7 +43,7 @@ _Defined in [src/entities/linkedin-mini-company.entity.ts:6](https://github.com/
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[active](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#active)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L7)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L7)_
 
 ---
 
@@ -51,7 +51,7 @@ _Defined in [src/entities/linkedin-mini-company.entity.ts:7](https://github.com/
 
 • **companyId**: [CompanyId](../modules/_src_entities_mini_company_entity_.md#companyid)
 
-_Defined in [src/entities/mini-company.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/mini-company.entity.ts#L6)_
+_Defined in [src/entities/mini-company.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/mini-company.entity.ts#L6)_
 
 ---
 
@@ -61,7 +61,7 @@ _Defined in [src/entities/mini-company.entity.ts:6](https://github.com/eilonmore
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[entityUrn](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#entityurn)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L8)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L8)_
 
 ---
 
@@ -71,7 +71,7 @@ _Defined in [src/entities/linkedin-mini-company.entity.ts:8](https://github.com/
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[logo](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#logo)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L9)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L9)_
 
 ---
 
@@ -81,7 +81,7 @@ _Defined in [src/entities/linkedin-mini-company.entity.ts:9](https://github.com/
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[name](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#name)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L10)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L10)_
 
 ---
 
@@ -91,7 +91,7 @@ _Defined in [src/entities/linkedin-mini-company.entity.ts:10](https://github.com
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[objectUrn](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#objecturn)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L11)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L11)_
 
 ---
 
@@ -101,7 +101,7 @@ _Defined in [src/entities/linkedin-mini-company.entity.ts:11](https://github.com
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[showcase](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#showcase)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L12)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L12)_
 
 ---
 
@@ -111,7 +111,7 @@ _Defined in [src/entities/linkedin-mini-company.entity.ts:12](https://github.com
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[trackingId](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#trackingid)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L13)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L13)_
 
 ---
 
@@ -121,4 +121,4 @@ _Defined in [src/entities/linkedin-mini-company.entity.ts:13](https://github.com
 
 _Inherited from [LinkedInMiniCompany](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md).[universalName](_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md#universalname)_
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-mini-company.entity.ts#L14)_
+_Defined in [src/entities/linkedin-mini-company.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L14)_

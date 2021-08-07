@@ -17,7 +17,7 @@
 
 • **CREATE_NEW_GROUP_CHAT**:
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L5)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L5)_
 
 ---
 
@@ -25,4 +25,4 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:5](https://github.com/
 
 • **REACTIONS**:
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L4)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L4)_

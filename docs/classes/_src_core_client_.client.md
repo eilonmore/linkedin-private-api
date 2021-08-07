@@ -26,7 +26,7 @@
 
 • **conversation**: [ConversationRepository](_src_repositories_conversation_repository_.conversationrepository.md) = new ConversationRepository({ client: this })
 
-_Defined in [src/core/client.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/client.ts#L22)_
+_Defined in [src/core/client.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/client.ts#L22)_
 
 ---
 
@@ -34,7 +34,7 @@ _Defined in [src/core/client.ts:22](https://github.com/eilonmore/linkedin-privat
 
 • **invitation**: [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md) = new InvitationRepository({ client: this })
 
-_Defined in [src/core/client.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/client.ts#L18)_
+_Defined in [src/core/client.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/client.ts#L18)_
 
 ---
 
@@ -42,7 +42,7 @@ _Defined in [src/core/client.ts:18](https://github.com/eilonmore/linkedin-privat
 
 • **login**: [Login](_src_core_login_.login.md) = new Login({ client: this })
 
-_Defined in [src/core/client.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/client.ts#L14)_
+_Defined in [src/core/client.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/client.ts#L14)_
 
 ---
 
@@ -50,7 +50,7 @@ _Defined in [src/core/client.ts:14](https://github.com/eilonmore/linkedin-privat
 
 • **message**: [MessageRepository](_src_repositories_message_repository_.messagerepository.md) = new MessageRepository({ client: this })
 
-_Defined in [src/core/client.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/client.ts#L24)_
+_Defined in [src/core/client.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/client.ts#L24)_
 
 ---
 
@@ -58,7 +58,7 @@ _Defined in [src/core/client.ts:24](https://github.com/eilonmore/linkedin-privat
 
 • **profile**: [ProfileRepository](_src_repositories_profile_repository_.profilerepository.md) = new ProfileRepository({ client: this })
 
-_Defined in [src/core/client.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/client.ts#L20)_
+_Defined in [src/core/client.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/client.ts#L20)_
 
 ---
 
@@ -66,7 +66,7 @@ _Defined in [src/core/client.ts:20](https://github.com/eilonmore/linkedin-privat
 
 • **request**: [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md) = new LinkedInRequest()
 
-_Defined in [src/core/client.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/client.ts#L12)_
+_Defined in [src/core/client.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/client.ts#L12)_
 
 ---
 
@@ -74,4 +74,4 @@ _Defined in [src/core/client.ts:12](https://github.com/eilonmore/linkedin-privat
 
 • **search**: [SearchRepository](_src_repositories_search_repository_.searchrepository.md) = new SearchRepository({ client: this })
 
-_Defined in [src/core/client.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/client.ts#L16)_
+_Defined in [src/core/client.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/client.ts#L16)_

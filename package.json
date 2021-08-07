@@ -6,6 +6,13 @@
   "types": "dist/index.d.ts",
   "author": "Eilon Mor",
   "license": "MIT",
+  "keywords": [
+    "linkedin-nodejs-api",
+    "linkedin-api",
+    "linked-private-api",
+    "linked-unofficial-api",
+    "linkedin-web-api"
+  ],
   "engines": {
     "node": ">=14.0.0"
   },

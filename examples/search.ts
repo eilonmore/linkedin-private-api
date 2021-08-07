@@ -10,7 +10,7 @@ const password = process.env.PASSWORD as string;
   // Search for React development jobs in Israel
   const jobsScroller = await client.search.searchJobs({
     keywords: 'React',
-    filters: { location: 'israel' },
+    filters: { location: 'Israel' },
     limit: 20,
     skip: 5,
   });

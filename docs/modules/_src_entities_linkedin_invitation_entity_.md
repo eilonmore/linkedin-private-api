@@ -20,4 +20,4 @@
 
 • `Const` **INVITATION_TYPE**: \"com.linkedin.voyager.relationships.invitation.Invitation\" = "com.linkedin.voyager.relationships.invitation.Invitation"
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L13)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L13)_
