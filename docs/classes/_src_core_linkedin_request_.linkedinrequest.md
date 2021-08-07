@@ -40,7 +40,7 @@
 
 _Inherited from [Request](_src_core_request_.request.md).[constructor](_src_core_request_.request.md#constructor)_
 
-_Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/request.ts#L13)_
+_Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L13)_
 
 **Returns:** [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md)
 
@@ -50,7 +50,7 @@ _Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-priva
 
 • **auth**: AuthRequest = new AuthRequest({ request: this })
 
-_Defined in [src/core/linkedin-request.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/linkedin-request.ts#L20)_
+_Defined in [src/core/linkedin-request.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/linkedin-request.ts#L20)_
 
 ---
 
@@ -58,7 +58,7 @@ _Defined in [src/core/linkedin-request.ts:20](https://github.com/eilonmore/linke
 
 • **conversation**: ConversationRequest = new ConversationRequest({ request: this })
 
-_Defined in [src/core/linkedin-request.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/linkedin-request.ts#L10)_
+_Defined in [src/core/linkedin-request.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/linkedin-request.ts#L10)_
 
 ---
 
@@ -66,7 +66,7 @@ _Defined in [src/core/linkedin-request.ts:10](https://github.com/eilonmore/linke
 
 • **invitation**: InvitationRequest = new InvitationRequest({ request: this })
 
-_Defined in [src/core/linkedin-request.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/linkedin-request.ts#L12)_
+_Defined in [src/core/linkedin-request.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/linkedin-request.ts#L12)_
 
 ---
 
@@ -74,7 +74,7 @@ _Defined in [src/core/linkedin-request.ts:12](https://github.com/eilonmore/linke
 
 • **message**: MessageRequest = new MessageRequest({ request: this })
 
-_Defined in [src/core/linkedin-request.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/linkedin-request.ts#L14)_
+_Defined in [src/core/linkedin-request.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/linkedin-request.ts#L14)_
 
 ---
 
@@ -82,7 +82,7 @@ _Defined in [src/core/linkedin-request.ts:14](https://github.com/eilonmore/linke
 
 • **profile**: ProfileRequest = new ProfileRequest({ request: this })
 
-_Defined in [src/core/linkedin-request.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/linkedin-request.ts#L16)_
+_Defined in [src/core/linkedin-request.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/linkedin-request.ts#L16)_
 
 ---
 
@@ -92,7 +92,7 @@ _Defined in [src/core/linkedin-request.ts:16](https://github.com/eilonmore/linke
 
 _Inherited from [Request](_src_core_request_.request.md).[request](_src_core_request_.request.md#request)_
 
-_Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/request.ts#L13)_
+_Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L13)_
 
 ---
 
@@ -100,7 +100,7 @@ _Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-priva
 
 • **search**: SearchRequest = new SearchRequest({ request: this })
 
-_Defined in [src/core/linkedin-request.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/linkedin-request.ts#L18)_
+_Defined in [src/core/linkedin-request.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/linkedin-request.ts#L18)_
 
 ## Methods
 
@@ -110,7 +110,7 @@ _Defined in [src/core/linkedin-request.ts:18](https://github.com/eilonmore/linke
 
 _Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)_
 
-_Defined in [src/core/request.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/request.ts#L26)_
+_Defined in [src/core/request.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L26)_
 
 #### Type parameters:
 
@@ -131,7 +131,7 @@ _Defined in [src/core/request.ts:26](https://github.com/eilonmore/linkedin-priva
 
 _Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)_
 
-_Defined in [src/core/request.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/request.ts#L27)_
+_Defined in [src/core/request.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L27)_
 
 #### Type parameters:
 
@@ -156,7 +156,7 @@ _Defined in [src/core/request.ts:27](https://github.com/eilonmore/linkedin-priva
 
 _Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)_
 
-_Defined in [src/core/request.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/request.ts#L34)_
+_Defined in [src/core/request.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L34)_
 
 #### Type parameters:
 
@@ -178,7 +178,7 @@ _Defined in [src/core/request.ts:34](https://github.com/eilonmore/linkedin-priva
 
 _Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)_
 
-_Defined in [src/core/request.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/request.ts#L35)_
+_Defined in [src/core/request.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L35)_
 
 #### Type parameters:
 
@@ -204,7 +204,7 @@ _Defined in [src/core/request.ts:35](https://github.com/eilonmore/linkedin-priva
 
 _Inherited from [Request](_src_core_request_.request.md).[setHeaders](_src_core_request_.request.md#setheaders)_
 
-_Defined in [src/core/request.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/core/request.ts#L22)_
+_Defined in [src/core/request.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L22)_
 
 #### Parameters:
 

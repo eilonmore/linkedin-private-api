@@ -36,7 +36,7 @@
 
 _Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[$type](_src_entities_linkedin_event_entity_.linkedinevent.md#$type)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L6)_
+_Defined in [src/entities/linkedin-event.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L6)_
 
 ---
 
@@ -46,7 +46,7 @@ _Defined in [src/entities/linkedin-event.entity.ts:6](https://github.com/eilonmo
 
 *Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[*from](_src_entities_linkedin_event_entity_.linkedinevent.md#_from)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L7)_
+_Defined in [src/entities/linkedin-event.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L7)_
 
 ---
 
@@ -56,7 +56,7 @@ _Defined in [src/entities/linkedin-event.entity.ts:7](https://github.com/eilonmo
 
 _Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[backendUrn](_src_entities_linkedin_event_entity_.linkedinevent.md#backendurn)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L8)_
+_Defined in [src/entities/linkedin-event.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L8)_
 
 ---
 
@@ -66,7 +66,7 @@ _Defined in [src/entities/linkedin-event.entity.ts:8](https://github.com/eilonmo
 
 _Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[createdAt](_src_entities_linkedin_event_entity_.linkedinevent.md#createdat)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L9)_
+_Defined in [src/entities/linkedin-event.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L9)_
 
 ---
 
@@ -76,7 +76,7 @@ _Defined in [src/entities/linkedin-event.entity.ts:9](https://github.com/eilonmo
 
 _Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[dashEntityUrn](_src_entities_linkedin_event_entity_.linkedinevent.md#dashentityurn)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L10)_
+_Defined in [src/entities/linkedin-event.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L10)_
 
 ---
 
@@ -86,7 +86,7 @@ _Defined in [src/entities/linkedin-event.entity.ts:10](https://github.com/eilonm
 
 _Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[entityUrn](_src_entities_linkedin_event_entity_.linkedinevent.md#entityurn)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L11)_
+_Defined in [src/entities/linkedin-event.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L11)_
 
 ---
 
@@ -98,7 +98,7 @@ _Inherited from [LinkedInMessageEvent](_src_entities_linkedin_message_event_enti
 
 _Overrides [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[eventContent](_src_entities_linkedin_event_entity_.linkedinevent.md#eventcontent)_
 
-_Defined in [src/entities/linkedin-message-event.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-message-event.entity.ts#L6)_
+_Defined in [src/entities/linkedin-message-event.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-message-event.entity.ts#L6)_
 
 ---
 
@@ -108,7 +108,7 @@ _Defined in [src/entities/linkedin-message-event.entity.ts:6](https://github.com
 
 _Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[originToken](_src_entities_linkedin_event_entity_.linkedinevent.md#origintoken)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L13)_
+_Defined in [src/entities/linkedin-event.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L13)_
 
 ---
 
@@ -118,7 +118,7 @@ _Defined in [src/entities/linkedin-event.entity.ts:13](https://github.com/eilonm
 
 _Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[previousEventInConversation](_src_entities_linkedin_event_entity_.linkedinevent.md#previouseventinconversation)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L15)_
+_Defined in [src/entities/linkedin-event.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L15)_
 
 ---
 
@@ -128,7 +128,7 @@ _Defined in [src/entities/linkedin-event.entity.ts:15](https://github.com/eilonm
 
 _Inherited from [LinkedInMessageEvent](_src_entities_linkedin_message_event_entity_.linkedinmessageevent.md).[quickReplyRecommendations](_src_entities_linkedin_message_event_entity_.linkedinmessageevent.md#quickreplyrecommendations)_
 
-_Defined in [src/entities/linkedin-message-event.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-message-event.entity.ts#L7)_
+_Defined in [src/entities/linkedin-message-event.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-message-event.entity.ts#L7)_
 
 ---
 
@@ -136,7 +136,7 @@ _Defined in [src/entities/linkedin-message-event.entity.ts:7](https://github.com
 
 • **sentFrom**: [MiniProfile](_src_entities_mini_profile_entity_.miniprofile.md)
 
-_Defined in [src/entities/message-event.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/message-event.entity.ts#L6)_
+_Defined in [src/entities/message-event.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/message-event.entity.ts#L6)_
 
 ---
 
@@ -146,7 +146,7 @@ _Defined in [src/entities/message-event.entity.ts:6](https://github.com/eilonmor
 
 _Inherited from [LinkedInEvent](_src_entities_linkedin_event_entity_.linkedinevent.md).[subtype](_src_entities_linkedin_event_entity_.linkedinevent.md#subtype)_
 
-_Defined in [src/entities/linkedin-event.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event.entity.ts#L14)_
+_Defined in [src/entities/linkedin-event.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L14)_
 
 ---
 
@@ -154,4 +154,4 @@ _Defined in [src/entities/linkedin-event.entity.ts:14](https://github.com/eilonm
 
 • **text**: string
 
-_Defined in [src/entities/message-event.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/message-event.entity.ts#L5)_
+_Defined in [src/entities/message-event.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/message-event.entity.ts#L5)_

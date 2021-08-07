@@ -25,7 +25,7 @@
 
 \+ **new ProfileRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md) }): [ProfileRepository](_src_repositories_profile_repository_.profilerepository.md)
 
-_Defined in [src/repositories/profile.repository.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/profile.repository.ts#L34)_
+_Defined in [src/repositories/profile.repository.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/profile.repository.ts#L31)_
 
 #### Parameters:
 
@@ -41,7 +41,7 @@ _Defined in [src/repositories/profile.repository.ts:34](https://github.com/eilon
 
 ▸ **getOwnProfile**(): Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md) \| null\>
 
-_Defined in [src/repositories/profile.repository.ts:56](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/profile.repository.ts#L56)_
+_Defined in [src/repositories/profile.repository.ts:53](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/profile.repository.ts#L53)_
 
 **Returns:** Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md) \| null\>
 
@@ -51,7 +51,7 @@ _Defined in [src/repositories/profile.repository.ts:56](https://github.com/eilon
 
 ▸ **getProfile**(`__namedParameters`: { publicIdentifier: string }): Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md)\>
 
-_Defined in [src/repositories/profile.repository.ts:40](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/profile.repository.ts#L40)_
+_Defined in [src/repositories/profile.repository.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/profile.repository.ts#L37)_
 
 #### Parameters:
 

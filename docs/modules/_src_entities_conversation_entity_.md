@@ -20,4 +20,4 @@
 
 Ƭ **ConversationId**: string
 
-_Defined in [src/entities/conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/conversation.entity.ts#L4)_
+_Defined in [src/entities/conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/conversation.entity.ts#L4)_

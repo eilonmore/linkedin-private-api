@@ -23,7 +23,7 @@
 
 • **$type**: \"com.linkedin.voyager.messaging.event.MessageEvent\"
 
-_Defined in [src/entities/linkedin-message.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-message.entity.ts#L4)_
+_Defined in [src/entities/linkedin-message.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-message.entity.ts#L4)_
 
 ---
 
@@ -31,7 +31,7 @@ _Defined in [src/entities/linkedin-message.entity.ts:4](https://github.com/eilon
 
 • **attributedBody**: [AttributeText](_src_entities_linkedin_attribute_text_entity_.attributetext.md)
 
-_Defined in [src/entities/linkedin-message.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-message.entity.ts#L5)_
+_Defined in [src/entities/linkedin-message.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-message.entity.ts#L5)_
 
 ---
 
@@ -39,7 +39,7 @@ _Defined in [src/entities/linkedin-message.entity.ts:5](https://github.com/eilon
 
 • **body**: string
 
-_Defined in [src/entities/linkedin-message.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-message.entity.ts#L6)_
+_Defined in [src/entities/linkedin-message.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-message.entity.ts#L6)_
 
 ---
 
@@ -47,4 +47,4 @@ _Defined in [src/entities/linkedin-message.entity.ts:6](https://github.com/eilon
 
 • **messageBodyRenderFormat**: string
 
-_Defined in [src/entities/linkedin-message.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-message.entity.ts#L7)_
+_Defined in [src/entities/linkedin-message.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-message.entity.ts#L7)_
