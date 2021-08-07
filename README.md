@@ -113,6 +113,7 @@ The full list of entities can be found [here](https://github.com/eilonmore/linke
 |[Message](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_message_event_entity_.messageevent.md)|
 |[CompanySearchHit](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_company_search_hit_entity_.companysearchhit.md)|
 |[PeopleSearchHit](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_people_search_hit_entity_.peoplesearchhit.md)|
+|[JobSearchHit](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/modules/_src_entities_job_search_hit_entity_.md)|
 |[MessageCreateResponse](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_message_create_response_entity_.messageeventcreateresponse.md)|
 
 
