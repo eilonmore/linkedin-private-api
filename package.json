@@ -51,7 +51,7 @@
     "@types/config": "^0.0.39",
     "@types/cookie": "^0.4.0",
     "@types/faker": "^5.1.2",
-    "@types/jest": "^26.0.14",
+    "@types/jest": "^27.0.1",
     "@types/lodash": "^4.14.161",
     "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
