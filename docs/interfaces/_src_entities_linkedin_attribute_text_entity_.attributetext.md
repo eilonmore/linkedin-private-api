@@ -21,7 +21,7 @@
 
 • **$type**: \"com.linkedin.pemberly.text.AttributedText\"
 
-_Defined in [src/entities/linkedin-attribute-text.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-attribute-text.entity.ts#L2)_
+_Defined in [src/entities/linkedin-attribute-text.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-attribute-text.entity.ts#L2)_
 
 ---
 
@@ -29,4 +29,4 @@ _Defined in [src/entities/linkedin-attribute-text.entity.ts:2](https://github.co
 
 • **text**: string
 
-_Defined in [src/entities/linkedin-attribute-text.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-attribute-text.entity.ts#L3)_
+_Defined in [src/entities/linkedin-attribute-text.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-attribute-text.entity.ts#L3)_

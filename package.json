@@ -1,11 +1,18 @@
 {
   "name": "linkedin-private-api",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Eilon Mor",
   "license": "MIT",
+  "keywords": [
+    "linkedin-nodejs-api",
+    "linkedin-api",
+    "linked-private-api",
+    "linked-unofficial-api",
+    "linkedin-web-api"
+  ],
   "engines": {
     "node": ">=14.0.0"
   },
@@ -42,10 +49,10 @@
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "@types/config": "^0.0.38",
+    "@types/config": "^0.0.39",
     "@types/cookie": "^0.4.0",
     "@types/faker": "^5.1.2",
-    "@types/jest": "^26.0.14",
+    "@types/jest": "^27.0.1",
     "@types/lodash": "^4.14.161",
     "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^4.2.0",

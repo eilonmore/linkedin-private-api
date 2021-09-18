@@ -5,10 +5,9 @@ import { URL } from 'url';
 
 import { linkedinApiUrl } from '../../config';
 import { defaultMocks } from '../utils/defaultMocks';
-import { createSearchCompaniesResponse, creatSearchPeopleResponse } from './search-factories';
+import { createSearchCompaniesResponse, createSearchJobsResponse, creatSearchPeopleResponse } from './search-factories';
 
-const requestUrl = new URL('search/blended', linkedinApiUrl).toString();
-
+const searchBlendedUrl = new URL('search/blended', linkedinApiUrl).toString();
 const username = 'username';
 const password = 'password';
 let axios: any;
@@ -23,6 +22,8 @@ afterEach(() => {
 });
 
 describe('searchPeople', () => {
+  const requestUrl = searchBlendedUrl;
+
   it('should fetch the next 10 people', async () => {
     const reqParams = {
       start: 0,
@@ -206,6 +207,8 @@ describe('searchPeople', () => {
 });
 
 describe('searchOwnConnections', () => {
+  const requestUrl = searchBlendedUrl;
+
   it('should fetch own connections by override fetch people network filter', async () => {
     const filters = {
       currentCompany: 'some company',
@@ -260,6 +263,8 @@ describe('searchOwnConnections', () => {
 });
 
 describe('searchConnectionsOf', () => {
+  const requestUrl = searchBlendedUrl;
+
   it('should fetch connections by profileId', async () => {
     const profileId = faker.datatype.uuid();
     const filters = {
@@ -314,6 +319,8 @@ describe('searchConnectionsOf', () => {
 });
 
 describe('searchCompanies', () => {
+  const requestUrl = searchBlendedUrl;
+
   it('should fetch the next 10 companies', async () => {
     const reqParams = {
       start: 0,
@@ -507,6 +514,203 @@ describe('searchCompanies', () => {
     [...firstCompaniesPage, ...secondCompaniesPage, ...thirdCompaniesPage].forEach((p: any) => {
       expect(p.$type).toEqual('com.linkedin.voyager.search.SearchHitV2');
       expect(typeof p.publicIdentifier).toBe('string');
+      expect(typeof p.trackingId).toBe('string');
+    });
+  });
+});
+
+describe('searchJobs', () => {
+  const requestUrl = new URL('search/hits', linkedinApiUrl).toString();
+
+  it('should fetch the next 10 jobs', async () => {
+    const reqParams = {
+      start: 0,
+      count: 10,
+      origin: 'JOB_SEARCH_RESULTS_PAGE',
+      decorationId: 'com.linkedin.voyager.deco.jserp.WebJobSearchHitLite-14',
+      q: 'jserpFilters',
+      queryContext: {
+        primaryHitType: 'JOBS',
+        spellCorrectionEnabled: true,
+      },
+    };
+    const searchResults = createSearchJobsResponse(10);
+
+    when(axios.get(requestUrl, { params: matchers.contains(reqParams) })).thenResolve({ data: searchResults });
+
+    const client = await new Client().login.userPass({ username, password });
+    const jobScroller = client.search.searchJobs();
+    const jobs = await jobScroller.scrollNext();
+
+    expect(jobs.length).toEqual(10);
+    jobs.forEach((p: any) => {
+      expect(p.$type).toEqual('com.linkedin.voyager.search.SearchHit');
+    });
+  });
+
+  it('should fetch jobs by keywords and filters', async () => {
+    const filters = {
+      location: 'Israel',
+      experience: '1',
+    };
+    const keywords = 'React developer';
+    const reqParams = {
+      filters,
+      keywords: encodeURIComponent(keywords),
+    };
+
+    const searchResults = createSearchJobsResponse(10);
+
+    when(axios.get(requestUrl, { params: matchers.contains(reqParams) })).thenResolve({ data: searchResults });
+
+    const client = await new Client().login.userPass({ username, password });
+    const jobsScroller = client.search.searchJobs({ filters, keywords });
+    const jobs = await jobsScroller.scrollNext();
+
+    expect(jobs.length).toEqual(10);
+    jobs.forEach((p: any) => {
+      expect(p.$type).toEqual('com.linkedin.voyager.search.SearchHit');
+      expect(typeof p.trackingId).toBe('string');
+    });
+  });
+
+  it('should populate job posting', async () => {
+    const reqParams = {
+      start: 0,
+      count: 1,
+    };
+
+    const searchResults = createSearchJobsResponse(1);
+
+    when(axios.get(requestUrl, { params: matchers.contains(reqParams) })).thenResolve({ data: searchResults });
+
+    const client = await new Client().login.userPass({ username, password });
+    const jobsScroller = client.search.searchJobs({ limit: 1 });
+    const jobs = await jobsScroller.scrollNext();
+
+    expect(jobs.length).toEqual(1);
+    expect(jobs[0].hitInfo.jobPosting.$type).toEqual('com.linkedin.voyager.jobs.JobPosting');
+    expect(typeof jobs[0].hitInfo.jobPosting.title).toBe('string');
+  });
+
+  it('should populate job company', async () => {
+    const reqParams = {
+      start: 0,
+      count: 1,
+    };
+
+    const searchResults = createSearchJobsResponse(1);
+
+    when(axios.get(requestUrl, { params: matchers.contains(reqParams) })).thenResolve({ data: searchResults });
+
+    const client = await new Client().login.userPass({ username, password });
+    const jobsScroller = client.search.searchJobs({ limit: 1 });
+    const jobs = await jobsScroller.scrollNext();
+
+    expect(jobs.length).toEqual(1);
+    expect(jobs[0].hitInfo.jobPosting.companyDetails.company.$type).toEqual('com.linkedin.voyager.organization.Company');
+    expect(typeof jobs[0].hitInfo.jobPosting.companyDetails.company.name).toBe('string');
+  });
+
+  it('should be able to override fetched count by passing skip and limit', async () => {
+    const reqParams = {
+      start: 2,
+      count: 1,
+    };
+    const searchResults = createSearchJobsResponse(1);
+
+    when(axios.get(requestUrl, { params: matchers.contains(reqParams) })).thenResolve({ data: searchResults });
+
+    const client = await new Client().login.userPass({ username, password });
+    const jobsScroller = client.search.searchJobs({ skip: 2, limit: 1 });
+    const jobs = await jobsScroller.scrollNext();
+
+    expect(jobs.length).toEqual(1);
+  });
+
+  it('should be able to scroll jobs using the scroller', async () => {
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 0, count: 10 }) })).thenResolve({
+      data: createSearchJobsResponse(10),
+    });
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 10, count: 10 }) })).thenResolve({
+      data: createSearchJobsResponse(10),
+    });
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 20, count: 10 }) })).thenResolve({
+      data: createSearchJobsResponse(10),
+    });
+
+    const client = await new Client().login.userPass({ username, password });
+    const jobsScroller = client.search.searchJobs();
+    const firstJobsPage = await jobsScroller.scrollNext();
+    const secondJobsPage = await jobsScroller.scrollNext();
+    const thirdJobsPage = await jobsScroller.scrollNext();
+
+    expect(firstJobsPage.length).toEqual(10);
+    expect(secondJobsPage.length).toEqual(10);
+    expect(thirdJobsPage.length).toEqual(10);
+
+    expect(firstJobsPage[0].trackingId).not.toEqual(secondJobsPage[0].trackingId);
+    expect(secondJobsPage[0].trackingId).not.toEqual(thirdJobsPage[0].trackingId);
+
+    [...firstJobsPage, ...secondJobsPage, ...thirdJobsPage].forEach((p: any) => {
+      expect(p.$type).toEqual('com.linkedin.voyager.search.SearchHit');
+      expect(typeof p.trackingId).toBe('string');
+    });
+  });
+
+  it('should be able to override scroll skip and limit in scrolling', async () => {
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 100, count: 1 }) })).thenResolve({
+      data: createSearchJobsResponse(1),
+    });
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 101, count: 1 }) })).thenResolve({
+      data: createSearchJobsResponse(1),
+    });
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 102, count: 1 }) })).thenResolve({
+      data: createSearchJobsResponse(1),
+    });
+
+    const client = await new Client().login.userPass({ username, password });
+    const searchScroller = client.search.searchJobs({ skip: 100, limit: 1 });
+    const firstJobsPage = await searchScroller.scrollNext();
+    const secondJobsPage = await searchScroller.scrollNext();
+    const thirdJobsPage = await searchScroller.scrollNext();
+
+    expect(firstJobsPage.length).toEqual(1);
+    expect(secondJobsPage.length).toEqual(1);
+    expect(thirdJobsPage.length).toEqual(1);
+
+    expect(firstJobsPage[0].trackingId).not.toEqual(secondJobsPage[0].trackingId);
+    expect(secondJobsPage[0].trackingId).not.toEqual(thirdJobsPage[0].trackingId);
+
+    [...firstJobsPage, ...secondJobsPage, ...thirdJobsPage].forEach((p: any) => {
+      expect(p.$type).toEqual('com.linkedin.voyager.search.SearchHit');
+      expect(typeof p.trackingId).toBe('string');
+    });
+  });
+
+  it('should be able to scroll to previous pages', async () => {
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 0, count: 10 }) })).thenResolve({
+      data: createSearchJobsResponse(10),
+    });
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 10, count: 10 }) })).thenResolve({
+      data: createSearchJobsResponse(10),
+    });
+    when(axios.get(requestUrl, { params: matchers.contains({ start: 0, count: 10 }) })).thenResolve({
+      data: createSearchJobsResponse(10),
+    });
+
+    const client = await new Client().login.userPass({ username, password });
+    const jobsScroller = client.search.searchJobs();
+    const firstJobsPage = await jobsScroller.scrollNext();
+    const secondJobsPage = await jobsScroller.scrollNext();
+    const thirdJobsPage = await jobsScroller.scrollBack();
+
+    expect(firstJobsPage.length).toEqual(10);
+    expect(secondJobsPage.length).toEqual(10);
+    expect(thirdJobsPage.length).toEqual(10);
+
+    [...firstJobsPage, ...firstJobsPage, ...firstJobsPage].forEach((p: any) => {
+      expect(p.$type).toEqual('com.linkedin.voyager.search.SearchHit');
       expect(typeof p.trackingId).toBe('string');
     });
   });

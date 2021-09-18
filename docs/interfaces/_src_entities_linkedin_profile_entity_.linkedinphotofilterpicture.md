@@ -24,7 +24,7 @@
 
 • **$recipeTypes**: string[]
 
-_Defined in [src/entities/linkedin-profile.entity.ts:30](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L30)_
+_Defined in [src/entities/linkedin-profile.entity.ts:30](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L30)_
 
 ---
 
@@ -32,7 +32,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:30](https://github.com/eilo
 
 • **$type**: \"com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture\"
 
-_Defined in [src/entities/linkedin-profile.entity.ts:29](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L29)_
+_Defined in [src/entities/linkedin-profile.entity.ts:29](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L29)_
 
 ---
 
@@ -40,7 +40,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:29](https://github.com/eilo
 
 • **displayImageReference**: { vectorImage: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) }
 
-_Defined in [src/entities/linkedin-profile.entity.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L31)_
+_Defined in [src/entities/linkedin-profile.entity.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L31)_
 
 #### Type declaration:
 
@@ -54,7 +54,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:31](https://github.com/eilo
 
 • **displayImageUrn**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L34)_
+_Defined in [src/entities/linkedin-profile.entity.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L34)_
 
 ---
 
@@ -62,4 +62,4 @@ _Defined in [src/entities/linkedin-profile.entity.ts:34](https://github.com/eilo
 
 • **photoFilterEditInfo**: unknown
 
-_Defined in [src/entities/linkedin-profile.entity.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L35)_
+_Defined in [src/entities/linkedin-profile.entity.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L35)_

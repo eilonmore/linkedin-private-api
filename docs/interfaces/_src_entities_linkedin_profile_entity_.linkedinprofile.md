@@ -59,7 +59,7 @@
 
 • **$recipeTypes**: string[]
 
-_Defined in [src/entities/linkedin-profile.entity.ts:57](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L57)_
+_Defined in [src/entities/linkedin-profile.entity.ts:57](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L57)_
 
 ---
 
@@ -67,7 +67,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:57](https://github.com/eilo
 
 • **$type**: _typeof_ [PROFILE_TYPE](../modules/_src_entities_linkedin_profile_entity_.md#profile_type)
 
-_Defined in [src/entities/linkedin-profile.entity.ts:41](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L41)_
+_Defined in [src/entities/linkedin-profile.entity.ts:41](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L41)_
 
 ---
 
@@ -75,7 +75,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:41](https://github.com/eilo
 
 • **\*industry**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:42](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L42)_
+_Defined in [src/entities/linkedin-profile.entity.ts:42](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L42)_
 
 ---
 
@@ -83,7 +83,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:42](https://github.com/eilo
 
 • **\*profileCertifications**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L43)_
+_Defined in [src/entities/linkedin-profile.entity.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L43)_
 
 ---
 
@@ -91,7 +91,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:43](https://github.com/eilo
 
 • **\*profileCourses**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:44](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L44)_
+_Defined in [src/entities/linkedin-profile.entity.ts:44](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L44)_
 
 ---
 
@@ -99,7 +99,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:44](https://github.com/eilo
 
 • **\*profileEducations**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:45](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L45)_
+_Defined in [src/entities/linkedin-profile.entity.ts:45](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L45)_
 
 ---
 
@@ -107,7 +107,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:45](https://github.com/eilo
 
 • **\*profileHonors**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:46](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L46)_
+_Defined in [src/entities/linkedin-profile.entity.ts:46](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L46)_
 
 ---
 
@@ -115,7 +115,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:46](https://github.com/eilo
 
 • **\*profileLanguages**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:47](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L47)_
+_Defined in [src/entities/linkedin-profile.entity.ts:47](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L47)_
 
 ---
 
@@ -123,7 +123,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:47](https://github.com/eilo
 
 • **\*profileOrganizations**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:48](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L48)_
+_Defined in [src/entities/linkedin-profile.entity.ts:48](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L48)_
 
 ---
 
@@ -131,7 +131,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:48](https://github.com/eilo
 
 • **\*profilePatents**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:49](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L49)_
+_Defined in [src/entities/linkedin-profile.entity.ts:49](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L49)_
 
 ---
 
@@ -139,7 +139,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:49](https://github.com/eilo
 
 • **\*profilePositionGroups**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:50](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L50)_
+_Defined in [src/entities/linkedin-profile.entity.ts:50](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L50)_
 
 ---
 
@@ -147,7 +147,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:50](https://github.com/eilo
 
 • **\*profileProjects**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:51](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L51)_
+_Defined in [src/entities/linkedin-profile.entity.ts:51](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L51)_
 
 ---
 
@@ -155,7 +155,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:51](https://github.com/eilo
 
 • **\*profilePublications**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:52](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L52)_
+_Defined in [src/entities/linkedin-profile.entity.ts:52](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L52)_
 
 ---
 
@@ -163,7 +163,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:52](https://github.com/eilo
 
 • **\*profileSkills**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:53](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L53)_
+_Defined in [src/entities/linkedin-profile.entity.ts:53](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L53)_
 
 ---
 
@@ -171,7 +171,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:53](https://github.com/eilo
 
 • **\*profileTestScores**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:54](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L54)_
+_Defined in [src/entities/linkedin-profile.entity.ts:54](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L54)_
 
 ---
 
@@ -179,7 +179,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:54](https://github.com/eilo
 
 • **\*profileTreasuryMediaProfile**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:55](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L55)_
+_Defined in [src/entities/linkedin-profile.entity.ts:55](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L55)_
 
 ---
 
@@ -187,7 +187,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:55](https://github.com/eilo
 
 • **\*profileVolunteerExperiences**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:56](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L56)_
+_Defined in [src/entities/linkedin-profile.entity.ts:56](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L56)_
 
 ---
 
@@ -195,7 +195,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:56](https://github.com/eilo
 
 • **defaultToActivityTab**: boolean
 
-_Defined in [src/entities/linkedin-profile.entity.ts:58](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L58)_
+_Defined in [src/entities/linkedin-profile.entity.ts:58](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L58)_
 
 ---
 
@@ -203,7 +203,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:58](https://github.com/eilo
 
 • **educationOnProfileTopCardShown**: boolean
 
-_Defined in [src/entities/linkedin-profile.entity.ts:59](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L59)_
+_Defined in [src/entities/linkedin-profile.entity.ts:59](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L59)_
 
 ---
 
@@ -211,7 +211,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:59](https://github.com/eilo
 
 • **entityUrn**: [ProfileUrn](../modules/_src_entities_linkedin_profile_entity_.md#profileurn)
 
-_Defined in [src/entities/linkedin-profile.entity.ts:60](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L60)_
+_Defined in [src/entities/linkedin-profile.entity.ts:60](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L60)_
 
 ---
 
@@ -219,7 +219,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:60](https://github.com/eilo
 
 • **firstName**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:61](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L61)_
+_Defined in [src/entities/linkedin-profile.entity.ts:61](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L61)_
 
 ---
 
@@ -227,7 +227,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:61](https://github.com/eilo
 
 • **geoLocation**: LinkedInProfileGeoLocation
 
-_Defined in [src/entities/linkedin-profile.entity.ts:63](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L63)_
+_Defined in [src/entities/linkedin-profile.entity.ts:63](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L63)_
 
 ---
 
@@ -235,7 +235,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:63](https://github.com/eilo
 
 • **geoLocationBackfilled**: boolean
 
-_Defined in [src/entities/linkedin-profile.entity.ts:64](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L64)_
+_Defined in [src/entities/linkedin-profile.entity.ts:64](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L64)_
 
 ---
 
@@ -243,7 +243,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:64](https://github.com/eilo
 
 • **headline**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:65](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L65)_
+_Defined in [src/entities/linkedin-profile.entity.ts:65](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L65)_
 
 ---
 
@@ -251,7 +251,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:65](https://github.com/eilo
 
 • **industryUrn**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:66](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L66)_
+_Defined in [src/entities/linkedin-profile.entity.ts:66](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L66)_
 
 ---
 
@@ -259,7 +259,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:66](https://github.com/eilo
 
 • **lastName**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:62](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L62)_
+_Defined in [src/entities/linkedin-profile.entity.ts:62](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L62)_
 
 ---
 
@@ -267,7 +267,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:62](https://github.com/eilo
 
 • **location**: LinkedInProfileLocation
 
-_Defined in [src/entities/linkedin-profile.entity.ts:67](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L67)_
+_Defined in [src/entities/linkedin-profile.entity.ts:67](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L67)_
 
 ---
 
@@ -275,7 +275,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:67](https://github.com/eilo
 
 • **locationName**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:68](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L68)_
+_Defined in [src/entities/linkedin-profile.entity.ts:68](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L68)_
 
 ---
 
@@ -283,7 +283,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:68](https://github.com/eilo
 
 • **multiLocaleFirstName**: Record<string, string\>
 
-_Defined in [src/entities/linkedin-profile.entity.ts:69](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L69)_
+_Defined in [src/entities/linkedin-profile.entity.ts:69](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L69)_
 
 ---
 
@@ -291,7 +291,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:69](https://github.com/eilo
 
 • **multiLocaleHeadline**: Record<string, string\>
 
-_Defined in [src/entities/linkedin-profile.entity.ts:70](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L70)_
+_Defined in [src/entities/linkedin-profile.entity.ts:70](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L70)_
 
 ---
 
@@ -299,7 +299,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:70](https://github.com/eilo
 
 • **multiLocaleLastName**: Record<string, string\>
 
-_Defined in [src/entities/linkedin-profile.entity.ts:71](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L71)_
+_Defined in [src/entities/linkedin-profile.entity.ts:71](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L71)_
 
 ---
 
@@ -307,7 +307,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:71](https://github.com/eilo
 
 • **objectUrn**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:72](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L72)_
+_Defined in [src/entities/linkedin-profile.entity.ts:72](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L72)_
 
 ---
 
@@ -315,7 +315,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:72](https://github.com/eilo
 
 • **primaryLocale**: LinkedInPrimaryLocale
 
-_Defined in [src/entities/linkedin-profile.entity.ts:73](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L73)_
+_Defined in [src/entities/linkedin-profile.entity.ts:73](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L73)_
 
 ---
 
@@ -323,7 +323,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:73](https://github.com/eilo
 
 • **profilePicture**: [LinkedInPhotoFilterPicture](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md)
 
-_Defined in [src/entities/linkedin-profile.entity.ts:74](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L74)_
+_Defined in [src/entities/linkedin-profile.entity.ts:74](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L74)_
 
 ---
 
@@ -331,7 +331,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:74](https://github.com/eilo
 
 • **publicIdentifier**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:75](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L75)_
+_Defined in [src/entities/linkedin-profile.entity.ts:75](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L75)_
 
 ---
 
@@ -339,7 +339,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:75](https://github.com/eilo
 
 • **supportedLocales**: LinkedInPrimaryLocale[]
 
-_Defined in [src/entities/linkedin-profile.entity.ts:76](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L76)_
+_Defined in [src/entities/linkedin-profile.entity.ts:76](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L76)_
 
 ---
 
@@ -347,7 +347,7 @@ _Defined in [src/entities/linkedin-profile.entity.ts:76](https://github.com/eilo
 
 • **trackingId**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:77](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L77)_
+_Defined in [src/entities/linkedin-profile.entity.ts:77](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L77)_
 
 ---
 
@@ -355,4 +355,4 @@ _Defined in [src/entities/linkedin-profile.entity.ts:77](https://github.com/eilo
 
 • **versionTag**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:78](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-profile.entity.ts#L78)_
+_Defined in [src/entities/linkedin-profile.entity.ts:78](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L78)_

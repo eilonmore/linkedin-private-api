@@ -9,11 +9,16 @@ import { PeopleSearchHit } from '../entities/people-search-hit.entity';
 import { GetBlendedSearchResponse } from '../responses/blended-search.reponse.get';
 import { CompanySearchScroller } from '../scrollers/company-search.scroller';
 import { PeopleSearchScroller } from '../scrollers/people-search.scroller';
+import { JobSearchScroller } from '../scrollers/job-search.scroller';
 import { LinkedInNetworkType } from '../types/network.enum';
 import { PeopleSearchFilters } from '../types/people-search-filters';
 import { SearchResultType } from '../types/search-result-type.enum';
 import { LinkedInSearchType } from '../types/search-type.enum';
+import { JobSearchFilters } from '../types/job-search-filters';
 import { getProfilesFromResponse } from './profile.repository';
+import { JOB_POSTING_TYPE, LinkedInJobPosting } from '../entities/linkedin-job-posting';
+import { BASE_COMPANY_TYPE, LinkedInBaseCompany } from '../entities/linkedin-base-company';
+import { JobSearchHit } from '../entities/job-search-hit.entity';
 
 export class SearchRepository {
   client: Client;
@@ -101,6 +106,26 @@ export class SearchRepository {
     });
   }
 
+  searchJobs({
+    skip = 0,
+    limit = 10,
+    filters = {},
+    keywords,
+  }: {
+    skip?: number;
+    limit?: number;
+    filters?: JobSearchFilters;
+    keywords?: string;
+  } = {}): JobSearchScroller {
+    return new JobSearchScroller({
+      skip,
+      limit,
+      filters,
+      keywords,
+      fetchJobs: this.fetchJobs.bind(this),
+    });
+  }
+
   private async fetchPeople({
     skip = 0,
     limit = 10,
@@ -162,5 +187,50 @@ export class SearchRepository {
       ...searchHit,
       company: companiesByUrn[searchHit.targetUrn],
     }));
+  }
+
+  private async fetchJobs({
+    skip = 0,
+    limit = 10,
+    filters = {},
+    keywords,
+  }: {
+    skip?: number;
+    limit?: number;
+    filters?: JobSearchFilters;
+    keywords?: string;
+  } = {}): Promise<JobSearchHit[]> {
+    const response = await this.client.request.search.searchJobs({
+      filters,
+      keywords,
+      skip,
+      limit,
+    });
+
+    const jobPostings = response?.included?.filter(element => element.$type === JOB_POSTING_TYPE) as LinkedInJobPosting[];
+    const companies = response?.included?.filter(element => element.$type === BASE_COMPANY_TYPE) as LinkedInBaseCompany[];
+
+    const keyedPostings = keyBy(jobPostings, 'entityUrn');
+    const keyedCompanies = keyBy(companies, 'entityUrn');
+
+    const searchHits = response?.data?.elements.map(searchHit => {
+      const jobPosting = keyedPostings[searchHit.hitInfo.jobPosting];
+      const company = keyedCompanies[jobPosting.companyDetails.company];
+
+      const populatedPosting = {
+        ...jobPosting,
+        companyDetails: { ...jobPosting.companyDetails, company },
+      };
+
+      return {
+        ...searchHit,
+        hitInfo: {
+          ...searchHit.hitInfo,
+          jobPosting: populatedPosting,
+        },
+      };
+    });
+
+    return searchHits;
   }
 }

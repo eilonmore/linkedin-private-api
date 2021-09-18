@@ -40,7 +40,7 @@
 
 • **$type**: _typeof_ [CONVERSATION_TYPE](../modules/_src_entities_linkedin_conversation_entity_.md#conversation_type)
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L26)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L26)_
 
 ---
 
@@ -48,7 +48,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:26](https://github.com
 
 • **\*events**: string[]
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L27)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L27)_
 
 ---
 
@@ -56,7 +56,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:27](https://github.com
 
 • **\*participants**: string[]
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:28](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L28)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:28](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L28)_
 
 ---
 
@@ -64,7 +64,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:28](https://github.com
 
 • **\*type**: string[]
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:29](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L29)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:29](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L29)_
 
 ---
 
@@ -72,7 +72,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:29](https://github.com
 
 • **archived**: boolean
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:30](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L30)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:30](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L30)_
 
 ---
 
@@ -80,7 +80,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:30](https://github.com
 
 • **backendUrn**: string
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L31)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L31)_
 
 ---
 
@@ -88,7 +88,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:31](https://github.com
 
 • **blocked**: boolean
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:32](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L32)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:32](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L32)_
 
 ---
 
@@ -96,7 +96,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:32](https://github.com
 
 • **entityUrn**: [ConversationUrn](../modules/_src_entities_linkedin_conversation_entity_.md#conversationurn)
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:33](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L33)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:33](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L33)_
 
 ---
 
@@ -104,7 +104,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:33](https://github.com
 
 • **featureTypes**: [FeaturedType](../enums/_src_entities_linkedin_conversation_entity_.featuredtype.md)[]
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L34)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L34)_
 
 ---
 
@@ -112,7 +112,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:34](https://github.com
 
 • **firstMessageUrn**: string
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L35)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L35)_
 
 ---
 
@@ -120,7 +120,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:35](https://github.com
 
 • **lastActivityAt**: number
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:36](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L36)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:36](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L36)_
 
 ---
 
@@ -128,7 +128,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:36](https://github.com
 
 • **muted**: boolean
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L37)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L37)_
 
 ---
 
@@ -136,7 +136,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:37](https://github.com
 
 • **notificationStatus**: string
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:38](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L38)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:38](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L38)_
 
 ---
 
@@ -144,7 +144,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:38](https://github.com
 
 • **read**: boolean
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:39](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L39)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:39](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L39)_
 
 ---
 
@@ -152,7 +152,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:39](https://github.com
 
 • **receipts**: [LinkedInParticipantReceipts](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md)[]
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:40](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L40)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:40](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L40)_
 
 ---
 
@@ -160,7 +160,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:40](https://github.com
 
 • **totalEventCount**: number
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:41](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L41)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:41](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L41)_
 
 ---
 
@@ -168,7 +168,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:41](https://github.com
 
 • **unreadCount**: number
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:42](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L42)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:42](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L42)_
 
 ---
 
@@ -176,7 +176,7 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:42](https://github.com
 
 • **viewerCurrentParticipant**: boolean
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L43)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L43)_
 
 ---
 
@@ -184,4 +184,4 @@ _Defined in [src/entities/linkedin-conversation.entity.ts:43](https://github.com
 
 • **withNonConnection**: boolean
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:44](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-conversation.entity.ts#L44)_
+_Defined in [src/entities/linkedin-conversation.entity.ts:44](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L44)_
