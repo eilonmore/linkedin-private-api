@@ -4826,9 +4826,9 @@ testdouble-jest@^2.0.0:
   integrity sha512-+Ny3/ZtLcPBXZaVdLXYDDmZtCe5Erx/Rr8scLisFSHR763eHIEh4dGrISfENc+ezvhMLH1GvgSpZjagdv6l3yQ==
 
 testdouble@^3.16.1:
-  version "3.16.1"
-  resolved "https://registry.yarnpkg.com/testdouble/-/testdouble-3.16.1.tgz#05e3405b79e81d5e37aec7157cccd52217c97e8b"
-  integrity sha512-diaNYjFfR8bdMhtwJ9c2KxHa7M8Al7YciU+kteutWIIendmCC61ZyqQBtprsFkb6Cd/rjBr2sEoUJ8bWIVHm6w==
+  version "3.16.2"
+  resolved "https://registry.yarnpkg.com/testdouble/-/testdouble-3.16.2.tgz#7ce45d46423fe6cd07926e2371b96ad9e09c1a5b"
+  integrity sha512-oPVoKBXrkP/SaTsF2W7Tpe77whd/jRKbeAVZok1lQKkZ2lFjjFrulpxuHOVF84tMr8PrN8GUUr24Nto/9vs1Lw==
   dependencies:
     lodash "^4.17.15"
     quibble "^0.6.4"
