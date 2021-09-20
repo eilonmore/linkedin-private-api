@@ -24,7 +24,7 @@
 
 • **$type**: \"com.linkedin.common.VectorArtifact\"
 
-_Defined in [src/entities/linkedin-vector-artifact.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L2)_
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-vector-artifact.entity.ts#L2)_
 
 ---
 
@@ -32,7 +32,7 @@ _Defined in [src/entities/linkedin-vector-artifact.entity.ts:2](https://github.c
 
 • **expiresAt**: number
 
-_Defined in [src/entities/linkedin-vector-artifact.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L3)_
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-vector-artifact.entity.ts#L3)_
 
 ---
 
@@ -40,7 +40,7 @@ _Defined in [src/entities/linkedin-vector-artifact.entity.ts:3](https://github.c
 
 • **fileIdentifyingUrlPathSegment**: string
 
-_Defined in [src/entities/linkedin-vector-artifact.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L4)_
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-vector-artifact.entity.ts#L4)_
 
 ---
 
@@ -48,7 +48,7 @@ _Defined in [src/entities/linkedin-vector-artifact.entity.ts:4](https://github.c
 
 • **height**: number
 
-_Defined in [src/entities/linkedin-vector-artifact.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L5)_
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-vector-artifact.entity.ts#L5)_
 
 ---
 
@@ -56,4 +56,4 @@ _Defined in [src/entities/linkedin-vector-artifact.entity.ts:5](https://github.c
 
 • **with**: number
 
-_Defined in [src/entities/linkedin-vector-artifact.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-vector-artifact.entity.ts#L6)_
+_Defined in [src/entities/linkedin-vector-artifact.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-vector-artifact.entity.ts#L6)_

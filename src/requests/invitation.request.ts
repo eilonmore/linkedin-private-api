@@ -9,7 +9,7 @@ export class InvitationRequest {
     this.request = request;
   }
 
-  sendInvitation({ profileId, trackingId }: { profileId: string; trackingId: string }): Promise<void> {
+  sendInvitation({ profileId, trackingId, message }: { profileId: string; trackingId: string; message?: string }): Promise<void> {
     const requestPayload = {
       trackingId,
       emberEntityName: 'growth/invitation/norm-invitation',
@@ -18,6 +18,7 @@ export class InvitationRequest {
           profileId,
         },
       },
+      ...(message && { message }),
     };
 
     return this.request.post('growth/normInvitations', requestPayload);

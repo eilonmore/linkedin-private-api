@@ -30,7 +30,7 @@
 
 _Inherited from [LinkedEventCreateResponse](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md).[$type](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#$type)_
 
-_Defined in [src/entities/linkedin-event-create-response.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event-create-response.ts#L2)_
+_Defined in [src/entities/linkedin-event-create-response.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L2)_
 
 ---
 
@@ -40,7 +40,7 @@ _Defined in [src/entities/linkedin-event-create-response.ts:2](https://github.co
 
 _Inherited from [LinkedEventCreateResponse](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md).[backendConversationUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#backendconversationurn)_
 
-_Defined in [src/entities/linkedin-event-create-response.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event-create-response.ts#L3)_
+_Defined in [src/entities/linkedin-event-create-response.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L3)_
 
 ---
 
@@ -50,7 +50,7 @@ _Defined in [src/entities/linkedin-event-create-response.ts:3](https://github.co
 
 _Inherited from [LinkedEventCreateResponse](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md).[backendEventUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#backendeventurn)_
 
-_Defined in [src/entities/linkedin-event-create-response.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event-create-response.ts#L4)_
+_Defined in [src/entities/linkedin-event-create-response.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L4)_
 
 ---
 
@@ -60,7 +60,7 @@ _Defined in [src/entities/linkedin-event-create-response.ts:4](https://github.co
 
 _Inherited from [LinkedEventCreateResponse](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md).[conversationUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#conversationurn)_
 
-_Defined in [src/entities/linkedin-event-create-response.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event-create-response.ts#L5)_
+_Defined in [src/entities/linkedin-event-create-response.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L5)_
 
 ---
 
@@ -70,7 +70,7 @@ _Defined in [src/entities/linkedin-event-create-response.ts:5](https://github.co
 
 _Inherited from [LinkedEventCreateResponse](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md).[createdAt](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#createdat)_
 
-_Defined in [src/entities/linkedin-event-create-response.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event-create-response.ts#L6)_
+_Defined in [src/entities/linkedin-event-create-response.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L6)_
 
 ---
 
@@ -80,7 +80,7 @@ _Defined in [src/entities/linkedin-event-create-response.ts:6](https://github.co
 
 _Inherited from [LinkedEventCreateResponse](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md).[eventUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#eventurn)_
 
-_Defined in [src/entities/linkedin-event-create-response.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-event-create-response.ts#L7)_
+_Defined in [src/entities/linkedin-event-create-response.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L7)_
 
 ---
 
@@ -88,4 +88,4 @@ _Defined in [src/entities/linkedin-event-create-response.ts:7](https://github.co
 
 • **text**: string
 
-_Defined in [src/entities/message-create-response.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/message-create-response.entity.ts#L4)_
+_Defined in [src/entities/message-create-response.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/message-create-response.entity.ts#L4)_

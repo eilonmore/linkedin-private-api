@@ -26,7 +26,7 @@
 
 \+ **new InvitationRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md) }): [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md)
 
-_Defined in [src/repositories/invitation.repository.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/invitation.repository.ts#L35)_
+_Defined in [src/repositories/invitation.repository.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/invitation.repository.ts#L37)_
 
 #### Parameters:
 
@@ -42,7 +42,7 @@ _Defined in [src/repositories/invitation.repository.ts:35](https://github.com/ei
 
 ▸ **getReceivedInvitations**(`__namedParameters?`: { limit: number = 100; skip: number = 0 }): [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
-_Defined in [src/repositories/invitation.repository.ts:49](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/invitation.repository.ts#L49)_
+_Defined in [src/repositories/invitation.repository.ts:51](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/invitation.repository.ts#L51)_
 
 #### Parameters:
 
@@ -58,7 +58,7 @@ _Defined in [src/repositories/invitation.repository.ts:49](https://github.com/ei
 
 ▸ **getSentInvitations**(`__namedParameters?`: { limit: number = 100; skip: number = 0 }): [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
-_Defined in [src/repositories/invitation.repository.ts:41](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/invitation.repository.ts#L41)_
+_Defined in [src/repositories/invitation.repository.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/invitation.repository.ts#L43)_
 
 #### Parameters:
 
@@ -72,14 +72,14 @@ _Defined in [src/repositories/invitation.repository.ts:41](https://github.com/ei
 
 ### sendInvitation
 
-▸ **sendInvitation**(`__namedParameters`: { profileId: string ; trackingId: string }): Promise<[Invitation](../interfaces/_src_entities_invitation_entity_.invitation.md)\>
+▸ **sendInvitation**(`__namedParameters`: { message: undefined \| string ; profileId: string ; trackingId: string }): Promise<[Invitation](../interfaces/_src_entities_invitation_entity_.invitation.md)\>
 
-_Defined in [src/repositories/invitation.repository.ts:57](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/repositories/invitation.repository.ts#L57)_
+_Defined in [src/repositories/invitation.repository.ts:59](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/invitation.repository.ts#L59)_
 
 #### Parameters:
 
-| Name                | Type                                       |
-| ------------------- | ------------------------------------------ |
-| `__namedParameters` | { profileId: string ; trackingId: string } |
+| Name                | Type                                                                      |
+| ------------------- | ------------------------------------------------------------------------- |
+| `__namedParameters` | { message: undefined \| string ; profileId: string ; trackingId: string } |
 
 **Returns:** Promise<[Invitation](../interfaces/_src_entities_invitation_entity_.invitation.md)\>

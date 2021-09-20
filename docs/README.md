@@ -2,11 +2,11 @@
 
 > [Globals](globals.md)
 
-# NodeJS LinkedIn Private API
+# NodeJS LinkedIn API
 
 ![Build](https://github.com/eilonmore/linkedin-private-api/workflows/Build/badge.svg?branch=master)
 
-Wrapper API for LinkedIn unofficial API, written in TypeScript.  
+NodeJS Wrapper API for LinkedIn API, written in TypeScript.  
 No tokens are needed for using this API, only a working LinkedIn account.
 
 ## Installation
@@ -31,16 +31,24 @@ const password = process.env.PASSWORD as string;
   const client = new Client();
   await client.login.userPass({ username, password });
 
-  // search for companies
-  const companiesScroller = await client.search.searchCompanies({ keywords: 'Microsoft' });
-  const [{ company: microsoft }] = await companiesScroller.scrollNext();
+  // Search for React development jobs in Israel
+  const jobsScroller = await client.search.searchJobs({
+    keywords: 'React',
+    filters: { location: 'Israel' },
+    limit: 20,
+    skip: 5,
+  });
+
+  const [someReactJobHit] = await jobsScroller.scrollNext();
+  const jobCompanyName = someReactJobHit.hitInfo.jobPosting.companyDetails.company.name;
+
+  // Fetch the job's company
+  const companiesScroller = await client.search.searchCompanies({ keywords: jobCompanyName });
+  const [{ company: jobCompany }] = await companiesScroller.scrollNext();
 
   // Search for profiles and send an invitation
   const peopleScroller = await client.search.searchPeople({
     keywords: 'Bill Gates',
-    filters: {
-      pastCompany: microsoft.companyId,
-    },
   });
   const [{ profile: billGates }] = await peopleScroller.scrollNext();
 
@@ -167,7 +175,6 @@ Some new features that I expect to develop soon:
 
 - Media support - fetch, like, comment and create a new post.
 - Invitation improvements - be able to do some more actions like "remove connection".
-- Search improvements - support jobs searching.
 - Improve login API
 - Add services so automate common workflows
 

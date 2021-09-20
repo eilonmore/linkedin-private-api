@@ -24,7 +24,7 @@
 
 • **$type**: \"com.linkedin.voyager.messaging.QuickReply\"
 
-_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-quick-replay-recommendation.entity.ts#L4)_
+_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-quick-replay-recommendation.entity.ts#L4)_
 
 ---
 
@@ -32,7 +32,7 @@ _Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:4](http
 
 • **content**: [AttributeText](_src_entities_linkedin_attribute_text_entity_.attributetext.md)
 
-_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-quick-replay-recommendation.entity.ts#L5)_
+_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-quick-replay-recommendation.entity.ts#L5)_
 
 ---
 
@@ -40,7 +40,7 @@ _Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:5](http
 
 • **objectUrn**: string
 
-_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-quick-replay-recommendation.entity.ts#L6)_
+_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-quick-replay-recommendation.entity.ts#L6)_
 
 ---
 
@@ -48,7 +48,7 @@ _Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:6](http
 
 • **replyType**: string
 
-_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-quick-replay-recommendation.entity.ts#L7)_
+_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-quick-replay-recommendation.entity.ts#L7)_
 
 ---
 
@@ -56,4 +56,4 @@ _Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:7](http
 
 • **trackingId**: string
 
-_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-quick-replay-recommendation.entity.ts#L8)_
+_Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-quick-replay-recommendation.entity.ts#L8)_

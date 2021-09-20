@@ -1,7 +1,7 @@
-# NodeJS LinkedIn Private API
+# NodeJS LinkedIn API
 ![Build](https://github.com/eilonmore/linkedin-private-api/workflows/Build/badge.svg?branch=master)
 
-Wrapper API for LinkedIn unofficial API, written in TypeScript.  
+NodeJS Wrapper API for LinkedIn API, written in TypeScript.  
 No tokens are needed for using this API, only a working LinkedIn account.
 
 ## Installation
@@ -24,16 +24,24 @@ const password = process.env.PASSWORD as string;
   const client = new Client();
   await client.login.userPass({ username, password });
   
-  // search for companies
-  const companiesScroller = await client.search.searchCompanies({ keywords: 'Microsoft' });
-  const [{ company: microsoft }] = await companiesScroller.scrollNext();
+  // Search for React development jobs in Israel
+  const jobsScroller = await client.search.searchJobs({
+    keywords: 'React',
+    filters: { location: 'Israel' },
+    limit: 20,
+    skip: 5,
+  });
+
+  const [someReactJobHit] = await jobsScroller.scrollNext();
+  const jobCompanyName = someReactJobHit.hitInfo.jobPosting.companyDetails.company.name;
+
+  // Fetch the job's company
+  const companiesScroller = await client.search.searchCompanies({ keywords: jobCompanyName });
+  const [{ company: jobCompany }] = await companiesScroller.scrollNext();
 
   // Search for profiles and send an invitation
   const peopleScroller = await client.search.searchPeople({
-    keywords: 'Bill Gates',
-    filters: {
-      pastCompany: microsoft.companyId
-    }
+    keywords: 'Bill Gates'
   });
   const [{ profile: billGates }] = await peopleScroller.scrollNext();
   
@@ -105,6 +113,7 @@ The full list of entities can be found [here](https://github.com/eilonmore/linke
 |[Message](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_message_event_entity_.messageevent.md)|
 |[CompanySearchHit](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_company_search_hit_entity_.companysearchhit.md)|
 |[PeopleSearchHit](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_people_search_hit_entity_.peoplesearchhit.md)|
+|[JobSearchHit](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/modules/_src_entities_job_search_hit_entity_.md)|
 |[MessageCreateResponse](https://github.com/eilonmore/linkedin-private-api/blob/master/docs/interfaces/_src_entities_message_create_response_entity_.messageeventcreateresponse.md)|
 
 
@@ -151,7 +160,6 @@ This is a new project, and as such, there's a lot that need to be done.
 Some new features that I expect to develop soon:
 * Media support - fetch, like, comment and create a new post.
 * Invitation improvements - be able to do some more actions like "remove connection".
-* Search improvements - support jobs searching.
 * Improve login API
 * Add services so automate common workflows
 

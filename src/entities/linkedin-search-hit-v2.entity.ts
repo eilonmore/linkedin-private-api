@@ -1,7 +1,7 @@
 import { LinkedInImageViewModel } from './linkedin-image-view-model.entity';
 import { LinkedInTextViewModel } from './linkedin-text-view-model.entity';
 
-export interface LinkedInSearchHit {
+export interface LinkedInSearchHitV2 {
   $type: 'com.linkedin.voyager.search.SearchHitV2';
   '*badges': string;
   headless: string;

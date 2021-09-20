@@ -33,7 +33,7 @@
 
 • **$type**: _typeof_ [INVITATION_TYPE](../modules/_src_entities_linkedin_invitation_entity_.md#invitation_type)
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L16)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L16)_
 
 ---
 
@@ -41,7 +41,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:16](https://github.com/e
 
 • **\*fromMember**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L17)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L17)_
 
 ---
 
@@ -49,7 +49,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:17](https://github.com/e
 
 • **\*toMember**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L18)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L18)_
 
 ---
 
@@ -57,7 +57,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:18](https://github.com/e
 
 • **customMessage**: boolean
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L19)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L19)_
 
 ---
 
@@ -65,7 +65,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:19](https://github.com/e
 
 • **entityUrn**: string
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L20)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L20)_
 
 ---
 
@@ -73,7 +73,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:20](https://github.com/e
 
 • **invitationType**: InvitationType
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:21](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L21)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:21](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L21)_
 
 ---
 
@@ -81,7 +81,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:21](https://github.com/e
 
 • **invitee**: LinkedInProfileInvitee
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L22)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L22)_
 
 ---
 
@@ -89,7 +89,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:22](https://github.com/e
 
 • **mailboxItemId**: string
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:23](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L23)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:23](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L23)_
 
 ---
 
@@ -97,7 +97,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:23](https://github.com/e
 
 • **sentTime**: number
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L24)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L24)_
 
 ---
 
@@ -105,7 +105,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:24](https://github.com/e
 
 • **sharedSecret**: string
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:25](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L25)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:25](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L25)_
 
 ---
 
@@ -113,7 +113,7 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:25](https://github.com/e
 
 • **toMemberId**: string
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L26)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L26)_
 
 ---
 
@@ -121,4 +121,4 @@ _Defined in [src/entities/linkedin-invitation.entity.ts:26](https://github.com/e
 
 • `Optional` **unseen**: undefined \| false \| true
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/354b20a/src/entities/linkedin-invitation.entity.ts#L27)_
+_Defined in [src/entities/linkedin-invitation.entity.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L27)_
