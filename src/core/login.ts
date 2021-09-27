@@ -132,4 +132,11 @@ export class Login {
 
     return this.client;
   }
+
+  async userCookieString(cookies: string): Promise<Client> {
+    const parsedCookies = parseCookies<AuthCookies>(cookies.split(';'));
+    this.setRequestHeaders({ cookies: parsedCookies });
+
+    return this.client;
+  }
 }
