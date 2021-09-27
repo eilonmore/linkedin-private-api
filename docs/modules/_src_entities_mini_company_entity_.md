@@ -8,16 +8,16 @@
 
 ### Interfaces
 
-- [MiniCompany](../interfaces/_src_entities_mini_company_entity_.minicompany.md)
+* [MiniCompany](../interfaces/_src_entities_mini_company_entity_.minicompany.md)
 
 ### Type aliases
 
-- [CompanyId](_src_entities_mini_company_entity_.md#companyid)
+* [CompanyId](_src_entities_mini_company_entity_.md#companyid)
 
 ## Type aliases
 
 ### CompanyId
 
-Ƭ **CompanyId**: string
+Ƭ  **CompanyId**: string
 
-_Defined in [src/entities/mini-company.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/mini-company.entity.ts#L3)_
+*Defined in [src/entities/mini-company.entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/mini-company.entity.ts#L3)*
