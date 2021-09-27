@@ -81,69 +81,63 @@ export class SearchRequest {
     limit?: number;
     filters?: PeopleSalesNavigatorSearchFilters;
   }): Promise<GetSalesNavigatorPeopleSearchResponse> {
-    const createGraphqlQuery = () => {
-      const graphqlFilters = [];
+    const graphqlQuery = (() => {
+      const graphqlFilters = [
+        'doFetchHeroCard:false',
+        'recentSearchParam:(doLogHistory:false)',
+        'spellCorrectionEnabled:true',
+        'spotlightParam:(selectedType:ALL)',
+        'doFetchFilters:true',
+        'doFetchHits:true',
+        'doFetchSpotlights:true',
 
-      graphqlFilters.push('doFetchHeroCard:false');
-      graphqlFilters.push('recentSearchParam:(doLogHistory:false)');
-      graphqlFilters.push('spellCorrectionEnabled:true');
-      graphqlFilters.push('spotlightParam:(selectedType:ALL)');
-      graphqlFilters.push('doFetchFilters:true');
-      graphqlFilters.push('doFetchHits:true');
-      graphqlFilters.push('doFetchSpotlights:true');
+        ...(filters.companySize?.length
+          ? [`companySize:List(${filters.companySize.join(',')})`]
+          : []),
 
-      if (filters.companySize) {
-        const propertyName = 'companySize';
-        const propertyValue = `List(${filters.companySize.join(',')})`;
-        graphqlFilters.push(`${propertyName}:${propertyValue}`);
-      }
+        ...(filters.bingGeo?.length
+          ? [`bingGeo:(includedValues:List(${filters.bingGeo
+            .map(x => `(id:${x})`)
+            .join(',')}))`]
+          : []),
 
-      if (filters.bingGeo) {
-        const propertyName = 'bingGeo';
-        const propertyValue = `(includedValues:List(${filters.bingGeo.map(x => `(id:${x})`).join(',')}))`;
-        graphqlFilters.push(`${propertyName}:${propertyValue}`);
-      }
+        ...(filters.industry?.length
+          ? [`industryV2:(includedValues:List(${filters.industry
+            .map(x => `(id:${x})`)
+            .join(',')}))`]
+          : []),
 
-      if (filters.industry) {
-        const propertyName = 'industryV2';
-        const propertyValue = `(includedValues:List(${filters.industry.map(x => `(id:${x})`).join(',')}))`;
-        graphqlFilters.push(`${propertyName}:${propertyValue}`);
-      }
+        ...(filters.relationship?.length
+          ? [`relationship:List(${filters.relationship.join(',')})`]
+          : []),
 
-      if (filters.relationship) {
-        const propertyName = 'relationship';
-        const propertyValue = `List(${filters.relationship.join(',')})`;
-        graphqlFilters.push(`${propertyName}:${propertyValue}`);
-      }
+        ...(filters.seniorityLevel?.length
+          ? [`seniorityLevelV2:(includedValues:List(${filters.seniorityLevel
+            .map(x => `(id:${x})`)
+            .join(',')}))`]
+          : []),
 
-      if (filters.seniorityLevel) {
-        const propertyName = 'seniorityLevelV2';
-        const propertyValue = `(includedValues:List(${filters.seniorityLevel.map(x => `(id:${x})`).join(',')}))`;
-        graphqlFilters.push(`${propertyName}:${propertyValue}`);
-      }
+        ...(filters.title?.length
+          ? [`titleV2:(scope:CURRENT,includedValues:List(${filters.title
+            .map(x => `(text:${encodeURIComponent(x.text)},id:${x.id})`)
+            .join(',')}))`]
+          : []),
 
-      if (filters.title) {
-        const propertyName = 'titleV2';
-        const propertyValue = `(scope:CURRENT,includedValues:List(${filters.title.map(x => `(text:${encodeURIComponent(x.text)},id:${x.id})`).join(',')}))`;
-        graphqlFilters.push(`${propertyName}:${propertyValue}`);
-      }
-
-      if (filters.yearsOfExperience) {
-        const propertyName = 'relationship';
-        const propertyValue = `List(${filters.yearsOfExperience.join(',')})`;
-        graphqlFilters.push(`${propertyName}:${propertyValue}`);
-      }
+        ...(filters.yearsOfExperience?.length
+          ? [`yearsOfExperience:List(${filters.yearsOfExperience.join(',')})`]
+          : [])
+      ];
 
       return `(${graphqlFilters.join(',')})`;
-    }
+    })();
 
     const url = 'https://www.linkedin.com/sales-api/salesApiPeopleSearch';
 
     const queryParams = {
-      q: "peopleSearchQuery",
+      q: 'peopleSearchQuery',
       start: skip,
       count: limit,
-      query: createGraphqlQuery(),
+      query: graphqlQuery,
       decorationId: 'com.linkedin.sales.deco.desktop.search.DecoratedPeopleSearchHitResult-10',
     };
 
