@@ -8,4 +8,4 @@
 
 ### Interfaces
 
-- [LinkedInSearchHit](../interfaces/_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md)
+* [LinkedInSearchHit](../interfaces/_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md)
