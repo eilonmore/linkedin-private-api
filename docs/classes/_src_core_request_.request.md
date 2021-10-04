@@ -30,21 +30,15 @@
 
 ### constructor
 
-\+ **new Request**(): [Request](_src_core_request_.request.md)
+\+ **new Request**(`proxy?`: AxiosProxyConfig): [Request](_src_core_request_.request.md)
 
-*Defined in [src/core/request.ts:18](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/core/request.ts#L18)*
-
-**Returns:** [Request](_src_core_request_.request.md)
-
-\+ **new Request**(`proxy`: AxiosProxyConfig): [Request](_src_core_request_.request.md)
-
-*Defined in [src/core/request.ts:20](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/core/request.ts#L20)*
+*Defined in [src/core/request.ts:18](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/request.ts#L18)*
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`proxy` | AxiosProxyConfig |
+`proxy?` | AxiosProxyConfig |
 
 **Returns:** [Request](_src_core_request_.request.md)
 
@@ -54,7 +48,7 @@ Name | Type |
 
 •  **request**: AxiosInstance
 
-*Defined in [src/core/request.ts:18](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/core/request.ts#L18)*
+*Defined in [src/core/request.ts:18](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/request.ts#L18)*
 
 ## Methods
 
@@ -62,7 +56,7 @@ Name | Type |
 
 ▸ **get**<T\>(`url`: string, `reqConfig?`: ConfigNonFullResponse): Promise<T\>
 
-*Defined in [src/core/request.ts:34](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/core/request.ts#L34)*
+*Defined in [src/core/request.ts:32](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/request.ts#L32)*
 
 #### Type parameters:
 
@@ -81,7 +75,7 @@ Name | Type |
 
 ▸ **get**<T\>(`url`: string, `reqConfig?`: ConfigFullResponse): Promise<AxiosResponse<T\>\>
 
-*Defined in [src/core/request.ts:35](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/core/request.ts#L35)*
+*Defined in [src/core/request.ts:33](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/request.ts#L33)*
 
 #### Type parameters:
 
@@ -104,7 +98,7 @@ ___
 
 ▸ **post**<T\>(`url`: string, `data`: string \| Record<string, unknown\>, `reqConfig?`: ConfigNonFullResponse): Promise<T\>
 
-*Defined in [src/core/request.ts:42](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/core/request.ts#L42)*
+*Defined in [src/core/request.ts:40](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/request.ts#L40)*
 
 #### Type parameters:
 
@@ -124,7 +118,7 @@ Name | Type |
 
 ▸ **post**<T\>(`url`: string, `data`: string \| Record<string, unknown\>, `reqConfig?`: ConfigFullResponse): Promise<AxiosResponse<T\>\>
 
-*Defined in [src/core/request.ts:43](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/core/request.ts#L43)*
+*Defined in [src/core/request.ts:41](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/request.ts#L41)*
 
 #### Type parameters:
 
@@ -148,7 +142,7 @@ ___
 
 ▸ **setHeaders**(`headers`: Record<string, string\>): void
 
-*Defined in [src/core/request.ts:30](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/core/request.ts#L30)*
+*Defined in [src/core/request.ts:28](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/request.ts#L28)*
 
 #### Parameters:
 

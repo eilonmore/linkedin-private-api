@@ -1,3 +1,4 @@
+import { linkedinSalesNavigatorUrl } from '../../config';
 import { LinkedInRequest } from '../core/linkedin-request';
 import { extractProfileId } from '../utils/common-li';
 
@@ -17,7 +18,7 @@ export class SalesNavigatorConnectionRequest {
   }): Promise<any> {
     const profileId = extractProfileId(profileUrn);
 
-    const url = 'https://www.linkedin.com/sales-api/salesApiConnection';
+    const url = `${linkedinSalesNavigatorUrl}/salesApiConnection`;
 
     const queryParams = {
       action: 'connect'

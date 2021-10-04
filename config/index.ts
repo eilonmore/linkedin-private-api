@@ -2,6 +2,8 @@ export const linkedinApiUrl = 'https://www.linkedin.com/voyager/api/';
 
 export const authUrl = 'https://www.linkedin.com/uas/authenticate';
 
+export const linkedinSalesNavigatorUrl = 'https://www.linkedin.com/sales-api';
+
 export const authHeaders = Object.freeze({
   'user-agent': 'LinkedIn/8.8.1 CFNetwork/711.3.18 Darwin/14.0.0',
   'accept-encoding': 'gzip, deflate',

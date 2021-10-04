@@ -31,7 +31,7 @@
 
 •  **$type**: *typeof* [EVENT\_TYPE](../modules/_src_entities_linkedin_event_entity_.md#event_type)
 
-*Defined in [src/entities/linkedin-event.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L6)*
+*Defined in [src/entities/linkedin-event.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L6)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  ***from**: string
 
-*Defined in [src/entities/linkedin-event.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L7)*
+*Defined in [src/entities/linkedin-event.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L7)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 •  **backendUrn**: string
 
-*Defined in [src/entities/linkedin-event.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L8)*
+*Defined in [src/entities/linkedin-event.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L8)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 •  **createdAt**: number
 
-*Defined in [src/entities/linkedin-event.entity.ts:9](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L9)*
+*Defined in [src/entities/linkedin-event.entity.ts:9](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L9)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 •  **dashEntityUrn**: string
 
-*Defined in [src/entities/linkedin-event.entity.ts:10](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L10)*
+*Defined in [src/entities/linkedin-event.entity.ts:10](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L10)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 •  **entityUrn**: [LinkedInEventUrn](../modules/_src_entities_linkedin_event_entity_.md#linkedineventurn)
 
-*Defined in [src/entities/linkedin-event.entity.ts:11](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L11)*
+*Defined in [src/entities/linkedin-event.entity.ts:11](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L11)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 •  **eventContent**: unknown
 
-*Defined in [src/entities/linkedin-event.entity.ts:12](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L12)*
+*Defined in [src/entities/linkedin-event.entity.ts:12](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L12)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 •  **originToken**: string
 
-*Defined in [src/entities/linkedin-event.entity.ts:13](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L13)*
+*Defined in [src/entities/linkedin-event.entity.ts:13](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L13)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 • `Optional` **previousEventInConversation**: undefined \| string
 
-*Defined in [src/entities/linkedin-event.entity.ts:15](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L15)*
+*Defined in [src/entities/linkedin-event.entity.ts:15](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L15)*
 
 ___
 
@@ -103,4 +103,4 @@ ___
 
 •  **subtype**: string
 
-*Defined in [src/entities/linkedin-event.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-event.entity.ts#L14)*
+*Defined in [src/entities/linkedin-event.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L14)*

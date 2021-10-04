@@ -1,3 +1,4 @@
+import { linkedinSalesNavigatorUrl } from '../../config';
 import { LinkedInRequest } from '../core/linkedin-request';
 import { SendSalesNavigatorMessageResponse } from '../responses/sn-message.response.post';
 
@@ -39,7 +40,7 @@ export class SalesNavigatorMessageRequest {
     threadId?: string;
     recipients?: string[]
   }): Promise<SendSalesNavigatorMessageResponse> {
-    const url = 'https://www.linkedin.com/sales-api/salesApiMessageActions';
+    const url = `${linkedinSalesNavigatorUrl}/salesApiMessageActions`;
 
     const queryParams = {
       action: 'createMessage'
@@ -60,8 +61,5 @@ export class SalesNavigatorMessageRequest {
     return this.request.post<SendSalesNavigatorMessageResponse>(url, payload, {
       params: queryParams
     });
-  }
-
-  getMessages(): void {
   }
 }

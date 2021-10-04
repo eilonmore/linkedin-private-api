@@ -1,3 +1,4 @@
+import { linkedinSalesNavigatorUrl } from '../../config';
 import { LinkedInRequest } from '../core/linkedin-request';
 
 export class SalesNavigatorTypeaheadRequest {
@@ -16,7 +17,7 @@ export class SalesNavigatorTypeaheadRequest {
     limit: number;
     query: string;
   }): Promise<any> {
-    const url = 'https://www.linkedin.com/sales-api/salesApiFacetTypeahead';
+    const url = `${linkedinSalesNavigatorUrl}/salesApiFacetTypeahead`;
 
     const queryParams = {
       q: 'query',
@@ -40,7 +41,7 @@ export class SalesNavigatorTypeaheadRequest {
     limit: number;
     query: string;
   }): Promise<any> {
-    const url = 'https://www.linkedin.com/sales-api/salesApiFacetTypeahead';
+    const url = `${linkedinSalesNavigatorUrl}/salesApiFacetTypeahead`;
 
     const queryParams = {
       q: 'query',
