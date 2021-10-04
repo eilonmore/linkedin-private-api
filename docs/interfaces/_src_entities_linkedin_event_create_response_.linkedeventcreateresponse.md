@@ -27,7 +27,7 @@
 
 •  **$type**: \"com.linkedin.voyager.messaging.create.EventCreateResponse\"
 
-*Defined in [src/entities/linkedin-event-create-response.ts:2](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-event-create-response.ts#L2)*
+*Defined in [src/entities/linkedin-event-create-response.ts:2](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-event-create-response.ts#L2)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 •  **backendConversationUrn**: string
 
-*Defined in [src/entities/linkedin-event-create-response.ts:3](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-event-create-response.ts#L3)*
+*Defined in [src/entities/linkedin-event-create-response.ts:3](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-event-create-response.ts#L3)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 •  **backendEventUrn**: string
 
-*Defined in [src/entities/linkedin-event-create-response.ts:4](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-event-create-response.ts#L4)*
+*Defined in [src/entities/linkedin-event-create-response.ts:4](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-event-create-response.ts#L4)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 •  **conversationUrn**: string
 
-*Defined in [src/entities/linkedin-event-create-response.ts:5](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-event-create-response.ts#L5)*
+*Defined in [src/entities/linkedin-event-create-response.ts:5](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-event-create-response.ts#L5)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 •  **createdAt**: number
 
-*Defined in [src/entities/linkedin-event-create-response.ts:6](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-event-create-response.ts#L6)*
+*Defined in [src/entities/linkedin-event-create-response.ts:6](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-event-create-response.ts#L6)*
 
 ___
 
@@ -67,4 +67,4 @@ ___
 
 •  **eventUrn**: string
 
-*Defined in [src/entities/linkedin-event-create-response.ts:7](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-event-create-response.ts#L7)*
+*Defined in [src/entities/linkedin-event-create-response.ts:7](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-event-create-response.ts#L7)*
