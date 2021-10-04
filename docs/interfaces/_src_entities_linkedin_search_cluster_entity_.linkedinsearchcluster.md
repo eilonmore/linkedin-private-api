@@ -22,7 +22,7 @@
 
 •  **$type**: \"com.linkedin.voyager.search.BlendedSearchCluster\"
 
-*Defined in [src/entities/linkedin-search-cluster.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-cluster.entity.ts#L5)*
+*Defined in [src/entities/linkedin-search-cluster.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-search-cluster.entity.ts#L5)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **elements**: [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md)[]
 
-*Defined in [src/entities/linkedin-search-cluster.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-cluster.entity.ts#L6)*
+*Defined in [src/entities/linkedin-search-cluster.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-search-cluster.entity.ts#L6)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **type**: SearchResultType
 
-*Defined in [src/entities/linkedin-search-cluster.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-cluster.entity.ts#L7)*
+*Defined in [src/entities/linkedin-search-cluster.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-search-cluster.entity.ts#L7)*

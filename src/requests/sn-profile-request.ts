@@ -1,3 +1,4 @@
+import { linkedinSalesNavigatorUrl } from '../../config';
 import { LinkedInRequest } from '../core/linkedin-request';
 import { SalesNavigatorPeopleSearchFilters } from '../types/people-search-filters';
 import { extractProfileId } from '../utils/common-li';
@@ -16,7 +17,7 @@ export class SalesNavigatorProfileRequest {
   }): Promise<any> {
     const profileId = extractProfileId(profileUrn);
 
-    const url = `https://www.linkedin.com/sales-api/salesApiProfiles/(profileId:${profileId},authType:NAME_SEARCH,authToken:x0Hp)`;
+    const url = `${linkedinSalesNavigatorUrl}/salesApiProfiles/(profileId:${profileId},authType:NAME_SEARCH,authToken:x0Hp)`;
 
     const decorations = [
       'entityUrn',
@@ -74,7 +75,7 @@ export class SalesNavigatorProfileRequest {
     limit?: number;
     filters?: SalesNavigatorPeopleSearchFilters;
   }): Promise<any> {
-    const url = 'https://www.linkedin.com/sales-api/salesApiPeopleSearch';
+    const url = `${linkedinSalesNavigatorUrl}/salesApiPeopleSearch`;
 
     const graphqlQuery = (() => {
       const graphqlFilters = [
