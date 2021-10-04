@@ -26,7 +26,7 @@
 
 \+ **new Login**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [Login](_src_core_login_.login.md)
 
-*Defined in [src/core/login.ts:22](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/login.ts#L22)*
+*Defined in [src/core/login.ts:22](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/core/login.ts#L22)*
 
 #### Parameters:
 
@@ -42,7 +42,7 @@ Name | Type |
 
 ▸ **userCookie**(`__namedParameters`: { cookies: { JSESSIONID: string ; li_at?: undefined \| string  } ; useCache: boolean = true; username: undefined \| string  }): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:112](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/login.ts#L112)*
+*Defined in [src/core/login.ts:112](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/core/login.ts#L112)*
 
 #### Parameters:
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **userCookieString**(`cookies`: string): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:136](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/login.ts#L136)*
+*Defined in [src/core/login.ts:136](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/core/login.ts#L136)*
 
 #### Parameters:
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **userPass**(`__namedParameters`: { password: undefined \| string ; useCache: boolean = true; username: string  }): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:79](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/core/login.ts#L79)*
+*Defined in [src/core/login.ts:79](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/core/login.ts#L79)*
 
 #### Parameters:
 

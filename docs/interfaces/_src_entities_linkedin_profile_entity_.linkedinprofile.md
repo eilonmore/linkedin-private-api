@@ -59,7 +59,7 @@
 
 •  **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-profile.entity.ts:57](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L57)*
+*Defined in [src/entities/linkedin-profile.entity.ts:57](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L57)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 •  **$type**: *typeof* [PROFILE\_TYPE](../modules/_src_entities_linkedin_profile_entity_.md#profile_type)
 
-*Defined in [src/entities/linkedin-profile.entity.ts:41](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L41)*
+*Defined in [src/entities/linkedin-profile.entity.ts:41](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L41)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 •  ***industry**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:42](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L42)*
+*Defined in [src/entities/linkedin-profile.entity.ts:42](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L42)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 •  ***profileCertifications**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:43](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L43)*
+*Defined in [src/entities/linkedin-profile.entity.ts:43](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L43)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 •  ***profileCourses**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:44](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L44)*
+*Defined in [src/entities/linkedin-profile.entity.ts:44](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L44)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 •  ***profileEducations**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:45](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L45)*
+*Defined in [src/entities/linkedin-profile.entity.ts:45](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L45)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 •  ***profileHonors**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:46](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L46)*
+*Defined in [src/entities/linkedin-profile.entity.ts:46](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L46)*
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 •  ***profileLanguages**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:47](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L47)*
+*Defined in [src/entities/linkedin-profile.entity.ts:47](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L47)*
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 •  ***profileOrganizations**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:48](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L48)*
+*Defined in [src/entities/linkedin-profile.entity.ts:48](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L48)*
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 •  ***profilePatents**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:49](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L49)*
+*Defined in [src/entities/linkedin-profile.entity.ts:49](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L49)*
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 •  ***profilePositionGroups**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:50](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L50)*
+*Defined in [src/entities/linkedin-profile.entity.ts:50](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L50)*
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 •  ***profileProjects**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:51](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L51)*
+*Defined in [src/entities/linkedin-profile.entity.ts:51](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L51)*
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 •  ***profilePublications**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:52](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L52)*
+*Defined in [src/entities/linkedin-profile.entity.ts:52](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L52)*
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 •  ***profileSkills**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:53](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L53)*
+*Defined in [src/entities/linkedin-profile.entity.ts:53](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L53)*
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 •  ***profileTestScores**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:54](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L54)*
+*Defined in [src/entities/linkedin-profile.entity.ts:54](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L54)*
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 •  ***profileTreasuryMediaProfile**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:55](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L55)*
+*Defined in [src/entities/linkedin-profile.entity.ts:55](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L55)*
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 •  ***profileVolunteerExperiences**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:56](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L56)*
+*Defined in [src/entities/linkedin-profile.entity.ts:56](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L56)*
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 •  **defaultToActivityTab**: boolean
 
-*Defined in [src/entities/linkedin-profile.entity.ts:58](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L58)*
+*Defined in [src/entities/linkedin-profile.entity.ts:58](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L58)*
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 •  **educationOnProfileTopCardShown**: boolean
 
-*Defined in [src/entities/linkedin-profile.entity.ts:59](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L59)*
+*Defined in [src/entities/linkedin-profile.entity.ts:59](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L59)*
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 •  **entityUrn**: [ProfileUrn](../modules/_src_entities_linkedin_profile_entity_.md#profileurn)
 
-*Defined in [src/entities/linkedin-profile.entity.ts:60](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L60)*
+*Defined in [src/entities/linkedin-profile.entity.ts:60](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L60)*
 
 ___
 
@@ -219,7 +219,7 @@ ___
 
 •  **firstName**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:61](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L61)*
+*Defined in [src/entities/linkedin-profile.entity.ts:61](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L61)*
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 •  **geoLocation**: LinkedInProfileGeoLocation
 
-*Defined in [src/entities/linkedin-profile.entity.ts:63](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L63)*
+*Defined in [src/entities/linkedin-profile.entity.ts:63](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L63)*
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 •  **geoLocationBackfilled**: boolean
 
-*Defined in [src/entities/linkedin-profile.entity.ts:64](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L64)*
+*Defined in [src/entities/linkedin-profile.entity.ts:64](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L64)*
 
 ___
 
@@ -243,7 +243,7 @@ ___
 
 •  **headline**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:65](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L65)*
+*Defined in [src/entities/linkedin-profile.entity.ts:65](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L65)*
 
 ___
 
@@ -251,7 +251,7 @@ ___
 
 •  **industryUrn**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:66](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L66)*
+*Defined in [src/entities/linkedin-profile.entity.ts:66](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L66)*
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 •  **lastName**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:62](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L62)*
+*Defined in [src/entities/linkedin-profile.entity.ts:62](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L62)*
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 •  **location**: LinkedInProfileLocation
 
-*Defined in [src/entities/linkedin-profile.entity.ts:67](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L67)*
+*Defined in [src/entities/linkedin-profile.entity.ts:67](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L67)*
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 •  **locationName**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:68](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L68)*
+*Defined in [src/entities/linkedin-profile.entity.ts:68](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L68)*
 
 ___
 
@@ -283,7 +283,7 @@ ___
 
 •  **multiLocaleFirstName**: Record<string, string\>
 
-*Defined in [src/entities/linkedin-profile.entity.ts:69](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L69)*
+*Defined in [src/entities/linkedin-profile.entity.ts:69](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L69)*
 
 ___
 
@@ -291,7 +291,7 @@ ___
 
 •  **multiLocaleHeadline**: Record<string, string\>
 
-*Defined in [src/entities/linkedin-profile.entity.ts:70](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L70)*
+*Defined in [src/entities/linkedin-profile.entity.ts:70](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L70)*
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 •  **multiLocaleLastName**: Record<string, string\>
 
-*Defined in [src/entities/linkedin-profile.entity.ts:71](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L71)*
+*Defined in [src/entities/linkedin-profile.entity.ts:71](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L71)*
 
 ___
 
@@ -307,7 +307,7 @@ ___
 
 •  **objectUrn**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:72](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L72)*
+*Defined in [src/entities/linkedin-profile.entity.ts:72](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L72)*
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 •  **primaryLocale**: LinkedInPrimaryLocale
 
-*Defined in [src/entities/linkedin-profile.entity.ts:73](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L73)*
+*Defined in [src/entities/linkedin-profile.entity.ts:73](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L73)*
 
 ___
 
@@ -323,7 +323,7 @@ ___
 
 •  **profilePicture**: [LinkedInPhotoFilterPicture](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md)
 
-*Defined in [src/entities/linkedin-profile.entity.ts:74](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L74)*
+*Defined in [src/entities/linkedin-profile.entity.ts:74](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L74)*
 
 ___
 
@@ -331,7 +331,7 @@ ___
 
 •  **publicIdentifier**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:75](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L75)*
+*Defined in [src/entities/linkedin-profile.entity.ts:75](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L75)*
 
 ___
 
@@ -339,7 +339,7 @@ ___
 
 •  **supportedLocales**: LinkedInPrimaryLocale[]
 
-*Defined in [src/entities/linkedin-profile.entity.ts:76](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L76)*
+*Defined in [src/entities/linkedin-profile.entity.ts:76](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L76)*
 
 ___
 
@@ -347,7 +347,7 @@ ___
 
 •  **trackingId**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:77](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L77)*
+*Defined in [src/entities/linkedin-profile.entity.ts:77](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L77)*
 
 ___
 
@@ -355,4 +355,4 @@ ___
 
 •  **versionTag**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:78](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L78)*
+*Defined in [src/entities/linkedin-profile.entity.ts:78](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L78)*

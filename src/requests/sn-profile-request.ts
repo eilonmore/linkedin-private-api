@@ -2,6 +2,7 @@ import { linkedinSalesNavigatorUrl } from '../../config';
 import { LinkedInRequest } from '../core/linkedin-request';
 import { SalesNavigatorPeopleSearchFilters } from '../types/people-search-filters';
 import { extractProfileId } from '../utils/common-li';
+import { graphqlParamSerializer } from '../utils/graphqlParamSerializer';
 
 export class SalesNavigatorProfileRequest {
   private request: LinkedInRequest;
@@ -77,66 +78,71 @@ export class SalesNavigatorProfileRequest {
   }): Promise<any> {
     const url = `${linkedinSalesNavigatorUrl}/salesApiPeopleSearch`;
 
-    const graphqlQuery = (() => {
-      const graphqlFilters = [
-        'doFetchHeroCard:false',
-        'recentSearchParam:(doLogHistory:false)',
-        'spellCorrectionEnabled:true',
-        'spotlightParam:(selectedType:ALL)',
-        'doFetchFilters:true',
-        'doFetchHits:true',
-        'doFetchSpotlights:true',
+    const graphqlFilter = {
+      doFetchHeroCard: false,
+      recentSearchParam: {
+        doLogHistory: false
+      },
+      spellCorrectionEnabled: true,
+      spotlightParam: {
+        selectedType: 'ALL'
+      },
+      doFetchFilters: true,
+      doFetchHits: true,
+      doFetchSpotlights: true,
 
-        ...(filters.companySize?.length
-          ? [`companySize:List(${filters.companySize.join(',')})`]
-          : []),
+      ...(filters.companySize?.length ? {
+        companySize: filters.companySize
+      } : {}),
 
-        ...(filters.bingGeo?.length
-          ? [`bingGeo:(includedValues:List(${filters.bingGeo
-            .map(x => `(id:${x})`)
-            .join(',')}))`]
-          : []),
+      ...(filters.bingGeo?.length ? {
+        bingGeo: {
+          includedValues: filters.bingGeo?.map(x => ({ id: x }))
+        }
+      } : {}),
 
-        ...(filters.industry?.length
-          ? [`industryV2:(includedValues:List(${filters.industry
-            .map(x => `(id:${x})`)
-            .join(',')}))`]
-          : []),
+      ...(filters.industry?.length ? {
+        industryV2: {
+          includedValues: filters.industry?.map(x => ({ id: x }))
+        }
+      } : {}),
 
-        ...(filters.relationship?.length
-          ? [`relationship:List(${filters.relationship.join(',')})`]
-          : []),
+      ...(filters.relationship?.length ? {
+        relationship: filters.relationship
+      } : {}),
 
-        ...(filters.seniorityLevel?.length
-          ? [`seniorityLevelV2:(includedValues:List(${filters.seniorityLevel
-            .map(x => `(id:${x})`)
-            .join(',')}))`]
-          : []),
+      ...(filters.seniorityLevel?.length ? {
+        seniorityLevelV2: {
+          includedValues: filters.seniorityLevel?.map(x => ({ id: x }))
+        }
+      } : {}),
 
-        ...(filters.title?.length
-          ? [`titleV2:(scope:CURRENT,includedValues:List(${filters.title
-            .map(x => `(text:${encodeURIComponent(x.text)}${x.id ? `,id:${x.id}` : ''})`)
-            .join(',')}))`]
-          : []),
+      ...(filters.title?.length ? {
+        titleV2: {
+          scope: 'CURRENT',
+          includedValues: filters.title?.map(x => ({
+            id: x.id,
+            text: encodeURIComponent(x.text)
+          }))
+        }
+      } : {}),
 
-        ...(filters.yearsOfExperience?.length
-          ? [`yearsOfExperience:List(${filters.yearsOfExperience.join(',')})`]
-          : [])
-      ];
-
-      return `(${graphqlFilters.join(',')})`;
-    })();
+      ...(filters.yearsOfExperience?.length ? {
+        yearsOfExperience: filters.yearsOfExperience
+      } : {})
+    };
 
     const queryParams = {
       q: 'peopleSearchQuery',
       start: skip,
       count: limit,
-      query: graphqlQuery,
+      query: graphqlFilter,
       decorationId: 'com.linkedin.sales.deco.desktop.search.DecoratedPeopleSearchHitResult-10',
     };
 
     return this.request.get<any>(url, {
-      params: queryParams
+      params: queryParams,
+      paramsSerializer: graphqlParamSerializer
     });
   }
 }

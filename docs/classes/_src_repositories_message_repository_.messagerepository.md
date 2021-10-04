@@ -25,7 +25,7 @@
 
 \+ **new MessageRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [MessageRepository](_src_repositories_message_repository_.messagerepository.md)
 
-*Defined in [src/repositories/message.repository.ts:18](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/repositories/message.repository.ts#L18)*
+*Defined in [src/repositories/message.repository.ts:18](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/repositories/message.repository.ts#L18)*
 
 #### Parameters:
 
@@ -41,7 +41,7 @@ Name | Type |
 
 ▸ **getMessages**(`__namedParameters`: { conversationId: string ; createdBefore: undefined \| Date  }): [MessageScroller](_src_scrollers_message_scroller_.messagescroller.md)
 
-*Defined in [src/repositories/message.repository.ts:24](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/repositories/message.repository.ts#L24)*
+*Defined in [src/repositories/message.repository.ts:24](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/repositories/message.repository.ts#L24)*
 
 #### Parameters:
 
@@ -57,7 +57,7 @@ ___
 
 ▸ **sendMessage**(`__namedParameters`: { profileId: string ; text: string  }): Promise<[MessageEventCreateResponse](../interfaces/_src_entities_message_create_response_entity_.messageeventcreateresponse.md)\>
 
-*Defined in [src/repositories/message.repository.ts:28](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/repositories/message.repository.ts#L28)*
+*Defined in [src/repositories/message.repository.ts:28](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/repositories/message.repository.ts#L28)*
 
 #### Parameters:
 
