@@ -24,7 +24,7 @@
 
 •  **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-profile.entity.ts:30](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L30)*
+*Defined in [src/entities/linkedin-profile.entity.ts:30](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L30)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **$type**: \"com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture\"
 
-*Defined in [src/entities/linkedin-profile.entity.ts:29](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L29)*
+*Defined in [src/entities/linkedin-profile.entity.ts:29](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L29)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **displayImageReference**: { vectorImage: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)  }
 
-*Defined in [src/entities/linkedin-profile.entity.ts:31](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L31)*
+*Defined in [src/entities/linkedin-profile.entity.ts:31](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L31)*
 
 #### Type declaration:
 
@@ -54,7 +54,7 @@ ___
 
 •  **displayImageUrn**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:34](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L34)*
+*Defined in [src/entities/linkedin-profile.entity.ts:34](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L34)*
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 •  **photoFilterEditInfo**: unknown
 
-*Defined in [src/entities/linkedin-profile.entity.ts:35](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-profile.entity.ts#L35)*
+*Defined in [src/entities/linkedin-profile.entity.ts:35](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-profile.entity.ts#L35)*

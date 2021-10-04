@@ -24,7 +24,7 @@
 
 Ƭ  **LinkedInEventUrn**: string
 
-*Defined in [src/entities/linkedin-event.entity.ts:1](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L1)*
+*Defined in [src/entities/linkedin-event.entity.ts:1](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-event.entity.ts#L1)*
 
 ## Variables
 
@@ -32,4 +32,4 @@
 
 • `Const` **EVENT\_TYPE**: \"com.linkedin.voyager.messaging.Event\" = "com.linkedin.voyager.messaging.Event"
 
-*Defined in [src/entities/linkedin-event.entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/1436ab9/src/entities/linkedin-event.entity.ts#L3)*
+*Defined in [src/entities/linkedin-event.entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/156bcd3/src/entities/linkedin-event.entity.ts#L3)*
