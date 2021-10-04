@@ -28,7 +28,7 @@
 
 •  **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-job-posting.ts:12](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L12)*
+*Defined in [src/entities/linkedin-job-posting.ts:12](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L12)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 •  **$type**: *typeof* [JOB\_POSTING\_TYPE](../modules/_src_entities_linkedin_job_posting_.md#job_posting_type)
 
-*Defined in [src/entities/linkedin-job-posting.ts:11](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L11)*
+*Defined in [src/entities/linkedin-job-posting.ts:11](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L11)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 •  **companyDetails**: [LinkedInJobPostingCompany](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md)
 
-*Defined in [src/entities/linkedin-job-posting.ts:19](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L19)*
+*Defined in [src/entities/linkedin-job-posting.ts:19](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L19)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 •  **dashEntityUrn**: string
 
-*Defined in [src/entities/linkedin-job-posting.ts:14](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L14)*
+*Defined in [src/entities/linkedin-job-posting.ts:14](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L14)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-job-posting.ts:13](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L13)*
+*Defined in [src/entities/linkedin-job-posting.ts:13](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L13)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 •  **formattedLocation**: string
 
-*Defined in [src/entities/linkedin-job-posting.ts:15](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L15)*
+*Defined in [src/entities/linkedin-job-posting.ts:15](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L15)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 •  **listedAt**: number
 
-*Defined in [src/entities/linkedin-job-posting.ts:16](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L16)*
+*Defined in [src/entities/linkedin-job-posting.ts:16](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L16)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 •  **title**: string
 
-*Defined in [src/entities/linkedin-job-posting.ts:17](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L17)*
+*Defined in [src/entities/linkedin-job-posting.ts:17](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L17)*
 
 ___
 
@@ -92,4 +92,4 @@ ___
 
 •  **workRemoteAllowed**: boolean
 
-*Defined in [src/entities/linkedin-job-posting.ts:18](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-job-posting.ts#L18)*
+*Defined in [src/entities/linkedin-job-posting.ts:18](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-job-posting.ts#L18)*

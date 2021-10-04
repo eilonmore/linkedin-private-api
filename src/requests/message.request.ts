@@ -56,15 +56,4 @@ export class MessageRequest {
       params: queryParams,
     });
   }
-
-  sendSalesNavigatorMessage({
-    entityUrn
-  }: {
-    entityUrn: string;
-  }): void {
-    console.log(entityUrn)
-  }
-
-  getSalesNavigatorMessages(): void {
-  }
 }
