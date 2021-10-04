@@ -13,8 +13,6 @@ import { Login } from './login';
 export class Client {
   request: LinkedInRequest;
 
-  constructor();
-  constructor(proxy: AxiosProxyConfig);
   constructor(proxy?: AxiosProxyConfig) {
     this.request = proxy
       ? new LinkedInRequest(proxy)

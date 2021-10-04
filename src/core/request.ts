@@ -17,13 +17,11 @@ type ConfigNonFullResponse = AxiosRequestConfig & { fullResponse?: false };
 export class Request {
   request: AxiosInstance;
 
-  constructor();
-  constructor(proxy: AxiosProxyConfig);
   constructor(proxy?: AxiosProxyConfig) {
     this.request = axios.create({
       paramsSerializer,
       withCredentials: true,
-      proxy
+      ...(proxy && { proxy })
     });
   }
 
