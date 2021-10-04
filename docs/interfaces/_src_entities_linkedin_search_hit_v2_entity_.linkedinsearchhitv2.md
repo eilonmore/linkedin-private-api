@@ -40,7 +40,7 @@
 
 •  **$type**: \"com.linkedin.voyager.search.SearchHitV2\"
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L5)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L5)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  ***badges**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L6)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L6)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **headless**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L7)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L7)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **headline**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L8)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L8)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **image**: [LinkedInImageViewModel](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md)
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:9](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L9)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:9](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L9)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **memberDistance**: { $type: \"com.linkedin.voyager.common.MemberDistance\" ; value: string  }
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:10](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L10)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:10](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L10)*
 
 #### Type declaration:
 
@@ -95,7 +95,7 @@ ___
 
 •  **nameMatch**: boolean
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L14)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L14)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 •  **navigationUrl**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:15](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L15)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:15](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L15)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 •  **publicIdentifier**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:16](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L16)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:16](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L16)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 •  **secondaryTitle**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:17](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L17)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:17](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L17)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 •  **socialProofText**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L18)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L18)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 •  **subline**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:19](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L19)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:19](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L19)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 •  **targetUrn**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:20](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L20)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:20](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L20)*
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 •  **title**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:21](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L21)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:21](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L21)*
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 •  **trackingId**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:22](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L22)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:22](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L22)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 •  **trackingUrn**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:23](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L23)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:23](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L23)*
 
 ___
 
@@ -175,4 +175,4 @@ ___
 
 •  **type**: string
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:24](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-search-hit-v2.entity.ts#L24)*
+*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:24](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-search-hit-v2.entity.ts#L24)*

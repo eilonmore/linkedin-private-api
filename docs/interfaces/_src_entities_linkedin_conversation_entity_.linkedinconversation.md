@@ -40,7 +40,7 @@
 
 •  **$type**: *typeof* [CONVERSATION\_TYPE](../modules/_src_entities_linkedin_conversation_entity_.md#conversation_type)
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:26](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L26)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:26](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L26)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  ***events**: string[]
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:27](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L27)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:27](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L27)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  ***participants**: string[]
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:28](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L28)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:28](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L28)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  ***type**: string[]
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:29](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L29)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:29](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L29)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **archived**: boolean
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:30](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L30)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:30](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L30)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **backendUrn**: string
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:31](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L31)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:31](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L31)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **blocked**: boolean
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:32](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L32)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:32](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L32)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 •  **entityUrn**: [ConversationUrn](../modules/_src_entities_linkedin_conversation_entity_.md#conversationurn)
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:33](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L33)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:33](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L33)*
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 •  **featureTypes**: [FeaturedType](../enums/_src_entities_linkedin_conversation_entity_.featuredtype.md)[]
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:34](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L34)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:34](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L34)*
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 •  **firstMessageUrn**: string
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:35](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L35)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:35](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L35)*
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 •  **lastActivityAt**: number
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:36](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L36)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:36](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L36)*
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 •  **muted**: boolean
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:37](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L37)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:37](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L37)*
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 •  **notificationStatus**: string
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:38](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L38)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:38](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L38)*
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 •  **read**: boolean
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:39](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L39)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:39](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L39)*
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 •  **receipts**: [LinkedInParticipantReceipts](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md)[]
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:40](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L40)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:40](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L40)*
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 •  **totalEventCount**: number
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:41](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L41)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:41](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L41)*
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 •  **unreadCount**: number
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:42](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L42)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:42](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L42)*
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 •  **viewerCurrentParticipant**: boolean
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:43](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L43)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:43](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L43)*
 
 ___
 
@@ -184,4 +184,4 @@ ___
 
 •  **withNonConnection**: boolean
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:44](https://github.com/cosiall/linkedin-private-api/blob/4854731/src/entities/linkedin-conversation.entity.ts#L44)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:44](https://github.com/cosiall/linkedin-private-api/blob/114c782/src/entities/linkedin-conversation.entity.ts#L44)*

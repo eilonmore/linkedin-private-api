@@ -20,7 +20,7 @@ export interface PeopleSearchFilters {
   title?: string;
 }
 
-export interface PeopleSalesNavigatorSearchFilters {
+export interface SalesNavigatorPeopleSearchFilters {
   companySize?: string[];
   bingGeo?: string[];
   industry?: string[];
