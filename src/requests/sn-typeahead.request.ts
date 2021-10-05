@@ -16,7 +16,7 @@ export class SalesNavigatorTypeaheadRequest {
     skip: number;
     limit: number;
     query: string;
-  }): Promise<any> {
+  }): Promise<unknown> {
     const url = `${linkedinSalesNavigatorUrl}/salesApiFacetTypeahead`;
 
     const queryParams = {
@@ -27,7 +27,7 @@ export class SalesNavigatorTypeaheadRequest {
       ...(query ? { query } : {})
     };
 
-    return this.request.get<any>(url, {
+    return this.request.get<unknown>(url, {
       params: queryParams
     });
   }
@@ -40,7 +40,7 @@ export class SalesNavigatorTypeaheadRequest {
     skip: number;
     limit: number;
     query: string;
-  }): Promise<any> {
+  }): Promise<unknown> {
     const url = `${linkedinSalesNavigatorUrl}/salesApiFacetTypeahead`;
 
     const queryParams = {
@@ -51,7 +51,7 @@ export class SalesNavigatorTypeaheadRequest {
       ...(query ? { query } : {})
     };
 
-    return this.request.get<any>(url, {
+    return this.request.get<unknown>(url, {
       params: queryParams
     });
   }

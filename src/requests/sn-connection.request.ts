@@ -1,3 +1,4 @@
+import { SendSalesNavigatorConnectionRequestResponse } from 'src/responses/sn-connection.response.post';
 import { linkedinSalesNavigatorUrl } from '../../config';
 import { LinkedInRequest } from '../core/linkedin-request';
 import { extractProfileId } from '../utils/common-li';
@@ -15,7 +16,7 @@ export class SalesNavigatorConnectionRequest {
   }: {
     profileUrn: string;
     message: string;
-  }): Promise<any> {
+  }): Promise<SendSalesNavigatorConnectionRequestResponse> {
     const profileId = extractProfileId(profileUrn);
 
     const url = `${linkedinSalesNavigatorUrl}/salesApiConnection`;
@@ -30,7 +31,7 @@ export class SalesNavigatorConnectionRequest {
       isEmailRequired: false
     };
 
-    return this.request.post<any>(url, payload, {
+    return this.request.post<SendSalesNavigatorConnectionRequestResponse>(url, payload, {
       params: queryParams
     });
   }

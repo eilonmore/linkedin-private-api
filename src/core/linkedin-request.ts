@@ -5,7 +5,7 @@ import { InvitationRequest } from '../requests/invitation.request';
 import { MessageRequest } from '../requests/message.request';
 import { ProfileRequest } from '../requests/profile.request';
 import { SearchRequest } from '../requests/search.request';
-import { SalesNavigatorProfileRequest } from '../requests/sn-profile-request';
+import { SalesNavigatorProfileRequest } from '../requests/sn-profile.request';
 import { SalesNavigatorMessageRequest } from '../requests/sn-message.request';
 import { SalesNavigatorTypeaheadRequest } from '../requests/sn-typeahead.request';
 import { SalesNavigatorConnectionRequest } from '../requests/sn-connection.request';

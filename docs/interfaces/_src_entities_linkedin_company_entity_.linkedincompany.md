@@ -29,7 +29,7 @@
 
 •  **$anti\_abuse\_annotations**: { attributeId: number ; entityId: number  }[]
 
-*Defined in [src/entities/linkedin-company.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L7)*
+*Defined in [src/entities/linkedin-company.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L7)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 •  **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-company.entity.ts:11](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L11)*
+*Defined in [src/entities/linkedin-company.entity.ts:11](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L11)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 •  **$type**: *typeof* [COMPANY\_TYPE](../modules/_src_entities_linkedin_company_entity_.md#company_type)
 
-*Defined in [src/entities/linkedin-company.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L6)*
+*Defined in [src/entities/linkedin-company.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L6)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-company.entity.ts:12](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L12)*
+*Defined in [src/entities/linkedin-company.entity.ts:12](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L12)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 •  **industry**: Record<string, string\>
 
-*Defined in [src/entities/linkedin-company.entity.ts:13](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L13)*
+*Defined in [src/entities/linkedin-company.entity.ts:13](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L13)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 •  **industryUrns**: string[]
 
-*Defined in [src/entities/linkedin-company.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L14)*
+*Defined in [src/entities/linkedin-company.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L14)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 •  **logo**: { vetorImage: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)  }
 
-*Defined in [src/entities/linkedin-company.entity.ts:15](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L15)*
+*Defined in [src/entities/linkedin-company.entity.ts:15](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L15)*
 
 #### Type declaration:
 
@@ -91,7 +91,7 @@ ___
 
 •  **name**: string
 
-*Defined in [src/entities/linkedin-company.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L18)*
+*Defined in [src/entities/linkedin-company.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L18)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 •  **universalName**: string
 
-*Defined in [src/entities/linkedin-company.entity.ts:19](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L19)*
+*Defined in [src/entities/linkedin-company.entity.ts:19](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L19)*
 
 ___
 
@@ -107,4 +107,4 @@ ___
 
 •  **url**: string
 
-*Defined in [src/entities/linkedin-company.entity.ts:20](https://github.com/cosiall/linkedin-private-api/blob/6982069/src/entities/linkedin-company.entity.ts#L20)*
+*Defined in [src/entities/linkedin-company.entity.ts:20](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-company.entity.ts#L20)*
