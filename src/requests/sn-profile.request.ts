@@ -3,6 +3,7 @@ import { LinkedInRequest } from '../core/linkedin-request';
 import { SalesNavigatorPeopleSearchFilters } from '../types/people-search-filters';
 import { extractProfileId } from '../utils/common-li';
 import { graphqlParamSerializer } from '../utils/graphqlParamSerializer';
+import { GetSalesNavigatorProfilesSearchResponse } from '../responses/sn-profile.response.post';
 
 export class SalesNavigatorProfileRequest {
   private request: LinkedInRequest;
@@ -15,7 +16,7 @@ export class SalesNavigatorProfileRequest {
     profileUrn
   }: {
     profileUrn: string;
-  }): Promise<any> {
+  }): Promise<unknown> {
     const profileId = extractProfileId(profileUrn);
 
     const url = `${linkedinSalesNavigatorUrl}/salesApiProfiles/(profileId:${profileId},authType:NAME_SEARCH,authToken:x0Hp)`;
@@ -62,7 +63,7 @@ export class SalesNavigatorProfileRequest {
       decoration: `%28${encodeURIComponent(decorations.join(','))}%29`
     };
 
-    return this.request.get<any>(url, {
+    return this.request.get<unknown>(url, {
       params: queryParams
     });
   }
@@ -75,7 +76,7 @@ export class SalesNavigatorProfileRequest {
     skip?: number;
     limit?: number;
     filters?: SalesNavigatorPeopleSearchFilters;
-  }): Promise<any> {
+  }): Promise<GetSalesNavigatorProfilesSearchResponse> {
     const url = `${linkedinSalesNavigatorUrl}/salesApiPeopleSearch`;
 
     const graphqlFilter = {
@@ -140,7 +141,7 @@ export class SalesNavigatorProfileRequest {
       decorationId: 'com.linkedin.sales.deco.desktop.search.DecoratedPeopleSearchHitResult-10',
     };
 
-    return this.request.get<any>(url, {
+    return this.request.get<GetSalesNavigatorProfilesSearchResponse>(url, {
       params: queryParams,
       paramsSerializer: graphqlParamSerializer
     });
