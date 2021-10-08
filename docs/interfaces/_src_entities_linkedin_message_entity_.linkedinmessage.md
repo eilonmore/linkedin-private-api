@@ -23,7 +23,7 @@
 
 •  **$type**: \"com.linkedin.voyager.messaging.event.MessageEvent\"
 
-*Defined in [src/entities/linkedin-message.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-message.entity.ts#L4)*
+*Defined in [src/entities/linkedin-message.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-message.entity.ts#L4)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 •  **attributedBody**: [AttributeText](_src_entities_linkedin_attribute_text_entity_.attributetext.md)
 
-*Defined in [src/entities/linkedin-message.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-message.entity.ts#L5)*
+*Defined in [src/entities/linkedin-message.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-message.entity.ts#L5)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  **body**: string
 
-*Defined in [src/entities/linkedin-message.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-message.entity.ts#L6)*
+*Defined in [src/entities/linkedin-message.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-message.entity.ts#L6)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 •  **messageBodyRenderFormat**: string
 
-*Defined in [src/entities/linkedin-message.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-message.entity.ts#L7)*
+*Defined in [src/entities/linkedin-message.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-message.entity.ts#L7)*
