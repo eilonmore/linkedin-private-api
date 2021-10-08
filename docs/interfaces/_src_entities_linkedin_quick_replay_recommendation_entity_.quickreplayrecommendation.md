@@ -24,7 +24,7 @@
 
 •  **$type**: \"com.linkedin.voyager.messaging.QuickReply\"
 
-*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-quick-replay-recommendation.entity.ts#L4)*
+*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-quick-replay-recommendation.entity.ts#L4)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **content**: [AttributeText](_src_entities_linkedin_attribute_text_entity_.attributetext.md)
 
-*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-quick-replay-recommendation.entity.ts#L5)*
+*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-quick-replay-recommendation.entity.ts#L5)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **objectUrn**: string
 
-*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-quick-replay-recommendation.entity.ts#L6)*
+*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-quick-replay-recommendation.entity.ts#L6)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **replyType**: string
 
-*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-quick-replay-recommendation.entity.ts#L7)*
+*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-quick-replay-recommendation.entity.ts#L7)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 •  **trackingId**: string
 
-*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-quick-replay-recommendation.entity.ts#L8)*
+*Defined in [src/entities/linkedin-quick-replay-recommendation.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-quick-replay-recommendation.entity.ts#L8)*

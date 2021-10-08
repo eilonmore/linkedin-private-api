@@ -25,7 +25,7 @@
 
 \+ **new ProfileRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [ProfileRepository](_src_repositories_profile_repository_.profilerepository.md)
 
-*Defined in [src/repositories/profile.repository.ts:31](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/repositories/profile.repository.ts#L31)*
+*Defined in [src/repositories/profile.repository.ts:31](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/repositories/profile.repository.ts#L31)*
 
 #### Parameters:
 
@@ -41,7 +41,7 @@ Name | Type |
 
 ▸ **getOwnProfile**(): Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md) \| null\>
 
-*Defined in [src/repositories/profile.repository.ts:53](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/repositories/profile.repository.ts#L53)*
+*Defined in [src/repositories/profile.repository.ts:53](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/repositories/profile.repository.ts#L53)*
 
 **Returns:** Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md) \| null\>
 
@@ -51,7 +51,7 @@ ___
 
 ▸ **getProfile**(`__namedParameters`: { publicIdentifier: string  }): Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md)\>
 
-*Defined in [src/repositories/profile.repository.ts:37](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/repositories/profile.repository.ts#L37)*
+*Defined in [src/repositories/profile.repository.ts:37](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/repositories/profile.repository.ts#L37)*
 
 #### Parameters:
 

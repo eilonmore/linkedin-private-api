@@ -29,7 +29,7 @@
 
 Ƭ  **ConversationUrn**: string
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:23](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-conversation.entity.ts#L23)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:23](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-conversation.entity.ts#L23)*
 
 ## Variables
 
@@ -37,4 +37,4 @@
 
 • `Const` **CONVERSATION\_TYPE**: \"com.linkedin.voyager.messaging.Conversation\" = "com.linkedin.voyager.messaging.Conversation"
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:21](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-conversation.entity.ts#L21)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:21](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-conversation.entity.ts#L21)*
