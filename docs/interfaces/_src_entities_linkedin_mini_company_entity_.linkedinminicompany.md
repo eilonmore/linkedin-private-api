@@ -30,7 +30,7 @@
 
 •  **$type**: *typeof* [MINI\_COMPANY\_TYPE](../modules/_src_entities_linkedin_mini_company_entity_.md#mini_company_type)
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L6)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L6)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 •  **active**: boolean
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L7)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L7)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L8)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L8)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 •  **logo**: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:9](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L9)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:9](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L9)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 •  **name**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:10](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L10)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:10](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L10)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 •  **objectUrn**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:11](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L11)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:11](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L11)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 •  **showcase**: boolean
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:12](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L12)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:12](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L12)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 •  **trackingId**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:13](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L13)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:13](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L13)*
 
 ___
 
@@ -94,4 +94,4 @@ ___
 
 •  **universalName**: string
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-company.entity.ts#L14)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-mini-company.entity.ts#L14)*

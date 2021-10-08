@@ -25,7 +25,7 @@
 
 •  **$anti\_abuse\_annotations**: { attributeId: number ; entityId: number  }[]
 
-*Defined in [src/entities/linkedin-base-company.ts:7](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-base-company.ts#L7)*
+*Defined in [src/entities/linkedin-base-company.ts:7](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-base-company.ts#L7)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 •  **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-base-company.ts:11](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-base-company.ts#L11)*
+*Defined in [src/entities/linkedin-base-company.ts:11](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-base-company.ts#L11)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 •  **$type**: *typeof* [BASE\_COMPANY\_TYPE](../modules/_src_entities_linkedin_base_company_.md#base_company_type)
 
-*Defined in [src/entities/linkedin-base-company.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-base-company.ts#L6)*
+*Defined in [src/entities/linkedin-base-company.ts:6](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-base-company.ts#L6)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-base-company.ts:12](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-base-company.ts#L12)*
+*Defined in [src/entities/linkedin-base-company.ts:12](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-base-company.ts#L12)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 •  **logo**: { $type: \"com.linkedin.voyager.organization.CompanyLogoImage\" ; image: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) ; type: \"SQUARE\_LOGO\"  }
 
-*Defined in [src/entities/linkedin-base-company.ts:13](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-base-company.ts#L13)*
+*Defined in [src/entities/linkedin-base-company.ts:13](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-base-company.ts#L13)*
 
 #### Type declaration:
 
@@ -73,4 +73,4 @@ ___
 
 •  **name**: string
 
-*Defined in [src/entities/linkedin-base-company.ts:18](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-base-company.ts#L18)*
+*Defined in [src/entities/linkedin-base-company.ts:18](https://github.com/cosiall/linkedin-private-api/blob/bab5f17/src/entities/linkedin-base-company.ts#L18)*
