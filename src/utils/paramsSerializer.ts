@@ -6,7 +6,7 @@ const encodeFilter = (value: string | string[], key: string) => encodeURICompone
 export const paramsSerializer = (params: Record<string, string | Record<string, string>>): string => {
   const encodedParams = mapValues(params, value => {
     if (!isArray(value) && !isPlainObject(value)) {
-      return encodeURIComponent(value.toString());
+      return value.toString();
     }
 
     if (isArray(value)) {
