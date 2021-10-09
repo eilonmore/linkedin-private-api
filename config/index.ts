@@ -2,7 +2,9 @@ export const linkedinApiUrl = 'https://www.linkedin.com/voyager/api/';
 
 export const authUrl = 'https://www.linkedin.com/uas/authenticate';
 
-export const authHeaders = {
+export const linkedinSalesNavigatorUrl = 'https://www.linkedin.com/sales-api';
+
+export const authHeaders = Object.freeze({
   'user-agent': 'LinkedIn/8.8.1 CFNetwork/711.3.18 Darwin/14.0.0',
   'accept-encoding': 'gzip, deflate',
   Accept: '*/*',
@@ -13,20 +15,20 @@ export const authHeaders = {
   'Accept-Language': 'en-us',
   'Content-Length': '110',
   'Content-Type': 'application/x-www-form-urlencoded',
-};
+});
 
-export const requestHeaders = {
+export const requestHeaders = Object.freeze({
   authority: 'www.linkedin.com',
   'x-restli-protocol-version': '2.0.0',
   'x-li-lang': 'en_US',
   'user-agent':
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
   'x-li-page-instance': 'urn:li:page:d_flagship3_feed;N2rwHUFIQrykkt4exT64CQ==',
-  accept: 'application/vnd.linkedin.normalized+json+2.1',
+  accept: '*/*',
   'x-li-track': '{"clientVersion":"1.5.*","osName":"web","timezoneOffset":2,"deviceFormFactor":"DESKTOP","mpName":"voyager-web"}',
   'sec-fetch-site': 'same-origin',
   'sec-fetch-mode': 'cors',
   referer: 'https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin',
   'accept-encoding': 'gzip, deflate, br',
   'accept-language': 'en-US,en;q=0.9',
-};
+});

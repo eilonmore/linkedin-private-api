@@ -115,7 +115,7 @@ export class Login {
     useCache = true,
   }: {
     username?: string;
-    cookies: { JSESSIONID: string; li_at?: string };
+    cookies: { JSESSIONID: string; li_at?: string } | string;
     useCache?: boolean;
   }): Promise<Client> {
     const cachedSessions = await this.readCacheFile();
@@ -124,10 +124,14 @@ export class Login {
       return this.client;
     }
 
-    this.setRequestHeaders({ cookies });
+    const parsedCookies = typeof (cookies) === 'string'
+      ? parseCookies<AuthCookies>(cookies.split(';'))
+      : cookies;
+
+    this.setRequestHeaders({ cookies: parsedCookies });
 
     if (username) {
-      fs.writeFile(SESSIONS_PATH, JSON.stringify({ ...cachedSessions, [username]: cookies }));
+      fs.writeFile(SESSIONS_PATH, JSON.stringify({ ...cachedSessions, [username]: parsedCookies }));
     }
 
     return this.client;
