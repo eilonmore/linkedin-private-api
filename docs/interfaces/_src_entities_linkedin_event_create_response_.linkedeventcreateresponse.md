@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-* **LinkedEventCreateResponse**
+- **LinkedEventCreateResponse**
 
   ↳ [MessageEventCreateResponse](_src_entities_message_create_response_entity_.messageeventcreateresponse.md)
 
@@ -14,57 +14,57 @@
 
 ### Properties
 
-* [$type](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#$type)
-* [backendConversationUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#backendconversationurn)
-* [backendEventUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#backendeventurn)
-* [conversationUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#conversationurn)
-* [createdAt](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#createdat)
-* [eventUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#eventurn)
+- [$type](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#$type)
+- [backendConversationUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#backendconversationurn)
+- [backendEventUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#backendeventurn)
+- [conversationUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#conversationurn)
+- [createdAt](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#createdat)
+- [eventUrn](_src_entities_linkedin_event_create_response_.linkedeventcreateresponse.md#eventurn)
 
 ## Properties
 
 ### $type
 
-•  **$type**: \"com.linkedin.voyager.messaging.create.EventCreateResponse\"
+• **$type**: \"com.linkedin.voyager.messaging.create.EventCreateResponse\"
 
-*Defined in [src/entities/linkedin-event-create-response.ts:2](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-event-create-response.ts#L2)*
+_Defined in [src/entities/linkedin-event-create-response.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L2)_
 
-___
+---
 
 ### backendConversationUrn
 
-•  **backendConversationUrn**: string
+• **backendConversationUrn**: string
 
-*Defined in [src/entities/linkedin-event-create-response.ts:3](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-event-create-response.ts#L3)*
+_Defined in [src/entities/linkedin-event-create-response.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L3)_
 
-___
+---
 
 ### backendEventUrn
 
-•  **backendEventUrn**: string
+• **backendEventUrn**: string
 
-*Defined in [src/entities/linkedin-event-create-response.ts:4](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-event-create-response.ts#L4)*
+_Defined in [src/entities/linkedin-event-create-response.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L4)_
 
-___
+---
 
 ### conversationUrn
 
-•  **conversationUrn**: string
+• **conversationUrn**: string
 
-*Defined in [src/entities/linkedin-event-create-response.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-event-create-response.ts#L5)*
+_Defined in [src/entities/linkedin-event-create-response.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L5)_
 
-___
+---
 
 ### createdAt
 
-•  **createdAt**: number
+• **createdAt**: number
 
-*Defined in [src/entities/linkedin-event-create-response.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-event-create-response.ts#L6)*
+_Defined in [src/entities/linkedin-event-create-response.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L6)_
 
-___
+---
 
 ### eventUrn
 
-•  **eventUrn**: string
+• **eventUrn**: string
 
-*Defined in [src/entities/linkedin-event-create-response.ts:7](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-event-create-response.ts#L7)*
+_Defined in [src/entities/linkedin-event-create-response.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event-create-response.ts#L7)_

@@ -8,28 +8,28 @@
 
 ### Interfaces
 
-* [LinkedInMiniProfile](../interfaces/_src_entities_linkedin_mini_profile_entity_.linkedinminiprofile.md)
+- [LinkedInMiniProfile](../interfaces/_src_entities_linkedin_mini_profile_entity_.linkedinminiprofile.md)
 
 ### Type aliases
 
-* [MiniProfileUrn](_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
+- [MiniProfileUrn](_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
 
 ### Variables
 
-* [MINI\_PROFILE\_TYPE](_src_entities_linkedin_mini_profile_entity_.md#mini_profile_type)
+- [MINI_PROFILE_TYPE](_src_entities_linkedin_mini_profile_entity_.md#mini_profile_type)
 
 ## Type aliases
 
 ### MiniProfileUrn
 
-Ƭ  **MiniProfileUrn**: string
+Ƭ **MiniProfileUrn**: string
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-profile.entity.ts#L3)*
+_Defined in [src/entities/linkedin-mini-profile.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-profile.entity.ts#L3)_
 
 ## Variables
 
-### MINI\_PROFILE\_TYPE
+### MINI_PROFILE_TYPE
 
-• `Const` **MINI\_PROFILE\_TYPE**: \"com.linkedin.voyager.identity.shared.MiniProfile\" = "com.linkedin.voyager.identity.shared.MiniProfile"
+• `Const` **MINI_PROFILE_TYPE**: \"com.linkedin.voyager.identity.shared.MiniProfile\" = "com.linkedin.voyager.identity.shared.MiniProfile"
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-mini-profile.entity.ts#L5)*
+_Defined in [src/entities/linkedin-mini-profile.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-profile.entity.ts#L5)_

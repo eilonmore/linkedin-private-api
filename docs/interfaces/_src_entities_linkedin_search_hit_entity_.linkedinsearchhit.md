@@ -6,60 +6,60 @@
 
 ## Type parameters
 
-Name |
------- |
-`T` |
+| Name |
+| ---- |
+| `T`  |
 
 ## Hierarchy
 
-* **LinkedInSearchHit**
+- **LinkedInSearchHit**
 
 ## Index
 
 ### Properties
 
-* [$recipeTypes](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#$recipetypes)
-* [$type](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#$type)
-* [hitInfo](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#hitinfo)
-* [targetPageInstance](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#targetpageinstance)
-* [trackingId](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#trackingid)
+- [$recipeTypes](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#$recipetypes)
+- [$type](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#$type)
+- [hitInfo](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#hitinfo)
+- [targetPageInstance](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#targetpageinstance)
+- [trackingId](_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md#trackingid)
 
 ## Properties
 
 ### $recipeTypes
 
-•  **$recipeTypes**: string[]
+• **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-search-hit-entity.ts:2](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-entity.ts#L2)*
+_Defined in [src/entities/linkedin-search-hit-entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-entity.ts#L2)_
 
-___
+---
 
 ### $type
 
-•  **$type**: \"com.linkedin.voyager.search.SearchHit\"
+• **$type**: \"com.linkedin.voyager.search.SearchHit\"
 
-*Defined in [src/entities/linkedin-search-hit-entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-entity.ts#L3)*
+_Defined in [src/entities/linkedin-search-hit-entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-entity.ts#L3)_
 
-___
+---
 
 ### hitInfo
 
-•  **hitInfo**: T
+• **hitInfo**: T
 
-*Defined in [src/entities/linkedin-search-hit-entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-entity.ts#L4)*
+_Defined in [src/entities/linkedin-search-hit-entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-entity.ts#L4)_
 
-___
+---
 
 ### targetPageInstance
 
-•  **targetPageInstance**: string
+• **targetPageInstance**: string
 
-*Defined in [src/entities/linkedin-search-hit-entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-entity.ts#L5)*
+_Defined in [src/entities/linkedin-search-hit-entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-entity.ts#L5)_
 
-___
+---
 
 ### trackingId
 
-•  **trackingId**: string
+• **trackingId**: string
 
-*Defined in [src/entities/linkedin-search-hit-entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-entity.ts#L6)*
+_Defined in [src/entities/linkedin-search-hit-entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-entity.ts#L6)_
