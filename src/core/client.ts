@@ -1,3 +1,5 @@
+import { AxiosProxyConfig } from 'axios';
+
 import {
   ConversationRepository,
   InvitationRepository,
@@ -8,8 +10,16 @@ import {
 import { LinkedInRequest } from './linkedin-request';
 import { Login } from './login';
 
+interface ClientOpts {
+  proxy?: AxiosProxyConfig;
+}
+
 export class Client {
-  request = new LinkedInRequest();
+  request: LinkedInRequest;
+
+  constructor({ proxy }: ClientOpts = {}) {
+    this.request = new LinkedInRequest({ proxy });
+  }
 
   login = new Login({ client: this });
 
