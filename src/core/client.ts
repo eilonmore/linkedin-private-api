@@ -10,13 +10,15 @@ import {
 import { LinkedInRequest } from './linkedin-request';
 import { Login } from './login';
 
+interface ClientOpts {
+  proxy?: AxiosProxyConfig;
+}
+
 export class Client {
   request: LinkedInRequest;
 
-  constructor(proxy?: AxiosProxyConfig) {
-    this.request = proxy
-      ? new LinkedInRequest(proxy)
-      : new LinkedInRequest();
+  constructor({ proxy }: ClientOpts = {}) {
+    this.request = new LinkedInRequest({ proxy });
   }
 
   login = new Login({ client: this });

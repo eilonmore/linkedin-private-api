@@ -1,9 +1,4 @@
-import axios, {
-  AxiosInstance,
-  AxiosRequestConfig,
-  AxiosResponse,
-  AxiosProxyConfig
-} from 'axios';
+import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse, AxiosProxyConfig } from 'axios';
 import { URL } from 'url';
 
 import { linkedinApiUrl } from '../../config';
@@ -14,14 +9,18 @@ const buildUrl = (url: string) => new URL(url, linkedinApiUrl).toString();
 type ConfigFullResponse = AxiosRequestConfig & { fullResponse?: true };
 type ConfigNonFullResponse = AxiosRequestConfig & { fullResponse?: false };
 
+interface RequestOpts {
+  proxy?: AxiosProxyConfig;
+}
+
 export class Request {
   request: AxiosInstance;
 
-  constructor(proxy?: AxiosProxyConfig) {
+  constructor({ proxy }: RequestOpts = {}) {
     this.request = axios.create({
       paramsSerializer,
       withCredentials: true,
-      ...(proxy && { proxy })
+      ...(proxy && { proxy }),
     });
   }
 
