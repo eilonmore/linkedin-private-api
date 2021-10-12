@@ -6,36 +6,36 @@
 
 ## Hierarchy
 
-* **LinkedInVectorImage**
+- **LinkedInVectorImage**
 
 ## Index
 
 ### Properties
 
-* [$type](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md#$type)
-* [artifacts](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md#artifacts)
-* [rootUrl](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md#rooturl)
+- [$type](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md#$type)
+- [artifacts](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md#artifacts)
+- [rootUrl](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md#rooturl)
 
 ## Properties
 
 ### $type
 
-•  **$type**: \"com.linkedin.common.VectorImage\"
+• **$type**: \"com.linkedin.common.VectorImage\"
 
-*Defined in [src/entities/linkedin-vector-image.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-vector-image.entity.ts#L4)*
+_Defined in [src/entities/linkedin-vector-image.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-vector-image.entity.ts#L4)_
 
-___
+---
 
 ### artifacts
 
-•  **artifacts**: [LinkedInVectorArtifact](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md)[]
+• **artifacts**: [LinkedInVectorArtifact](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md)[]
 
-*Defined in [src/entities/linkedin-vector-image.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-vector-image.entity.ts#L5)*
+_Defined in [src/entities/linkedin-vector-image.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-vector-image.entity.ts#L5)_
 
-___
+---
 
 ### rootUrl
 
-•  **rootUrl**: string
+• **rootUrl**: string
 
-*Defined in [src/entities/linkedin-vector-image.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-vector-image.entity.ts#L6)*
+_Defined in [src/entities/linkedin-vector-image.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-vector-image.entity.ts#L6)_

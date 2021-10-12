@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-* [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md)
+- [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md)
 
   ↳ **CompanySearchHit**
 
@@ -14,206 +14,206 @@
 
 ### Properties
 
-* [$type](_src_entities_company_search_hit_entity_.companysearchhit.md#$type)
-* [*badges](_src_entities_company_search_hit_entity_.companysearchhit.md#*badges)
-* [company](_src_entities_company_search_hit_entity_.companysearchhit.md#company)
-* [headless](_src_entities_company_search_hit_entity_.companysearchhit.md#headless)
-* [headline](_src_entities_company_search_hit_entity_.companysearchhit.md#headline)
-* [image](_src_entities_company_search_hit_entity_.companysearchhit.md#image)
-* [memberDistance](_src_entities_company_search_hit_entity_.companysearchhit.md#memberdistance)
-* [nameMatch](_src_entities_company_search_hit_entity_.companysearchhit.md#namematch)
-* [navigationUrl](_src_entities_company_search_hit_entity_.companysearchhit.md#navigationurl)
-* [publicIdentifier](_src_entities_company_search_hit_entity_.companysearchhit.md#publicidentifier)
-* [secondaryTitle](_src_entities_company_search_hit_entity_.companysearchhit.md#secondarytitle)
-* [socialProofText](_src_entities_company_search_hit_entity_.companysearchhit.md#socialprooftext)
-* [subline](_src_entities_company_search_hit_entity_.companysearchhit.md#subline)
-* [targetUrn](_src_entities_company_search_hit_entity_.companysearchhit.md#targeturn)
-* [title](_src_entities_company_search_hit_entity_.companysearchhit.md#title)
-* [trackingId](_src_entities_company_search_hit_entity_.companysearchhit.md#trackingid)
-* [trackingUrn](_src_entities_company_search_hit_entity_.companysearchhit.md#trackingurn)
-* [type](_src_entities_company_search_hit_entity_.companysearchhit.md#type)
+- [$type](_src_entities_company_search_hit_entity_.companysearchhit.md#$type)
+- [\*badges](_src_entities_company_search_hit_entity_.companysearchhit.md#*badges)
+- [company](_src_entities_company_search_hit_entity_.companysearchhit.md#company)
+- [headless](_src_entities_company_search_hit_entity_.companysearchhit.md#headless)
+- [headline](_src_entities_company_search_hit_entity_.companysearchhit.md#headline)
+- [image](_src_entities_company_search_hit_entity_.companysearchhit.md#image)
+- [memberDistance](_src_entities_company_search_hit_entity_.companysearchhit.md#memberdistance)
+- [nameMatch](_src_entities_company_search_hit_entity_.companysearchhit.md#namematch)
+- [navigationUrl](_src_entities_company_search_hit_entity_.companysearchhit.md#navigationurl)
+- [publicIdentifier](_src_entities_company_search_hit_entity_.companysearchhit.md#publicidentifier)
+- [secondaryTitle](_src_entities_company_search_hit_entity_.companysearchhit.md#secondarytitle)
+- [socialProofText](_src_entities_company_search_hit_entity_.companysearchhit.md#socialprooftext)
+- [subline](_src_entities_company_search_hit_entity_.companysearchhit.md#subline)
+- [targetUrn](_src_entities_company_search_hit_entity_.companysearchhit.md#targeturn)
+- [title](_src_entities_company_search_hit_entity_.companysearchhit.md#title)
+- [trackingId](_src_entities_company_search_hit_entity_.companysearchhit.md#trackingid)
+- [trackingUrn](_src_entities_company_search_hit_entity_.companysearchhit.md#trackingurn)
+- [type](_src_entities_company_search_hit_entity_.companysearchhit.md#type)
 
 ## Properties
 
 ### $type
 
-•  **$type**: \"com.linkedin.voyager.search.SearchHitV2\"
+• **$type**: \"com.linkedin.voyager.search.SearchHitV2\"
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[$type](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#$type)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[$type](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#$type)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L5)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L5)_
 
-___
+---
 
-### *badges
+### \*badges
 
-•  ***badges**: string
+• **\*badges**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[*badges](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#*badges)*
+*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[*badges](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#_badges)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L6)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L6)_
 
-___
+---
 
 ### company
 
-•  **company**: [MiniCompany](_src_entities_mini_company_entity_.minicompany.md)
+• **company**: [MiniCompany](_src_entities_mini_company_entity_.minicompany.md)
 
-*Defined in [src/entities/company-search-hit.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/company-search-hit.entity.ts#L5)*
+_Defined in [src/entities/company-search-hit.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/company-search-hit.entity.ts#L5)_
 
-___
+---
 
 ### headless
 
-•  **headless**: string
+• **headless**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[headless](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#headless)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[headless](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#headless)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:7](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L7)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L7)_
 
-___
+---
 
 ### headline
 
-•  **headline**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
+• **headline**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[headline](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#headline)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[headline](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#headline)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:8](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L8)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L8)_
 
-___
+---
 
 ### image
 
-•  **image**: [LinkedInImageViewModel](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md)
+• **image**: [LinkedInImageViewModel](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md)
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[image](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#image)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[image](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#image)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:9](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L9)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L9)_
 
-___
+---
 
 ### memberDistance
 
-•  **memberDistance**: { $type: \"com.linkedin.voyager.common.MemberDistance\" ; value: string  }
+• **memberDistance**: { $type: \"com.linkedin.voyager.common.MemberDistance\" ; value: string }
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[memberDistance](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#memberdistance)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[memberDistance](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#memberdistance)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:10](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L10)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L10)_
 
 #### Type declaration:
 
-Name | Type |
------- | ------ |
-`$type` | \"com.linkedin.voyager.common.MemberDistance\" |
-`value` | string |
+| Name    | Type                                           |
+| ------- | ---------------------------------------------- |
+| `$type` | \"com.linkedin.voyager.common.MemberDistance\" |
+| `value` | string                                         |
 
-___
+---
 
 ### nameMatch
 
-•  **nameMatch**: boolean
+• **nameMatch**: boolean
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[nameMatch](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#namematch)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[nameMatch](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#namematch)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:14](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L14)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L14)_
 
-___
+---
 
 ### navigationUrl
 
-•  **navigationUrl**: string
+• **navigationUrl**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[navigationUrl](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#navigationurl)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[navigationUrl](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#navigationurl)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:15](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L15)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L15)_
 
-___
+---
 
 ### publicIdentifier
 
-•  **publicIdentifier**: string
+• **publicIdentifier**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[publicIdentifier](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#publicidentifier)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[publicIdentifier](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#publicidentifier)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:16](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L16)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L16)_
 
-___
+---
 
 ### secondaryTitle
 
-•  **secondaryTitle**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
+• **secondaryTitle**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[secondaryTitle](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#secondarytitle)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[secondaryTitle](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#secondarytitle)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:17](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L17)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L17)_
 
-___
+---
 
 ### socialProofText
 
-•  **socialProofText**: string
+• **socialProofText**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[socialProofText](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#socialprooftext)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[socialProofText](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#socialprooftext)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L18)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L18)_
 
-___
+---
 
 ### subline
 
-•  **subline**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
+• **subline**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[subline](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#subline)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[subline](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#subline)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:19](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L19)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L19)_
 
-___
+---
 
 ### targetUrn
 
-•  **targetUrn**: string
+• **targetUrn**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[targetUrn](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#targeturn)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[targetUrn](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#targeturn)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:20](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L20)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L20)_
 
-___
+---
 
 ### title
 
-•  **title**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
+• **title**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[title](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#title)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[title](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#title)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:21](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L21)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:21](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L21)_
 
-___
+---
 
 ### trackingId
 
-•  **trackingId**: string
+• **trackingId**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[trackingId](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#trackingid)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[trackingId](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#trackingid)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:22](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L22)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L22)_
 
-___
+---
 
 ### trackingUrn
 
-•  **trackingUrn**: string
+• **trackingUrn**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[trackingUrn](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#trackingurn)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[trackingUrn](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#trackingurn)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:23](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L23)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:23](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L23)_
 
-___
+---
 
 ### type
 
-•  **type**: string
+• **type**: string
 
-*Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[type](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#type)*
+_Inherited from [LinkedInSearchHitV2](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md).[type](_src_entities_linkedin_search_hit_v2_entity_.linkedinsearchhitv2.md#type)_
 
-*Defined in [src/entities/linkedin-search-hit-v2.entity.ts:24](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-search-hit-v2.entity.ts#L24)*
+_Defined in [src/entities/linkedin-search-hit-v2.entity.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-search-hit-v2.entity.ts#L24)_

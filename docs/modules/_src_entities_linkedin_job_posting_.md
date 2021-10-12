@@ -8,17 +8,17 @@
 
 ### Interfaces
 
-* [LinkedInJobPosting](../interfaces/_src_entities_linkedin_job_posting_.linkedinjobposting.md)
-* [LinkedInJobPostingCompany](../interfaces/_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md)
+- [LinkedInJobPosting](../interfaces/_src_entities_linkedin_job_posting_.linkedinjobposting.md)
+- [LinkedInJobPostingCompany](../interfaces/_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md)
 
 ### Variables
 
-* [JOB\_POSTING\_TYPE](_src_entities_linkedin_job_posting_.md#job_posting_type)
+- [JOB_POSTING_TYPE](_src_entities_linkedin_job_posting_.md#job_posting_type)
 
 ## Variables
 
-### JOB\_POSTING\_TYPE
+### JOB_POSTING_TYPE
 
-• `Const` **JOB\_POSTING\_TYPE**: \"com.linkedin.voyager.jobs.JobPosting\" = "com.linkedin.voyager.jobs.JobPosting"
+• `Const` **JOB_POSTING_TYPE**: \"com.linkedin.voyager.jobs.JobPosting\" = "com.linkedin.voyager.jobs.JobPosting"
 
-*Defined in [src/entities/linkedin-job-posting.ts:1](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-job-posting.ts#L1)*
+_Defined in [src/entities/linkedin-job-posting.ts:1](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L1)_

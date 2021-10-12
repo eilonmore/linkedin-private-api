@@ -6,27 +6,27 @@
 
 ## Hierarchy
 
-* **LinkedInImageViewModel**
+- **LinkedInImageViewModel**
 
 ## Index
 
 ### Properties
 
-* [$type](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md#$type)
-* [attributes](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md#attributes)
+- [$type](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md#$type)
+- [attributes](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md#attributes)
 
 ## Properties
 
 ### $type
 
-•  **$type**: \"com.linkedin.voyager.common.ImageViewModel\"
+• **$type**: \"com.linkedin.voyager.common.ImageViewModel\"
 
-*Defined in [src/entities/linkedin-image-view-model.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-image-view-model.entity.ts#L4)*
+_Defined in [src/entities/linkedin-image-view-model.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-image-view-model.entity.ts#L4)_
 
-___
+---
 
 ### attributes
 
-•  **attributes**: [LinkedInImageAttribute](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md)[]
+• **attributes**: [LinkedInImageAttribute](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md)[]
 
-*Defined in [src/entities/linkedin-image-view-model.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-image-view-model.entity.ts#L5)*
+_Defined in [src/entities/linkedin-image-view-model.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-image-view-model.entity.ts#L5)_

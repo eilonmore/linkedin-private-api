@@ -8,21 +8,21 @@
 
 ### Enumeration members
 
-* [CREATE\_NEW\_GROUP\_CHAT](_src_entities_linkedin_conversation_entity_.featuredtype.md#create_new_group_chat)
-* [REACTIONS](_src_entities_linkedin_conversation_entity_.featuredtype.md#reactions)
+- [CREATE_NEW_GROUP_CHAT](_src_entities_linkedin_conversation_entity_.featuredtype.md#create_new_group_chat)
+- [REACTIONS](_src_entities_linkedin_conversation_entity_.featuredtype.md#reactions)
 
 ## Enumeration members
 
-### CREATE\_NEW\_GROUP\_CHAT
+### CREATE_NEW_GROUP_CHAT
 
-•  **CREATE\_NEW\_GROUP\_CHAT**: 
+• **CREATE_NEW_GROUP_CHAT**:
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-conversation.entity.ts#L5)*
+_Defined in [src/entities/linkedin-conversation.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L5)_
 
-___
+---
 
 ### REACTIONS
 
-•  **REACTIONS**: 
+• **REACTIONS**:
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-conversation.entity.ts#L4)*
+_Defined in [src/entities/linkedin-conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L4)_

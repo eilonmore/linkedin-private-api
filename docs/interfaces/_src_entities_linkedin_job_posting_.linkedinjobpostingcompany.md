@@ -6,45 +6,45 @@
 
 ## Hierarchy
 
-* **LinkedInJobPostingCompany**
+- **LinkedInJobPostingCompany**
 
 ## Index
 
 ### Properties
 
-* [$recipeTypes](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md#$recipetypes)
-* [$type](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md#$type)
-* [*companyResolutionResult](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md#*companyresolutionresult)
-* [company](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md#company)
+- [$recipeTypes](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md#$recipetypes)
+- [$type](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md#$type)
+- [\*companyResolutionResult](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md#*companyresolutionresult)
+- [company](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md#company)
 
 ## Properties
 
 ### $recipeTypes
 
-•  **$recipeTypes**: string[]
+• **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-job-posting.ts:5](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-job-posting.ts#L5)*
+_Defined in [src/entities/linkedin-job-posting.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L5)_
 
-___
+---
 
 ### $type
 
-•  **$type**: \"com.linkedin.voyager.jobs.JobPostingCompany\"
+• **$type**: \"com.linkedin.voyager.jobs.JobPostingCompany\"
 
-*Defined in [src/entities/linkedin-job-posting.ts:6](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-job-posting.ts#L6)*
+_Defined in [src/entities/linkedin-job-posting.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L6)_
 
-___
+---
 
-### *companyResolutionResult
+### \*companyResolutionResult
 
-•  ***companyResolutionResult**: string
+• **\*companyResolutionResult**: string
 
-*Defined in [src/entities/linkedin-job-posting.ts:4](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-job-posting.ts#L4)*
+_Defined in [src/entities/linkedin-job-posting.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L4)_
 
-___
+---
 
 ### company
 
-•  **company**: string
+• **company**: string
 
-*Defined in [src/entities/linkedin-job-posting.ts:7](https://github.com/cosiall/linkedin-private-api/blob/288d758/src/entities/linkedin-job-posting.ts#L7)*
+_Defined in [src/entities/linkedin-job-posting.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L7)_
