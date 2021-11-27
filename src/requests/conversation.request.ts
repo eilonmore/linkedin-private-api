@@ -40,4 +40,15 @@ export class ConversationRequest {
       params: queryParams,
     });
   }
+
+  markConversationAsRead({ conversationId }: { conversationId: ConversationId }): Promise<void> {
+    const payload = { 
+      patch: { 
+        $set: { 
+          read: true 
+        } 
+      } 
+    };
+    return this.request.post<void>(`messaging/conversations/${conversationId}`, payload);
+  }
 }
