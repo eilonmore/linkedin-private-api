@@ -11,6 +11,7 @@ const password = process.env.PASSWORD as string;
   const conversations = await conversationScroller.scrollNext();
 
   const conversation = await client.conversation.getConversation({ conversationId: conversations[0].conversationId });
+  const conversationAsRead = await client.conversation.markConversationAsRead({ conversationId: conversations[0].conversationId });
 
-  console.log(conversations, conversation);
+  console.log(conversations, conversation, conversationAsRead);
 })();
