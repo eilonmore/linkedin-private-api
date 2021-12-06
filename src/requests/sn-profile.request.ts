@@ -60,7 +60,7 @@ export class SalesNavigatorProfileRequest {
     ]
 
     const queryParams = {
-      decoration: `%28${encodeURIComponent(decorations.join(','))}%29`
+      decoration: `(${decorations.join(',')})`
     };
 
     return this.request.get<unknown>(url, {
