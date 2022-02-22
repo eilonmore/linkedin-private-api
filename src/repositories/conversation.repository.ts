@@ -7,6 +7,7 @@ import { MiniProfile, ProfileId } from '../entities/mini-profile.entity';
 import { GetConversationsResponse } from '../responses/conversations.response.get';
 import { ConversationScroller } from '../scrollers/conversation.scroller';
 import { getProfilesFromResponse } from './profile.repository';
+import {headers } from './config/index';
 
 const participantToProfileId = (participant: string) => participant.replace(/urn:li:fs_messagingMember:\(|\)/g, '').split(',')[1];
 const transformConversationId = (conversationUrn: string) => conversationUrn.replace('urn:li:fs_conversation:', '');
@@ -40,14 +41,24 @@ export class ConversationRepository {
   }
 
   async getConversation({ conversationId }: { conversationId: ConversationId }): Promise<Conversation> {
-    const response = await this.client.request.conversation.getConversation({ conversationId });
-    const conversation = response.data;
-    const profiles = getProfilesFromResponse(response);
-
-    return transformConversations({
-      profiles,
-      conversations: [conversation],
-    })[0];
+    // this.client.request.setHeaders({ ...this.client.request, accept: "..." })
+    var oldHeaders = this.client.request.getHeaders();
+    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
+    try{
+      
+  
+      const response = await this.client.request.conversation.getConversation({ conversationId });
+      const conversation = response.data;
+      const profiles = getProfilesFromResponse(response);
+  
+      return transformConversations({
+        profiles,
+        conversations: [conversation],
+      })[0];
+    }
+    finally{
+      this.client.request.setHeaders(oldHeaders);
+    }
   }
 
   getConversations({

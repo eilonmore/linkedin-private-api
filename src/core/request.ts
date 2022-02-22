@@ -28,6 +28,14 @@ export class Request {
     this.request.defaults.headers = headers;
   }
 
+  updateHeaders(headers: Record<string, string>): void {
+  this.request.defaults.headers = {...this.request.defaults.headers, ...headers}
+  }
+
+  getHeaders(){
+    return this.request.defaults.headers;
+  }
+
   async get<T>(url: string, reqConfig?: ConfigNonFullResponse): Promise<T>;
   async get<T>(url: string, reqConfig?: ConfigFullResponse): Promise<AxiosResponse<T>>;
   async get<T>(url: string, reqConfig?: ConfigFullResponse | ConfigNonFullResponse): Promise<T | AxiosResponse<T>> {
