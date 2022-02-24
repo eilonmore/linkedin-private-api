@@ -40,29 +40,14 @@ export class ConversationRepository {
   }
 
   async getConversation({ conversationId }: { conversationId: ConversationId }): Promise<Conversation> {
-    // this.client.request.setHeaders({ ...this.client.request, accept: "..." })
-    var oldHeaders = this.client.request.getHeaders();
-    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
-    
-    var transformedConversations;
-    // try{
-      const response = await this.client.request.conversation.getConversation({ conversationId });
-      const conversation = response.data;
-      const profiles = getProfilesFromResponse(response);
+    const response = await this.client.request.conversation.getConversation({ conversationId });
+    const conversation = response.data;
+    const profiles = getProfilesFromResponse(response);
   
-      transformedConversations = transformConversations({
+    return transformConversations({
         profiles,
         conversations: [conversation],
       })[0];
-    // }
-    // catch{
-      
-    // }
-    // finally{
-    //   this.client.request.setHeaders(oldHeaders);
-    // }
-
-    return transformedConversations;
   }
 
   getConversations({
@@ -79,6 +64,10 @@ export class ConversationRepository {
     recipients?: ProfileId | ProfileId[];
     createdBefore?: Date;
   }): Promise<Conversation[]> {
+    // this.client.request.setHeaders({ ...this.client.request, accept: "..." })
+    var oldHeaders = this.client.request.getHeaders();
+    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
+
     const res = await this.client.request.conversation.getConversations({ recipients, createdBefore });
     const conversations = res.included.filter(p => p.$type === CONVERSATION_TYPE) as LinkedinConversation[];
     const profiles = getProfilesFromResponse<GetConversationsResponse>(res);
