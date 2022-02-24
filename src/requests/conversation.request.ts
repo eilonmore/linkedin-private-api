@@ -36,6 +36,8 @@ export class ConversationRequest {
       ...(createdBefore && { createdBefore: createdBefore.getTime() }),
     };
 
+    this.request.setHeaders
+
     return this.request.get<GetConversationsResponse>('messaging/conversations', {
       params: queryParams,
     });

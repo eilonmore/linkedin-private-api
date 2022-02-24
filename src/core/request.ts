@@ -29,7 +29,7 @@ export class Request {
   }
 
   updateHeaders(headers: Record<string, string>): void {
-  this.request.defaults.headers = {...this.request.defaults.headers, ...headers}
+    this.request.defaults.headers = {...this.request.defaults.headers, ...headers};
   }
 
   getHeaders(){

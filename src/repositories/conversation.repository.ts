@@ -44,21 +44,26 @@ export class ConversationRepository {
     // this.client.request.setHeaders({ ...this.client.request, accept: "..." })
     var oldHeaders = this.client.request.getHeaders();
     this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
-    try{
-      
-  
+    
+    var transformedConversations;
+    // try{
       const response = await this.client.request.conversation.getConversation({ conversationId });
       const conversation = response.data;
       const profiles = getProfilesFromResponse(response);
   
-      return transformConversations({
+      transformedConversations = transformConversations({
         profiles,
         conversations: [conversation],
       })[0];
-    }
-    finally{
-      this.client.request.setHeaders(oldHeaders);
-    }
+    // }
+    // catch{
+      
+    // }
+    // finally{
+    //   this.client.request.setHeaders(oldHeaders);
+    // }
+
+    return transformedConversations;
   }
 
   getConversations({
