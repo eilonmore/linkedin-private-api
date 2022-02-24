@@ -7,7 +7,6 @@ import { MiniProfile, ProfileId } from '../entities/mini-profile.entity';
 import { GetConversationsResponse } from '../responses/conversations.response.get';
 import { ConversationScroller } from '../scrollers/conversation.scroller';
 import { getProfilesFromResponse } from './profile.repository';
-import {headers } from './config/index';
 
 const participantToProfileId = (participant: string) => participant.replace(/urn:li:fs_messagingMember:\(|\)/g, '').split(',')[1];
 const transformConversationId = (conversationUrn: string) => conversationUrn.replace('urn:li:fs_conversation:', '');
