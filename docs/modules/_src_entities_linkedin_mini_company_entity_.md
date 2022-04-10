@@ -8,16 +8,16 @@
 
 ### Interfaces
 
-- [LinkedInMiniCompany](../interfaces/_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md)
+* [LinkedInMiniCompany](../interfaces/_src_entities_linkedin_mini_company_entity_.linkedinminicompany.md)
 
 ### Variables
 
-- [MINI_COMPANY_TYPE](_src_entities_linkedin_mini_company_entity_.md#mini_company_type)
+* [MINI\_COMPANY\_TYPE](_src_entities_linkedin_mini_company_entity_.md#mini_company_type)
 
 ## Variables
 
-### MINI_COMPANY_TYPE
+### MINI\_COMPANY\_TYPE
 
-• `Const` **MINI_COMPANY_TYPE**: \"com.linkedin.voyager.entities.shared.MiniCompany\" = "com.linkedin.voyager.entities.shared.MiniCompany"
+• `Const` **MINI\_COMPANY\_TYPE**: \"com.linkedin.voyager.entities.shared.MiniCompany\" = "com.linkedin.voyager.entities.shared.MiniCompany"
 
-_Defined in [src/entities/linkedin-mini-company.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-mini-company.entity.ts#L3)_
+*Defined in [src/entities/linkedin-mini-company.entity.ts:3](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-company.entity.ts#L3)*

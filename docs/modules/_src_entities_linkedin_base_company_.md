@@ -8,16 +8,16 @@
 
 ### Interfaces
 
-- [LinkedInBaseCompany](../interfaces/_src_entities_linkedin_base_company_.linkedinbasecompany.md)
+* [LinkedInBaseCompany](../interfaces/_src_entities_linkedin_base_company_.linkedinbasecompany.md)
 
 ### Variables
 
-- [BASE_COMPANY_TYPE](_src_entities_linkedin_base_company_.md#base_company_type)
+* [BASE\_COMPANY\_TYPE](_src_entities_linkedin_base_company_.md#base_company_type)
 
 ## Variables
 
-### BASE_COMPANY_TYPE
+### BASE\_COMPANY\_TYPE
 
-• `Const` **BASE_COMPANY_TYPE**: \"com.linkedin.voyager.organization.Company\" = "com.linkedin.voyager.organization.Company"
+• `Const` **BASE\_COMPANY\_TYPE**: \"com.linkedin.voyager.organization.Company\" = "com.linkedin.voyager.organization.Company"
 
-_Defined in [src/entities/linkedin-base-company.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-base-company.ts#L3)_
+*Defined in [src/entities/linkedin-base-company.ts:3](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-base-company.ts#L3)*

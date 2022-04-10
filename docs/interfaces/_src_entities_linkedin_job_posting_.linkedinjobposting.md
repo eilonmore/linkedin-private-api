@@ -6,90 +6,90 @@
 
 ## Hierarchy
 
-- **LinkedInJobPosting**
+* **LinkedInJobPosting**
 
 ## Index
 
 ### Properties
 
-- [$recipeTypes](_src_entities_linkedin_job_posting_.linkedinjobposting.md#$recipetypes)
-- [$type](_src_entities_linkedin_job_posting_.linkedinjobposting.md#$type)
-- [companyDetails](_src_entities_linkedin_job_posting_.linkedinjobposting.md#companydetails)
-- [dashEntityUrn](_src_entities_linkedin_job_posting_.linkedinjobposting.md#dashentityurn)
-- [entityUrn](_src_entities_linkedin_job_posting_.linkedinjobposting.md#entityurn)
-- [formattedLocation](_src_entities_linkedin_job_posting_.linkedinjobposting.md#formattedlocation)
-- [listedAt](_src_entities_linkedin_job_posting_.linkedinjobposting.md#listedat)
-- [title](_src_entities_linkedin_job_posting_.linkedinjobposting.md#title)
-- [workRemoteAllowed](_src_entities_linkedin_job_posting_.linkedinjobposting.md#workremoteallowed)
+* [$recipeTypes](_src_entities_linkedin_job_posting_.linkedinjobposting.md#$recipetypes)
+* [$type](_src_entities_linkedin_job_posting_.linkedinjobposting.md#$type)
+* [companyDetails](_src_entities_linkedin_job_posting_.linkedinjobposting.md#companydetails)
+* [dashEntityUrn](_src_entities_linkedin_job_posting_.linkedinjobposting.md#dashentityurn)
+* [entityUrn](_src_entities_linkedin_job_posting_.linkedinjobposting.md#entityurn)
+* [formattedLocation](_src_entities_linkedin_job_posting_.linkedinjobposting.md#formattedlocation)
+* [listedAt](_src_entities_linkedin_job_posting_.linkedinjobposting.md#listedat)
+* [title](_src_entities_linkedin_job_posting_.linkedinjobposting.md#title)
+* [workRemoteAllowed](_src_entities_linkedin_job_posting_.linkedinjobposting.md#workremoteallowed)
 
 ## Properties
 
 ### $recipeTypes
 
-• **$recipeTypes**: string[]
+•  **$recipeTypes**: string[]
 
-_Defined in [src/entities/linkedin-job-posting.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L12)_
+*Defined in [src/entities/linkedin-job-posting.ts:12](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L12)*
 
----
+___
 
 ### $type
 
-• **$type**: _typeof_ [JOB_POSTING_TYPE](../modules/_src_entities_linkedin_job_posting_.md#job_posting_type)
+•  **$type**: *typeof* [JOB\_POSTING\_TYPE](../modules/_src_entities_linkedin_job_posting_.md#job_posting_type)
 
-_Defined in [src/entities/linkedin-job-posting.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L11)_
+*Defined in [src/entities/linkedin-job-posting.ts:11](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L11)*
 
----
+___
 
 ### companyDetails
 
-• **companyDetails**: [LinkedInJobPostingCompany](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md)
+•  **companyDetails**: [LinkedInJobPostingCompany](_src_entities_linkedin_job_posting_.linkedinjobpostingcompany.md)
 
-_Defined in [src/entities/linkedin-job-posting.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L19)_
+*Defined in [src/entities/linkedin-job-posting.ts:19](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L19)*
 
----
+___
 
 ### dashEntityUrn
 
-• **dashEntityUrn**: string
+•  **dashEntityUrn**: string
 
-_Defined in [src/entities/linkedin-job-posting.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L14)_
+*Defined in [src/entities/linkedin-job-posting.ts:14](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L14)*
 
----
+___
 
 ### entityUrn
 
-• **entityUrn**: string
+•  **entityUrn**: string
 
-_Defined in [src/entities/linkedin-job-posting.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L13)_
+*Defined in [src/entities/linkedin-job-posting.ts:13](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L13)*
 
----
+___
 
 ### formattedLocation
 
-• **formattedLocation**: string
+•  **formattedLocation**: string
 
-_Defined in [src/entities/linkedin-job-posting.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L15)_
+*Defined in [src/entities/linkedin-job-posting.ts:15](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L15)*
 
----
+___
 
 ### listedAt
 
-• **listedAt**: number
+•  **listedAt**: number
 
-_Defined in [src/entities/linkedin-job-posting.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L16)_
+*Defined in [src/entities/linkedin-job-posting.ts:16](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L16)*
 
----
+___
 
 ### title
 
-• **title**: string
+•  **title**: string
 
-_Defined in [src/entities/linkedin-job-posting.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L17)_
+*Defined in [src/entities/linkedin-job-posting.ts:17](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L17)*
 
----
+___
 
 ### workRemoteAllowed
 
-• **workRemoteAllowed**: boolean
+•  **workRemoteAllowed**: boolean
 
-_Defined in [src/entities/linkedin-job-posting.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-job-posting.ts#L18)_
+*Defined in [src/entities/linkedin-job-posting.ts:18](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L18)*

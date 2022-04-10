@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **LinkedInInvitation**
+* **LinkedInInvitation**
 
   ↳ [Invitation](_src_entities_invitation_entity_.invitation.md)
 
@@ -14,111 +14,111 @@
 
 ### Properties
 
-- [$type](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#$type)
-- [\*fromMember](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#*frommember)
-- [\*toMember](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#*tomember)
-- [customMessage](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#custommessage)
-- [entityUrn](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#entityurn)
-- [invitationType](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#invitationtype)
-- [invitee](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#invitee)
-- [mailboxItemId](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#mailboxitemid)
-- [sentTime](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#senttime)
-- [sharedSecret](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#sharedsecret)
-- [toMemberId](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#tomemberid)
-- [unseen](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#unseen)
+* [$type](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#$type)
+* [*fromMember](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#*frommember)
+* [*toMember](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#*tomember)
+* [customMessage](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#custommessage)
+* [entityUrn](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#entityurn)
+* [invitationType](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#invitationtype)
+* [invitee](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#invitee)
+* [mailboxItemId](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#mailboxitemid)
+* [sentTime](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#senttime)
+* [sharedSecret](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#sharedsecret)
+* [toMemberId](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#tomemberid)
+* [unseen](_src_entities_linkedin_invitation_entity_.linkedininvitation.md#unseen)
 
 ## Properties
 
 ### $type
 
-• **$type**: _typeof_ [INVITATION_TYPE](../modules/_src_entities_linkedin_invitation_entity_.md#invitation_type)
+•  **$type**: *typeof* [INVITATION\_TYPE](../modules/_src_entities_linkedin_invitation_entity_.md#invitation_type)
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L16)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:16](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L16)*
 
----
+___
 
-### \*fromMember
+### *fromMember
 
-• **\*fromMember**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
+•  ***fromMember**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L17)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:17](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L17)*
 
----
+___
 
-### \*toMember
+### *toMember
 
-• **\*toMember**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
+•  ***toMember**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L18)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:18](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L18)*
 
----
+___
 
 ### customMessage
 
-• **customMessage**: boolean
+•  **customMessage**: boolean
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L19)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:19](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L19)*
 
----
+___
 
 ### entityUrn
 
-• **entityUrn**: string
+•  **entityUrn**: string
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L20)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:20](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L20)*
 
----
+___
 
 ### invitationType
 
-• **invitationType**: InvitationType
+•  **invitationType**: InvitationType
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:21](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L21)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:21](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L21)*
 
----
+___
 
 ### invitee
 
-• **invitee**: LinkedInProfileInvitee
+•  **invitee**: LinkedInProfileInvitee
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L22)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:22](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L22)*
 
----
+___
 
 ### mailboxItemId
 
-• **mailboxItemId**: string
+•  **mailboxItemId**: string
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:23](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L23)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:23](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L23)*
 
----
+___
 
 ### sentTime
 
-• **sentTime**: number
+•  **sentTime**: number
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L24)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:24](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L24)*
 
----
+___
 
 ### sharedSecret
 
-• **sharedSecret**: string
+•  **sharedSecret**: string
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:25](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L25)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:25](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L25)*
 
----
+___
 
 ### toMemberId
 
-• **toMemberId**: string
+•  **toMemberId**: string
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L26)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:26](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L26)*
 
----
+___
 
 ### unseen
 
 • `Optional` **unseen**: undefined \| false \| true
 
-_Defined in [src/entities/linkedin-invitation.entity.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-invitation.entity.ts#L27)_
+*Defined in [src/entities/linkedin-invitation.entity.ts:27](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-invitation.entity.ts#L27)*
