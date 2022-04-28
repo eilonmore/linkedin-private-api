@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@types/config": "^0.0.41",
-    "@types/cookie": "^0.4.0",
+    "@types/cookie": "^0.5.1",
     "@types/faker": "^5.1.2",
     "@types/jest": "^27.0.1",
     "@types/lodash": "^4.14.161",
