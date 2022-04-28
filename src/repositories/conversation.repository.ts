@@ -21,7 +21,6 @@ const transformConversations = ({
   conversations.map(conversation => {
     const participants = map(conversation['*participants'], participant => {
       const profileId = participantToProfileId(participant);
-
       return profiles[profileId];
     }) as MiniProfile[];
 
@@ -37,6 +36,11 @@ export class ConversationRepository {
 
   constructor({ client }: { client: Client }) {
     this.client = client;
+  }
+
+  async markConversationAsRead({ conversationId }: { conversationId: ConversationId }): Promise<Conversation> {
+    await this.client.request.conversation.markConversationAsRead({ conversationId });
+    return this.getConversation({ conversationId });
   }
 
   async getConversation({ conversationId }: { conversationId: ConversationId }): Promise<Conversation> {

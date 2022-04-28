@@ -8,16 +8,16 @@
 
 ### Interfaces
 
-- [Conversation](../interfaces/_src_entities_conversation_entity_.conversation.md)
+* [Conversation](../interfaces/_src_entities_conversation_entity_.conversation.md)
 
 ### Type aliases
 
-- [ConversationId](_src_entities_conversation_entity_.md#conversationid)
+* [ConversationId](_src_entities_conversation_entity_.md#conversationid)
 
 ## Type aliases
 
 ### ConversationId
 
-Ƭ **ConversationId**: string
+Ƭ  **ConversationId**: string
 
-_Defined in [src/entities/conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/conversation.entity.ts#L4)_
+*Defined in [src/entities/conversation.entity.ts:4](https://github.com/brunohafonso95/linkedin-private-api/blob/466124d/src/entities/conversation.entity.ts#L4)*
