@@ -6,71 +6,71 @@
 
 ## Hierarchy
 
-- **LinkedInBaseCompany**
+* **LinkedInBaseCompany**
 
 ## Index
 
 ### Properties
 
-- [$anti_abuse_annotations](_src_entities_linkedin_base_company_.linkedinbasecompany.md#$anti_abuse_annotations)
-- [$recipeTypes](_src_entities_linkedin_base_company_.linkedinbasecompany.md#$recipetypes)
-- [$type](_src_entities_linkedin_base_company_.linkedinbasecompany.md#$type)
-- [entityUrn](_src_entities_linkedin_base_company_.linkedinbasecompany.md#entityurn)
-- [logo](_src_entities_linkedin_base_company_.linkedinbasecompany.md#logo)
-- [name](_src_entities_linkedin_base_company_.linkedinbasecompany.md#name)
+* [$anti\_abuse\_annotations](_src_entities_linkedin_base_company_.linkedinbasecompany.md#$anti_abuse_annotations)
+* [$recipeTypes](_src_entities_linkedin_base_company_.linkedinbasecompany.md#$recipetypes)
+* [$type](_src_entities_linkedin_base_company_.linkedinbasecompany.md#$type)
+* [entityUrn](_src_entities_linkedin_base_company_.linkedinbasecompany.md#entityurn)
+* [logo](_src_entities_linkedin_base_company_.linkedinbasecompany.md#logo)
+* [name](_src_entities_linkedin_base_company_.linkedinbasecompany.md#name)
 
 ## Properties
 
-### $anti_abuse_annotations
+### $anti\_abuse\_annotations
 
-• **$anti_abuse_annotations**: { attributeId: number ; entityId: number }[]
+•  **$anti\_abuse\_annotations**: { attributeId: number ; entityId: number  }[]
 
-_Defined in [src/entities/linkedin-base-company.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-base-company.ts#L7)_
+*Defined in [src/entities/linkedin-base-company.ts:7](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-base-company.ts#L7)*
 
----
+___
 
 ### $recipeTypes
 
-• **$recipeTypes**: string[]
+•  **$recipeTypes**: string[]
 
-_Defined in [src/entities/linkedin-base-company.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-base-company.ts#L11)_
+*Defined in [src/entities/linkedin-base-company.ts:11](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-base-company.ts#L11)*
 
----
+___
 
 ### $type
 
-• **$type**: _typeof_ [BASE_COMPANY_TYPE](../modules/_src_entities_linkedin_base_company_.md#base_company_type)
+•  **$type**: *typeof* [BASE\_COMPANY\_TYPE](../modules/_src_entities_linkedin_base_company_.md#base_company_type)
 
-_Defined in [src/entities/linkedin-base-company.ts:6](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-base-company.ts#L6)_
+*Defined in [src/entities/linkedin-base-company.ts:6](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-base-company.ts#L6)*
 
----
+___
 
 ### entityUrn
 
-• **entityUrn**: string
+•  **entityUrn**: string
 
-_Defined in [src/entities/linkedin-base-company.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-base-company.ts#L12)_
+*Defined in [src/entities/linkedin-base-company.ts:12](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-base-company.ts#L12)*
 
----
+___
 
 ### logo
 
-• **logo**: { $type: \"com.linkedin.voyager.organization.CompanyLogoImage\" ; image: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) ; type: \"SQUARE_LOGO\" }
+•  **logo**: { $type: \"com.linkedin.voyager.organization.CompanyLogoImage\" ; image: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) ; type: \"SQUARE\_LOGO\"  }
 
-_Defined in [src/entities/linkedin-base-company.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-base-company.ts#L13)_
+*Defined in [src/entities/linkedin-base-company.ts:13](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-base-company.ts#L13)*
 
 #### Type declaration:
 
-| Name    | Type                                                                                      |
-| ------- | ----------------------------------------------------------------------------------------- |
-| `$type` | \"com.linkedin.voyager.organization.CompanyLogoImage\"                                    |
-| `image` | [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) |
-| `type`  | \"SQUARE_LOGO\"                                                                           |
+Name | Type |
+------ | ------ |
+`$type` | \"com.linkedin.voyager.organization.CompanyLogoImage\" |
+`image` | [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) |
+`type` | \"SQUARE\_LOGO\" |
 
----
+___
 
 ### name
 
-• **name**: string
+•  **name**: string
 
-_Defined in [src/entities/linkedin-base-company.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-base-company.ts#L18)_
+*Defined in [src/entities/linkedin-base-company.ts:18](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-base-company.ts#L18)*

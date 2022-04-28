@@ -8,4 +8,4 @@
 
 ### Classes
 
-- [JobSearchScroller](../classes/_src_scrollers_job_search_scroller_.jobsearchscroller.md)
+* [JobSearchScroller](../classes/_src_scrollers_job_search_scroller_.jobsearchscroller.md)

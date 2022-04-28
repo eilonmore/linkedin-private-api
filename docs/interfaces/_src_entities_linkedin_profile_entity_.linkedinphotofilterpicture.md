@@ -6,60 +6,60 @@
 
 ## Hierarchy
 
-- **LinkedInPhotoFilterPicture**
+* **LinkedInPhotoFilterPicture**
 
 ## Index
 
 ### Properties
 
-- [$recipeTypes](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#$recipetypes)
-- [$type](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#$type)
-- [displayImageReference](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#displayimagereference)
-- [displayImageUrn](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#displayimageurn)
-- [photoFilterEditInfo](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#photofiltereditinfo)
+* [$recipeTypes](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#$recipetypes)
+* [$type](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#$type)
+* [displayImageReference](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#displayimagereference)
+* [displayImageUrn](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#displayimageurn)
+* [photoFilterEditInfo](_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md#photofiltereditinfo)
 
 ## Properties
 
 ### $recipeTypes
 
-• **$recipeTypes**: string[]
+•  **$recipeTypes**: string[]
 
-_Defined in [src/entities/linkedin-profile.entity.ts:30](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L30)_
+*Defined in [src/entities/linkedin-profile.entity.ts:30](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-profile.entity.ts#L30)*
 
----
+___
 
 ### $type
 
-• **$type**: \"com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture\"
+•  **$type**: \"com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture\"
 
-_Defined in [src/entities/linkedin-profile.entity.ts:29](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L29)_
+*Defined in [src/entities/linkedin-profile.entity.ts:29](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-profile.entity.ts#L29)*
 
----
+___
 
 ### displayImageReference
 
-• **displayImageReference**: { vectorImage: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) }
+•  **displayImageReference**: { vectorImage: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)  }
 
-_Defined in [src/entities/linkedin-profile.entity.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L31)_
+*Defined in [src/entities/linkedin-profile.entity.ts:31](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-profile.entity.ts#L31)*
 
 #### Type declaration:
 
-| Name          | Type                                                                                      |
-| ------------- | ----------------------------------------------------------------------------------------- |
-| `vectorImage` | [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) |
+Name | Type |
+------ | ------ |
+`vectorImage` | [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md) |
 
----
+___
 
 ### displayImageUrn
 
-• **displayImageUrn**: string
+•  **displayImageUrn**: string
 
-_Defined in [src/entities/linkedin-profile.entity.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L34)_
+*Defined in [src/entities/linkedin-profile.entity.ts:34](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-profile.entity.ts#L34)*
 
----
+___
 
 ### photoFilterEditInfo
 
-• **photoFilterEditInfo**: unknown
+•  **photoFilterEditInfo**: unknown
 
-_Defined in [src/entities/linkedin-profile.entity.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-profile.entity.ts#L35)_
+*Defined in [src/entities/linkedin-profile.entity.ts:35](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-profile.entity.ts#L35)*
