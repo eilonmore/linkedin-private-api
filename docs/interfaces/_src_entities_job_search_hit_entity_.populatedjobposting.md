@@ -22,4 +22,4 @@
 
 •  **companyDetails**: [PopulatedJobPostingCompany](_src_entities_job_search_hit_entity_.populatedjobpostingcompany.md)
 
-*Defined in [src/entities/job-search-hit.entity.ts:11](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/job-search-hit.entity.ts#L11)*
+*Defined in [src/entities/job-search-hit.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/job-search-hit.entity.ts#L11)*

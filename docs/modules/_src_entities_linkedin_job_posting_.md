@@ -21,4 +21,4 @@
 
 • `Const` **JOB\_POSTING\_TYPE**: \"com.linkedin.voyager.jobs.JobPosting\" = "com.linkedin.voyager.jobs.JobPosting"
 
-*Defined in [src/entities/linkedin-job-posting.ts:1](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-job-posting.ts#L1)*
+*Defined in [src/entities/linkedin-job-posting.ts:1](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-job-posting.ts#L1)*

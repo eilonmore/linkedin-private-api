@@ -32,7 +32,7 @@
 
 •  **$type**: *typeof* [MINI\_PROFILE\_TYPE](../modules/_src_entities_linkedin_mini_profile_entity_.md#mini_profile_type)
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:8](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L8)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L8)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **backgroundImage**: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:9](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L9)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:9](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L9)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **entityUrn**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:10](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L10)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L10)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **firstName**: string
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:11](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L11)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L11)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **lastName**: string
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:12](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L12)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L12)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 • `Optional` **memorailzed**: undefined \| false \| true
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:13](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L13)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L13)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **objectUrn**: string
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:14](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L14)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L14)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **occupation**: string
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:15](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L15)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L15)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 • `Optional` **picture**: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:16](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L16)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L16)*
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 •  **publicIdentifier**: string
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:17](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L17)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L17)*
 
 ___
 
@@ -112,4 +112,4 @@ ___
 
 •  **trackingId**: string
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:18](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-profile.entity.ts#L18)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-profile.entity.ts#L18)*

@@ -20,4 +20,4 @@
 
 • `Const` **MINI\_COMPANY\_TYPE**: \"com.linkedin.voyager.entities.shared.MiniCompany\" = "com.linkedin.voyager.entities.shared.MiniCompany"
 
-*Defined in [src/entities/linkedin-mini-company.entity.ts:3](https://github.com/stpoa/linkedin-private-api/blob/2f83b91/src/entities/linkedin-mini-company.entity.ts#L3)*
+*Defined in [src/entities/linkedin-mini-company.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-mini-company.entity.ts#L3)*
