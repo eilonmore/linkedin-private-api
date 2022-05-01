@@ -38,6 +38,8 @@ export class MessageRepository {
     conversationId: ConversationId;
     createdBefore?: Date;
   }): Promise<MessageEvent[]> {
+    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
+    
     const response = await this.client.request.message.getMessages({ conversationId, createdBefore });
     const messages = response.included.filter(p => p.$type === EVENT_TYPE) as LinkedInMessageEvent[];
     const profiles = getProfilesFromResponse<GetMessagesResponse>(response);
