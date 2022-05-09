@@ -6,36 +6,36 @@
 
 ## Hierarchy
 
-- **LinkedInTextViewModel**
+* **LinkedInTextViewModel**
 
 ## Index
 
 ### Properties
 
-- [$type](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md#$type)
-- [text](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md#text)
-- [textDirection](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md#textdirection)
+* [$type](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md#$type)
+* [text](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md#text)
+* [textDirection](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md#textdirection)
 
 ## Properties
 
 ### $type
 
-• **$type**: \"com.linkedin.voyager.common.TextViewModel\"
+•  **$type**: \"com.linkedin.voyager.common.TextViewModel\"
 
-_Defined in [src/entities/linkedin-text-view-model.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-text-view-model.entity.ts#L2)_
+*Defined in [src/entities/linkedin-text-view-model.entity.ts:2](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-text-view-model.entity.ts#L2)*
 
----
+___
 
 ### text
 
-• **text**: string
+•  **text**: string
 
-_Defined in [src/entities/linkedin-text-view-model.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-text-view-model.entity.ts#L3)_
+*Defined in [src/entities/linkedin-text-view-model.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-text-view-model.entity.ts#L3)*
 
----
+___
 
 ### textDirection
 
-• **textDirection**: string
+•  **textDirection**: string
 
-_Defined in [src/entities/linkedin-text-view-model.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-text-view-model.entity.ts#L4)_
+*Defined in [src/entities/linkedin-text-view-model.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-text-view-model.entity.ts#L4)*

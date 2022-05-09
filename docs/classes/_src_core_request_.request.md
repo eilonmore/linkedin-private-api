@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **Request**
+* **Request**
 
   ↳ [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md)
 
@@ -14,25 +14,31 @@
 
 ### Constructors
 
-- [constructor](_src_core_request_.request.md#constructor)
+* [constructor](_src_core_request_.request.md#constructor)
 
 ### Properties
 
-- [request](_src_core_request_.request.md#request)
+* [request](_src_core_request_.request.md#request)
 
 ### Methods
 
-- [get](_src_core_request_.request.md#get)
-- [post](_src_core_request_.request.md#post)
-- [setHeaders](_src_core_request_.request.md#setheaders)
+* [get](_src_core_request_.request.md#get)
+* [post](_src_core_request_.request.md#post)
+* [setHeaders](_src_core_request_.request.md#setheaders)
 
 ## Constructors
 
 ### constructor
 
-\+ **new Request**(): [Request](_src_core_request_.request.md)
+\+ **new Request**(`__namedParameters?`: { proxy: undefined \| AxiosProxyConfig  }): [Request](_src_core_request_.request.md)
 
-_Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L13)_
+*Defined in [src/core/request.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L17)*
+
+#### Parameters:
+
+Name | Type | Default value |
+------ | ------ | ------ |
+`__namedParameters` | { proxy: undefined \| AxiosProxyConfig  } | {} |
 
 **Returns:** [Request](_src_core_request_.request.md)
 
@@ -40,9 +46,9 @@ _Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-priva
 
 ### request
 
-• **request**: AxiosInstance
+•  **request**: AxiosInstance
 
-_Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L13)_
+*Defined in [src/core/request.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L17)*
 
 ## Methods
 
@@ -50,98 +56,98 @@ _Defined in [src/core/request.ts:13](https://github.com/eilonmore/linkedin-priva
 
 ▸ **get**<T\>(`url`: string, `reqConfig?`: ConfigNonFullResponse): Promise<T\>
 
-_Defined in [src/core/request.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L26)_
+*Defined in [src/core/request.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L31)*
 
 #### Type parameters:
 
-| Name |
-| ---- |
-| `T`  |
+Name |
+------ |
+`T` |
 
 #### Parameters:
 
-| Name         | Type                  |
-| ------------ | --------------------- |
-| `url`        | string                |
-| `reqConfig?` | ConfigNonFullResponse |
+Name | Type |
+------ | ------ |
+`url` | string |
+`reqConfig?` | ConfigNonFullResponse |
 
 **Returns:** Promise<T\>
 
 ▸ **get**<T\>(`url`: string, `reqConfig?`: ConfigFullResponse): Promise<AxiosResponse<T\>\>
 
-_Defined in [src/core/request.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L27)_
+*Defined in [src/core/request.ts:32](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L32)*
 
 #### Type parameters:
 
-| Name |
-| ---- |
-| `T`  |
+Name |
+------ |
+`T` |
 
 #### Parameters:
 
-| Name         | Type               |
-| ------------ | ------------------ |
-| `url`        | string             |
-| `reqConfig?` | ConfigFullResponse |
+Name | Type |
+------ | ------ |
+`url` | string |
+`reqConfig?` | ConfigFullResponse |
 
 **Returns:** Promise<AxiosResponse<T\>\>
 
----
+___
 
 ### post
 
 ▸ **post**<T\>(`url`: string, `data`: string \| Record<string, unknown\>, `reqConfig?`: ConfigNonFullResponse): Promise<T\>
 
-_Defined in [src/core/request.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L34)_
+*Defined in [src/core/request.ts:39](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L39)*
 
 #### Type parameters:
 
-| Name |
-| ---- |
-| `T`  |
+Name |
+------ |
+`T` |
 
 #### Parameters:
 
-| Name         | Type                               |
-| ------------ | ---------------------------------- |
-| `url`        | string                             |
-| `data`       | string \| Record<string, unknown\> |
-| `reqConfig?` | ConfigNonFullResponse              |
+Name | Type |
+------ | ------ |
+`url` | string |
+`data` | string \| Record<string, unknown\> |
+`reqConfig?` | ConfigNonFullResponse |
 
 **Returns:** Promise<T\>
 
 ▸ **post**<T\>(`url`: string, `data`: string \| Record<string, unknown\>, `reqConfig?`: ConfigFullResponse): Promise<AxiosResponse<T\>\>
 
-_Defined in [src/core/request.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L35)_
+*Defined in [src/core/request.ts:40](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L40)*
 
 #### Type parameters:
 
-| Name |
-| ---- |
-| `T`  |
+Name |
+------ |
+`T` |
 
 #### Parameters:
 
-| Name         | Type                               |
-| ------------ | ---------------------------------- |
-| `url`        | string                             |
-| `data`       | string \| Record<string, unknown\> |
-| `reqConfig?` | ConfigFullResponse                 |
+Name | Type |
+------ | ------ |
+`url` | string |
+`data` | string \| Record<string, unknown\> |
+`reqConfig?` | ConfigFullResponse |
 
 **Returns:** Promise<AxiosResponse<T\>\>
 
----
+___
 
 ### setHeaders
 
 ▸ **setHeaders**(`headers`: Record<string, string\>): void
 
-_Defined in [src/core/request.ts:22](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/core/request.ts#L22)_
+*Defined in [src/core/request.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L27)*
 
 #### Parameters:
 
-| Name      | Type                    |
-| --------- | ----------------------- |
-| `headers` | Record<string, string\> |
+Name | Type |
+------ | ------ |
+`headers` | Record<string, string\> |
 
 **Returns:** void

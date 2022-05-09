@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- {}
+* {}
 
   ↳ **PopulatedJobPosting**
 
@@ -14,12 +14,12 @@
 
 ### Properties
 
-- [companyDetails](_src_entities_job_search_hit_entity_.populatedjobposting.md#companydetails)
+* [companyDetails](_src_entities_job_search_hit_entity_.populatedjobposting.md#companydetails)
 
 ## Properties
 
 ### companyDetails
 
-• **companyDetails**: [PopulatedJobPostingCompany](_src_entities_job_search_hit_entity_.populatedjobpostingcompany.md)
+•  **companyDetails**: [PopulatedJobPostingCompany](_src_entities_job_search_hit_entity_.populatedjobpostingcompany.md)
 
-_Defined in [src/entities/job-search-hit.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/job-search-hit.entity.ts#L11)_
+*Defined in [src/entities/job-search-hit.entity.ts:11](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/job-search-hit.entity.ts#L11)*

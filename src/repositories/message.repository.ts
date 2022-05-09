@@ -25,8 +25,16 @@ export class MessageRepository {
     return new MessageScroller({ conversationId, createdBefore, fetchMessages: this.fetchMessages.bind(this) });
   }
 
-  async sendMessage({ profileId, text }: { profileId: ProfileId; text: string }): Promise<MessageEventCreateResponse> {
-    const response = await this.client.request.message.sendMessage({ profileId, text });
+  async sendMessage({
+    profileId,
+    conversationId,
+    text,
+  }: {
+    profileId?: ProfileId;
+    conversationId?: ConversationId;
+    text: string;
+  }): Promise<MessageEventCreateResponse> {
+    const response = await this.client.request.message.sendMessage({ profileId, conversationId, text });
 
     return { ...response?.data?.value, text };
   }

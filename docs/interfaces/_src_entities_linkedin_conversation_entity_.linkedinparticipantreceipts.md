@@ -6,45 +6,45 @@
 
 ## Hierarchy
 
-- **LinkedInParticipantReceipts**
+* **LinkedInParticipantReceipts**
 
 ## Index
 
 ### Properties
 
-- [$type](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md#$type)
-- [fromEntity](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md#fromentity)
-- [fromParticipant](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md#fromparticipant)
-- [seenReceipt](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md#seenreceipt)
+* [$type](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md#$type)
+* [fromEntity](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md#fromentity)
+* [fromParticipant](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md#fromparticipant)
+* [seenReceipt](_src_entities_linkedin_conversation_entity_.linkedinparticipantreceipts.md#seenreceipt)
 
 ## Properties
 
 ### $type
 
-• **$type**: \"com.linkedin.voyager.messaging.ParticipantReceipts\"
+•  **$type**: \"com.linkedin.voyager.messaging.ParticipantReceipts\"
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L15)_
+*Defined in [src/entities/linkedin-conversation.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-conversation.entity.ts#L15)*
 
----
+___
 
 ### fromEntity
 
-• **fromEntity**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
+•  **fromEntity**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L16)_
+*Defined in [src/entities/linkedin-conversation.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-conversation.entity.ts#L16)*
 
----
+___
 
 ### fromParticipant
 
-• **fromParticipant**: string
+•  **fromParticipant**: string
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L17)_
+*Defined in [src/entities/linkedin-conversation.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-conversation.entity.ts#L17)*
 
----
+___
 
 ### seenReceipt
 
-• **seenReceipt**: LinkedInSeenReceipt
+•  **seenReceipt**: LinkedInSeenReceipt
 
-_Defined in [src/entities/linkedin-conversation.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-conversation.entity.ts#L18)_
+*Defined in [src/entities/linkedin-conversation.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-conversation.entity.ts#L18)*
