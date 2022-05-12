@@ -22,7 +22,7 @@ export class SalesNavigatorConnectionRequest {
     const url = `${linkedinSalesNavigatorUrl}/salesApiConnection`;
 
     const queryParams = {
-      action: 'connect'
+      action: 'connectV2'
     };
 
     const payload = {
