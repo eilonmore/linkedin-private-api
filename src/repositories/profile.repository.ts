@@ -35,6 +35,8 @@ export class ProfileRepository {
   }
 
   async getProfile({ publicIdentifier }: { publicIdentifier: string }): Promise<Profile> {
+    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
+
     const response = await this.client.request.profile.getProfile({ publicIdentifier });
 
     const results = response.included || [];
