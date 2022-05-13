@@ -16,6 +16,7 @@ const password = process.env.PASSWORD as string;
   const peopleScroller = client.search.searchPeople({ keywords: 'Bill Gates' });
   const people = await peopleScroller.scrollNext();
   const billGates = people[0].profile;
+  
   const sentInvitation = await client.invitation.sendInvitation({
     profileId: billGates.profileId,
     trackingId: billGates.trackingId,

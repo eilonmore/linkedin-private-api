@@ -38,6 +38,8 @@ export class SearchRepository {
     filters?: PeopleSearchFilters;
     keywords?: string;
   } = {}): PeopleSearchScroller {
+    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
+
     return new PeopleSearchScroller({
       skip,
       limit,
