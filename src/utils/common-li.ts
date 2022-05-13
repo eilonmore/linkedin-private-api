@@ -5,3 +5,10 @@ export const extractProfileId = (profileUrn: string): string => {
 
   return profileId
 }
+
+export const extractPublicIdentifier = (profileUrl: string): string => {
+  const fromIndex = profileUrl.lastIndexOf('in/') + 4;
+  const result = profileUrl.substr(fromIndex).replace('/','');
+
+  return result
+}
