@@ -7,6 +7,7 @@ import { GetReceivedInvitationResponse } from '../responses/received-invitations
 import { GetSentInvitationResponse } from '../responses/sent-invitations.response.get';
 import { InvitationScroller } from '../scrollers';
 import { getProfilesFromResponse } from './profile.repository';
+import { extractProfileId } from '../utils/common-li';
 
 const TO_MEMBER_FIELD = '*toMember';
 const FROM_MEMBER_FIELD = '*fromMember';
@@ -65,6 +66,8 @@ export class InvitationRepository {
     trackingId: string;
     message?: string;
   }): Promise<Invitation> {
+
+    profileId = extractProfileId(profileId);
     await this.client.request.invitation.sendInvitation({ profileId, trackingId, message });
 
     const lastInvitation = (await this.fetchSent({ skip: 0, limit: 1 }))[0];
