@@ -12,7 +12,7 @@ export const extractProfileId = (profileUrn: string): string => {
 
 export const extractPublicIdentifier = (profileUrl: string): string => {
   if(profileUrl.includes('in/')){
-    const fromIndex = profileUrl.lastIndexOf('in/') + 4;
+    const fromIndex = profileUrl.indexOf('in/') + 3;
     const publicIdentifier = profileUrl.substr(fromIndex).replace('/','');
     return publicIdentifier;  
   }
