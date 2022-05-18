@@ -19,7 +19,7 @@ export class Request {
 
   constructor({ proxy }: RequestOpts = {}) {
 
-    let userAndPass =  proxy.auth!.username+':'+proxy.auth!.password;
+    let userAndPass =  proxy!.auth!.username+':'+proxy!.auth!.password;
     let httpsAgent = HttpsProxyAgent({
       host: proxy!.host,
       port:proxy!.port,
