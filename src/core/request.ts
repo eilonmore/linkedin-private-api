@@ -1,4 +1,5 @@
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse, AxiosProxyConfig } from 'axios';
+import HttpsProxyAgent from 'https-proxy-agent';
 import { URL } from 'url';
 
 import { linkedinApiUrl } from '../../config';
@@ -17,10 +18,20 @@ export class Request {
   request: AxiosInstance;
 
   constructor({ proxy }: RequestOpts = {}) {
+
+    let userAndPass =  proxy.auth.username+':'+proxy.auth.password;
+    let httpsAgent = HttpsProxyAgent({host: proxy.host, port:proxy.port, auth:userAndPass});
+
+    // this.request = axios.create({
+    //   paramsSerializer,
+    //   withCredentials: true,
+    //   ...(proxy && { proxy }),
+    // });
+
     this.request = axios.create({
       paramsSerializer,
       withCredentials: true,
-      ...(proxy && { proxy }),
+      httpsAgent,
     });
   }
 
