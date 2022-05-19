@@ -26,12 +26,6 @@ export class Request {
       auth:userAndPass
     });
 
-    // this.request = axios.create({
-    //   paramsSerializer,
-    //   withCredentials: true,
-    //   ...(proxy && { proxy }),
-    // });
-
     this.request = axios.create({
       paramsSerializer,
       withCredentials: true,
