@@ -53,24 +53,22 @@ export class ConversationRepository {
   getConversations({
     recipients,
     createdBefore,
-  }: { recipients?: ProfileId | ProfileId[]; createdBefore?: Date } = {}): ConversationScroller {
+  }: { recipients?: ProfileId | ProfileId[]; createdBefore?: Date; } = {}): ConversationScroller {
     return new ConversationScroller({ fetchConversations: this.fetchConversations.bind(this), recipients, createdBefore });
   }
 
   private async fetchConversations({
     recipients,
     createdBefore,
-    unread,
   }: {
     recipients?: ProfileId | ProfileId[];
     createdBefore?: Date;
-    unread?: boolean;
   }): Promise<Conversation[]> {
     // this.client.request.setHeaders({ ...this.client.request, accept: "..." })
     var oldHeaders = this.client.request.getHeaders();
     this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
 
-    const res = await this.client.request.conversation.getConversations({ recipients, createdBefore,unread });
+    const res = await this.client.request.conversation.getConversations({ recipients, createdBefore });
     const conversations = res.included.filter(p => p.$type === CONVERSATION_TYPE) as LinkedinConversation[];
     const profiles = getProfilesFromResponse<GetConversationsResponse>(res);
 

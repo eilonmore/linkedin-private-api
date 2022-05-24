@@ -26,28 +26,15 @@ export class ConversationRequest {
   getConversations({
     recipients,
     createdBefore,
-    unread,
   }: {
     recipients?: ProfileId | ProfileId[];
     createdBefore?: Date;
-    unread?: boolean;
   }): Promise<GetConversationsResponse> {
     const queryParams = {
       keyVersion: 'LEGACY_INBOX',
       ...(recipients && { q: 'participants', recipients: castArray(recipients) }),
       ...(createdBefore && { createdBefore: createdBefore.getTime() }),
     };
-
-    const queryParamsUnread = {
-      filters: 'List(UNREAD)',
-      q: 'search',
-    };
-    
-    if(unread){
-      return this.request.get<GetConversationsResponse>('messaging/conversations', {
-        params: queryParamsUnread,
-      });
-    }
 
     return this.request.get<GetConversationsResponse>('messaging/conversations', {
       params: queryParams,

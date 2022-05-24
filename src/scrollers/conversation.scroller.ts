@@ -17,11 +17,10 @@ export class ConversationScroller extends CreatedBeforeScroller<Conversation> {
   fieldName: 'lastActivityAt' = 'lastActivityAt';
 
   recipients?: ProfileId | ProfileId[];
-
   constructor({
     fetchConversations,
     recipients,
-    createdBefore,
+    createdBefore
   }: {
     fetchConversations: FetchConversations;
     recipients?: ProfileId | ProfileId[];
