@@ -65,7 +65,8 @@ export class MessageRequest {
     createdBefore?: Date;
   }): Promise<GetMessagesResponse> {
     const queryParams = {
-      keyVersion: 'LEGACY_INBOX',
+      // keyVersion: 'LEGACY_INBOX',
+      q: 'syncToken',
       ...(createdBefore && { createdBefore: createdBefore.getTime() }),
     };
 
