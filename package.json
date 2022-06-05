@@ -46,7 +46,9 @@
     "fs": "^0.0.1-security",
     "lodash": "^4.17.15",
     "querystring": "^0.2.0",
-    "url": "^0.11.0"
+    "ts-node": "^10.8.1",
+    "url": "^0.11.0",
+    "socks-proxy-agent": "^5.0.0"
   },
   "devDependencies": {
     "@types/config": "^0.0.41",
