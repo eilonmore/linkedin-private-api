@@ -29,7 +29,7 @@ Name | Default |
 
 •  **data**: { $type: \"com.linkedin.restli.common.CollectionResponse\" ; elements: T[] ; entityUrn: string ; metadata?: M ; paging: Paging  }
 
-*Defined in [src/entities/linkedin-collection-response.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-collection-response.entity.ts#L8)*
+*Defined in [src/entities/linkedin-collection-response.entity.ts:8](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-collection-response.entity.ts#L8)*
 
 #### Type declaration:
 
@@ -47,4 +47,4 @@ ___
 
 •  **included**: I[]
 
-*Defined in [src/entities/linkedin-collection-response.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-collection-response.entity.ts#L15)*
+*Defined in [src/entities/linkedin-collection-response.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-collection-response.entity.ts#L15)*

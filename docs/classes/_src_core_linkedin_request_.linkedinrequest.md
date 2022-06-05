@@ -36,17 +36,17 @@
 
 ### constructor
 
-\+ **new LinkedInRequest**(`__namedParameters?`: { proxy: undefined \| AxiosProxyConfig  }): [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md)
+\+ **new LinkedInRequest**(`__namedParameters?`: { httpAgent: any ; httpsAgent: any ; proxy: undefined \| AxiosProxyConfig  }): [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md)
 
 *Inherited from [Request](_src_core_request_.request.md).[constructor](_src_core_request_.request.md#constructor)*
 
-*Defined in [src/core/request.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L17)*
+*Defined in [src/core/request.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/request.ts#L19)*
 
 #### Parameters:
 
 Name | Type | Default value |
 ------ | ------ | ------ |
-`__namedParameters` | { proxy: undefined \| AxiosProxyConfig  } | {} |
+`__namedParameters` | { httpAgent: any ; httpsAgent: any ; proxy: undefined \| AxiosProxyConfig  } | {} |
 
 **Returns:** [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md)
 
@@ -56,7 +56,7 @@ Name | Type | Default value |
 
 •  **auth**: AuthRequest = new AuthRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/linkedin-request.ts#L20)*
+*Defined in [src/core/linkedin-request.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/linkedin-request.ts#L20)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **conversation**: ConversationRequest = new ConversationRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/linkedin-request.ts#L10)*
+*Defined in [src/core/linkedin-request.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/linkedin-request.ts#L10)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **invitation**: InvitationRequest = new InvitationRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/linkedin-request.ts#L12)*
+*Defined in [src/core/linkedin-request.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/linkedin-request.ts#L12)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **message**: MessageRequest = new MessageRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/linkedin-request.ts#L14)*
+*Defined in [src/core/linkedin-request.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/linkedin-request.ts#L14)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **profile**: ProfileRequest = new ProfileRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/linkedin-request.ts#L16)*
+*Defined in [src/core/linkedin-request.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/linkedin-request.ts#L16)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[request](_src_core_request_.request.md#request)*
 
-*Defined in [src/core/request.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L17)*
+*Defined in [src/core/request.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/request.ts#L19)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 •  **search**: SearchRequest = new SearchRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/linkedin-request.ts#L18)*
+*Defined in [src/core/linkedin-request.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/linkedin-request.ts#L18)*
 
 ## Methods
 
@@ -116,7 +116,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in [src/core/request.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L31)*
+*Defined in [src/core/request.ts:35](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/request.ts#L35)*
 
 #### Type parameters:
 
@@ -137,7 +137,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in [src/core/request.ts:32](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L32)*
+*Defined in [src/core/request.ts:36](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/request.ts#L36)*
 
 #### Type parameters:
 
@@ -162,7 +162,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in [src/core/request.ts:39](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L39)*
+*Defined in [src/core/request.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/request.ts#L43)*
 
 #### Type parameters:
 
@@ -184,7 +184,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in [src/core/request.ts:40](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L40)*
+*Defined in [src/core/request.ts:44](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/request.ts#L44)*
 
 #### Type parameters:
 
@@ -210,7 +210,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[setHeaders](_src_core_request_.request.md#setheaders)*
 
-*Defined in [src/core/request.ts:27](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/request.ts#L27)*
+*Defined in [src/core/request.ts:31](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/core/request.ts#L31)*
 
 #### Parameters:
 

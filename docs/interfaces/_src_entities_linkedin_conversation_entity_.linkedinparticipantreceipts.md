@@ -23,7 +23,7 @@
 
 •  **$type**: \"com.linkedin.voyager.messaging.ParticipantReceipts\"
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-conversation.entity.ts#L15)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:15](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-conversation.entity.ts#L15)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 •  **fromEntity**: [MiniProfileUrn](../modules/_src_entities_linkedin_mini_profile_entity_.md#miniprofileurn)
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-conversation.entity.ts#L16)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-conversation.entity.ts#L16)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  **fromParticipant**: string
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-conversation.entity.ts#L17)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-conversation.entity.ts#L17)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 •  **seenReceipt**: LinkedInSeenReceipt
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-conversation.entity.ts#L18)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-conversation.entity.ts#L18)*
