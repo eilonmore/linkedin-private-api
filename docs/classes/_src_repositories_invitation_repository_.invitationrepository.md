@@ -6,33 +6,33 @@
 
 ## Hierarchy
 
-- **InvitationRepository**
+* **InvitationRepository**
 
 ## Index
 
 ### Constructors
 
-- [constructor](_src_repositories_invitation_repository_.invitationrepository.md#constructor)
+* [constructor](_src_repositories_invitation_repository_.invitationrepository.md#constructor)
 
 ### Methods
 
-- [getReceivedInvitations](_src_repositories_invitation_repository_.invitationrepository.md#getreceivedinvitations)
-- [getSentInvitations](_src_repositories_invitation_repository_.invitationrepository.md#getsentinvitations)
-- [sendInvitation](_src_repositories_invitation_repository_.invitationrepository.md#sendinvitation)
+* [getReceivedInvitations](_src_repositories_invitation_repository_.invitationrepository.md#getreceivedinvitations)
+* [getSentInvitations](_src_repositories_invitation_repository_.invitationrepository.md#getsentinvitations)
+* [sendInvitation](_src_repositories_invitation_repository_.invitationrepository.md#sendinvitation)
 
 ## Constructors
 
 ### constructor
 
-\+ **new InvitationRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md) }): [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md)
+\+ **new InvitationRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md)
 
-_Defined in [src/repositories/invitation.repository.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/invitation.repository.ts#L37)_
+*Defined in [src/repositories/invitation.repository.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/repositories/invitation.repository.ts#L37)*
 
 #### Parameters:
 
-| Name                | Type                                              |
-| ------------------- | ------------------------------------------------- |
-| `__namedParameters` | { client: [Client](_src_core_client_.client.md) } |
+Name | Type |
+------ | ------ |
+`__namedParameters` | { client: [Client](_src_core_client_.client.md)  } |
 
 **Returns:** [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md)
 
@@ -42,44 +42,44 @@ _Defined in [src/repositories/invitation.repository.ts:37](https://github.com/ei
 
 ▸ **getReceivedInvitations**(`__namedParameters?`: { limit: number = 100; skip: number = 0 }): [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
-_Defined in [src/repositories/invitation.repository.ts:51](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/invitation.repository.ts#L51)_
+*Defined in [src/repositories/invitation.repository.ts:51](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/repositories/invitation.repository.ts#L51)*
 
 #### Parameters:
 
-| Name                | Type                                      | Default value |
-| ------------------- | ----------------------------------------- | ------------- |
-| `__namedParameters` | { limit: number = 100; skip: number = 0 } | {}            |
+Name | Type | Default value |
+------ | ------ | ------ |
+`__namedParameters` | { limit: number = 100; skip: number = 0 } | {} |
 
 **Returns:** [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
----
+___
 
 ### getSentInvitations
 
 ▸ **getSentInvitations**(`__namedParameters?`: { limit: number = 100; skip: number = 0 }): [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
-_Defined in [src/repositories/invitation.repository.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/invitation.repository.ts#L43)_
+*Defined in [src/repositories/invitation.repository.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/repositories/invitation.repository.ts#L43)*
 
 #### Parameters:
 
-| Name                | Type                                      | Default value |
-| ------------------- | ----------------------------------------- | ------------- |
-| `__namedParameters` | { limit: number = 100; skip: number = 0 } | {}            |
+Name | Type | Default value |
+------ | ------ | ------ |
+`__namedParameters` | { limit: number = 100; skip: number = 0 } | {} |
 
 **Returns:** [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
----
+___
 
 ### sendInvitation
 
-▸ **sendInvitation**(`__namedParameters`: { message: undefined \| string ; profileId: string ; trackingId: string }): Promise<[Invitation](../interfaces/_src_entities_invitation_entity_.invitation.md)\>
+▸ **sendInvitation**(`__namedParameters`: { message: undefined \| string ; profileId: string ; trackingId: string  }): Promise<[Invitation](../interfaces/_src_entities_invitation_entity_.invitation.md)\>
 
-_Defined in [src/repositories/invitation.repository.ts:59](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/repositories/invitation.repository.ts#L59)_
+*Defined in [src/repositories/invitation.repository.ts:59](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/repositories/invitation.repository.ts#L59)*
 
 #### Parameters:
 
-| Name                | Type                                                                      |
-| ------------------- | ------------------------------------------------------------------------- |
-| `__namedParameters` | { message: undefined \| string ; profileId: string ; trackingId: string } |
+Name | Type |
+------ | ------ |
+`__namedParameters` | { message: undefined \| string ; profileId: string ; trackingId: string  } |
 
 **Returns:** Promise<[Invitation](../interfaces/_src_entities_invitation_entity_.invitation.md)\>

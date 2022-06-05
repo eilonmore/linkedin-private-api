@@ -8,4 +8,4 @@
 
 ### Interfaces
 
-- [LinkedInJobSearchHit](../interfaces/_src_entities_linkedin_job_search_hit_entity_.linkedinjobsearchhit.md)
+* [LinkedInJobSearchHit](../interfaces/_src_entities_linkedin_job_search_hit_entity_.linkedinjobsearchhit.md)

@@ -11,15 +11,19 @@ type ConfigNonFullResponse = AxiosRequestConfig & { fullResponse?: false };
 
 interface RequestOpts {
   proxy?: AxiosProxyConfig;
+  httpAgent? : any;
+  httpsAgent? : any;
 }
 
 export class Request {
   request: AxiosInstance;
 
-  constructor({ proxy }: RequestOpts = {}) {
+  constructor({ proxy,httpAgent,httpsAgent }: RequestOpts = {}) {
     this.request = axios.create({
       paramsSerializer,
       withCredentials: true,
+      httpAgent,
+      httpsAgent,
       ...(proxy && { proxy }),
     });
   }

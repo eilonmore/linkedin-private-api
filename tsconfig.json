@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "es2018",
     "module": "commonjs",
-    "lib": ["es2019"],
+    "lib": [
+      "es2019",
+      "dom"
+    ],
     "strict": true,
     "alwaysStrict": true,
     "sourceMap": true,

@@ -12,11 +12,11 @@ export class MessageRequest {
     this.request = request;
   }
 
-  sendMessage({ profileId, text }: { profileId: ProfileId; text: string }): Promise<SendMessageResponse> {
+  sendMessage({ profileId, conversationId, text }: { profileId?: ProfileId; conversationId?: ConversationId; text: string }): Promise<SendMessageResponse> {
     const queryParams = {
       action: 'create',
     };
-    const payload = {
+    const directMessagePayload = {
       keyVersion: 'LEGACY_INBOX',
       conversationCreate: {
         eventCreate: {
@@ -35,9 +35,26 @@ export class MessageRequest {
       },
     };
 
-    return this.request.post<SendMessageResponse>('messaging/conversations', payload, {
-      params: queryParams,
-    });
+    const conversationPayload = {
+      eventCreate: {
+        originToken: '54b3a724-59c5-4cf2-adbd-660483010a87',
+        value: {
+          'com.linkedin.voyager.messaging.create.MessageCreate': {
+            attributedBody: { text, attributes: [] },
+            attachments: [],
+          },
+        },
+      },
+      dedupeByClientGeneratedToken: false,
+    };
+
+    const conversationUrl = `messaging/conversations/${conversationId}/events`
+    const directMessageUrl = 'messaging/conversations'
+
+    const payload = conversationId ? conversationPayload : directMessagePayload
+    const url = conversationId ? conversationUrl : directMessageUrl 
+
+    return this.request.post<SendMessageResponse>(url, payload, { params: queryParams });
   }
 
   getMessages({

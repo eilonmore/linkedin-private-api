@@ -8,28 +8,28 @@
 
 ### Interfaces
 
-- [LinkedInEvent](../interfaces/_src_entities_linkedin_event_entity_.linkedinevent.md)
+* [LinkedInEvent](../interfaces/_src_entities_linkedin_event_entity_.linkedinevent.md)
 
 ### Type aliases
 
-- [LinkedInEventUrn](_src_entities_linkedin_event_entity_.md#linkedineventurn)
+* [LinkedInEventUrn](_src_entities_linkedin_event_entity_.md#linkedineventurn)
 
 ### Variables
 
-- [EVENT_TYPE](_src_entities_linkedin_event_entity_.md#event_type)
+* [EVENT\_TYPE](_src_entities_linkedin_event_entity_.md#event_type)
 
 ## Type aliases
 
 ### LinkedInEventUrn
 
-Ƭ **LinkedInEventUrn**: string
+Ƭ  **LinkedInEventUrn**: string
 
-_Defined in [src/entities/linkedin-event.entity.ts:1](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L1)_
+*Defined in [src/entities/linkedin-event.entity.ts:1](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-event.entity.ts#L1)*
 
 ## Variables
 
-### EVENT_TYPE
+### EVENT\_TYPE
 
-• `Const` **EVENT_TYPE**: \"com.linkedin.voyager.messaging.Event\" = "com.linkedin.voyager.messaging.Event"
+• `Const` **EVENT\_TYPE**: \"com.linkedin.voyager.messaging.Event\" = "com.linkedin.voyager.messaging.Event"
 
-_Defined in [src/entities/linkedin-event.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/84c9c15/src/entities/linkedin-event.entity.ts#L3)_
+*Defined in [src/entities/linkedin-event.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-event.entity.ts#L3)*
