@@ -45,7 +45,14 @@ export class ProfileRepository {
     const results = response.included || [];
 
     const profile = results.find(r => r.$type === PROFILE_TYPE && r.publicIdentifier === publicIdentifier) as LinkedInProfile;
-    const company = results.find(r => r.$type === COMPANY_TYPE && profile.headline.includes(r.name)) as LinkedInCompany;
+
+    let company = undefined;
+    if(profile.headline)
+           company = results.find(r => r.$type === COMPANY_TYPE && profile.headline.includes(r.name)) as LinkedInCompany;
+
+    if(!company)
+           company = results.find(r => r.$type === COMPANY_TYPE) as LinkedInCompany;
+
     const pictureUrls = getProfilePictureUrls(get(profile, 'profilePicture.displayImageReference.vectorImage', {}));
 
     return {
