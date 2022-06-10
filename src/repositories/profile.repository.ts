@@ -39,7 +39,7 @@ export class ProfileRepository {
     this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
 
     publicIdentifier = extractPublicIdentifier(publicIdentifier);
-
+    publicIdentifier = decodeURIComponent(publicIdentifier);
     const response = await this.client.request.profile.getProfile({ publicIdentifier });
 
     const results = response.included || [];
