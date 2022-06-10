@@ -46,13 +46,21 @@ export class ProfileRepository {
 
     const profile = results.find(r => r.$type === PROFILE_TYPE && r.publicIdentifier === publicIdentifier) as LinkedInProfile;
 
-    let company = undefined;
+    if(!profile){
+      throw new Error('Profile with publicIdedntifier '+ publicIdentifier +' not found!');
+    }
+
+    let company = null as unknown as LinkedInCompany;
     if(profile.headline)
            company = results.find(r => r.$type === COMPANY_TYPE && profile.headline.includes(r.name)) as LinkedInCompany;
 
-    if(!company)
-           company = results.find(r => r.$type === COMPANY_TYPE) as LinkedInCompany;
-
+    if(!company){
+      let allCompanies = results.filter(r => r.$type === COMPANY_TYPE);
+      if(allCompanies.length > 0){
+        company = allCompanies[allCompanies.length-1] as LinkedInCompany;
+      }
+    }
+           
     const pictureUrls = getProfilePictureUrls(get(profile, 'profilePicture.displayImageReference.vectorImage', {}));
 
     return {
