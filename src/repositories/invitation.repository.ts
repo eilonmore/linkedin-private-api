@@ -56,6 +56,16 @@ export class InvitationRepository {
       fetchInvitations: this.fetchReceived.bind(this),
     });
   }
+  
+  async sendEmailsInvitations({
+    emailsByComma,
+    message,
+  }: {
+    emailsByComma: string;
+    message?: string;
+  }): Promise<void> {
+    await this.client.request.invitation.sendEmailsInvitations({ emailsByComma, message });
+  }
 
   async sendInvitation({
     profileId,
