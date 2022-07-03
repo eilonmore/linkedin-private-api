@@ -77,7 +77,7 @@ export class SalesNavigatorProfileRequest {
     limit?: number;
     filters?: SalesNavigatorPeopleSearchFilters;
   }): Promise<GetSalesNavigatorProfilesSearchResponse> {
-    const url = `${linkedinSalesNavigatorUrl}/salesApiPeopleSearch`;
+    const url = `${linkedinSalesNavigatorUrl}/salesApiLeadSearch`;
 
     const graphqlFilter = {
       doFetchHeroCard: false,
@@ -134,11 +134,11 @@ export class SalesNavigatorProfileRequest {
     };
 
     const queryParams = {
-      q: 'peopleSearchQuery',
+      q: 'searchQuery',
       start: skip,
       count: limit,
       query: graphqlFilter,
-      decorationId: 'com.linkedin.sales.deco.desktop.search.DecoratedPeopleSearchHitResult-10',
+      decorationId: 'com.linkedin.sales.deco.desktop.searchv2.LeadSearchResult-7',
     };
 
     return this.request.get<GetSalesNavigatorProfilesSearchResponse>(url, {
