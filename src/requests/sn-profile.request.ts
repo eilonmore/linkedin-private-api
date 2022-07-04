@@ -79,12 +79,95 @@ export class SalesNavigatorProfileRequest {
   }): Promise<GetSalesNavigatorProfilesSearchResponse> {
     const url = `${linkedinSalesNavigatorUrl}/salesApiLeadSearch`;
 
+    var buildFilters = [];
+
+    if(filters.companySize?.length){
+      var companySize = {
+        type: 'COMPANY_HEADCOUNT',
+        values:[{
+          id:filters.companySize[0],
+          selectionType:'INCLUDED'
+        }]
+      }
+      buildFilters.push(companySize);
+    }
+
+    if(filters.title?.length){
+      var title = {
+        type: 'CURRENT_TITLE',
+        values:[{
+          id:filters.title[0].id,
+          text:filters.title[0].text,
+          selectionType:'INCLUDED',
+          containsChildren:false,
+          selectedChildren:[]
+        }]
+      }
+      buildFilters.push(title);
+    }
+
+    if(filters.seniorityLevel?.length){
+      var seniorityLevel = {
+        type: 'SENIORITY_LEVEL',
+        values:[{
+          id:filters.seniorityLevel[0],
+          selectionType:'INCLUDED',
+        }]
+      }
+      buildFilters.push(seniorityLevel);
+    }
+
+    if(filters.industry?.length){
+      var industry = {
+        type: 'INDUSTRY',
+        values:[{
+          id:filters.industry[0],
+          selectionType:'INCLUDED',
+        }]
+      }
+      buildFilters.push(industry);
+    }
+
+    if(filters.yearsOfExperience?.length){
+      var yearsOfExperience = {
+        type: 'YEARS_OF_EXPERIENCE',
+        values:[{
+          id:filters.yearsOfExperience[0],
+          selectionType:'INCLUDED',
+        }]
+      }
+      buildFilters.push(yearsOfExperience);
+    }
+
+    if(filters.bingGeo?.length){
+      var region = {
+        type: 'REGION',
+        values:[{
+          id:filters.bingGeo[0],
+          selectionType:'INCLUDED',
+        }]
+      }
+      buildFilters.push(region);
+    }
+
+    if(filters.relationship?.length){
+      var relationship = {
+        type: 'RELATIONSHIP',
+        values:[{
+          id:filters.relationship[0],
+          selectionType:'INCLUDED',
+        }]
+      }
+      buildFilters.push(relationship);
+    }
+
     const graphqlFilter = {
-      doFetchHeroCard: false,
+      // doFetchHeroCard: false,
       recentSearchParam: {
         doLogHistory: false
       },
-      spellCorrectionEnabled: true,
+      
+      // spellCorrectionEnabled: true,
       spotlightParam: {
         selectedType: 'ALL'
       },
