@@ -162,58 +162,10 @@ export class SalesNavigatorProfileRequest {
     }
 
     const graphqlFilter = {
-      // doFetchHeroCard: false,
       recentSearchParam: {
         doLogHistory: false
       },
-      
-      // spellCorrectionEnabled: true,
-      spotlightParam: {
-        selectedType: 'ALL'
-      },
-      doFetchFilters: true,
-      doFetchHits: true,
-      doFetchSpotlights: true,
-
-      ...(filters.companySize?.length ? {
-        companySize: filters.companySize
-      } : {}),
-
-      ...(filters.bingGeo?.length ? {
-        bingGeo: {
-          includedValues: filters.bingGeo?.map(x => ({ id: x }))
-        }
-      } : {}),
-
-      ...(filters.industry?.length ? {
-        industryV2: {
-          includedValues: filters.industry?.map(x => ({ id: x }))
-        }
-      } : {}),
-
-      ...(filters.relationship?.length ? {
-        relationship: filters.relationship
-      } : {}),
-
-      ...(filters.seniorityLevel?.length ? {
-        seniorityLevelV2: {
-          includedValues: filters.seniorityLevel?.map(x => ({ id: x }))
-        }
-      } : {}),
-
-      ...(filters.title?.length ? {
-        titleV2: {
-          scope: 'CURRENT',
-          includedValues: filters.title?.map(x => ({
-            id: x.id,
-            text: encodeURIComponent(x.text)
-          }))
-        }
-      } : {}),
-
-      ...(filters.yearsOfExperience?.length ? {
-        yearsOfExperience: filters.yearsOfExperience
-      } : {})
+      filters: buildFilters     
     };
 
     const queryParams = {
