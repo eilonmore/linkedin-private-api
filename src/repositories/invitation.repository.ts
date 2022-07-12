@@ -67,6 +67,16 @@ export class InvitationRepository {
     await this.client.request.invitation.sendEmailsInvitations({ emailsByComma, message });
   }
 
+  async sendNoLimitInvitation({
+    profileId,
+    message,
+  }: {
+    profileId: string;
+    message?: string;
+  }): Promise<void> {
+    await this.client.request.invitation.sendNoLimitInvitation({ profileId, message });
+  }
+
   async sendInvitation({
     profileId,
     trackingId,
