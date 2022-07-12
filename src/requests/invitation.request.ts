@@ -66,6 +66,37 @@ export class InvitationRequest {
     return this.request.post('growth/normInvitations?action=batchCreate', requestPayload);
   }
 
+  sendNoLimitInvitation({
+    profileId,
+    message }:
+    {
+      profileId: string;
+      message?: string
+    }): Promise<void> {
+
+    let invitations = [];
+    let trackingId = this.randomTransactionId();
+
+    let invitation = {
+      emberEntityName: 'growth/invitation/norm-invitation',
+      invitee: {
+        'com.linkedin.voyager.growth.invitation.InviteeProfile': {
+          profileId
+        }
+      },
+      message,
+      trackingId
+    };
+
+    invitations.push(invitation);
+
+    const requestPayload = {
+      invitations
+    };
+
+    return this.request.post('growth/normInvitations?action=batchCreate', requestPayload);
+  }
+
   sendInvitation({ profileId, trackingId, message }: { profileId: string; trackingId: string; message?: string }): Promise<void> {
     profileId = extractProfileId(profileId);
 
