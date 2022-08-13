@@ -81,6 +81,18 @@ export class SalesNavigatorProfileRequest {
 
     var buildFilters = [];
 
+    if(filters.currentCompany?.length){
+      var currentCompany = {
+        type: 'CURRENT_COMPANY',
+        values:[{
+          id:filters.currentCompany[0].id,
+          text:filters.currentCompany[0].text,
+          selectionType:'INCLUDED'
+        }]
+      }
+      buildFilters.push(currentCompany); 
+    }
+
     if(filters.companySize?.length){
       var companySize = {
         type: 'COMPANY_HEADCOUNT',
@@ -94,14 +106,13 @@ export class SalesNavigatorProfileRequest {
 
     if(filters.title?.length){
       var title = {
-        type: 'CURRENT_TITLE',
+        type: 'TITLE',
         values:[{
           id:filters.title[0].id,
           text:filters.title[0].text,
           selectionType:'INCLUDED',
-          containsChildren:false,
-          selectedChildren:[]
-        }]
+        }],
+        selectedSubFilter:"CURRENT"
       }
       buildFilters.push(title);
     }
