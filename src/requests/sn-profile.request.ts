@@ -81,101 +81,101 @@ export class SalesNavigatorProfileRequest {
 
     var buildFilters = [];
 
-    if(filters.currentCompany?.length){
-      if(filters.currentCompany[0].id){
+    if (filters.currentCompany?.length) {
+      if (filters.currentCompany[0].id) {
         buildFilters.push({
           type: 'CURRENT_COMPANY',
-          values:[{
-            id:filters.currentCompany[0].id,
-            selectionType:'INCLUDED'
+          values: [{
+            id: filters.currentCompany[0].id,
+            selectionType: 'INCLUDED'
           }]
         });
       }
-      else{
+      else {
         buildFilters.push({
           type: 'CURRENT_COMPANY',
-          values:[{
-            text:filters.currentCompany[0].text,
-            selectionType:'INCLUDED'
+          values: [{
+            text: filters.currentCompany[0].text,
+            selectionType: 'INCLUDED'
           }]
         });
       }
     }
 
-    if(filters.companySize?.length){
+    if (filters.companySize?.length) {
       var companySize = {
         type: 'COMPANY_HEADCOUNT',
-        values:[{
-          id:filters.companySize[0],
-          selectionType:'INCLUDED'
+        values: [{
+          id: filters.companySize[0],
+          selectionType: 'INCLUDED'
         }]
       }
       buildFilters.push(companySize);
     }
 
-    if(filters.title?.length){
+    if (filters.title?.length) {
       var title = {
         type: 'TITLE',
-        values:[{
-          id:filters.title[0].id,
-          text:filters.title[0].text,
-          selectionType:'INCLUDED',
+        values: [{
+          id: filters.title[0].id,
+          text: filters.title[0].text,
+          selectionType: 'INCLUDED',
         }],
-        selectedSubFilter:"CURRENT"
+        selectedSubFilter: "CURRENT"
       }
       buildFilters.push(title);
     }
 
-    if(filters.seniorityLevel?.length){
+    if (filters.seniorityLevel?.length) {
       var seniorityLevel = {
         type: 'SENIORITY_LEVEL',
-        values:[{
-          id:filters.seniorityLevel[0],
-          selectionType:'INCLUDED',
+        values: [{
+          id: filters.seniorityLevel[0],
+          selectionType: 'INCLUDED',
         }]
       }
       buildFilters.push(seniorityLevel);
     }
 
-    if(filters.industry?.length){
+    if (filters.industry?.length) {
       var industry = {
         type: 'INDUSTRY',
-        values:[{
-          id:filters.industry[0],
-          selectionType:'INCLUDED',
+        values: [{
+          id: filters.industry[0],
+          selectionType: 'INCLUDED',
         }]
       }
       buildFilters.push(industry);
     }
 
-    if(filters.yearsOfExperience?.length){
+    if (filters.yearsOfExperience?.length) {
       var yearsOfExperience = {
         type: 'YEARS_OF_EXPERIENCE',
-        values:[{
-          id:filters.yearsOfExperience[0],
-          selectionType:'INCLUDED',
+        values: [{
+          id: filters.yearsOfExperience[0],
+          selectionType: 'INCLUDED',
         }]
       }
       buildFilters.push(yearsOfExperience);
     }
 
-    if(filters.bingGeo?.length){
+    if (filters.bingGeo?.length) {
       var region = {
         type: 'REGION',
-        values:[{
-          id:filters.bingGeo[0],
-          selectionType:'INCLUDED',
+        values: [{
+          id: filters.bingGeo[0],
+          selectionType: 'INCLUDED',
         }]
       }
       buildFilters.push(region);
     }
 
-    if(filters.relationship?.length){
+    if (filters.relationship?.length) {
       var relationship = {
         type: 'RELATIONSHIP',
-        values:[{
-          id:filters.relationship[0],
-          selectionType:'INCLUDED',
+        values: [{
+          id: filters.relationship[0],
+          selectionType: 'INCLUDED',
         }]
       }
       buildFilters.push(relationship);
@@ -185,7 +185,7 @@ export class SalesNavigatorProfileRequest {
       recentSearchParam: {
         doLogHistory: false
       },
-      filters: buildFilters     
+      filters: buildFilters
     };
 
     const queryParams = {
