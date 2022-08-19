@@ -9,6 +9,7 @@ type FetchConversations = ({
 }: {
   recipients?: ProfileId | ProfileId[];
   createdBefore?: Date;
+  unread?: boolean;
 }) => Promise<Conversation[]>;
 
 export class ConversationScroller extends CreatedBeforeScroller<Conversation> {
@@ -17,19 +18,22 @@ export class ConversationScroller extends CreatedBeforeScroller<Conversation> {
   fieldName: 'lastActivityAt' = 'lastActivityAt';
 
   recipients?: ProfileId | ProfileId[];
+  unread?: boolean;
   constructor({
     fetchConversations,
     recipients,
-    createdBefore
+    createdBefore,
+    unread
   }: {
     fetchConversations: FetchConversations;
     recipients?: ProfileId | ProfileId[];
     createdBefore?: Date;
+    unread?: boolean;
   }) {
     super({ createdBefore });
 
     this.recipients = recipients;
-
+    this.unread = unread;
     this.fetchConversations = fetchConversations;
   }
 
@@ -37,6 +41,7 @@ export class ConversationScroller extends CreatedBeforeScroller<Conversation> {
     return this.fetchConversations({
       ...(isUndefined(this.createdBefore) ? {} : { createdBefore: new Date(this.createdBefore) }),
       ...(this.recipients && { recipients: this.recipients }),
+      ...(this.unread && { unread: true }),
     });
   }
 }
