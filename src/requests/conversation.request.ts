@@ -29,7 +29,8 @@ export class ConversationRequest {
     var queryParams = {
       ...(recipients && { q: 'participants', recipients: castArray(recipients) }),
       ...(createdBefore && { createdBefore: createdBefore.getTime() }),
-      ...(unread && {filters: castArray('UNREAD')})
+      ...(unread && {filters: castArray('UNREAD')}),
+      ...(unread && {q: 'search'})
     };
 
     return this.request.get<GetConversationsResponse>('messaging/conversations', {
