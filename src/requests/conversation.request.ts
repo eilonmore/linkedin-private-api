@@ -13,6 +13,21 @@ export class ConversationRequest {
     this.request = request;
   }
 
+  markConversationAsRead({ conversationId }: { 
+      conversationId: ConversationId 
+    }): Promise<void> {
+
+    const requestPayload = {
+      "patch": {
+        "$set": {
+          "read": true
+        }
+      }
+    };
+
+    return this.request.post(`messaging/conversations/${conversationId}`, requestPayload);
+  }
+
   getConversation({ conversationId }: { conversationId: ConversationId }): Promise<GetConversationResponse> {
     return this.request.get<GetConversationResponse>(`messaging/conversations/${conversationId}`);
   }
@@ -29,8 +44,8 @@ export class ConversationRequest {
     var queryParams = {
       ...(recipients && { q: 'participants', recipients: castArray(recipients) }),
       ...(createdBefore && { createdBefore: createdBefore.getTime() }),
-      ...(unread && {filters: castArray('UNREAD')}),
-      ...(unread && {q: 'search'})
+      ...(unread && { filters: castArray('UNREAD') }),
+      ...(unread && { q: 'search' })
     };
 
     return this.request.get<GetConversationsResponse>('messaging/conversations', {

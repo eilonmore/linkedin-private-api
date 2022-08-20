@@ -39,6 +39,12 @@ export class ConversationRepository {
     this.client = client;
   }
 
+  async markConversationAsRead({ conversationId }: {
+    conversationId: ConversationId
+  }): Promise<void> {
+    return await this.client.request.conversation.markConversationAsRead({ conversationId });
+  }
+
   async getConversation({ conversationId }: { conversationId: ConversationId }): Promise<Conversation> {
     const response = await this.client.request.conversation.getConversation({ conversationId });
     const conversation = response.data;
@@ -49,6 +55,8 @@ export class ConversationRepository {
       conversations: [conversation],
     })[0];
   }
+
+
 
   getConversations({
     recipients,
