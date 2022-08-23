@@ -1,3 +1,4 @@
+import { GetContactInfoResponse } from 'src/responses/contact-info.response.get';
 import { LinkedInRequest } from '../core/linkedin-request';
 import { GetOwnProfileResponse } from '../responses/own-profile.response.get';
 import { GetProfileResponse } from '../responses/profile.response.get';
@@ -19,6 +20,10 @@ export class ProfileRequest {
     return this.request.get<GetProfileResponse>('identity/dash/profiles', {
       params: queryParams,
     });
+  }
+
+  getContactInfo({ publicIdentifier }: { publicIdentifier: string }): Promise<GetContactInfoResponse> {
+    return this.request.get<GetContactInfoResponse>(`identity/profiles/${publicIdentifier}/profileContactInfo`);
   }
 
   getOwnProfile(): Promise<GetOwnProfileResponse> {

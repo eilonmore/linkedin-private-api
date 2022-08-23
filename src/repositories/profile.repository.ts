@@ -1,4 +1,7 @@
 import { filter, get, keyBy, map } from 'lodash';
+import { LinkedinContactInfo } from 'src/entities/linkedin-contact-info-response.entity';
+import { GetProfileResponse } from 'src/responses';
+import { GetContactInfoResponse } from 'src/responses/contact-info.response.get';
 
 import { Client } from '../core/client';
 import { COMPANY_TYPE, LinkedInCompany } from '../entities/linkedin-company.entity';
@@ -67,5 +70,15 @@ export class ProfileRepository {
     }
 
     return this.getProfile(miniProfile);
+  }
+
+  async getContactInfo({ publicIdentifier }: { publicIdentifier: string }): Promise<LinkedinContactInfo> {
+    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
+
+    publicIdentifier = extractPublicIdentifier(publicIdentifier);
+    publicIdentifier = decodeURIComponent(publicIdentifier);
+    const response = await this.client.request.profile.getContactInfo({ publicIdentifier });
+    const results = response.data;
+    return results;
   }
 }
