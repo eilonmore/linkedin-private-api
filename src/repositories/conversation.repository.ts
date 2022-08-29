@@ -46,6 +46,7 @@ export class ConversationRepository {
   }
 
   async getConversation({ conversationId }: { conversationId: ConversationId }): Promise<Conversation> {
+    this.client.request.updateHeaders({ accept: 'application/vnd.linkedin.normalized+json+2.1' });
     const response = await this.client.request.conversation.getConversation({ conversationId });
     const conversation = response.data;
     const profiles = getProfilesFromResponse(response);
@@ -55,8 +56,6 @@ export class ConversationRepository {
       conversations: [conversation],
     })[0];
   }
-
-
 
   getConversations({
     recipients,
