@@ -14,7 +14,7 @@ export class ProfileRequest {
     const queryParams = {
       q: 'memberIdentity',
       memberIdentity: publicIdentifier,
-      decorationId: 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-106',
+      decorationId: 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-35',
     };
 
     return this.request.get<GetProfileResponse>('identity/dash/profiles', {

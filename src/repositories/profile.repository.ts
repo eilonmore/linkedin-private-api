@@ -39,7 +39,7 @@ export class ProfileRepository {
   }
 
   async getProfile({ publicIdentifier }: { publicIdentifier: string }): Promise<Profile> {
-    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
+    this.client.request.updateHeaders({ accept: 'application/vnd.linkedin.normalized+json+2.1' });
 
     publicIdentifier = extractPublicIdentifier(publicIdentifier);
     publicIdentifier = decodeURIComponent(publicIdentifier);
@@ -50,7 +50,7 @@ export class ProfileRepository {
     const profile = results.find(r => r.$type === PROFILE_TYPE && r.publicIdentifier === publicIdentifier) as LinkedInProfile;
 
     const company = results.find(r => r.$type === COMPANY_TYPE && profile.headline.includes(r.name)) as LinkedInCompany;
-           
+
     const pictureUrls = getProfilePictureUrls(get(profile, 'profilePicture.displayImageReference.vectorImage', {}));
 
     return {
@@ -73,7 +73,7 @@ export class ProfileRepository {
   }
 
   async getContactInfo({ publicIdentifier }: { publicIdentifier: string }): Promise<LinkedinContactInfo> {
-    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
+    this.client.request.updateHeaders({ accept: 'application/vnd.linkedin.normalized+json+2.1' });
 
     publicIdentifier = extractPublicIdentifier(publicIdentifier);
     publicIdentifier = decodeURIComponent(publicIdentifier);
