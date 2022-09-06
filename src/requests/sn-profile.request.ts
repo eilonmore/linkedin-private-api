@@ -81,10 +81,10 @@ export class SalesNavigatorProfileRequest {
 
     const buildFilters = [];
 
-    if (filters.currentCompany?.length) {
+    if (filters.currentCompanies?.length) {
       const currentCompanies = {
         type: 'CURRENT_COMPANY',
-        values: filters.currentCompany.map(cc => cc.id 
+        values: filters.currentCompanies.map(cc => cc.id 
           ? ({ id: cc.id, selectionType: 'INCLUDED' })
           : ({ text: cc.text, selectionType: 'INCLUDED' })
           )
@@ -93,10 +93,10 @@ export class SalesNavigatorProfileRequest {
       buildFilters.push(currentCompanies);
     }
 
-    if (filters.companySize?.length) {
+    if (filters.companySizes?.length) {
       const companySizes = {
         type: 'COMPANY_HEADCOUNT',
-        values: filters.companySize.map(cs => ({ 
+        values: filters.companySizes.map(cs => ({ 
           id: cs,
           selectionType: 'INCLUDED'
          }))
@@ -105,10 +105,10 @@ export class SalesNavigatorProfileRequest {
       buildFilters.push(companySizes);
     }
 
-    if (filters.title?.length) {
+    if (filters.titles?.length) {
       const titles = {
         type: 'TITLE',
-        values: filters.title.map(t => ({
+        values: filters.titles.map(t => ({
           id: t.id,
           selectionType: 'INCLUDED',
         })),
@@ -118,10 +118,10 @@ export class SalesNavigatorProfileRequest {
       buildFilters.push(titles);
     }
 
-    if (filters.seniorityLevel?.length) {
+    if (filters.seniorityLevels?.length) {
       const seniorityLevels = {
         type: 'SENIORITY_LEVEL',
-        values: filters.seniorityLevel.map(sl => ({
+        values: filters.seniorityLevels.map(sl => ({
           id: sl,
           selectionType: 'INCLUDED',
         }))
@@ -130,10 +130,10 @@ export class SalesNavigatorProfileRequest {
       buildFilters.push(seniorityLevels);
     }
 
-    if (filters.industry?.length) {
+    if (filters.industries?.length) {
       const industry = {
         type: 'INDUSTRY',
-        values: filters.industry.map(i => ({
+        values: filters.industries.map(i => ({
           id: i,
           selectionType: 'INCLUDED',
         }))
@@ -142,10 +142,10 @@ export class SalesNavigatorProfileRequest {
       buildFilters.push(industry);
     }
 
-    if (filters.yearsOfExperience?.length) {
+    if (filters.yearsOfExperiences?.length) {
       const yearsOfExperience = {
         type: 'YEARS_OF_EXPERIENCE',
-        values: filters.yearsOfExperience.map(ye => ({
+        values: filters.yearsOfExperiences.map(ye => ({
           id: ye,
           selectionType: 'INCLUDED',
         }))
@@ -154,10 +154,10 @@ export class SalesNavigatorProfileRequest {
       buildFilters.push(yearsOfExperience);
     }
 
-    if (filters.bingGeo?.length) {
+    if (filters.bingGeos?.length) {
       const regions = {
         type: 'REGION',
-        values: filters.bingGeo.map(bg => ({
+        values: filters.bingGeos.map(bg => ({
           id: bg,
           selectionType: 'INCLUDED',
         }))
@@ -166,10 +166,10 @@ export class SalesNavigatorProfileRequest {
       buildFilters.push(regions);
     }
 
-    if (filters.relationship?.length) {
+    if (filters.relationships?.length) {
       const relationships = {
         type: 'RELATIONSHIP',
-        values: filters.relationship.map(rs => ({
+        values: filters.relationships.map(rs => ({
           id: rs,
           selectionType: 'INCLUDED',
         }))

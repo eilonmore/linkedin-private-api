@@ -23,13 +23,13 @@ export interface PeopleSearchFilters {
 }
 
 export interface SalesNavigatorPeopleSearchFilters {
-  companySize?: string[];
-  bingGeo?: string[];
-  industry?: string[];
-  relationship?: string[];
-  seniorityLevel?: string[];
-  title?: LinkedInTitle[];
-  yearsOfExperience?: string[];
-  currentCompany?: LinkedInCompany[];
+  companySizes?: string[];
+  bingGeos?: string[];
+  industries?: string[];
+  relationships?: string[];
+  seniorityLevels?: string[];
+  titles?: LinkedInTitle[];
+  yearsOfExperiences?: string[];
+  currentCompanies?: LinkedInCompany[];
   functions?: LinkedInFunction[];
 }
