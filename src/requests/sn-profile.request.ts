@@ -79,106 +79,116 @@ export class SalesNavigatorProfileRequest {
   }): Promise<GetSalesNavigatorProfilesSearchResponse> {
     const url = `${linkedinSalesNavigatorUrl}/salesApiLeadSearch`;
 
-    var buildFilters = [];
+    const buildFilters = [];
 
     if (filters.currentCompany?.length) {
-      if (filters.currentCompany[0].id) {
-        buildFilters.push({
-          type: 'CURRENT_COMPANY',
-          values: [{
-            id: filters.currentCompany[0].id,
-            selectionType: 'INCLUDED'
-          }]
-        });
+      const currentCompanies = {
+        type: 'CURRENT_COMPANY',
+        values: filters.currentCompany.map(cc => cc.id 
+          ? ({ id: cc.id, selectionType: 'INCLUDED' })
+          : ({ text: cc.text, selectionType: 'INCLUDED' })
+          )
       }
-      else {
-        buildFilters.push({
-          type: 'CURRENT_COMPANY',
-          values: [{
-            text: filters.currentCompany[0].text,
-            selectionType: 'INCLUDED'
-          }]
-        });
-      }
+
+      buildFilters.push(currentCompanies);
     }
 
     if (filters.companySize?.length) {
-      var companySize = {
+      const companySizes = {
         type: 'COMPANY_HEADCOUNT',
-        values: [{
-          id: filters.companySize[0],
+        values: filters.companySize.map(cs => ({ 
+          id: cs,
           selectionType: 'INCLUDED'
-        }]
+         }))
       }
-      buildFilters.push(companySize);
+  
+      buildFilters.push(companySizes);
     }
 
     if (filters.title?.length) {
-      var title = {
+      const titles = {
         type: 'TITLE',
-        values: [{
-          id: filters.title[0].id,
-          text: filters.title[0].text,
+        values: filters.title.map(t => ({
+          id: t.id,
           selectionType: 'INCLUDED',
-        }],
+        })),
         selectedSubFilter: "CURRENT"
       }
-      buildFilters.push(title);
+
+      buildFilters.push(titles);
     }
 
     if (filters.seniorityLevel?.length) {
-      var seniorityLevel = {
+      const seniorityLevels = {
         type: 'SENIORITY_LEVEL',
-        values: [{
-          id: filters.seniorityLevel[0],
+        values: filters.seniorityLevel.map(sl => ({
+          id: sl,
           selectionType: 'INCLUDED',
-        }]
+        }))
       }
-      buildFilters.push(seniorityLevel);
+      
+      buildFilters.push(seniorityLevels);
     }
 
     if (filters.industry?.length) {
-      var industry = {
+      const industry = {
         type: 'INDUSTRY',
-        values: [{
-          id: filters.industry[0],
+        values: filters.industry.map(i => ({
+          id: i,
           selectionType: 'INCLUDED',
-        }]
+        }))
       }
+
       buildFilters.push(industry);
     }
 
     if (filters.yearsOfExperience?.length) {
-      var yearsOfExperience = {
+      const yearsOfExperience = {
         type: 'YEARS_OF_EXPERIENCE',
-        values: [{
-          id: filters.yearsOfExperience[0],
+        values: filters.yearsOfExperience.map(ye => ({
+          id: ye,
           selectionType: 'INCLUDED',
-        }]
+        }))
       }
+
       buildFilters.push(yearsOfExperience);
     }
 
     if (filters.bingGeo?.length) {
-      var region = {
+      const regions = {
         type: 'REGION',
-        values: [{
-          id: filters.bingGeo[0],
+        values: filters.bingGeo.map(bg => ({
+          id: bg,
           selectionType: 'INCLUDED',
-        }]
+        }))
       }
-      buildFilters.push(region);
+
+      buildFilters.push(regions);
     }
 
     if (filters.relationship?.length) {
-      var relationship = {
+      const relationships = {
         type: 'RELATIONSHIP',
-        values: [{
-          id: filters.relationship[0],
+        values: filters.relationship.map(rs => ({
+          id: rs,
           selectionType: 'INCLUDED',
-        }]
+        }))
       }
-      buildFilters.push(relationship);
+
+      buildFilters.push(relationships);
+    }
+
+    if (filters.functions?.length) {
+      const functions = {
+        type: 'FUNCTION',
+        values: filters.functions.map(f => ({
+          id: f.id,
+          text: f.text,
+          selectionType: 'INCLUDED',
+        }))
+      }
+  
+      buildFilters.push(functions);
     }
 
     const graphqlFilter = {

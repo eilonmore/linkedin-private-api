@@ -3,6 +3,7 @@ import { Language } from './language-code.enum';
 import { LinkedInNetworkType } from './network.enum';
 import { LinkedInTitle } from './title';
 import { LinkedInCompany } from './company';
+import { LinkedInFunction } from './function';
 
 export interface PeopleSearchFilters {
   currentCompany?: string | string[];
@@ -30,4 +31,5 @@ export interface SalesNavigatorPeopleSearchFilters {
   title?: LinkedInTitle[];
   yearsOfExperience?: string[];
   currentCompany?: LinkedInCompany[];
+  functions?: LinkedInFunction[];
 }
