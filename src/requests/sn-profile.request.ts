@@ -182,8 +182,7 @@ export class SalesNavigatorProfileRequest {
       const functions = {
         type: 'FUNCTION',
         values: filters.functions.map(f => ({
-          id: f.id,
-          text: f.text,
+          id: f,
           selectionType: 'INCLUDED',
         }))
       }

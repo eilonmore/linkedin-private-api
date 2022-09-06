@@ -31,5 +31,5 @@ export interface SalesNavigatorPeopleSearchFilters {
   titles?: LinkedInTitle[];
   yearsOfExperiences?: string[];
   currentCompanies?: LinkedInCompany[];
-  functions?: LinkedInFunction[];
+  functions?: string[];
 }
