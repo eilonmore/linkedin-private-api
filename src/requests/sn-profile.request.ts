@@ -84,10 +84,10 @@ export class SalesNavigatorProfileRequest {
     if (filters.currentCompanies?.length) {
       const currentCompanies = {
         type: 'CURRENT_COMPANY',
-        values: filters.currentCompanies.map(cc => cc.id 
+        values: filters.currentCompanies.map(cc => cc.id
           ? ({ id: cc.id, selectionType: 'INCLUDED' })
           : ({ text: cc.text, selectionType: 'INCLUDED' })
-          )
+        )
       }
 
       buildFilters.push(currentCompanies);
@@ -96,22 +96,21 @@ export class SalesNavigatorProfileRequest {
     if (filters.companySizes?.length) {
       const companySizes = {
         type: 'COMPANY_HEADCOUNT',
-        values: filters.companySizes.map(cs => ({ 
+        values: filters.companySizes.map(cs => ({
           id: cs,
           selectionType: 'INCLUDED'
-         }))
+        }))
       }
-  
+
       buildFilters.push(companySizes);
     }
 
     if (filters.titles?.length) {
       const titles = {
         type: 'TITLE',
-        values: filters.titles.map(t => ({
-          id: t.id,
-          selectionType: 'INCLUDED',
-        })),
+        values: filters.titles.map(t => t.id
+          ? ({ id: t.id, text: t.text, selectionType: 'INCLUDED', })
+          : ({ text: t.text, selectionType: 'INCLUDED' })),
         selectedSubFilter: "CURRENT"
       }
 
@@ -126,7 +125,7 @@ export class SalesNavigatorProfileRequest {
           selectionType: 'INCLUDED',
         }))
       }
-      
+
       buildFilters.push(seniorityLevels);
     }
 
@@ -186,7 +185,7 @@ export class SalesNavigatorProfileRequest {
           selectionType: 'INCLUDED',
         }))
       }
-  
+
       buildFilters.push(functions);
     }
 
@@ -202,7 +201,7 @@ export class SalesNavigatorProfileRequest {
       start: skip,
       count: limit,
       query: graphqlFilter,
-      decorationId: 'com.linkedin.sales.deco.desktop.searchv2.LeadSearchResult-7',
+      decorationId: 'com.linkedin.sales.deco.desktop.searchv2.LeadSearchResult-9',
     };
 
     return this.request.get<GetSalesNavigatorProfilesSearchResponse>(url, {
