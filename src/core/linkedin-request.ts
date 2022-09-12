@@ -9,6 +9,7 @@ import { SalesNavigatorProfileRequest } from '../requests/sn-profile.request';
 import { SalesNavigatorMessageRequest } from '../requests/sn-message.request';
 import { SalesNavigatorTypeaheadRequest } from '../requests/sn-typeahead.request';
 import { SalesNavigatorConnectionRequest } from '../requests/sn-connection.request';
+import { SalesNavRequest } from 'src/requests/salesnav.request';
 
 export class LinkedInRequest extends Request {
   conversation = new ConversationRequest({ request: this });
@@ -30,4 +31,6 @@ export class LinkedInRequest extends Request {
   salesNavigatorTypeahead = new SalesNavigatorTypeaheadRequest({ request: this });
 
   salesNavigatorConnection = new SalesNavigatorConnectionRequest({ request: this });
+
+  salesNav = new SalesNavRequest({ request: this });
 }
