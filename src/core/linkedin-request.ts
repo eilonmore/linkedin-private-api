@@ -9,7 +9,7 @@ import { SalesNavigatorProfileRequest } from '../requests/sn-profile.request';
 import { SalesNavigatorMessageRequest } from '../requests/sn-message.request';
 import { SalesNavigatorTypeaheadRequest } from '../requests/sn-typeahead.request';
 import { SalesNavigatorConnectionRequest } from '../requests/sn-connection.request';
-import { SalesNavRequest } from 'src/requests/salesnav.request';
+import { SalesNavRequest } from '../requests/salesnav.request';
 
 export class LinkedInRequest extends Request {
   conversation = new ConversationRequest({ request: this });

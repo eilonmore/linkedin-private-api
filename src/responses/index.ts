@@ -7,3 +7,7 @@ export * from './own-profile.response.get';
 export * from './profile.response.get';
 export * from './received-invitations.response.get';
 export * from './sent-invitations.response.get';
+export * from './add-sales-nav-seat.response.post';
+export * from './edit-sales-nav-seat.response.post';
+export * from './remove-sales-nav-seat.response.post';
+export * from './get-sales-nav-seats.response.get';
