@@ -40,7 +40,7 @@
 
 •  **authToken**: string
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:51](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L51)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:51](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L51)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **authType**: string
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:52](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L52)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:52](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L52)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **createdDate**: any
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:55](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L55)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:55](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L55)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **dateAdded**: string
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:61](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L61)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:61](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L61)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **email**: string
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:53](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L53)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:53](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L53)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **headline**: string
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:50](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L50)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:50](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L50)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **isAdminOnly**: boolean
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:60](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L60)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:60](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L60)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 •  **isAdminSeat**: boolean
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:45](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L45)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:45](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L45)*
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 •  **isBuyer**: boolean
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:47](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L47)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:47](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L47)*
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 •  **isCrmSeat**: boolean
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:44](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L44)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:44](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L44)*
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 •  **isSalesSeat**: boolean
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:46](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L46)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:46](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L46)*
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 •  **isUser**: boolean
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:54](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L54)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:54](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L54)*
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 •  **lang**: [Lang](_src_entities_get_sales_nav_seats_entity_.lang.md)
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:59](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L59)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:59](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L59)*
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 •  **memberId**: number
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:42](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L42)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:42](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L42)*
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 •  **nameFormatted**: string
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:43](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L43)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:43](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L43)*
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 •  **profileUrl**: string
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:57](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L57)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:57](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L57)*
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 •  **seatId**: number
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:41](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L41)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:41](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L41)*
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 •  **seatJsonExt**: [SeatJsonExt](_src_entities_get_sales_nav_seats_entity_.seatjsonext.md)
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:58](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L58)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:58](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L58)*
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 •  **seatPicture**: [SeatPicture](_src_entities_get_sales_nav_seats_entity_.seatpicture.md)
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:48](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L48)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:48](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L48)*
 
 ___
 
@@ -192,7 +192,7 @@ ___
 
 •  **state**: string
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:56](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L56)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:56](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L56)*
 
 ___
 
@@ -200,4 +200,4 @@ ___
 
 •  **vectorImage**: [VectorImage2](_src_entities_get_sales_nav_seats_entity_.vectorimage2.md)
 
-*Defined in [src/entities/get-sales-nav-seats.entity.ts:49](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/get-sales-nav-seats.entity.ts#L49)*
+*Defined in [src/entities/get-sales-nav-seats.entity.ts:49](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/get-sales-nav-seats.entity.ts#L49)*

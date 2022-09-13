@@ -12,7 +12,6 @@
 * [InvitationRepository](_src_repositories_index_.md#invitationrepository)
 * [MessageRepository](_src_repositories_index_.md#messagerepository)
 * [ProfileRepository](_src_repositories_index_.md#profilerepository)
-* [SalesNavRepository](_src_repositories_index_.md#salesnavrepository)
 * [SearchRepository](_src_repositories_index_.md#searchrepository)
 * [getProfilesFromResponse](_src_repositories_index_.md#getprofilesfromresponse)
 
@@ -39,12 +38,6 @@ ___
 ### ProfileRepository
 
 Re-exports: [ProfileRepository](../classes/_src_repositories_profile_repository_.profilerepository.md)
-
-___
-
-### SalesNavRepository
-
-Re-exports: [SalesNavRepository](../classes/_src_repositories_salesnav_repository_.salesnavrepository.md)
 
 ___
 

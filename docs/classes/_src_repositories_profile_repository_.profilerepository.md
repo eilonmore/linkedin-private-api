@@ -26,7 +26,7 @@
 
 \+ **new ProfileRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [ProfileRepository](_src_repositories_profile_repository_.profilerepository.md)
 
-*Defined in [src/repositories/profile.repository.ts:35](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/profile.repository.ts#L35)*
+*Defined in [src/repositories/profile.repository.ts:35](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/profile.repository.ts#L35)*
 
 #### Parameters:
 
@@ -42,7 +42,7 @@ Name | Type |
 
 ▸ **getContactInfo**(`__namedParameters`: { publicIdentifier: string  }): Promise<[LinkedinContactInfo](../interfaces/_src_entities_linkedin_contact_info_response_entity_.linkedincontactinfo.md)\>
 
-*Defined in [src/repositories/profile.repository.ts:75](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/profile.repository.ts#L75)*
+*Defined in [src/repositories/profile.repository.ts:75](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/profile.repository.ts#L75)*
 
 #### Parameters:
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **getOwnProfile**(): Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md) \| null\>
 
-*Defined in [src/repositories/profile.repository.ts:63](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/profile.repository.ts#L63)*
+*Defined in [src/repositories/profile.repository.ts:63](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/profile.repository.ts#L63)*
 
 **Returns:** Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md) \| null\>
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **getProfile**(`__namedParameters`: { publicIdentifier: string  }): Promise<[Profile](../interfaces/_src_entities_profile_entity_.profile.md)\>
 
-*Defined in [src/repositories/profile.repository.ts:41](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/profile.repository.ts#L41)*
+*Defined in [src/repositories/profile.repository.ts:41](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/profile.repository.ts#L41)*
 
 #### Parameters:
 

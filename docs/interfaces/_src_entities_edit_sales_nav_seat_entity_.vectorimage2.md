@@ -21,7 +21,7 @@
 
 •  **artifacts**: [Artifact2](_src_entities_edit_sales_nav_seat_entity_.artifact2.md)[]
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:23](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L23)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:23](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L23)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 •  **rootUrl**: string
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:24](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L24)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:24](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L24)*

@@ -32,7 +32,7 @@
 
 \+ **new SearchRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [SearchRepository](_src_repositories_search_repository_.searchrepository.md)
 
-*Defined in [src/repositories/search.repository.ts:24](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/search.repository.ts#L24)*
+*Defined in [src/repositories/search.repository.ts:24](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/search.repository.ts#L24)*
 
 #### Parameters:
 
@@ -48,7 +48,7 @@ Name | Type |
 
 •  **client**: [Client](_src_core_client_.client.md)
 
-*Defined in [src/repositories/search.repository.ts:24](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/search.repository.ts#L24)*
+*Defined in [src/repositories/search.repository.ts:24](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/search.repository.ts#L24)*
 
 ## Methods
 
@@ -56,7 +56,7 @@ Name | Type |
 
 ▸ **searchCompanies**(`__namedParameters?`: { keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [CompanySearchScroller](_src_scrollers_company_search_scroller_.companysearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:52](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/search.repository.ts#L52)*
+*Defined in [src/repositories/search.repository.ts:52](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/search.repository.ts#L52)*
 
 #### Parameters:
 
@@ -72,7 +72,7 @@ ___
 
 ▸ **searchConnectionsOf**(`__namedParameters`: { filters: Omit<PeopleSearchFilters, \"network\" \| \"connectionOf\"\> ; keywords: undefined \| string ; limit: number = 10; profileId: string ; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:89](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/search.repository.ts#L89)*
+*Defined in [src/repositories/search.repository.ts:89](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/search.repository.ts#L89)*
 
 #### Parameters:
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **searchJobs**(`__namedParameters?`: { filters: JobSearchFilters ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [JobSearchScroller](_src_scrollers_job_search_scroller_.jobsearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:111](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/search.repository.ts#L111)*
+*Defined in [src/repositories/search.repository.ts:111](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/search.repository.ts#L111)*
 
 #### Parameters:
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **searchOwnConnections**(`__namedParameters?`: { filters: Omit<PeopleSearchFilters, \"network\"\> ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:69](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/search.repository.ts#L69)*
+*Defined in [src/repositories/search.repository.ts:69](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/search.repository.ts#L69)*
 
 #### Parameters:
 
@@ -120,7 +120,7 @@ ___
 
 ▸ **searchPeople**(`__namedParameters?`: { filters: PeopleSearchFilters ; keywords: undefined \| string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:30](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/search.repository.ts#L30)*
+*Defined in [src/repositories/search.repository.ts:30](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/search.repository.ts#L30)*
 
 #### Parameters:
 

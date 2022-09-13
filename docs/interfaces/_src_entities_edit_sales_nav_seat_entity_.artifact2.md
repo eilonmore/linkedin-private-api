@@ -22,7 +22,7 @@
 
 •  **fileIdentifyingUrlPathSegment**: string
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L18)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L18)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **height**: number
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:19](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L19)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:19](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L19)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **width**: number
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:17](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L17)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:17](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L17)*

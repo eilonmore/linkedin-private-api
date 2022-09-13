@@ -26,7 +26,7 @@
 
 \+ **new ConversationRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [ConversationRepository](_src_repositories_conversation_repository_.conversationrepository.md)
 
-*Defined in [src/repositories/conversation.repository.ts:36](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/conversation.repository.ts#L36)*
+*Defined in [src/repositories/conversation.repository.ts:36](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/conversation.repository.ts#L36)*
 
 #### Parameters:
 
@@ -42,7 +42,7 @@ Name | Type |
 
 ▸ **getConversation**(`__namedParameters`: { conversationId: string  }): Promise<[Conversation](../interfaces/_src_entities_conversation_entity_.conversation.md)\>
 
-*Defined in [src/repositories/conversation.repository.ts:48](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/conversation.repository.ts#L48)*
+*Defined in [src/repositories/conversation.repository.ts:48](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/conversation.repository.ts#L48)*
 
 #### Parameters:
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **getConversations**(`__namedParameters?`: { createdBefore: undefined \| Date ; recipients: undefined \| string \| string[] ; unread: undefined \| false \| true  }): [ConversationScroller](_src_scrollers_conversation_scroller_.conversationscroller.md)
 
-*Defined in [src/repositories/conversation.repository.ts:60](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/conversation.repository.ts#L60)*
+*Defined in [src/repositories/conversation.repository.ts:60](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/conversation.repository.ts#L60)*
 
 #### Parameters:
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **markConversationAsRead**(`__namedParameters`: { conversationId: string  }): Promise<void\>
 
-*Defined in [src/repositories/conversation.repository.ts:42](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/conversation.repository.ts#L42)*
+*Defined in [src/repositories/conversation.repository.ts:42](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/conversation.repository.ts#L42)*
 
 #### Parameters:
 

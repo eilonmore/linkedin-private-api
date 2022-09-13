@@ -59,7 +59,6 @@
 * ["src/repositories/invitation.repository"](modules/_src_repositories_invitation_repository_.md)
 * ["src/repositories/message.repository"](modules/_src_repositories_message_repository_.md)
 * ["src/repositories/profile.repository"](modules/_src_repositories_profile_repository_.md)
-* ["src/repositories/salesnav.repository"](modules/_src_repositories_salesnav_repository_.md)
 * ["src/repositories/search.repository"](modules/_src_repositories_search_repository_.md)
 * ["src/scrollers/company-search.scroller"](modules/_src_scrollers_company_search_scroller_.md)
 * ["src/scrollers/conversation.scroller"](modules/_src_scrollers_conversation_scroller_.md)

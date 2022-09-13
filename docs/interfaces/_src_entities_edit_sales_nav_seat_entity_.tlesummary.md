@@ -26,7 +26,7 @@
 
 •  **accepted**: number
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:85](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L85)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:85](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L85)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 •  **active**: number
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:80](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L80)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:80](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L80)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 •  **available**: number
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:84](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L84)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:84](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L84)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 •  **declined**: number
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:86](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L86)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:86](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L86)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 •  **pending**: number
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:83](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L83)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:83](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L83)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 •  **seatRole**: string
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:82](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L82)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:82](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L82)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 •  **total**: number
 
-*Defined in [src/entities/edit-sales-nav-seat.entity.ts:81](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/edit-sales-nav-seat.entity.ts#L81)*
+*Defined in [src/entities/edit-sales-nav-seat.entity.ts:81](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/edit-sales-nav-seat.entity.ts#L81)*

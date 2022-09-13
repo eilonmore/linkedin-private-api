@@ -22,4 +22,4 @@
 
 Ƭ  **JobSearchHit**: [LinkedInSearchHit](../interfaces/_src_entities_linkedin_search_hit_entity_.linkedinsearchhit.md)<[PopulatedJobHitInfo](../interfaces/_src_entities_job_search_hit_entity_.populatedjobhitinfo.md)\>
 
-*Defined in [src/entities/job-search-hit.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/job-search-hit.entity.ts#L18)*
+*Defined in [src/entities/job-search-hit.entity.ts:18](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/job-search-hit.entity.ts#L18)*

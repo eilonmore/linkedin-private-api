@@ -22,7 +22,7 @@
 
 •  **$type**: \"com.linkedin.voyager.identity.profile.PhoneNumber\"
 
-*Defined in [src/entities/linkedin-contact-info-response.entity.ts:2](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/linkedin-contact-info-response.entity.ts#L2)*
+*Defined in [src/entities/linkedin-contact-info-response.entity.ts:2](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/linkedin-contact-info-response.entity.ts#L2)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **number**: string
 
-*Defined in [src/entities/linkedin-contact-info-response.entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/linkedin-contact-info-response.entity.ts#L3)*
+*Defined in [src/entities/linkedin-contact-info-response.entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/linkedin-contact-info-response.entity.ts#L3)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **type**: string
 
-*Defined in [src/entities/linkedin-contact-info-response.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/linkedin-contact-info-response.entity.ts#L4)*
+*Defined in [src/entities/linkedin-contact-info-response.entity.ts:4](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/linkedin-contact-info-response.entity.ts#L4)*

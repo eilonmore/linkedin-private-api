@@ -47,7 +47,7 @@
 
 *Inherited from [Request](_src_core_request_.request.md).[constructor](_src_core_request_.request.md#constructor)*
 
-*Defined in [src/core/request.ts:18](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L18)*
+*Defined in [src/core/request.ts:18](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L18)*
 
 #### Parameters:
 
@@ -63,7 +63,7 @@ Name | Type | Default value |
 
 •  **auth**: AuthRequest = new AuthRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:25](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L25)*
+*Defined in [src/core/linkedin-request.ts:25](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L25)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 •  **conversation**: ConversationRequest = new ConversationRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:15](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L15)*
+*Defined in [src/core/linkedin-request.ts:15](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L15)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 •  **invitation**: InvitationRequest = new InvitationRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:17](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L17)*
+*Defined in [src/core/linkedin-request.ts:17](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L17)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 •  **message**: MessageRequest = new MessageRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:19](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L19)*
+*Defined in [src/core/linkedin-request.ts:19](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L19)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 •  **profile**: ProfileRequest = new ProfileRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:21](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L21)*
+*Defined in [src/core/linkedin-request.ts:21](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L21)*
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[request](_src_core_request_.request.md#request)*
 
-*Defined in [src/core/request.ts:18](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L18)*
+*Defined in [src/core/request.ts:18](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L18)*
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 •  **salesNav**: SalesNavRequest = new SalesNavRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:35](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L35)*
+*Defined in [src/core/linkedin-request.ts:35](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L35)*
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 •  **salesNavigatorConnection**: SalesNavigatorConnectionRequest = new SalesNavigatorConnectionRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:33](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L33)*
+*Defined in [src/core/linkedin-request.ts:33](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L33)*
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 •  **salesNavigatorMessage**: SalesNavigatorMessageRequest = new SalesNavigatorMessageRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:29](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L29)*
+*Defined in [src/core/linkedin-request.ts:29](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L29)*
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 •  **salesNavigatorProfile**: SalesNavigatorProfileRequest = new SalesNavigatorProfileRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:27](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L27)*
+*Defined in [src/core/linkedin-request.ts:27](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L27)*
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 •  **salesNavigatorTypeahead**: SalesNavigatorTypeaheadRequest = new SalesNavigatorTypeaheadRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:31](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L31)*
+*Defined in [src/core/linkedin-request.ts:31](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L31)*
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 •  **search**: SearchRequest = new SearchRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:23](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/linkedin-request.ts#L23)*
+*Defined in [src/core/linkedin-request.ts:23](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/linkedin-request.ts#L23)*
 
 ## Methods
 
@@ -163,7 +163,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in [src/core/request.ts:48](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L48)*
+*Defined in [src/core/request.ts:48](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L48)*
 
 #### Type parameters:
 
@@ -184,7 +184,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in [src/core/request.ts:49](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L49)*
+*Defined in [src/core/request.ts:49](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L49)*
 
 #### Type parameters:
 
@@ -209,7 +209,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[getHeaders](_src_core_request_.request.md#getheaders)*
 
-*Defined in [src/core/request.ts:44](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L44)*
+*Defined in [src/core/request.ts:44](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L44)*
 
 **Returns:** any
 
@@ -221,7 +221,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in [src/core/request.ts:56](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L56)*
+*Defined in [src/core/request.ts:56](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L56)*
 
 #### Type parameters:
 
@@ -243,7 +243,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in [src/core/request.ts:57](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L57)*
+*Defined in [src/core/request.ts:57](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L57)*
 
 #### Type parameters:
 
@@ -269,7 +269,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[setHeaders](_src_core_request_.request.md#setheaders)*
 
-*Defined in [src/core/request.ts:36](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L36)*
+*Defined in [src/core/request.ts:36](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L36)*
 
 #### Parameters:
 
@@ -287,7 +287,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[updateHeaders](_src_core_request_.request.md#updateheaders)*
 
-*Defined in [src/core/request.ts:40](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/core/request.ts#L40)*
+*Defined in [src/core/request.ts:40](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/core/request.ts#L40)*
 
 #### Parameters:
 

@@ -22,7 +22,7 @@ export class SalesNavRequest {
             isTLE: false
         };
 
-        return this.request.get('sales/admin/seats/feed', {
+        return this.request.get<GetSalesNavSeatsResponse>('sales/admin/seats/feed', {
             params: queryParams,
         });
     }
@@ -33,7 +33,7 @@ export class SalesNavRequest {
         isSalesSeat: boolean,
         isAdminSeat: boolean
     }): Promise<EditSalesNavSeatResponse> {
-        return this.request.post(
+        return this.request.post<EditSalesNavSeatResponse>(
             `sales/admin/seats/${seatId}}/edit?csrfToken=${csrfToken}`,
             `returnSummary=true&adminSeat=${isAdminSeat}&salesSeat=${isSalesSeat}&reportAdminSeat=false`);
     }
@@ -42,7 +42,7 @@ export class SalesNavRequest {
          emailAddress: string,
          csrfToken: string,
          }) : Promise<AddSalesNavSeatResponse> {
-            return this.request.post(
+            return this.request.post<AddSalesNavSeatResponse>(
                 `sales/admin/seats/add?csrfToken=${csrfToken}`, 
                 `emails%5B%5D=${emailAddress}&grantAdmin=false&grantSalesSeat=true&grantTLESeat=false`);
     }
@@ -51,7 +51,7 @@ export class SalesNavRequest {
         seatId: number,
         csrfToken: string,
         }) : Promise<RemoveSalesNavSeatResponse> {
-            return this.request.post(
+            return this.request.post<RemoveSalesNavSeatResponse>(
                 `sales/admin/seats/remove?csrfToken=${csrfToken}`, 
                 `seats%5B%5D=${seatId}&returnSummary=true`);
    }

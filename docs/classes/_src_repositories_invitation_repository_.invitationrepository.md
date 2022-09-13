@@ -28,7 +28,7 @@
 
 \+ **new InvitationRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md)
 
-*Defined in [src/repositories/invitation.repository.ts:38](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/invitation.repository.ts#L38)*
+*Defined in [src/repositories/invitation.repository.ts:38](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/invitation.repository.ts#L38)*
 
 #### Parameters:
 
@@ -44,7 +44,7 @@ Name | Type |
 
 ▸ **getReceivedInvitations**(`__namedParameters?`: { limit: number = 100; skip: number = 0 }): [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
-*Defined in [src/repositories/invitation.repository.ts:52](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/invitation.repository.ts#L52)*
+*Defined in [src/repositories/invitation.repository.ts:52](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/invitation.repository.ts#L52)*
 
 #### Parameters:
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **getSentInvitations**(`__namedParameters?`: { limit: number = 100; skip: number = 0 }): [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
-*Defined in [src/repositories/invitation.repository.ts:44](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/invitation.repository.ts#L44)*
+*Defined in [src/repositories/invitation.repository.ts:44](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/invitation.repository.ts#L44)*
 
 #### Parameters:
 
@@ -76,7 +76,7 @@ ___
 
 ▸ **sendEmailsInvitations**(`__namedParameters`: { emailsByComma: string ; message: undefined \| string  }): Promise<void\>
 
-*Defined in [src/repositories/invitation.repository.ts:60](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/invitation.repository.ts#L60)*
+*Defined in [src/repositories/invitation.repository.ts:60](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/invitation.repository.ts#L60)*
 
 #### Parameters:
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **sendInvitation**(`__namedParameters`: { message: undefined \| string ; profileId: string ; trackingId: string  }): Promise<[Invitation](../interfaces/_src_entities_invitation_entity_.invitation.md)\>
 
-*Defined in [src/repositories/invitation.repository.ts:80](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/invitation.repository.ts#L80)*
+*Defined in [src/repositories/invitation.repository.ts:80](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/invitation.repository.ts#L80)*
 
 #### Parameters:
 
@@ -108,7 +108,7 @@ ___
 
 ▸ **sendNoLimitInvitation**(`__namedParameters`: { message: undefined \| string ; profileId: string  }): Promise<void\>
 
-*Defined in [src/repositories/invitation.repository.ts:70](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/repositories/invitation.repository.ts#L70)*
+*Defined in [src/repositories/invitation.repository.ts:70](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/repositories/invitation.repository.ts#L70)*
 
 #### Parameters:
 

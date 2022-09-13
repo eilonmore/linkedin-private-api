@@ -5,8 +5,7 @@ import {
   InvitationRepository,
   MessageRepository,
   ProfileRepository,
-  SearchRepository,
-  SalesNavRepository
+  SearchRepository
 } from '../repositories';
 import { LinkedInRequest } from './linkedin-request';
 import { Login } from './login';
@@ -33,6 +32,4 @@ export class Client {
   conversation = new ConversationRepository({ client: this });
 
   message = new MessageRepository({ client: this });
-
-  salesnav = new SalesNavRepository({ client: this });
 }

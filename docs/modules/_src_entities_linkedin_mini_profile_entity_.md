@@ -24,7 +24,7 @@
 
 Ƭ  **MiniProfileUrn**: string
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/linkedin-mini-profile.entity.ts#L3)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:3](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/linkedin-mini-profile.entity.ts#L3)*
 
 ## Variables
 
@@ -32,4 +32,4 @@
 
 • `Const` **MINI\_PROFILE\_TYPE**: \"com.linkedin.voyager.identity.shared.MiniProfile\" = "com.linkedin.voyager.identity.shared.MiniProfile"
 
-*Defined in [src/entities/linkedin-mini-profile.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/803c213/src/entities/linkedin-mini-profile.entity.ts#L5)*
+*Defined in [src/entities/linkedin-mini-profile.entity.ts:5](https://github.com/cosiall/linkedin-private-api/blob/f0f3775/src/entities/linkedin-mini-profile.entity.ts#L5)*
