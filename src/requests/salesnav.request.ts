@@ -22,7 +22,8 @@ export class SalesNavRequest {
             isTLE: false
         };
 
-        return this.request.get<GetSalesNavSeatsResponse>('sales/admin/seats/feed', {
+        let url = 'https://www.linkedin.com/sales/admin/seats/feed';
+        return this.request.get<GetSalesNavSeatsResponse>(url, {
             params: queryParams,
         });
     }
@@ -33,26 +34,25 @@ export class SalesNavRequest {
         isSalesSeat: boolean,
         isAdminSeat: boolean
     }): Promise<EditSalesNavSeatResponse> {
-        return this.request.post<EditSalesNavSeatResponse>(
-            `sales/admin/seats/${seatId}}/edit?csrfToken=${csrfToken}`,
+        let url = `https://www.linkedin.com/sales/admin/seats/${seatId}/edit?csrfToken=${csrfToken}`;
+        return this.request.post<EditSalesNavSeatResponse>(url,
             `returnSummary=true&adminSeat=${isAdminSeat}&salesSeat=${isSalesSeat}&reportAdminSeat=false`);
     }
 
     addSalesNavSeat({ emailAddress, csrfToken }: {
-         emailAddress: string,
-         csrfToken: string,
-         }) : Promise<AddSalesNavSeatResponse> {
-            return this.request.post<AddSalesNavSeatResponse>(
-                `sales/admin/seats/add?csrfToken=${csrfToken}`, 
-                `emails%5B%5D=${emailAddress}&grantAdmin=false&grantSalesSeat=true&grantTLESeat=false`);
+        emailAddress: string,
+        csrfToken: string,
+    }): Promise<AddSalesNavSeatResponse> {
+        let url = `https://www.linkedin.com/sales/admin/seats/add?csrfToken=${csrfToken}`;
+        return this.request.post<AddSalesNavSeatResponse>(url,
+            `emails%5B%5D=${emailAddress}&grantAdmin=false&grantSalesSeat=true&grantTLESeat=false`);
     }
 
     removeSalesNavSeat({ seatId, csrfToken }: {
         seatId: number,
         csrfToken: string,
-        }) : Promise<RemoveSalesNavSeatResponse> {
-            return this.request.post<RemoveSalesNavSeatResponse>(
-                `sales/admin/seats/remove?csrfToken=${csrfToken}`, 
-                `seats%5B%5D=${seatId}&returnSummary=true`);
-   }
+    }): Promise<RemoveSalesNavSeatResponse> {
+        let url = `https://www.linkedin.com/sales/admin/seats/remove?csrfToken=${csrfToken}`;
+        return this.request.post<RemoveSalesNavSeatResponse>(url, `seats%5B%5D=${seatId}&returnSummary=true`);
+    }
 }
