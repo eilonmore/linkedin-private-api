@@ -97,11 +97,14 @@ export class InvitationRequest {
     return this.request.post('growth/normInvitations?action=batchCreate', requestPayload);
   }
 
-  sendInvitation({ profileId, trackingId, message }: { profileId: string; trackingId: string; message?: string }): Promise<void> {
+  sendInvitation({ profileId, message }: {
+    profileId: string;
+    message?: string
+  }): Promise<void> {
     profileId = extractProfileId(profileId);
 
     const requestPayload = {
-      trackingId,
+      trackingId : this.randomTransactionId(),
       emberEntityName: 'growth/invitation/norm-invitation',
       invitee: {
         'com.linkedin.voyager.growth.invitation.InviteeProfile': {
