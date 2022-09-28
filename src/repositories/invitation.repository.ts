@@ -73,8 +73,10 @@ export class InvitationRepository {
   }: {
     profileId: string;
     message?: string;
-  }): Promise<void> {
+  }): Promise<Invitation> {
     await this.client.request.invitation.sendNoLimitInvitation({ profileId, message });
+    const lastInvitation = (await this.fetchSent({ skip: 0, limit: 1 }))[0];
+    return lastInvitation;
   }
 
   async sendInvitation({
@@ -87,9 +89,7 @@ export class InvitationRepository {
 
     profileId = extractProfileId(profileId);
     await this.client.request.invitation.sendInvitation({ profileId, message });
-
     const lastInvitation = (await this.fetchSent({ skip: 0, limit: 1 }))[0];
-
     return lastInvitation;
   }
 
