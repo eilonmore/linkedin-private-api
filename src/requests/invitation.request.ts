@@ -76,6 +76,7 @@ export class InvitationRequest {
 
     let invitations = [];
     let trackingId = this.randomTransactionId();
+    let uploadTransactionId = this.randomTransactionId();
 
     let invitation = {
       emberEntityName: 'growth/invitation/norm-invitation',
@@ -91,6 +92,7 @@ export class InvitationRequest {
     invitations.push(invitation);
 
     const requestPayload = {
+      uploadTransactionId,
       invitations
     };
 
