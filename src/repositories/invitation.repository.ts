@@ -100,6 +100,7 @@ export class InvitationRepository {
   }
 
   private async fetchSent({ skip = 0, limit = 100 } = {}): Promise<Invitation[]> {
+    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
     const response = await this.client.request.invitation.getSentInvitations({ skip, limit });
 
     return parseSentInvitations(response);
