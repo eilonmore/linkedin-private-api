@@ -22,6 +22,7 @@ export interface PeopleSearchFilters {
 }
 
 export interface SalesNavigatorPeopleSearchFilters {
+  searchKeywords?: string;
   companySizes?: string[];
   bingGeos?: string[];
   industries?: string[];
