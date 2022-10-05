@@ -194,7 +194,7 @@ export class SalesNavigatorProfileRequest {
         doLogHistory: false
       },
       filters: buildFilters,
-      ...filters.searchKeywords?.length && { keywords: filters.searchKeywords }
+      ...filters.searchKeywords?.length && { keywords: encodeURIComponent(filters.searchKeywords) }
     };
 
     const queryParams = {
