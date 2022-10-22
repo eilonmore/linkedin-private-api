@@ -109,6 +109,19 @@ export class SalesNavigatorTypeaheadRequest {
     });
   }
 
+  getCompanies(): Promise<unknown> {
+    const url = `${linkedinSalesNavigatorUrl}/salesApiFacetTypeahead`;
+
+    const queryParams = {
+      q: 'query',
+      type: 'COMPANY'
+    };
+
+    return this.request.get<unknown>(url, {
+      params: queryParams
+    });
+  }
+
   getRelationshipTypes(): unknown {
     const relationshipTypes = [
       {
