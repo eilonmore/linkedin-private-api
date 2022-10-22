@@ -10,6 +10,7 @@ import { SalesNavigatorMessageRequest } from '../requests/sn-message.request';
 import { SalesNavigatorTypeaheadRequest } from '../requests/sn-typeahead.request';
 import { SalesNavigatorConnectionRequest } from '../requests/sn-connection.request';
 import { SalesNavRequest } from '../requests/salesnav.request';
+import { SalesNavigatorCompanyRequest } from '../requests/sn-company.request';
 
 export class LinkedInRequest extends Request {
   conversation = new ConversationRequest({ request: this });
@@ -25,6 +26,8 @@ export class LinkedInRequest extends Request {
   auth = new AuthRequest({ request: this });
 
   salesNavigatorProfile = new SalesNavigatorProfileRequest({ request: this });
+
+  salesNavigatorCompany = new SalesNavigatorCompanyRequest({ request: this });
 
   salesNavigatorMessage = new SalesNavigatorMessageRequest({ request: this });
 

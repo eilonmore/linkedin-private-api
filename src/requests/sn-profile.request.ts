@@ -193,7 +193,8 @@ export class SalesNavigatorProfileRequest {
       recentSearchParam: {
         doLogHistory: false
       },
-      filters: buildFilters
+      filters: buildFilters,
+      ...filters.searchKeywords?.length && { keywords: encodeURIComponent(filters.searchKeywords) }
     };
 
     const queryParams = {

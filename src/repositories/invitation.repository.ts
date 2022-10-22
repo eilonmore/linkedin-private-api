@@ -16,20 +16,20 @@ const parseInvitationResponse =
   <T extends GetSentInvitationResponse | GetReceivedInvitationResponse>(
     idField: typeof TO_MEMBER_FIELD | typeof FROM_MEMBER_FIELD,
   ) =>
-  (response: T): Invitation[] => {
-    const results = response.included || [];
-    const profiles = keyBy(getProfilesFromResponse<T>(response), 'entityUrn');
-    const invitations = results.filter(r => r.$type === INVITATION_TYPE && !!r[idField]) as LinkedInInvitation[];
+    (response: T): Invitation[] => {
+      const results = response.included || [];
+      const profiles = keyBy(getProfilesFromResponse<T>(response), 'entityUrn');
+      const invitations = results.filter(r => r.$type === INVITATION_TYPE && !!r[idField]) as LinkedInInvitation[];
 
-    return orderBy(
-      invitations.map(invitation => ({
-        ...invitation,
-        profile: profiles[invitation[idField]],
-      })),
-      'sentTime',
-      'desc',
-    );
-  };
+      return orderBy(
+        invitations.map(invitation => ({
+          ...invitation,
+          profile: profiles[invitation[idField]],
+        })),
+        'sentTime',
+        'desc',
+      );
+    };
 
 const parseSentInvitations = parseInvitationResponse<GetSentInvitationResponse>(TO_MEMBER_FIELD);
 const parseReceivedInvitations = parseInvitationResponse<GetReceivedInvitationResponse>(FROM_MEMBER_FIELD);
@@ -56,7 +56,7 @@ export class InvitationRepository {
       fetchInvitations: this.fetchReceived.bind(this),
     });
   }
-  
+
   async sendEmailsInvitations({
     emailsByComma,
     message,
@@ -73,25 +73,23 @@ export class InvitationRepository {
   }: {
     profileId: string;
     message?: string;
-  }): Promise<void> {
+  }): Promise<Invitation> {
     await this.client.request.invitation.sendNoLimitInvitation({ profileId, message });
+    const lastInvitation = (await this.fetchSent({ skip: 0, limit: 1 }))[0];
+    return lastInvitation;
   }
 
   async sendInvitation({
     profileId,
-    trackingId,
     message,
   }: {
     profileId: string;
-    trackingId: string;
     message?: string;
   }): Promise<Invitation> {
 
     profileId = extractProfileId(profileId);
-    await this.client.request.invitation.sendInvitation({ profileId, trackingId, message });
-
+    await this.client.request.invitation.sendInvitation({ profileId, message });
     const lastInvitation = (await this.fetchSent({ skip: 0, limit: 1 }))[0];
-
     return lastInvitation;
   }
 
@@ -102,6 +100,8 @@ export class InvitationRepository {
   }
 
   private async fetchSent({ skip = 0, limit = 100 } = {}): Promise<Invitation[]> {
+    await new Promise(resolve => setTimeout(resolve, 5000));
+    this.client.request.updateHeaders({accept:'application/vnd.linkedin.normalized+json+2.1'});
     const response = await this.client.request.invitation.getSentInvitations({ skip, limit });
 
     return parseSentInvitations(response);
