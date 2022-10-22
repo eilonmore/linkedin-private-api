@@ -109,12 +109,23 @@ export class SalesNavigatorTypeaheadRequest {
     });
   }
 
-  getCompanies(): Promise<unknown> {
+  getCompanies({
+    skip = 0,
+    limit = 25,
+    query
+  }: {
+    skip: number;
+    limit: number;
+    query: string;
+  }): Promise<unknown> {
     const url = `${linkedinSalesNavigatorUrl}/salesApiFacetTypeahead`;
 
     const queryParams = {
       q: 'query',
-      type: 'COMPANY'
+      type: 'COMPANY',
+      start: skip,
+      count: limit,
+      ...(query ? { query } : {})
     };
 
     return this.request.get<unknown>(url, {
