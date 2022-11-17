@@ -39,6 +39,10 @@ export class MessageRepository {
     return { ...response?.data?.value, text };
   }
 
+  getAttachment({ url }: { url: string }): Promise<unknown> {
+    return this.client.request.message.getAttachment({ url });
+  }
+
   private async fetchMessages({
     conversationId,
     createdBefore,

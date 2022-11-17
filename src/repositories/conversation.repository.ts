@@ -42,7 +42,7 @@ export class ConversationRepository {
   async markConversationAsRead({ conversationId }: {
     conversationId: ConversationId
   }): Promise<void> {
-    return await this.client.request.conversation.markConversationAsRead({ conversationId });
+    return this.client.request.conversation.markConversationAsRead({ conversationId });
   }
 
   async getConversation({ conversationId }: { conversationId: ConversationId }): Promise<Conversation> {
@@ -79,7 +79,7 @@ export class ConversationRepository {
     unread?: boolean;
   }): Promise<Conversation[]> {
     // this.client.request.setHeaders({ ...this.client.request, accept: "..." })
-    var oldHeaders = this.client.request.getHeaders();
+    // const oldHeaders = this.client.request.getHeaders();
     this.client.request.updateHeaders({ accept: 'application/vnd.linkedin.normalized+json+2.1' });
 
     const res = await this.client.request.conversation.getConversations({ recipients, createdBefore, unread });

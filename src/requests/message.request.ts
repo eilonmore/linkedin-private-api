@@ -74,4 +74,13 @@ export class MessageRequest {
       params: queryParams,
     });
   }
+
+  async getAttachment({ url }: { url: string }): Promise<unknown> {
+    return this.request.get(url, { 
+      responseType: "arraybuffer", 
+      fullResponse: true, 
+      maxContentLength: 100000000,
+      maxBodyLength: 1000000000 
+    });
+  }
 }

@@ -41,7 +41,7 @@ export class ConversationRequest {
     createdBefore?: Date;
     unread?: boolean;
   }): Promise<GetConversationsResponse> {
-    var queryParams = {
+    const queryParams = {
       ...(recipients && { q: 'participants', recipients: castArray(recipients) }),
       ...(createdBefore && { createdBefore: createdBefore.getTime() }),
       ...(unread && { filters: castArray('UNREAD') }),
