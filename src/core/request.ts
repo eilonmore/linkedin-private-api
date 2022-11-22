@@ -19,8 +19,8 @@ export class Request {
 
   constructor({ proxy }: RequestOpts = {}) {
 
-    let userAndPass =  proxy!.auth!.username+':'+proxy!.auth!.password;
-    let httpsAgent = HttpsProxyAgent({
+    const userAndPass =  proxy!.auth!.username+':'+proxy!.auth!.password;
+    const httpsAgent = HttpsProxyAgent({
       host: proxy!.host,
       port:proxy!.port,
       auth:userAndPass
@@ -41,7 +41,7 @@ export class Request {
     this.request.defaults.headers = {...this.request.defaults.headers, ...headers};
   }
 
-  getHeaders(){
+  getHeaders(): unknown {
     return this.request.defaults.headers;
   }
 
@@ -61,6 +61,18 @@ export class Request {
     reqConfig?: ConfigFullResponse | ConfigNonFullResponse,
   ): Promise<T | AxiosResponse<T>> {
     const response = await this.request.post<T>(buildUrl(url), data, reqConfig);
+
+    return reqConfig?.fullResponse ? response : response.data;
+  }
+
+  async put<T>(url: string, data: string | Record<string, unknown>, reqConfig?: ConfigNonFullResponse): Promise<T>;
+  async put<T>(url: string, data: string | Record<string, unknown>, reqConfig?: ConfigFullResponse): Promise<AxiosResponse<T>>;
+  async put<T>(
+    url: string,
+    data: string | Record<string, unknown>,
+    reqConfig?: ConfigFullResponse | ConfigNonFullResponse,
+  ): Promise<T | AxiosResponse<T>> {
+    const response = await this.request.put<T>(buildUrl(url), data, reqConfig);
 
     return reqConfig?.fullResponse ? response : response.data;
   }

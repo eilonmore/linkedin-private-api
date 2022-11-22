@@ -29,18 +29,39 @@ export class MessageRepository {
     profileId,
     conversationId,
     text,
+    attachments = [],
   }: {
     profileId?: ProfileId;
     conversationId?: ConversationId;
     text: string;
+    attachments?: any[];
   }): Promise<MessageEventCreateResponse> {
-    const response = await this.client.request.message.sendMessage({ profileId, conversationId, text });
+    const response = await this.client.request.message.sendMessage({ 
+      profileId, 
+      conversationId, 
+      text,
+      attachments
+    });
 
     return { ...response?.data?.value, text };
   }
 
   getAttachment({ url }: { url: string }): Promise<unknown> {
     return this.client.request.message.getAttachment({ url });
+  }
+
+  uploadAttachment({ 
+    file,
+    fileSize,
+    filename,
+    mimetype
+  }: {
+    file: any,
+    fileSize: number,
+    filename: string,
+    mimetype: string
+  }): Promise<unknown> {
+    return this.client.request.message.uploadAttachment({ file, fileSize, filename, mimetype })
   }
 
   private async fetchMessages({

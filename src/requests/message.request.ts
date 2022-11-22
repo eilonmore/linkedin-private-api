@@ -12,10 +12,21 @@ export class MessageRequest {
     this.request = request;
   }
 
-  sendMessage({ profileId, conversationId, text }: { profileId?: ProfileId; conversationId?: ConversationId; text: string }): Promise<SendMessageResponse> {
+  sendMessage({ 
+    profileId, 
+    conversationId, 
+    text,
+    attachments = [],
+  }: { 
+    profileId?: ProfileId; 
+    conversationId?: ConversationId; 
+    text: string,
+    attachments?: any[],
+  }): Promise<SendMessageResponse> {
     const queryParams = {
       action: 'create',
     };
+    
     const directMessagePayload = {
       keyVersion: 'LEGACY_INBOX',
       conversationCreate: {
@@ -26,7 +37,7 @@ export class MessageRequest {
                 text,
                 attributes: [],
               },
-              attachments: [],
+              attachments,
             },
           },
         },
@@ -41,7 +52,7 @@ export class MessageRequest {
         value: {
           'com.linkedin.voyager.messaging.create.MessageCreate': {
             attributedBody: { text, attributes: [] },
-            attachments: [],
+            attachments,
           },
         },
       },
@@ -82,5 +93,46 @@ export class MessageRequest {
       maxContentLength: 100000000,
       maxBodyLength: 1000000000 
     });
+  }
+
+  async uploadAttachment({ 
+    file,
+    fileSize,
+    filename,
+    mimetype
+  }: {
+    file: any,
+    fileSize: number, 
+    filename: string,
+    mimetype: string
+  }): Promise<unknown> {
+    const url = "/voyager/api/voyagerVideoDashMediaUploadMetadata";
+    const uploadMetadataResponse = await this.request.post<any>(url, {
+      fileSize,
+      filename,
+      mediaUploadType: "MESSAGING_FILE_ATTACHMENT"
+    }, {
+      params: { action: "upload" }
+    });
+
+    const {
+      urn: mediaUrn,
+      singleUploadUrl: uploadUrl,
+    } = uploadMetadataResponse.value as any;
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    await this.request.put(uploadUrl, file as any, {
+      headers: {
+        "content-type": mimetype,
+        "content-length": fileSize,
+      }
+    });
+
+    return {
+      urn: mediaUrn,
+      filename,
+      fileSize,
+      mimetype,
+    };
   }
 }
