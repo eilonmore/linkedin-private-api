@@ -40,6 +40,26 @@ export class InvitationRepository {
     this.client = client;
   }
 
+  async replyInvitation({
+    invitationId,
+    invitationSharedSecret,
+    action = 'accept',
+  }: {
+    invitationId: string;
+    invitationSharedSecret: string;
+    action?: string;
+  }) {
+    const params = { action };
+    const payload = {
+      invitationId,
+      invitationSharedSecret,
+      isGenericInvitation: false,
+    };
+    console.log('PARAMS + PAYLOAD', params, payload);
+
+    return await this.client.request.invitation.replyInvitation({ invitationId, params, payload });
+  }
+
   getSentInvitations({ skip = 0, limit = 100 } = {}): InvitationScroller {
     return new InvitationScroller({
       skip,

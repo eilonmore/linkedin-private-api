@@ -9,6 +9,18 @@ export class InvitationRequest {
     this.request = request;
   }
 
+  async replyInvitation({
+    invitationId,
+    params,
+    payload,
+  }: {
+    invitationId: string;
+    params: { action: string };
+    payload: { invitationId: string; invitationSharedSecret: string; isGenericInvitation: boolean };
+  }): Promise<void> {
+    return this.request.post(`relationships/invitations/${invitationId}?action=${params.action}`, payload);
+  }
+
   sendInvitation({ profileId, trackingId, message }: { profileId: string; trackingId: string; message?: string }): Promise<void> {
     const requestPayload = {
       trackingId,
