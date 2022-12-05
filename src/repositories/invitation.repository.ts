@@ -55,8 +55,6 @@ export class InvitationRepository {
       invitationSharedSecret,
       isGenericInvitation: false,
     };
-    console.log('PARAMS + PAYLOAD', params, payload);
-
     return await this.client.request.invitation.replyInvitation({ invitationId, params, payload });
   }
 
