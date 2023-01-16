@@ -1,4 +1,4 @@
-import { JobSearchHit } from 'src/entities/job-search-hit.entity';
+import { JobSearchHit } from '../entities/job-search-hit.entity';
 import { JobSearchFilters } from '../types/job-search-filters';
 import { SkipLimitScroller } from './skip-limit-scroller';
 
