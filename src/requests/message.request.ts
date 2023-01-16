@@ -1,4 +1,4 @@
-import { ProfileId } from 'src/entities';
+import { ProfileId } from '../entities';
 
 import { LinkedInRequest } from '../core/linkedin-request';
 import { ConversationId } from '../entities/conversation.entity';
