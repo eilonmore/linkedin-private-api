@@ -64,7 +64,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "faked": "^2.1.0",
     "faker": "^5.1.0",
     "husky": "^8.0.1",
