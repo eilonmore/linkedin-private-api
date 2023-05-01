@@ -1,4 +1,5 @@
 import { AxiosProxyConfig } from 'axios';
+import { SessionStrategy, FileSession } from './session_trategy';
 
 import {
   ConversationRepository,
@@ -12,13 +13,17 @@ import { Login } from './login';
 
 interface ClientOpts {
   proxy?: AxiosProxyConfig;
+  session_stategy?: SessionStrategy;
 }
 
 export class Client {
   request: LinkedInRequest;
 
-  constructor({ proxy }: ClientOpts = {}) {
+  session_strategy: SessionStrategy;
+
+  constructor({ proxy, session_stategy }: ClientOpts = {}) {
     this.request = new LinkedInRequest({ proxy });
+    this.session_strategy = session_stategy ? session_stategy : new FileSession(`${process.cwd()}/sessions.json`);
   }
 
   login = new Login({ client: this });
